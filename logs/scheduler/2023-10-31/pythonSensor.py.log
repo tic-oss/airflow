@@ -1,0 +1,12 @@
+[2023-10-31T14:16:46.613+0530] {processor.py:157} INFO - Started process (PID=877457) to work on /home/harika/airflow/dags/pythonSensor.py
+[2023-10-31T14:16:46.613+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pythonSensor.py for tasks to queue
+[2023-10-31T14:16:46.613+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.613+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pythonSensor.py
+[2023-10-31T14:16:46.618+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pythonsensor_example']) retrieved from /home/harika/airflow/dags/pythonSensor.py
+[2023-10-31T14:16:46.692+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.692+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-31T14:16:46.700+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.700+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-31T14:16:46.705+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.705+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-31T14:16:46.705+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.705+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:pythonsensor_example' as access control is unset.
+[2023-10-31T14:16:46.706+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.705+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:16:46.712+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.712+0530] {dag.py:2937} INFO - Creating ORM DAG for pythonsensor_example
+[2023-10-31T14:16:46.713+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:16:46.713+0530] {dag.py:3696} INFO - Setting next_dagrun for pythonsensor_example to None, run_after=None
+[2023-10-31T14:16:46.725+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pythonSensor.py took 0.114 seconds

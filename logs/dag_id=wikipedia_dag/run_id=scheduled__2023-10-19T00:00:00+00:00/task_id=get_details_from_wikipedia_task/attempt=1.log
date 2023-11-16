@@ -1,0 +1,88 @@
+[2023-10-20T11:43:45.137+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task scheduled__2023-10-19T00:00:00+00:00 [queued]>
+[2023-10-20T11:43:45.141+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task scheduled__2023-10-19T00:00:00+00:00 [queued]>
+[2023-10-20T11:43:45.141+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-20T11:43:45.149+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): get_details_from_wikipedia_task> on 2023-10-19 00:00:00+00:00
+[2023-10-20T11:43:45.151+0530] {standard_task_runner.py:57} INFO - Started process 15083 to run task
+[2023-10-20T11:43:45.153+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_dag', 'get_details_from_wikipedia_task', 'scheduled__2023-10-19T00:00:00+00:00', '--job-id', '723', '--raw', '--subdir', 'DAGS_FOLDER/word_count.py', '--cfg-path', '/tmp/tmpffjaljzs']
+[2023-10-20T11:43:45.153+0530] {standard_task_runner.py:85} INFO - Job 723: Subtask get_details_from_wikipedia_task
+[2023-10-20T11:43:45.175+0530] {task_command.py:415} INFO - Running <TaskInstance: wikipedia_dag.get_details_from_wikipedia_task scheduled__2023-10-19T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-20T11:43:45.210+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_dag' AIRFLOW_CTX_TASK_ID='get_details_from_wikipedia_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-19T00:00:00+00:00'
+[2023-10-20T11:43:45.211+0530] {logging_mixin.py:151} INFO - Fruit
+[2023-10-20T11:43:45.213+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6a00f93880>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/harika/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=Fruit&srinfo=suggestion&format=json&action=query (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a00f93880>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/word_count.py", line 40, in get_details_from_wikipedia_api
+    page = wikipedia.page(topic)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+  File "/home/harika/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=Fruit&srinfo=suggestion&format=json&action=query (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a00f93880>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-10-20T11:43:45.219+0530] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=wikipedia_dag, task_id=get_details_from_wikipedia_task, execution_date=20231019T000000, start_date=20231020T061345, end_date=20231020T061345
+[2023-10-20T11:43:45.225+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 723 for task get_details_from_wikipedia_task (HTTPConnectionPool(host='en.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=Fruit&srinfo=suggestion&format=json&action=query (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a00f93880>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')); 15083)
+[2023-10-20T11:43:45.245+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-20T11:43:45.281+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

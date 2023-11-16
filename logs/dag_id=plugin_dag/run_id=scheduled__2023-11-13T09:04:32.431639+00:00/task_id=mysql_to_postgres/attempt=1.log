@@ -1,0 +1,34 @@
+[2023-11-14T14:34:39.102+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: plugin_dag.mysql_to_postgres scheduled__2023-11-13T09:04:32.431639+00:00 [queued]>
+[2023-11-14T14:34:39.107+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: plugin_dag.mysql_to_postgres scheduled__2023-11-13T09:04:32.431639+00:00 [queued]>
+[2023-11-14T14:34:39.107+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-14T14:34:39.116+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): mysql_to_postgres> on 2023-11-13 09:04:32.431639+00:00
+[2023-11-14T14:34:39.119+0530] {standard_task_runner.py:57} INFO - Started process 35476 to run task
+[2023-11-14T14:34:39.121+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'plugin_dag', 'mysql_to_postgres', 'scheduled__2023-11-13T09:04:32.431639+00:00', '--job-id', '4620', '--raw', '--subdir', 'DAGS_FOLDER/dag_plugins.py', '--cfg-path', '/tmp/tmp13ivwcq4']
+[2023-11-14T14:34:39.122+0530] {standard_task_runner.py:85} INFO - Job 4620: Subtask mysql_to_postgres
+[2023-11-14T14:34:39.145+0530] {task_command.py:415} INFO - Running <TaskInstance: plugin_dag.mysql_to_postgres scheduled__2023-11-13T09:04:32.431639+00:00 [running]> on host harika-Latitude-5511
+[2023-11-14T14:34:39.268+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='plugin_dag' AIRFLOW_CTX_TASK_ID='mysql_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2023-11-13T09:04:32.431639+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-13T09:04:32.431639+00:00'
+[2023-11-14T14:34:39.269+0530] {logging_mixin.py:151} INFO - #custom hook
+[2023-11-14T14:34:39.269+0530] {logging_mixin.py:151} INFO - fetching records from MYSQL table
+[2023-11-14T14:34:39.275+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/dag_plugins.py", line 10, in trigger_hook
+    MySQLToPostgresHook().copy_table('mysql_conn', 'postgres_conn')
+  File "/home/harika/airflow/plugins/demo_plugin.py", line 80, in copy_table
+    mysqlserver.run(query)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 385, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/mysql/hooks/mysql.py", line 187, in get_conn
+    conn = self.connection or self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `mysql_conn` isn't defined
+[2023-11-14T14:34:39.277+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=plugin_dag, task_id=mysql_to_postgres, execution_date=20231113T090432, start_date=20231114T090439, end_date=20231114T090439
+[2023-11-14T14:34:39.283+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 4620 for task mysql_to_postgres (The conn_id `mysql_conn` isn't defined; 35476)
+[2023-11-14T14:34:39.293+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-14T14:34:39.301+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

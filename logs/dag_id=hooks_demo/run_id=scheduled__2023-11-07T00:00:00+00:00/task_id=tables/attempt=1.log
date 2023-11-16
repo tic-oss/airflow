@@ -1,0 +1,42 @@
+[2023-11-08T10:44:30.154+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.tables scheduled__2023-11-07T00:00:00+00:00 [queued]>
+[2023-11-08T10:44:30.158+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.tables scheduled__2023-11-07T00:00:00+00:00 [queued]>
+[2023-11-08T10:44:30.158+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-11-08T10:44:30.166+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): tables> on 2023-11-07 00:00:00+00:00
+[2023-11-08T10:44:30.169+0530] {standard_task_runner.py:57} INFO - Started process 97551 to run task
+[2023-11-08T10:44:30.171+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'tables', 'scheduled__2023-11-07T00:00:00+00:00', '--job-id', '4414', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmpajl2l36x']
+[2023-11-08T10:44:30.171+0530] {standard_task_runner.py:85} INFO - Job 4414: Subtask tables
+[2023-11-08T10:44:30.192+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.tables scheduled__2023-11-07T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T10:44:30.319+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='tables' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-07T00:00:00+00:00'
+[2023-11-08T10:44:30.324+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-08T10:44:30.336+0530] {logging_mixin.py:151} INFO - SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'
+[2023-11-08T10:44:30.338+0530] {logging_mixin.py:151} INFO - query executed
+[2023-11-08T10:44:30.338+0530] {logging_mixin.py:151} INFO - ['source_city_table', 'target_city_table'] table_names
+[2023-11-08T10:44:30.338+0530] {logging_mixin.py:151} INFO - ###################################
+[2023-11-08T10:44:30.338+0530] {logging_mixin.py:151} INFO - source_city_table tablename
+[2023-11-08T10:44:30.338+0530] {logging_mixin.py:151} INFO - ###################################
+[2023-11-08T10:44:30.338+0530] {logging_mixin.py:151} INFO - target_city_table tablename
+[2023-11-08T10:44:30.339+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-08T10:44:30.342+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=hooks_demo, task_id=tables, execution_date=20231107T000000, start_date=20231108T051430, end_date=20231108T051430
+[2023-11-08T10:44:30.383+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T10:44:30.396+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-11-16T16:06:52.528+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.tables scheduled__2023-11-07T00:00:00+00:00 [queued]>
+[2023-11-16T16:06:52.532+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.tables scheduled__2023-11-07T00:00:00+00:00 [queued]>
+[2023-11-16T16:06:52.532+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-11-16T16:06:52.542+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): tables> on 2023-11-07 00:00:00+00:00
+[2023-11-16T16:06:52.546+0530] {standard_task_runner.py:57} INFO - Started process 146753 to run task
+[2023-11-16T16:06:52.548+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'tables', 'scheduled__2023-11-07T00:00:00+00:00', '--job-id', '4720', '--raw', '--subdir', 'DAGS_FOLDER/hooks_demo.py', '--cfg-path', '/tmp/tmptohm_vlf']
+[2023-11-16T16:06:52.549+0530] {standard_task_runner.py:85} INFO - Job 4720: Subtask tables
+[2023-11-16T16:06:52.574+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.tables scheduled__2023-11-07T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-16T16:06:52.718+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='tables' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-07T00:00:00+00:00'
+[2023-11-16T16:06:52.722+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T16:06:52.734+0530] {logging_mixin.py:151} INFO - SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'
+[2023-11-16T16:06:52.736+0530] {logging_mixin.py:151} INFO - query executed
+[2023-11-16T16:06:52.736+0530] {logging_mixin.py:151} INFO - ['source_city_table', 'target_city_table'] table_names
+[2023-11-16T16:06:52.736+0530] {logging_mixin.py:151} INFO - ###################################
+[2023-11-16T16:06:52.736+0530] {logging_mixin.py:151} INFO - source_city_table tablename
+[2023-11-16T16:06:52.737+0530] {logging_mixin.py:151} INFO - ###################################
+[2023-11-16T16:06:52.737+0530] {logging_mixin.py:151} INFO - target_city_table tablename
+[2023-11-16T16:06:52.737+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-16T16:06:52.741+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=hooks_demo, task_id=tables, execution_date=20231107T000000, start_date=20231116T103652, end_date=20231116T103652
+[2023-11-16T16:06:52.760+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-16T16:06:52.772+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

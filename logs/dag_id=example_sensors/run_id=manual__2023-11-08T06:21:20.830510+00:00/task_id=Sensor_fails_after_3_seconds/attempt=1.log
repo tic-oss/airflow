@@ -1,0 +1,25 @@
+[2023-11-08T11:52:39.630+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.Sensor_fails_after_3_seconds manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:52:39.637+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.Sensor_fails_after_3_seconds manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:52:39.637+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-08T11:52:39.652+0530] {taskinstance.py:1380} INFO - Executing <Task(BashSensor): Sensor_fails_after_3_seconds> on 2023-11-08 06:21:20.830510+00:00
+[2023-11-08T11:52:39.656+0530] {standard_task_runner.py:57} INFO - Started process 119969 to run task
+[2023-11-08T11:52:39.660+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'Sensor_fails_after_3_seconds', 'manual__2023-11-08T06:21:20.830510+00:00', '--job-id', '4442', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmphi_ze_kx']
+[2023-11-08T11:52:39.664+0530] {standard_task_runner.py:85} INFO - Job 4442: Subtask Sensor_fails_after_3_seconds
+[2023-11-08T11:52:39.715+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.Sensor_fails_after_3_seconds manual__2023-11-08T06:21:20.830510+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T11:52:39.801+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='Sensor_fails_after_3_seconds' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T06:21:20.830510+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T06:21:20.830510+00:00'
+[2023-11-08T11:52:39.802+0530] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-11-08T11:52:39.803+0530] {bash.py:77} INFO - Temporary script location: /tmp/airflowtmpdeh6zqsq//tmp/airflowtmpdeh6zqsq/Sensor_fails_after_3_secondsj5vm4ipl
+[2023-11-08T11:52:39.803+0530] {bash.py:78} INFO - Running command: exit 1
+[2023-11-08T11:52:39.811+0530] {bash.py:90} INFO - Output:
+[2023-11-08T11:52:39.813+0530] {bash.py:94} INFO - Command exited with return code 1
+[2023-11-08T11:52:39.813+0530] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-11-08T11:53:39.859+0530] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-11-08T11:53:39.861+0530] {bash.py:77} INFO - Temporary script location: /tmp/airflowtmpvm305249//tmp/airflowtmpvm305249/Sensor_fails_after_3_secondsnayukb34
+[2023-11-08T11:53:39.861+0530] {bash.py:78} INFO - Running command: exit 1
+[2023-11-08T11:53:39.881+0530] {bash.py:90} INFO - Output:
+[2023-11-08T11:53:39.883+0530] {bash.py:94} INFO - Command exited with return code 1
+[2023-11-08T11:53:39.884+0530] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-11-08T11:53:39.885+0530] {taskinstance.py:1540} INFO - Sensor has timed out; run duration of 60.08272719499655 seconds exceeds the specified timeout of 3.0.
+[2023-11-08T11:53:39.901+0530] {taskinstance.py:1398} INFO - Marking task as SKIPPED. dag_id=example_sensors, task_id=Sensor_fails_after_3_seconds, execution_date=20231108T062120, start_date=20231108T062239, end_date=20231108T062339
+[2023-11-08T11:53:39.968+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T11:53:40.016+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

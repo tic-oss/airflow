@@ -1,0 +1,14 @@
+[2023-11-08T12:27:57.540+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: date_time_sensor.wait_until_time manual__2023-11-08T06:57:55.717199+00:00 [queued]>
+[2023-11-08T12:27:57.545+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: date_time_sensor.wait_until_time manual__2023-11-08T06:57:55.717199+00:00 [queued]>
+[2023-11-08T12:27:57.546+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-08T12:27:57.555+0530] {taskinstance.py:1380} INFO - Executing <Task(DateTimeSensor): wait_until_time> on 2023-11-08 06:57:55.717199+00:00
+[2023-11-08T12:27:57.557+0530] {standard_task_runner.py:57} INFO - Started process 123105 to run task
+[2023-11-08T12:27:57.559+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'date_time_sensor', 'wait_until_time', 'manual__2023-11-08T06:57:55.717199+00:00', '--job-id', '4485', '--raw', '--subdir', 'DAGS_FOLDER/dataTimeSensor.py', '--cfg-path', '/tmp/tmpsg2kxpgz']
+[2023-11-08T12:27:57.560+0530] {standard_task_runner.py:85} INFO - Job 4485: Subtask wait_until_time
+[2023-11-08T12:27:57.581+0530] {task_command.py:415} INFO - Running <TaskInstance: date_time_sensor.wait_until_time manual__2023-11-08T06:57:55.717199+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T12:27:57.625+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='date_time_sensor' AIRFLOW_CTX_TASK_ID='wait_until_time' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T06:57:55.717199+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T06:57:55.717199+00:00'
+[2023-11-08T12:27:57.629+0530] {date_time.py:74} INFO - Checking if the time (2023-11-01T12:28:00) has come
+[2023-11-08T12:27:57.629+0530] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-08T12:27:57.634+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=date_time_sensor, task_id=wait_until_time, execution_date=20231108T065755, start_date=20231108T065757, end_date=20231108T065757
+[2023-11-08T12:27:57.731+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T12:27:57.748+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

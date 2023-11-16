@@ -1,0 +1,22 @@
+[2023-11-07T14:53:07.700+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.fire_immediately_async manual__2023-11-07T09:21:55.811279+00:00 [queued]>
+[2023-11-07T14:53:07.705+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.fire_immediately_async manual__2023-11-07T09:21:55.811279+00:00 [queued]>
+[2023-11-07T14:53:07.705+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-07T14:53:07.714+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeSensorAsync): fire_immediately_async> on 2023-11-07 09:21:55.811279+00:00
+[2023-11-07T14:53:07.719+0530] {standard_task_runner.py:57} INFO - Started process 82573 to run task
+[2023-11-07T14:53:07.721+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'fire_immediately_async', 'manual__2023-11-07T09:21:55.811279+00:00', '--job-id', '4379', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpthn3ha0_']
+[2023-11-07T14:53:07.721+0530] {standard_task_runner.py:85} INFO - Job 4379: Subtask fire_immediately_async
+[2023-11-07T14:53:07.744+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.fire_immediately_async manual__2023-11-07T09:21:55.811279+00:00 [running]> on host harika-Latitude-5511
+[2023-11-07T14:53:07.786+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='fire_immediately_async' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T09:21:55.811279+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-07T09:21:55.811279+00:00'
+[2023-11-07T14:53:07.789+0530] {taskinstance.py:1524} INFO - Pausing task as DEFERRED. dag_id=example_sensors, task_id=fire_immediately_async, execution_date=20231107T092155, start_date=20231107T092307
+[2023-11-07T14:53:07.812+0530] {local_task_job_runner.py:225} INFO - Task exited with return code 100 (task deferral)
+[2023-11-07T14:55:27.572+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.fire_immediately_async manual__2023-11-07T09:21:55.811279+00:00 [queued]>
+[2023-11-07T14:55:27.577+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.fire_immediately_async manual__2023-11-07T09:21:55.811279+00:00 [queued]>
+[2023-11-07T14:55:27.577+0530] {taskinstance.py:1357} INFO - Resuming after deferral
+[2023-11-07T14:55:27.586+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeSensorAsync): fire_immediately_async> on 2023-11-07 09:21:55.811279+00:00
+[2023-11-07T14:55:27.589+0530] {standard_task_runner.py:57} INFO - Started process 82751 to run task
+[2023-11-07T14:55:27.591+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'fire_immediately_async', 'manual__2023-11-07T09:21:55.811279+00:00', '--job-id', '4388', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpcy0ioyun']
+[2023-11-07T14:55:27.592+0530] {standard_task_runner.py:85} INFO - Job 4388: Subtask fire_immediately_async
+[2023-11-07T14:55:27.613+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.fire_immediately_async manual__2023-11-07T09:21:55.811279+00:00 [running]> on host harika-Latitude-5511
+[2023-11-07T14:55:27.653+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=example_sensors, task_id=fire_immediately_async, execution_date=20231107T092155, start_date=20231107T092307, end_date=20231107T092527
+[2023-11-07T14:55:27.682+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-07T14:55:27.705+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

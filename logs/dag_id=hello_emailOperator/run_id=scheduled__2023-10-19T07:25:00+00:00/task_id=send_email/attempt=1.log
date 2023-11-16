@@ -1,0 +1,15 @@
+[2023-10-19T12:56:05.048+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_emailOperator.send_email scheduled__2023-10-19T07:25:00+00:00 [queued]>
+[2023-10-19T12:56:05.060+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_emailOperator.send_email scheduled__2023-10-19T07:25:00+00:00 [queued]>
+[2023-10-19T12:56:05.060+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-19T12:56:05.083+0530] {taskinstance.py:1380} INFO - Executing <Task(EmailOperator): send_email> on 2023-10-19 07:25:00+00:00
+[2023-10-19T12:56:05.089+0530] {standard_task_runner.py:57} INFO - Started process 98997 to run task
+[2023-10-19T12:56:05.094+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hello_emailOperator', 'send_email', 'scheduled__2023-10-19T07:25:00+00:00', '--job-id', '659', '--raw', '--subdir', 'DAGS_FOLDER/hello_emailOperator.py', '--cfg-path', '/tmp/tmp7mkopvbf']
+[2023-10-19T12:56:05.095+0530] {standard_task_runner.py:85} INFO - Job 659: Subtask send_email
+[2023-10-19T12:56:05.177+0530] {task_command.py:415} INFO - Running <TaskInstance: hello_emailOperator.send_email scheduled__2023-10-19T07:25:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-19T12:56:05.294+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='peter' AIRFLOW_CTX_DAG_ID='hello_emailOperator' AIRFLOW_CTX_TASK_ID='send_email' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T07:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-19T07:25:00+00:00'
+[2023-10-19T12:56:05.317+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-10-19T12:56:05.317+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-19T12:56:07.733+0530] {email.py:282} INFO - Sent an alert email to ['harikasree2k@gmail.com']
+[2023-10-19T12:56:09.689+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=hello_emailOperator, task_id=send_email, execution_date=20231019T072500, start_date=20231019T072605, end_date=20231019T072609
+[2023-10-19T12:56:09.731+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-19T12:56:09.772+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

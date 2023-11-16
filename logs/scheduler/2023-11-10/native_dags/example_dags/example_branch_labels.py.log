@@ -1,0 +1,777 @@
+[2023-11-10T10:41:37.227+0530] {processor.py:157} INFO - Started process (PID=188961) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:41:37.228+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:41:37.229+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:37.228+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:41:37.236+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:41:37.250+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:37.250+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:41:37.342+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:37.342+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:41:37.364+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.139 seconds
+[2023-11-10T10:42:47.957+0530] {processor.py:157} INFO - Started process (PID=189146) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:42:47.964+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:42:47.965+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:47.965+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:42:47.972+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:42:47.990+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:47.990+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:42:48.009+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:48.008+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:42:48.022+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2023-11-10T10:43:54.364+0530] {processor.py:157} INFO - Started process (PID=189450) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:43:54.371+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:43:54.372+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:54.371+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:43:54.378+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:43:54.393+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:54.393+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:43:54.408+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:54.408+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:43:54.422+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.060 seconds
+[2023-11-10T10:45:00.962+0530] {processor.py:157} INFO - Started process (PID=189542) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:45:00.962+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:45:00.963+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:00.963+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:45:00.970+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:45:00.987+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:00.987+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:45:01.005+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:01.005+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:45:01.017+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.058 seconds
+[2023-11-10T10:46:10.164+0530] {processor.py:157} INFO - Started process (PID=189650) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:46:10.170+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:46:10.171+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:10.171+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:46:10.178+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:46:10.194+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:10.193+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:46:10.210+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:10.210+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:46:10.223+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2023-11-10T10:47:14.541+0530] {processor.py:157} INFO - Started process (PID=189739) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:47:14.542+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:47:14.542+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:14.542+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:47:14.549+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:47:14.564+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:14.563+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:47:14.579+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:14.579+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:47:14.592+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2023-11-10T10:48:21.312+0530] {processor.py:157} INFO - Started process (PID=189828) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:48:21.319+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:48:21.321+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:21.320+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:48:21.339+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:48:21.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:21.365+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:48:21.382+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:21.382+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:48:21.395+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T10:49:30.899+0530] {processor.py:157} INFO - Started process (PID=189925) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:49:30.906+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:49:30.906+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:30.906+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:49:30.916+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:49:30.938+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:30.938+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:49:30.957+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:30.956+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:49:30.969+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.073 seconds
+[2023-11-10T10:50:36.517+0530] {processor.py:157} INFO - Started process (PID=190024) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:50:36.518+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:50:36.518+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:36.518+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:50:36.525+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:50:36.539+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:36.538+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:50:36.554+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:36.554+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:50:36.568+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2023-11-10T10:51:42.344+0530] {processor.py:157} INFO - Started process (PID=190116) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:51:42.351+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:51:42.352+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:42.351+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:51:42.358+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:51:42.374+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:42.374+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:51:42.390+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:42.390+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:51:42.403+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2023-11-10T10:52:49.441+0530] {processor.py:157} INFO - Started process (PID=190204) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:52:49.442+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:52:49.442+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:49.442+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:52:49.448+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:52:49.460+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:49.460+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:52:49.475+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:49.475+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:52:49.488+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2023-11-10T10:53:56.528+0530] {processor.py:157} INFO - Started process (PID=190302) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:53:56.529+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:53:56.529+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:56.529+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:53:56.536+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:53:56.551+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:56.550+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:53:56.566+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:56.566+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:53:56.579+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2023-11-10T10:55:03.713+0530] {processor.py:157} INFO - Started process (PID=190394) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:55:03.720+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:55:03.722+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:03.721+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:55:03.740+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:55:03.766+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:03.766+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:55:03.783+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:03.783+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:55:03.795+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T10:56:07.779+0530] {processor.py:157} INFO - Started process (PID=190484) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:56:07.780+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:56:07.780+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:07.780+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:56:07.787+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:56:07.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:07.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:56:07.821+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:07.821+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:56:07.833+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2023-11-10T10:57:12.791+0530] {processor.py:157} INFO - Started process (PID=190575) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:57:12.791+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:57:12.792+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:12.792+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:57:12.799+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:57:12.816+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:12.815+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:57:12.832+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:12.832+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:57:12.845+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2023-11-10T10:58:16.865+0530] {processor.py:157} INFO - Started process (PID=190667) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:58:16.872+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:58:16.874+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:16.873+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:58:16.893+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:58:16.917+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:16.917+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:58:16.933+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:16.933+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:58:16.946+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T10:59:21.750+0530] {processor.py:157} INFO - Started process (PID=190758) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:59:21.756+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T10:59:21.757+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:21.757+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:59:21.766+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T10:59:21.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:21.788+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:59:21.806+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:21.806+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T10:59:21.819+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.072 seconds
+[2023-11-10T11:00:29.771+0530] {processor.py:157} INFO - Started process (PID=190856) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:00:29.778+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:00:29.780+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:29.779+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:00:29.798+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:00:29.825+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:29.825+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:00:29.841+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:29.841+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:00:29.854+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:01:37.271+0530] {processor.py:157} INFO - Started process (PID=190950) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:01:37.278+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:01:37.280+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:37.279+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:01:37.298+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:01:37.322+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:37.322+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:01:37.339+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:37.338+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:01:37.351+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:02:47.859+0530] {processor.py:157} INFO - Started process (PID=191045) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:02:47.860+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:02:47.861+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:47.860+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:02:47.866+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:02:47.877+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:47.877+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:02:47.892+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:47.892+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:02:47.905+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.047 seconds
+[2023-11-10T11:03:51.932+0530] {processor.py:157} INFO - Started process (PID=191138) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:03:51.939+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:03:51.941+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:51.941+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:03:51.951+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:03:51.964+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:51.964+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:03:51.979+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:51.979+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:03:51.991+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2023-11-10T11:04:58.710+0530] {processor.py:157} INFO - Started process (PID=191229) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:04:58.717+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:04:58.719+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:58.718+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:04:58.737+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:04:58.764+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:58.764+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:04:58.781+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:58.780+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:04:58.793+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:06:08.724+0530] {processor.py:157} INFO - Started process (PID=191324) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:06:08.731+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:06:08.733+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:08.732+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:06:08.752+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:06:08.775+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:08.775+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:06:08.791+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:08.791+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:06:08.803+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:07:11.410+0530] {processor.py:157} INFO - Started process (PID=191410) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:07:11.411+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:07:11.412+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:11.411+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:07:11.419+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:07:11.436+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:11.435+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:07:11.452+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:11.452+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:07:11.464+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.056 seconds
+[2023-11-10T11:08:15.840+0530] {processor.py:157} INFO - Started process (PID=191601) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:08:15.847+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:08:15.848+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:15.847+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:08:15.856+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:08:15.876+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:15.876+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:08:15.893+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:15.893+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:08:15.907+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2023-11-10T11:09:23.765+0530] {processor.py:157} INFO - Started process (PID=191693) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:09:23.765+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:09:23.766+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:23.766+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:09:23.771+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:09:23.783+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:23.783+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:09:23.797+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:23.797+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:09:23.810+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.047 seconds
+[2023-11-10T11:10:26.121+0530] {processor.py:157} INFO - Started process (PID=191782) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:10:26.128+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:10:26.129+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:26.128+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:10:26.135+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:10:26.151+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:26.151+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:10:26.167+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:26.167+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:10:26.180+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2023-11-10T11:11:34.524+0530] {processor.py:157} INFO - Started process (PID=191881) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:11:34.531+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:11:34.533+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:34.532+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:11:34.541+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:11:34.553+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:34.553+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:11:34.568+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:34.568+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:11:34.580+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.058 seconds
+[2023-11-10T11:12:41.549+0530] {processor.py:157} INFO - Started process (PID=191974) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:12:41.556+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:12:41.556+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:41.556+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:12:41.564+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:12:41.577+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:41.577+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:12:41.593+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:41.593+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:12:41.605+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.059 seconds
+[2023-11-10T11:13:47.261+0530] {processor.py:157} INFO - Started process (PID=192065) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:13:47.268+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:13:47.270+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:47.269+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:13:47.288+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:13:47.313+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:47.313+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:13:47.329+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:47.329+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:13:47.343+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T11:14:53.892+0530] {processor.py:157} INFO - Started process (PID=192168) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:14:53.899+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:14:53.901+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:53.900+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:14:53.919+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:14:53.943+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:53.943+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:14:53.959+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:53.959+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:14:53.972+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:16:01.778+0530] {processor.py:157} INFO - Started process (PID=192264) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:16:01.786+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:16:01.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:01.787+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:16:01.806+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:16:01.829+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:01.829+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:16:01.845+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:01.845+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:16:01.858+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:17:12.089+0530] {processor.py:157} INFO - Started process (PID=192359) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:17:12.096+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:17:12.098+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:12.097+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:17:12.116+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:17:12.143+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:12.142+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:17:12.159+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:12.159+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:17:12.171+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:18:22.925+0530] {processor.py:157} INFO - Started process (PID=192459) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:18:22.931+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:18:22.932+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:22.932+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:18:22.938+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:18:22.953+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:22.953+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:18:22.970+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:22.970+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:18:22.982+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.060 seconds
+[2023-11-10T11:19:26.932+0530] {processor.py:157} INFO - Started process (PID=192550) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:19:26.939+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:19:26.941+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:26.940+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:19:26.960+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:19:26.990+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:26.990+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:19:27.012+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:27.012+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:19:27.040+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.110 seconds
+[2023-11-10T11:20:32.004+0530] {processor.py:157} INFO - Started process (PID=192647) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:20:32.011+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:20:32.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:32.011+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:20:32.020+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:20:32.040+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:32.040+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:20:32.056+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:32.056+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:20:32.069+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2023-11-10T11:21:39.774+0530] {processor.py:157} INFO - Started process (PID=192752) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:21:39.781+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:21:39.783+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:39.783+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:21:39.803+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:21:39.825+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:39.825+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:21:39.841+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:39.841+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:21:39.853+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:22:47.742+0530] {processor.py:157} INFO - Started process (PID=192845) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:22:47.749+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:22:47.751+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:47.750+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:22:47.769+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:22:47.796+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:47.795+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:22:47.812+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:47.812+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:22:47.825+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:23:52.601+0530] {processor.py:157} INFO - Started process (PID=192936) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:23:52.602+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:23:52.602+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:52.602+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:23:52.607+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:23:52.619+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:52.619+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:23:52.633+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:52.633+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:23:52.645+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.045 seconds
+[2023-11-10T11:24:59.857+0530] {processor.py:157} INFO - Started process (PID=193027) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:24:59.865+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:24:59.867+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:59.866+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:24:59.885+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:24:59.905+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:59.905+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:24:59.921+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:59.921+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:24:59.933+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T11:26:03.064+0530] {processor.py:157} INFO - Started process (PID=193117) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:26:03.070+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:26:03.071+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:03.071+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:26:03.078+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:26:03.095+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:03.095+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:26:03.111+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:03.111+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:26:03.123+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2023-11-10T11:27:08.605+0530] {processor.py:157} INFO - Started process (PID=193209) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:27:08.612+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:27:08.614+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:08.613+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:27:08.634+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:27:08.657+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:08.657+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:27:08.673+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:08.673+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:27:08.685+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:28:14.379+0530] {processor.py:157} INFO - Started process (PID=193297) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:28:14.386+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:28:14.389+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:14.388+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:28:14.408+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:28:14.432+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:14.432+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:28:14.448+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:14.448+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:28:14.460+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T11:29:17.276+0530] {processor.py:157} INFO - Started process (PID=193388) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:29:17.284+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:29:17.286+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:17.285+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:29:17.304+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:29:17.324+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:17.324+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:29:17.339+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:17.339+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:29:17.352+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:30:20.162+0530] {processor.py:157} INFO - Started process (PID=193477) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:30:20.169+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:30:20.170+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:20.169+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:30:20.178+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:30:20.197+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:20.197+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:30:20.215+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:20.215+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:30:20.227+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2023-11-10T11:31:30.030+0530] {processor.py:157} INFO - Started process (PID=193575) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:31:30.036+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:31:30.038+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:30.037+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:31:30.046+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:31:30.059+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:30.059+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:31:30.074+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:30.074+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:31:30.087+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.059 seconds
+[2023-11-10T11:32:31.818+0530] {processor.py:157} INFO - Started process (PID=193660) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:32:31.825+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:32:31.827+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:31.826+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:32:31.845+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:32:31.871+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:31.871+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:32:31.888+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:31.888+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:32:31.901+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.086 seconds
+[2023-11-10T11:33:33.766+0530] {processor.py:157} INFO - Started process (PID=193755) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:33:33.773+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:33:33.775+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:33.774+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:33:33.794+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:33:33.817+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:33.817+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:33:33.833+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:33.833+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:33:33.845+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:34:41.117+0530] {processor.py:157} INFO - Started process (PID=193847) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:34:41.124+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:34:41.126+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:41.125+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:34:41.146+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:34:41.171+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:41.171+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:34:41.187+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:41.187+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:34:41.199+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:35:47.762+0530] {processor.py:157} INFO - Started process (PID=193942) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:35:47.769+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:35:47.771+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:47.770+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:35:47.788+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:35:47.814+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:47.814+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:35:47.830+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:47.830+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:35:47.842+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T11:36:55.739+0530] {processor.py:157} INFO - Started process (PID=194032) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:36:55.740+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:36:55.741+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:55.741+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:36:55.749+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:36:55.768+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:55.768+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:36:55.786+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:55.785+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:36:55.798+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2023-11-10T11:38:03.374+0530] {processor.py:157} INFO - Started process (PID=194124) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:38:03.380+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:38:03.381+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:03.381+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:38:03.389+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:38:03.406+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:03.406+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:38:03.423+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:03.423+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:38:03.435+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.064 seconds
+[2023-11-10T11:39:04.823+0530] {processor.py:157} INFO - Started process (PID=194267) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:39:04.830+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:39:04.830+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:04.830+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:39:04.841+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:39:04.866+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:04.866+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:39:04.884+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:04.884+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:39:04.897+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.077 seconds
+[2023-11-10T11:40:09.851+0530] {processor.py:157} INFO - Started process (PID=194358) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:40:09.857+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:40:09.858+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:09.858+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:40:09.864+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:40:09.878+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:09.878+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:40:09.893+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:09.892+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:40:09.905+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2023-11-10T11:41:19.110+0530] {processor.py:157} INFO - Started process (PID=194464) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:41:19.117+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:41:19.119+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:19.119+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:41:19.127+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:41:19.138+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:19.138+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:41:19.152+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:19.152+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:41:19.165+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2023-11-10T11:42:26.917+0530] {processor.py:157} INFO - Started process (PID=194555) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:42:26.924+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:42:26.926+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:26.925+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:42:26.944+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:42:26.967+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:26.967+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:42:26.983+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:26.982+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:42:26.995+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.081 seconds
+[2023-11-10T11:43:36.031+0530] {processor.py:157} INFO - Started process (PID=194659) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:43:36.038+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:43:36.040+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:36.040+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:43:36.060+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:43:36.083+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:36.083+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:43:36.099+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:36.099+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:43:36.112+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T11:44:42.632+0530] {processor.py:157} INFO - Started process (PID=194747) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:44:42.639+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:44:42.641+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:42.640+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:44:42.660+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:44:42.684+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:42.684+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:44:42.700+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:42.700+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:44:42.712+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:45:52.556+0530] {processor.py:157} INFO - Started process (PID=194843) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:45:52.556+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:45:52.557+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:52.556+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:45:52.562+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:45:52.573+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:52.573+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:45:52.587+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:52.587+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:45:52.600+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.046 seconds
+[2023-11-10T11:46:59.290+0530] {processor.py:157} INFO - Started process (PID=194931) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:46:59.297+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:46:59.299+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:59.299+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:46:59.317+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:46:59.341+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:59.341+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:46:59.357+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:59.357+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:46:59.369+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T11:48:05.560+0530] {processor.py:157} INFO - Started process (PID=195025) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:48:05.566+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:48:05.567+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:05.567+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:48:05.575+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:48:05.594+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:05.594+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:48:05.612+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:05.612+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:48:05.624+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2023-11-10T11:49:11.306+0530] {processor.py:157} INFO - Started process (PID=195115) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:49:11.313+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:49:11.315+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:11.314+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:49:11.332+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:49:11.358+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:11.358+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:49:11.374+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:11.374+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:49:11.386+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T11:50:17.625+0530] {processor.py:157} INFO - Started process (PID=195208) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:50:17.632+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:50:17.634+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:17.633+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:50:17.652+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:50:17.676+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:17.676+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:50:17.691+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:17.690+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:50:17.703+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.080 seconds
+[2023-11-10T11:51:23.235+0530] {processor.py:157} INFO - Started process (PID=195305) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:51:23.242+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:51:23.244+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:23.243+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:51:23.263+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:51:23.289+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:23.289+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:51:23.306+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:23.306+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:51:23.318+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T11:52:31.128+0530] {processor.py:157} INFO - Started process (PID=195495) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:52:31.135+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:52:31.137+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:31.137+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:52:31.156+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:52:31.182+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:31.182+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:52:31.199+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:31.199+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:52:31.212+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.086 seconds
+[2023-11-10T11:53:38.994+0530] {processor.py:157} INFO - Started process (PID=195591) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:53:39.001+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:53:39.001+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:39.001+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:53:39.006+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:53:39.018+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:39.018+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:53:39.032+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:39.032+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:53:39.044+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2023-11-10T11:54:43.749+0530] {processor.py:157} INFO - Started process (PID=195682) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:54:43.756+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:54:43.758+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:43.758+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:54:43.778+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:54:43.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:43.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:54:43.820+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:43.820+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:54:43.833+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.086 seconds
+[2023-11-10T11:55:51.696+0530] {processor.py:157} INFO - Started process (PID=195773) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:55:51.703+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:55:51.705+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:51.704+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:55:51.713+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:55:51.724+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:51.724+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:55:51.738+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:51.738+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:55:51.751+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.056 seconds
+[2023-11-10T11:56:57.652+0530] {processor.py:157} INFO - Started process (PID=195867) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:56:57.652+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:56:57.653+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:57.653+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:56:57.660+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:56:57.677+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:57.677+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:56:57.694+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:57.694+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:56:57.706+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2023-11-10T11:58:05.629+0530] {processor.py:157} INFO - Started process (PID=195957) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:58:05.636+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:58:05.638+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:05.637+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:58:05.658+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:58:05.682+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:05.682+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:58:05.698+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:05.698+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:58:05.710+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T11:59:12.325+0530] {processor.py:157} INFO - Started process (PID=196052) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:59:12.332+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T11:59:12.334+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:12.334+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:59:12.354+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T11:59:12.378+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:12.378+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:59:12.394+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:12.394+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T11:59:12.407+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T12:00:19.209+0530] {processor.py:157} INFO - Started process (PID=196143) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:00:19.216+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:00:19.218+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:19.217+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:00:19.237+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:00:19.260+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:19.260+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:00:19.276+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:19.276+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:00:19.291+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T12:01:22.901+0530] {processor.py:157} INFO - Started process (PID=196234) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:01:22.908+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:01:22.910+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:22.909+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:01:22.929+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:01:22.953+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:22.952+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:01:22.969+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:22.969+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:01:22.981+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T12:02:25.930+0530] {processor.py:157} INFO - Started process (PID=196324) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:02:25.937+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:02:25.940+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:25.939+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:02:25.951+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:02:25.968+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:25.968+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:02:25.982+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:25.982+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:02:25.995+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2023-11-10T12:03:31.820+0530] {processor.py:157} INFO - Started process (PID=196417) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:03:31.827+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:03:31.829+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:31.828+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:03:31.848+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:03:31.873+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:31.873+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:03:31.889+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:31.888+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:03:31.901+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T12:04:39.956+0530] {processor.py:157} INFO - Started process (PID=196509) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:04:39.963+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:04:39.964+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:39.963+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:04:39.972+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:04:39.993+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:39.993+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:04:40.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:40.011+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:04:40.024+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2023-11-10T12:05:47.026+0530] {processor.py:157} INFO - Started process (PID=196605) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:05:47.033+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:05:47.035+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:47.034+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:05:47.053+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:05:47.080+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:47.080+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:05:47.097+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:47.096+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:05:47.109+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T12:06:54.490+0530] {processor.py:157} INFO - Started process (PID=196693) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:06:54.497+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:06:54.499+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:54.498+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:06:54.507+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:06:54.519+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:54.519+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:06:54.533+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:54.533+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:06:54.546+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.059 seconds
+[2023-11-10T12:08:01.314+0530] {processor.py:157} INFO - Started process (PID=196787) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:08:01.321+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:08:01.322+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:01.321+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:08:01.330+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:08:01.348+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:01.348+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:08:01.366+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:01.366+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:08:01.378+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds
+[2023-11-10T12:09:04.507+0530] {processor.py:157} INFO - Started process (PID=196875) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:09:04.514+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:09:04.514+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:04.514+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:09:04.523+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:09:04.545+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:04.545+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:09:04.561+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:04.561+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:09:04.573+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2023-11-10T12:10:10.312+0530] {processor.py:157} INFO - Started process (PID=196967) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:10:10.318+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:10:10.319+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:10.319+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:10:10.324+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:10:10.337+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:10.337+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:10:10.352+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:10.352+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:10:10.365+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.055 seconds
+[2023-11-10T12:11:18.354+0530] {processor.py:157} INFO - Started process (PID=197061) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:11:18.361+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:11:18.363+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:18.362+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:11:18.382+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:11:18.407+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:18.407+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:11:18.423+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:18.423+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:11:18.435+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T12:12:27.472+0530] {processor.py:157} INFO - Started process (PID=197248) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:12:27.473+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:12:27.473+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:27.473+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:12:27.480+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:12:27.494+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:27.494+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:12:27.509+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:27.509+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:12:27.522+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2023-11-10T12:13:35.991+0530] {processor.py:157} INFO - Started process (PID=197351) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:13:35.998+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:13:36.000+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:36.000+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:13:36.019+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:13:36.043+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:36.043+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:13:36.059+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:36.059+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:13:36.072+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T12:14:42.010+0530] {processor.py:157} INFO - Started process (PID=197443) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:14:42.017+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:14:42.019+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:42.018+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:14:42.038+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:14:42.063+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:42.062+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:14:42.079+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:42.079+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:14:42.091+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T12:15:47.949+0530] {processor.py:157} INFO - Started process (PID=197537) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:15:47.956+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:15:47.958+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:47.957+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:15:47.976+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:15:47.996+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:47.996+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:15:48.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:48.011+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:15:48.024+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T12:16:52.172+0530] {processor.py:157} INFO - Started process (PID=197629) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:16:52.173+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:16:52.176+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:52.175+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:16:52.193+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:16:52.212+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:52.212+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:16:52.228+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:52.227+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:16:52.240+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.075 seconds
+[2023-11-10T12:18:01.007+0530] {processor.py:157} INFO - Started process (PID=197726) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:18:01.014+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:18:01.016+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:01.016+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:18:01.035+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:18:01.061+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:01.061+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:18:01.155+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:01.155+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:18:01.180+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.176 seconds
+[2023-11-10T12:19:08.276+0530] {processor.py:157} INFO - Started process (PID=197817) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:19:08.283+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:19:08.285+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:08.284+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:19:08.303+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:19:08.328+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:08.328+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:19:08.344+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:08.344+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:19:08.357+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T12:20:17.344+0530] {processor.py:157} INFO - Started process (PID=197910) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:20:17.351+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:20:17.353+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:17.352+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:20:17.371+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:20:17.398+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:17.398+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:20:17.415+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:17.415+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:20:17.428+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.086 seconds
+[2023-11-10T12:21:29.048+0530] {processor.py:157} INFO - Started process (PID=198007) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:21:29.049+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:21:29.049+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:29.049+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:21:29.056+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:21:29.076+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:29.075+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:21:29.091+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:29.090+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:21:29.103+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.058 seconds
+[2023-11-10T12:22:39.741+0530] {processor.py:157} INFO - Started process (PID=198106) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:22:39.750+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:22:39.752+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:39.751+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:22:39.769+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:22:39.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:39.788+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:22:39.806+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:39.806+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:22:39.820+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.086 seconds
+[2023-11-10T12:23:55.485+0530] {processor.py:157} INFO - Started process (PID=198203) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:23:55.492+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:23:55.493+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:55.492+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:23:55.501+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:23:55.521+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:55.521+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:23:55.622+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:55.622+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:23:55.647+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.164 seconds
+[2023-11-10T12:25:08.461+0530] {processor.py:157} INFO - Started process (PID=198311) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:25:08.468+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:25:08.470+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:08.469+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:25:08.488+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:25:08.513+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:08.513+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:25:08.611+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:08.610+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:25:08.636+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.178 seconds
+[2023-11-10T12:26:27.332+0530] {processor.py:157} INFO - Started process (PID=198406) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:26:27.339+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:26:27.341+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:27.340+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:26:27.358+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:26:27.383+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:27.383+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:26:27.400+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:27.400+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:26:27.413+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T12:27:32.984+0530] {processor.py:157} INFO - Started process (PID=198509) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:27:32.985+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:27:32.985+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:32.985+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:27:32.991+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:27:33.003+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:33.003+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:27:33.018+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:33.018+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:27:33.032+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2023-11-10T12:28:38.827+0530] {processor.py:157} INFO - Started process (PID=198667) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:28:38.833+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:28:38.834+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:38.834+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:28:38.842+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:28:38.862+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:38.862+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:28:38.880+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:38.880+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:28:38.893+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2023-11-10T12:29:45.868+0530] {processor.py:157} INFO - Started process (PID=198779) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:29:45.874+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:29:45.875+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:45.875+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:29:45.882+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:29:45.898+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:45.898+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:29:45.915+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:45.915+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:29:45.928+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.063 seconds
+[2023-11-10T12:30:52.041+0530] {processor.py:157} INFO - Started process (PID=198885) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:30:52.048+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:30:52.048+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:52.048+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:30:52.056+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:30:52.072+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:52.072+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:30:52.089+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:52.089+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:30:52.102+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.063 seconds
+[2023-11-10T12:32:02.051+0530] {processor.py:157} INFO - Started process (PID=198999) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:32:02.058+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:32:02.060+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:02.059+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:32:02.078+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:32:02.098+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:02.097+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:32:02.113+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:02.113+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:32:02.126+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T12:33:08.368+0530] {processor.py:157} INFO - Started process (PID=199109) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:33:08.375+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:33:08.377+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:08.376+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:33:08.395+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:33:08.420+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:08.420+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:33:08.436+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:08.436+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:33:08.449+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2023-11-10T12:34:16.154+0530] {processor.py:157} INFO - Started process (PID=199229) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:34:16.160+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:34:16.161+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:16.161+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:34:16.168+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:34:16.184+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:16.184+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:34:16.201+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:16.201+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:34:16.214+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2023-11-10T12:35:24.603+0530] {processor.py:157} INFO - Started process (PID=199342) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:35:24.610+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:35:24.610+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:24.610+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:35:24.617+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:35:24.632+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:24.631+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:35:24.647+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:24.647+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:35:24.660+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.059 seconds
+[2023-11-10T12:36:29.237+0530] {processor.py:157} INFO - Started process (PID=199459) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:36:29.244+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:36:29.246+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:29.246+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:36:29.264+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:36:29.284+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:29.283+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:36:29.299+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:29.299+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:36:29.312+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.082 seconds
+[2023-11-10T12:37:35.506+0530] {processor.py:157} INFO - Started process (PID=199562) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:37:35.514+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:37:35.516+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:35.515+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:37:35.534+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:37:35.559+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:35.559+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:37:35.576+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:35.575+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:37:35.589+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2023-11-10T12:38:39.974+0530] {processor.py:157} INFO - Started process (PID=199663) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:38:39.981+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:38:39.982+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:39.981+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:38:39.988+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:38:40.004+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:40.004+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:38:40.020+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:40.020+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:38:40.032+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2023-11-10T12:39:48.167+0530] {processor.py:157} INFO - Started process (PID=199775) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:39:48.168+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:39:48.169+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:48.169+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:39:48.180+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:39:48.201+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:48.201+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:39:48.219+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:48.219+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:39:48.233+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2023-11-10T12:40:54.673+0530] {processor.py:157} INFO - Started process (PID=199899) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:40:54.679+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:40:54.680+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:54.680+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:40:54.686+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:40:54.698+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:54.698+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:40:54.714+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:54.714+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:40:54.728+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2023-11-10T12:42:01.584+0530] {processor.py:157} INFO - Started process (PID=200009) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:42:01.591+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:42:01.591+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:01.591+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:42:01.600+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:42:01.619+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:01.619+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:42:01.637+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:01.637+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:42:01.650+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2023-11-10T12:43:07.392+0530] {processor.py:157} INFO - Started process (PID=200120) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:43:07.399+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:43:07.401+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:07.400+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:43:07.419+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:43:07.444+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:07.444+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:43:07.460+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:07.460+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:43:07.473+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2023-11-10T12:44:14.779+0530] {processor.py:157} INFO - Started process (PID=200229) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:44:14.786+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-11-10T12:44:14.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:14.787+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:44:14.806+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-11-10T12:44:14.830+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:14.829+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:44:14.845+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:14.845+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_labels to 2023-11-09T00:00:00+00:00, run_after=2023-11-10T00:00:00+00:00
+[2023-11-10T12:44:14.866+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.089 seconds

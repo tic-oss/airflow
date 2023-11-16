@@ -1,0 +1,14 @@
+[2023-11-07T15:56:49.814+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.fire_immediately manual__2023-11-07T10:26:41.563383+00:00 [queued]>
+[2023-11-07T15:56:49.820+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.fire_immediately manual__2023-11-07T10:26:41.563383+00:00 [queued]>
+[2023-11-07T15:56:49.820+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-07T15:56:49.829+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeSensor): fire_immediately> on 2023-11-07 10:26:41.563383+00:00
+[2023-11-07T15:56:49.832+0530] {standard_task_runner.py:57} INFO - Started process 88151 to run task
+[2023-11-07T15:56:49.834+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'fire_immediately', 'manual__2023-11-07T10:26:41.563383+00:00', '--job-id', '4398', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpmu1moy7p']
+[2023-11-07T15:56:49.835+0530] {standard_task_runner.py:85} INFO - Job 4398: Subtask fire_immediately
+[2023-11-07T15:56:49.862+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.fire_immediately manual__2023-11-07T10:26:41.563383+00:00 [running]> on host harika-Latitude-5511
+[2023-11-07T15:56:49.907+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='fire_immediately' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T10:26:41.563383+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-07T10:26:41.563383+00:00'
+[2023-11-07T15:56:49.908+0530] {time_sensor.py:45} INFO - Checking if the time (10:26:49.182796) has come
+[2023-11-07T15:56:49.908+0530] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-07T15:56:49.912+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=example_sensors, task_id=fire_immediately, execution_date=20231107T102641, start_date=20231107T102649, end_date=20231107T102649
+[2023-11-07T15:56:49.926+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-07T15:56:49.962+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

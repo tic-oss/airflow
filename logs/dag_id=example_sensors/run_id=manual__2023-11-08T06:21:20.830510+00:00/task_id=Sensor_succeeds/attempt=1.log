@@ -1,0 +1,18 @@
+[2023-11-08T11:52:37.333+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.Sensor_succeeds manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:52:37.342+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.Sensor_succeeds manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:52:37.343+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-08T11:52:37.355+0530] {taskinstance.py:1380} INFO - Executing <Task(BashSensor): Sensor_succeeds> on 2023-11-08 06:21:20.830510+00:00
+[2023-11-08T11:52:37.358+0530] {standard_task_runner.py:57} INFO - Started process 119953 to run task
+[2023-11-08T11:52:37.361+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'Sensor_succeeds', 'manual__2023-11-08T06:21:20.830510+00:00', '--job-id', '4441', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpmao7inl6']
+[2023-11-08T11:52:37.363+0530] {standard_task_runner.py:85} INFO - Job 4441: Subtask Sensor_succeeds
+[2023-11-08T11:52:37.390+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.Sensor_succeeds manual__2023-11-08T06:21:20.830510+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T11:52:37.441+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='Sensor_succeeds' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T06:21:20.830510+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T06:21:20.830510+00:00'
+[2023-11-08T11:52:37.443+0530] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-11-08T11:52:37.444+0530] {bash.py:77} INFO - Temporary script location: /tmp/airflowtmpugwgw9i9//tmp/airflowtmpugwgw9i9/Sensor_succeedsjapo84du
+[2023-11-08T11:52:37.444+0530] {bash.py:78} INFO - Running command: exit 0
+[2023-11-08T11:52:37.453+0530] {bash.py:90} INFO - Output:
+[2023-11-08T11:52:37.454+0530] {bash.py:94} INFO - Command exited with return code 0
+[2023-11-08T11:52:37.454+0530] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-08T11:52:37.462+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=example_sensors, task_id=Sensor_succeeds, execution_date=20231108T062120, start_date=20231108T062237, end_date=20231108T062237
+[2023-11-08T11:52:37.493+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T11:52:37.537+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

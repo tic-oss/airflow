@@ -1,0 +1,90 @@
+[2023-10-31T14:20:19.453+0530] {processor.py:157} INFO - Started process (PID=881319) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:20:19.453+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:20:19.454+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:20:19.454+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:20:19.459+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:20:19.459+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dataTimeSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dataTimeSensor.py", line 4, in <module>
+    dag = DAG(task_id="dateTime", schedule_interval="@daily", start_date=(2023,10,31))
+TypeError: DAG.__init__() got an unexpected keyword argument 'task_id'
+[2023-10-31T14:20:19.459+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:20:19.471+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.020 seconds
+[2023-10-31T14:21:19.387+0530] {processor.py:157} INFO - Started process (PID=882492) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:21:19.394+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:21:19.396+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:21:19.395+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:21:19.404+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:21:19.402+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dataTimeSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dataTimeSensor.py", line 4, in <module>
+    dag = DAG(task_id="dateTime", schedule_interval="@daily", start_date=(2023,10,31))
+TypeError: DAG.__init__() got an unexpected keyword argument 'task_id'
+[2023-10-31T14:21:19.405+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:21:19.432+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.047 seconds
+[2023-10-31T14:21:50.024+0530] {processor.py:157} INFO - Started process (PID=882966) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:21:50.031+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:21:50.031+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:21:50.031+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:21:50.035+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:21:50.034+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dataTimeSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dataTimeSensor.py", line 5, in <module>
+    dag = DAG(task_id="dateTime", schedule_interval="@daily", start_date=datetime(2023,10,31))
+TypeError: DAG.__init__() got an unexpected keyword argument 'task_id'
+[2023-10-31T14:21:50.035+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:21:50.048+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.028 seconds
+[2023-10-31T14:22:20.680+0530] {processor.py:157} INFO - Started process (PID=883580) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:22:20.687+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:22:20.687+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.687+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:22:20.695+0530] {processor.py:839} INFO - DAG(s) dict_keys(['date_time_example']) retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:22:20.763+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.763+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-31T14:22:20.771+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.771+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-31T14:22:20.776+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.776+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-31T14:22:20.776+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.776+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:date_time_example' as access control is unset.
+[2023-10-31T14:22:20.777+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.776+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:22:20.784+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.784+0530] {dag.py:2937} INFO - Creating ORM DAG for date_time_example
+[2023-10-31T14:22:20.792+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:22:20.792+0530] {dag.py:3696} INFO - Setting next_dagrun for date_time_example to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-10-31T14:22:20.806+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.128 seconds
+[2023-10-31T14:23:40.363+0530] {processor.py:157} INFO - Started process (PID=885003) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:23:40.363+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:23:40.364+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:23:40.364+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:23:40.372+0530] {processor.py:839} INFO - DAG(s) dict_keys(['date_time_example']) retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:23:40.378+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:23:40.378+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:23:40.394+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:23:40.394+0530] {dag.py:3696} INFO - Setting next_dagrun for date_time_example to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-10-31T14:23:40.408+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.048 seconds
+[2023-10-31T14:24:43.171+0530] {processor.py:157} INFO - Started process (PID=886214) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:24:43.172+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:24:43.172+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:24:43.172+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:24:43.178+0530] {processor.py:839} INFO - DAG(s) dict_keys(['date_time_example']) retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:24:43.239+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:24:43.239+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:date_time_example' as access control is unset.
+[2023-10-31T14:24:43.239+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:24:43.239+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:24:43.252+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:24:43.252+0530] {dag.py:3696} INFO - Setting next_dagrun for date_time_example to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-10-31T14:24:43.265+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.096 seconds
+[2023-10-31T14:28:17.458+0530] {processor.py:157} INFO - Started process (PID=890027) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:28:17.459+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:28:17.459+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:28:17.459+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:28:17.469+0530] {processor.py:839} INFO - DAG(s) dict_keys(['date_time_example']) retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:28:17.475+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:28:17.475+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:28:17.490+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:28:17.490+0530] {dag.py:3696} INFO - Setting next_dagrun for date_time_example to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-10-31T14:28:17.505+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.050 seconds
+[2023-10-31T14:29:21.583+0530] {processor.py:157} INFO - Started process (PID=891144) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:29:21.590+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:29:21.591+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:29:21.591+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:29:21.605+0530] {processor.py:839} INFO - DAG(s) dict_keys(['date_time_example']) retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:29:21.624+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:29:21.623+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:29:21.641+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:29:21.641+0530] {dag.py:3696} INFO - Setting next_dagrun for date_time_example to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-10-31T14:29:21.655+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.074 seconds
+[2023-10-31T14:29:57.068+0530] {processor.py:157} INFO - Started process (PID=891966) to work on /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:29:57.075+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dataTimeSensor.py for tasks to queue
+[2023-10-31T14:29:57.077+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:29:57.076+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:29:57.099+0530] {processor.py:839} INFO - DAG(s) dict_keys(['date_time_example']) retrieved from /home/harika/airflow/dags/dataTimeSensor.py
+[2023-10-31T14:29:57.119+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:29:57.119+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-31T14:29:57.135+0530] {logging_mixin.py:151} INFO - [2023-10-31T14:29:57.135+0530] {dag.py:3696} INFO - Setting next_dagrun for date_time_example to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-10-31T14:29:57.149+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dataTimeSensor.py took 0.083 seconds

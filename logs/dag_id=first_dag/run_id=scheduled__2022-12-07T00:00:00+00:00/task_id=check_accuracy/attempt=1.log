@@ -1,0 +1,16 @@
+[2023-10-25T11:04:57.060+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_dag.check_accuracy scheduled__2022-12-07T00:00:00+00:00 [queued]>
+[2023-10-25T11:04:57.065+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_dag.check_accuracy scheduled__2022-12-07T00:00:00+00:00 [queued]>
+[2023-10-25T11:04:57.065+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-25T11:04:57.073+0530] {taskinstance.py:1380} INFO - Executing <Task(BranchPythonOperator): check_accuracy> on 2022-12-07 00:00:00+00:00
+[2023-10-25T11:04:57.077+0530] {standard_task_runner.py:57} INFO - Started process 32664 to run task
+[2023-10-25T11:04:57.079+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'check_accuracy', 'scheduled__2022-12-07T00:00:00+00:00', '--job-id', '224', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpgzad9bbm']
+[2023-10-25T11:04:57.080+0530] {standard_task_runner.py:85} INFO - Job 224: Subtask check_accuracy
+[2023-10-25T11:04:57.102+0530] {task_command.py:415} INFO - Running <TaskInstance: first_dag.check_accuracy scheduled__2022-12-07T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-25T11:04:57.142+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='first_dag' AIRFLOW_CTX_TASK_ID='check_accuracy' AIRFLOW_CTX_EXECUTION_DATE='2022-12-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-12-07T00:00:00+00:00'
+[2023-10-25T11:04:57.146+0530] {python.py:194} INFO - Done. Returned value was: inaccurate
+[2023-10-25T11:04:57.146+0530] {python.py:227} INFO - Branch callable return inaccurate
+[2023-10-25T11:04:57.146+0530] {skipmixin.py:173} INFO - Following branch inaccurate
+[2023-10-25T11:04:57.150+0530] {skipmixin.py:239} INFO - Skipping tasks [('accurate', -1)]
+[2023-10-25T11:04:57.167+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=check_accuracy, execution_date=20221207T000000, start_date=20231025T053457, end_date=20231025T053457
+[2023-10-25T11:04:57.210+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T11:04:57.225+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

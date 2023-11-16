@@ -1,0 +1,784 @@
+[2023-11-10T10:40:51.739+0530] {processor.py:157} INFO - Started process (PID=187624) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:40:51.739+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:40:51.740+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:40:51.740+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:40:51.745+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:40:51.756+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:40:51.756+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:40:51.773+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:40:51.773+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:10:51.773490+00:00, run_after=2023-11-10T05:10:51.773490+00:00
+[2023-11-10T10:40:51.789+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.052 seconds
+[2023-11-10T10:42:09.018+0530] {processor.py:157} INFO - Started process (PID=188995) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:42:09.025+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:42:09.026+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:09.026+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:42:09.033+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:42:09.131+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:09.131+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:42:09.148+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:09.147+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:12:09.147714+00:00, run_after=2023-11-10T05:12:09.147714+00:00
+[2023-11-10T10:42:09.172+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.157 seconds
+[2023-11-10T10:43:20.246+0530] {processor.py:157} INFO - Started process (PID=189397) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:43:20.253+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:43:20.254+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:20.254+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:43:20.259+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:43:20.272+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:20.272+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:43:20.288+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:20.288+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:13:20.288151+00:00, run_after=2023-11-10T05:13:20.288151+00:00
+[2023-11-10T10:43:20.302+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2023-11-10T10:44:24.916+0530] {processor.py:157} INFO - Started process (PID=189486) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:44:24.924+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:44:24.926+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:24.925+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:44:24.941+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:44:24.962+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:24.961+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:44:24.978+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:24.977+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:14:24.977700+00:00, run_after=2023-11-10T05:14:24.977700+00:00
+[2023-11-10T10:44:24.991+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-11-10T10:45:36.086+0530] {processor.py:157} INFO - Started process (PID=189589) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:45:36.093+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:45:36.095+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:36.095+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:45:36.109+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:45:36.130+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:36.130+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:45:36.147+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:36.146+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:15:36.146712+00:00, run_after=2023-11-10T05:15:36.146712+00:00
+[2023-11-10T10:45:36.160+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T10:46:41.006+0530] {processor.py:157} INFO - Started process (PID=189688) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:46:41.013+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:46:41.014+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:41.013+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:46:41.020+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:46:41.037+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:41.037+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:46:41.055+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:41.054+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:16:41.054772+00:00, run_after=2023-11-10T05:16:41.054772+00:00
+[2023-11-10T10:46:41.068+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-11-10T10:47:44.928+0530] {processor.py:157} INFO - Started process (PID=189777) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:47:44.929+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:47:44.930+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:44.930+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:47:44.934+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:47:44.945+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:44.945+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:47:44.959+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:44.959+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:17:44.959252+00:00, run_after=2023-11-10T05:17:44.959252+00:00
+[2023-11-10T10:47:44.973+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2023-11-10T10:48:53.669+0530] {processor.py:157} INFO - Started process (PID=189868) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:48:53.677+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:48:53.679+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:53.678+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:48:53.693+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:48:53.713+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:53.713+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:48:53.729+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:53.729+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:18:53.729357+00:00, run_after=2023-11-10T05:18:53.729357+00:00
+[2023-11-10T10:48:53.742+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T10:50:02.801+0530] {processor.py:157} INFO - Started process (PID=189969) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:50:02.807+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:50:02.808+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:02.808+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:50:02.814+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:50:02.831+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:02.830+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:50:02.848+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:02.848+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:20:02.848654+00:00, run_after=2023-11-10T05:20:02.848654+00:00
+[2023-11-10T10:50:02.862+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2023-11-10T10:51:07.867+0530] {processor.py:157} INFO - Started process (PID=190061) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:51:07.875+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:51:07.877+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:07.876+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:51:07.892+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:51:07.914+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:07.914+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:51:07.930+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:07.930+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:21:07.930195+00:00, run_after=2023-11-10T05:21:07.930195+00:00
+[2023-11-10T10:51:07.944+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2023-11-10T10:52:14.685+0530] {processor.py:157} INFO - Started process (PID=190151) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:52:14.693+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:52:14.695+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:14.694+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:52:14.710+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:52:14.734+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:14.734+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:52:14.750+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:14.750+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:22:14.750626+00:00, run_after=2023-11-10T05:22:14.750626+00:00
+[2023-11-10T10:52:14.764+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-11-10T10:53:21.151+0530] {processor.py:157} INFO - Started process (PID=190244) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:53:21.158+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:53:21.160+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:21.159+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:53:21.173+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:53:21.187+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:21.187+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:53:21.203+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:21.203+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:23:21.202886+00:00, run_after=2023-11-10T05:23:21.202886+00:00
+[2023-11-10T10:53:21.218+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2023-11-10T10:54:28.752+0530] {processor.py:157} INFO - Started process (PID=190341) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:54:28.754+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:54:28.756+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:28.755+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:54:28.770+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:54:28.789+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:28.789+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:54:28.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:28.804+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:24:28.804379+00:00, run_after=2023-11-10T05:24:28.804379+00:00
+[2023-11-10T10:54:28.818+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2023-11-10T10:55:34.631+0530] {processor.py:157} INFO - Started process (PID=190435) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:55:34.638+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:55:34.640+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:34.640+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:55:34.655+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:55:34.680+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:34.680+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:55:34.697+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:34.697+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:25:34.696940+00:00, run_after=2023-11-10T05:25:34.696940+00:00
+[2023-11-10T10:55:34.714+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2023-11-10T10:56:37.692+0530] {processor.py:157} INFO - Started process (PID=190523) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:56:37.699+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:56:37.701+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:37.700+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:56:37.715+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:56:37.739+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:37.739+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:56:37.755+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:37.755+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:26:37.754893+00:00, run_after=2023-11-10T05:26:37.754893+00:00
+[2023-11-10T10:56:37.776+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-11-10T10:57:43.651+0530] {processor.py:157} INFO - Started process (PID=190613) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:57:43.658+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:57:43.660+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:43.659+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:57:43.675+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:57:43.700+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:43.700+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:57:43.716+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:43.716+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:27:43.716466+00:00, run_after=2023-11-10T05:27:43.716466+00:00
+[2023-11-10T10:57:43.729+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T10:58:47.844+0530] {processor.py:157} INFO - Started process (PID=190704) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:58:47.845+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:58:47.845+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:47.845+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:58:47.851+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:58:47.865+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:47.865+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:58:47.883+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:47.883+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:28:47.882938+00:00, run_after=2023-11-10T05:28:47.882938+00:00
+[2023-11-10T10:58:47.896+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.055 seconds
+[2023-11-10T10:59:53.985+0530] {processor.py:157} INFO - Started process (PID=190795) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:59:53.992+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T10:59:53.994+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:53.993+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:59:54.009+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T10:59:54.032+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:54.032+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:59:54.048+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:54.048+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:29:54.048174+00:00, run_after=2023-11-10T05:29:54.048174+00:00
+[2023-11-10T10:59:54.061+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T11:01:00.925+0530] {processor.py:157} INFO - Started process (PID=190895) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:01:00.932+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:01:00.933+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:00.932+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:01:00.939+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:01:00.958+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:00.958+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:01:00.978+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:00.978+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:31:00.978461+00:00, run_after=2023-11-10T05:31:00.978461+00:00
+[2023-11-10T11:01:00.991+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-11-10T11:02:09.992+0530] {processor.py:157} INFO - Started process (PID=190987) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:02:09.999+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:02:10.001+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:10.000+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:02:10.014+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:02:10.039+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:10.039+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:02:10.055+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:10.055+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:32:10.055601+00:00, run_after=2023-11-10T05:32:10.055601+00:00
+[2023-11-10T11:02:10.068+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T11:03:18.943+0530] {processor.py:157} INFO - Started process (PID=191083) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:03:18.944+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:03:18.944+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:18.944+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:03:18.949+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:03:18.959+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:18.959+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:03:18.972+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:18.972+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:33:18.972609+00:00, run_after=2023-11-10T05:33:18.972609+00:00
+[2023-11-10T11:03:18.986+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2023-11-10T11:04:22.216+0530] {processor.py:157} INFO - Started process (PID=191173) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:04:22.223+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:04:22.225+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:22.224+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:04:22.239+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:04:22.264+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:22.264+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:04:22.281+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:22.281+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:34:22.281180+00:00, run_after=2023-11-10T05:34:22.281180+00:00
+[2023-11-10T11:04:22.294+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T11:05:32.024+0530] {processor.py:157} INFO - Started process (PID=191271) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:05:32.024+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:05:32.025+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:32.025+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:05:32.030+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:05:32.042+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:32.042+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:05:32.057+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:32.057+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:35:32.057047+00:00, run_after=2023-11-10T05:35:32.057047+00:00
+[2023-11-10T11:05:32.071+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2023-11-10T11:06:39.499+0530] {processor.py:157} INFO - Started process (PID=191363) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:06:39.506+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:06:39.508+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:39.507+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:06:39.523+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:06:39.548+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:39.548+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:06:39.565+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:39.565+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:36:39.564969+00:00, run_after=2023-11-10T05:36:39.564969+00:00
+[2023-11-10T11:06:39.578+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-11-10T11:07:41.350+0530] {processor.py:157} INFO - Started process (PID=191482) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:07:41.357+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:07:41.359+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:41.358+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:07:41.373+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:07:41.399+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:41.399+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:07:41.416+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:41.415+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:37:41.415814+00:00, run_after=2023-11-10T05:37:41.415814+00:00
+[2023-11-10T11:07:41.429+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-11-10T11:08:47.433+0530] {processor.py:157} INFO - Started process (PID=191640) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:08:47.439+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:08:47.440+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:47.440+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:08:47.446+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:08:47.463+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:47.462+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:08:47.482+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:47.482+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:38:47.482064+00:00, run_after=2023-11-10T05:38:47.482064+00:00
+[2023-11-10T11:08:47.495+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-11-10T11:09:53.402+0530] {processor.py:157} INFO - Started process (PID=191730) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:09:53.409+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:09:53.411+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:53.410+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:09:53.426+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:09:53.452+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:53.452+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:09:53.469+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:53.469+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:39:53.469448+00:00, run_after=2023-11-10T05:39:53.469448+00:00
+[2023-11-10T11:09:53.483+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-11-10T11:10:59.571+0530] {processor.py:157} INFO - Started process (PID=191827) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:10:59.578+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:10:59.579+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:59.578+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:10:59.583+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:10:59.594+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:59.594+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:10:59.609+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:59.609+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:40:59.609151+00:00, run_after=2023-11-10T05:40:59.609151+00:00
+[2023-11-10T11:10:59.623+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.054 seconds
+[2023-11-10T11:12:05.501+0530] {processor.py:157} INFO - Started process (PID=191917) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:12:05.508+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:12:05.510+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:05.509+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:12:05.524+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:12:05.551+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:05.550+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:12:05.567+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:05.567+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:42:05.567649+00:00, run_after=2023-11-10T05:42:05.567649+00:00
+[2023-11-10T11:12:05.581+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-11-10T11:13:12.447+0530] {processor.py:157} INFO - Started process (PID=192011) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:13:12.454+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:13:12.455+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:12.454+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:13:12.460+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:13:12.473+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:12.472+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:13:12.488+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:12.488+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:43:12.488547+00:00, run_after=2023-11-10T05:43:12.488547+00:00
+[2023-11-10T11:13:12.502+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2023-11-10T11:14:19.513+0530] {processor.py:157} INFO - Started process (PID=192104) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:14:19.514+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:14:19.515+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:19.515+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:14:19.527+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:14:19.551+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:19.551+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:14:19.567+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:19.567+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:44:19.567571+00:00, run_after=2023-11-10T05:44:19.567571+00:00
+[2023-11-10T11:14:19.581+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2023-11-10T11:15:25.808+0530] {processor.py:157} INFO - Started process (PID=192209) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:15:25.816+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:15:25.817+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:25.817+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:15:25.831+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:15:25.857+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:25.857+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:15:25.874+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:25.873+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:45:25.873836+00:00, run_after=2023-11-10T05:45:25.873836+00:00
+[2023-11-10T11:15:25.887+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T11:16:34.970+0530] {processor.py:157} INFO - Started process (PID=192305) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:16:34.978+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:16:34.980+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:34.979+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:16:34.993+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:16:35.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:35.011+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:16:35.027+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:35.027+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:46:35.027237+00:00, run_after=2023-11-10T05:46:35.027237+00:00
+[2023-11-10T11:16:35.041+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-11-10T11:17:45.387+0530] {processor.py:157} INFO - Started process (PID=192400) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:17:45.395+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:17:45.397+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:45.396+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:17:45.411+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:17:45.429+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:45.429+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:17:45.445+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:45.444+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:47:45.444698+00:00, run_after=2023-11-10T05:47:45.444698+00:00
+[2023-11-10T11:17:45.458+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-11-10T11:18:51.627+0530] {processor.py:157} INFO - Started process (PID=192498) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:18:51.634+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:18:51.636+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:51.636+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:18:51.651+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:18:51.677+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:51.676+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:18:51.693+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:51.693+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:48:51.693054+00:00, run_after=2023-11-10T05:48:51.693054+00:00
+[2023-11-10T11:18:51.706+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T11:19:58.370+0530] {processor.py:157} INFO - Started process (PID=192592) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:19:58.378+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:19:58.380+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:58.379+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:19:58.393+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:19:58.418+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:58.418+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:19:58.434+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:58.434+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:49:58.434167+00:00, run_after=2023-11-10T05:49:58.434167+00:00
+[2023-11-10T11:19:58.447+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T11:21:03.436+0530] {processor.py:157} INFO - Started process (PID=192685) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:21:03.443+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:21:03.444+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:03.443+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:21:03.451+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:21:03.470+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:03.470+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:21:03.489+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:03.489+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:51:03.488942+00:00, run_after=2023-11-10T05:51:03.488942+00:00
+[2023-11-10T11:21:03.502+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-11-10T11:22:10.900+0530] {processor.py:157} INFO - Started process (PID=192788) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:22:10.907+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:22:10.909+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:10.908+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:22:10.923+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:22:10.948+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:10.948+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:22:10.965+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:10.965+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:52:10.965214+00:00, run_after=2023-11-10T05:52:10.965214+00:00
+[2023-11-10T11:22:10.978+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T11:23:18.278+0530] {processor.py:157} INFO - Started process (PID=192881) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:23:18.286+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:23:18.287+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:18.287+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:23:18.298+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:23:18.322+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:18.322+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:23:18.339+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:18.339+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:53:18.339399+00:00, run_after=2023-11-10T05:53:18.339399+00:00
+[2023-11-10T11:23:18.352+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-11-10T11:24:24.734+0530] {processor.py:157} INFO - Started process (PID=192972) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:24:24.740+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:24:24.741+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:24.741+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:24:24.746+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:24:24.758+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:24.757+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:24:24.773+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:24.773+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:54:24.773010+00:00, run_after=2023-11-10T05:54:24.773010+00:00
+[2023-11-10T11:24:24.786+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.055 seconds
+[2023-11-10T11:25:28.147+0530] {processor.py:157} INFO - Started process (PID=193063) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:25:28.147+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:25:28.148+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:28.148+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:25:28.152+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:25:28.164+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:28.164+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:25:28.179+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:28.179+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:55:28.179557+00:00, run_after=2023-11-10T05:55:28.179557+00:00
+[2023-11-10T11:25:28.193+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-11-10T11:26:35.326+0530] {processor.py:157} INFO - Started process (PID=193159) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:26:35.333+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:26:35.334+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:35.333+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:26:35.340+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:26:35.356+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:35.356+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:26:35.374+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:35.374+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:56:35.373811+00:00, run_after=2023-11-10T05:56:35.373811+00:00
+[2023-11-10T11:26:35.388+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2023-11-10T11:27:39.448+0530] {processor.py:157} INFO - Started process (PID=193247) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:27:39.455+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:27:39.457+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:39.456+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:27:39.471+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:27:39.498+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:39.497+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:27:39.514+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:39.514+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:57:39.514450+00:00, run_after=2023-11-10T05:57:39.514450+00:00
+[2023-11-10T11:27:39.527+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-11-10T11:28:44.181+0530] {processor.py:157} INFO - Started process (PID=193335) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:28:44.188+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:28:44.189+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:44.189+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:28:44.195+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:28:44.211+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:44.211+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:28:44.229+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:44.229+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:58:44.229009+00:00, run_after=2023-11-10T05:58:44.229009+00:00
+[2023-11-10T11:28:44.242+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2023-11-10T11:29:45.741+0530] {processor.py:157} INFO - Started process (PID=193425) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:29:45.748+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:29:45.749+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:45.748+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:29:45.754+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:29:45.764+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:45.764+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:29:45.777+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:45.777+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T01:59:45.777518+00:00, run_after=2023-11-10T05:59:45.777518+00:00
+[2023-11-10T11:29:45.791+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.052 seconds
+[2023-11-10T11:30:52.796+0530] {processor.py:157} INFO - Started process (PID=193520) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:30:52.802+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:30:52.803+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:52.803+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:30:52.808+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:30:52.820+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:52.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:30:52.836+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:52.836+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:00:52.835983+00:00, run_after=2023-11-10T06:00:52.835983+00:00
+[2023-11-10T11:30:52.850+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.056 seconds
+[2023-11-10T11:31:59.181+0530] {processor.py:157} INFO - Started process (PID=193609) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:31:59.188+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:31:59.189+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:59.189+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:31:59.203+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:31:59.226+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:59.226+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:31:59.242+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:59.242+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:01:59.242653+00:00, run_after=2023-11-10T06:01:59.242653+00:00
+[2023-11-10T11:31:59.263+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2023-11-10T11:33:01.102+0530] {processor.py:157} INFO - Started process (PID=193697) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:33:01.109+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:33:01.111+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:01.110+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:33:01.124+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:33:01.150+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:01.150+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:33:01.166+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:01.166+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:03:01.166539+00:00, run_after=2023-11-10T06:03:01.166539+00:00
+[2023-11-10T11:33:01.179+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T11:34:04.585+0530] {processor.py:157} INFO - Started process (PID=193790) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:34:04.592+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:34:04.594+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:04.593+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:34:04.609+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:34:04.635+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:04.635+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:34:04.652+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:04.651+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:04:04.651759+00:00, run_after=2023-11-10T06:04:04.651759+00:00
+[2023-11-10T11:34:04.665+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-11-10T11:35:12.877+0530] {processor.py:157} INFO - Started process (PID=193887) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:35:12.884+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:35:12.886+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:12.885+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:35:12.901+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:35:12.926+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:12.925+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:35:12.942+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:12.941+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:05:12.941837+00:00, run_after=2023-11-10T06:05:12.941837+00:00
+[2023-11-10T11:35:12.958+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2023-11-10T11:36:18.597+0530] {processor.py:157} INFO - Started process (PID=193979) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:36:18.603+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:36:18.604+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:18.604+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:36:18.610+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:36:18.627+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:18.626+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:36:18.645+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:18.645+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:06:18.644835+00:00, run_after=2023-11-10T06:06:18.644835+00:00
+[2023-11-10T11:36:18.658+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2023-11-10T11:37:28.744+0530] {processor.py:157} INFO - Started process (PID=194070) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:37:28.745+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:37:28.746+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:28.745+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:37:28.750+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:37:28.760+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:28.760+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:37:28.773+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:28.773+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:07:28.773675+00:00, run_after=2023-11-10T06:07:28.773675+00:00
+[2023-11-10T11:37:28.786+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2023-11-10T11:38:32.953+0530] {processor.py:157} INFO - Started process (PID=194217) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:38:32.960+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:38:32.960+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:32.960+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:38:32.965+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:38:32.977+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:32.977+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:38:32.992+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:32.992+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:08:32.992318+00:00, run_after=2023-11-10T06:08:32.992318+00:00
+[2023-11-10T11:38:33.005+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.054 seconds
+[2023-11-10T11:39:34.666+0530] {processor.py:157} INFO - Started process (PID=194303) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:39:34.667+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:39:34.668+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:34.668+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:39:34.673+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:39:34.685+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:34.685+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:39:34.700+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:34.700+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:09:34.700032+00:00, run_after=2023-11-10T06:09:34.700032+00:00
+[2023-11-10T11:39:34.713+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2023-11-10T11:40:43.316+0530] {processor.py:157} INFO - Started process (PID=194413) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:40:43.323+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:40:43.323+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:43.323+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:40:43.327+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:40:43.336+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:43.336+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:40:43.349+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:43.349+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:10:43.349397+00:00, run_after=2023-11-10T06:10:43.349397+00:00
+[2023-11-10T11:40:43.362+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-11-10T11:41:50.232+0530] {processor.py:157} INFO - Started process (PID=194503) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:41:50.239+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:41:50.242+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:50.241+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:41:50.248+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:41:50.260+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:50.260+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:41:50.274+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:50.274+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:11:50.274324+00:00, run_after=2023-11-10T06:11:50.274324+00:00
+[2023-11-10T11:41:50.288+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.058 seconds
+[2023-11-10T11:42:59.740+0530] {processor.py:157} INFO - Started process (PID=194594) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:42:59.747+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:42:59.749+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:59.748+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:42:59.763+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:42:59.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:59.788+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:42:59.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:59.804+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:12:59.804670+00:00, run_after=2023-11-10T06:12:59.804670+00:00
+[2023-11-10T11:42:59.818+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T11:44:05.536+0530] {processor.py:157} INFO - Started process (PID=194691) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:44:05.543+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:44:05.545+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:05.545+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:44:05.560+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:44:05.585+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:05.585+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:44:05.601+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:05.601+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:14:05.601105+00:00, run_after=2023-11-10T06:14:05.601105+00:00
+[2023-11-10T11:44:05.614+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T11:45:15.557+0530] {processor.py:157} INFO - Started process (PID=194787) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:45:15.564+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:45:15.566+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:15.565+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:45:15.579+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:45:15.605+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:15.605+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:45:15.622+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:15.622+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:15:15.622283+00:00, run_after=2023-11-10T06:15:15.622283+00:00
+[2023-11-10T11:45:15.635+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T11:46:23.436+0530] {processor.py:157} INFO - Started process (PID=194879) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:46:23.444+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:46:23.446+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:23.445+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:46:23.460+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:46:23.480+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:23.480+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:46:23.495+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:23.495+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:16:23.495356+00:00, run_after=2023-11-10T06:16:23.495356+00:00
+[2023-11-10T11:46:23.509+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T11:47:30.382+0530] {processor.py:157} INFO - Started process (PID=194968) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:47:30.389+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:47:30.391+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:30.390+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:47:30.401+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:47:30.413+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:30.413+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:47:30.427+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:30.427+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:17:30.427321+00:00, run_after=2023-11-10T06:17:30.427321+00:00
+[2023-11-10T11:47:30.440+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2023-11-10T11:48:37.736+0530] {processor.py:157} INFO - Started process (PID=195066) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:48:37.743+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:48:37.745+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:37.744+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:48:37.758+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:48:37.784+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:37.784+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:48:37.801+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:37.801+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:18:37.801163+00:00, run_after=2023-11-10T06:18:37.801163+00:00
+[2023-11-10T11:48:37.814+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T11:49:42.281+0530] {processor.py:157} INFO - Started process (PID=195154) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:49:42.288+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:49:42.290+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:42.289+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:49:42.305+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:49:42.333+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:42.333+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:49:42.353+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:42.353+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:19:42.353511+00:00, run_after=2023-11-10T06:19:42.353511+00:00
+[2023-11-10T11:49:42.367+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-11-10T11:50:48.432+0530] {processor.py:157} INFO - Started process (PID=195250) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:50:48.439+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:50:48.441+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:48.440+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:50:48.455+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:50:48.479+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:48.479+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:50:48.495+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:48.495+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:20:48.495542+00:00, run_after=2023-11-10T06:20:48.495542+00:00
+[2023-11-10T11:50:48.508+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-11-10T11:51:54.579+0530] {processor.py:157} INFO - Started process (PID=195439) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:51:54.586+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:51:54.588+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:54.587+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:51:54.603+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:51:54.629+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:54.629+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:51:54.646+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:54.645+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:21:54.645723+00:00, run_after=2023-11-10T06:21:54.645723+00:00
+[2023-11-10T11:51:54.659+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-11-10T11:53:04.413+0530] {processor.py:157} INFO - Started process (PID=195536) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:53:04.413+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:53:04.414+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:04.414+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:53:04.419+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:53:04.430+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:04.430+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:53:04.444+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:04.444+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:23:04.443888+00:00, run_after=2023-11-10T06:23:04.443888+00:00
+[2023-11-10T11:53:04.457+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2023-11-10T11:54:09.350+0530] {processor.py:157} INFO - Started process (PID=195627) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:54:09.356+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:54:09.357+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:09.357+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:54:09.361+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:54:09.372+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:09.372+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:54:09.386+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:09.386+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:24:09.386355+00:00, run_after=2023-11-10T06:24:09.386355+00:00
+[2023-11-10T11:54:09.399+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.052 seconds
+[2023-11-10T11:55:15.826+0530] {processor.py:157} INFO - Started process (PID=195719) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:55:15.833+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:55:15.835+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:15.835+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:55:15.849+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:55:15.866+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:15.866+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:55:15.884+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:15.884+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:25:15.883801+00:00, run_after=2023-11-10T06:25:15.883801+00:00
+[2023-11-10T11:55:15.902+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T11:56:21.572+0530] {processor.py:157} INFO - Started process (PID=195808) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:56:21.573+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:56:21.574+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:21.573+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:56:21.578+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:56:21.590+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:21.590+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:56:21.604+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:21.604+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:26:21.604593+00:00, run_after=2023-11-10T06:26:21.604593+00:00
+[2023-11-10T11:56:21.618+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-11-10T11:57:29.346+0530] {processor.py:157} INFO - Started process (PID=195904) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:57:29.353+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:57:29.354+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:29.353+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:57:29.360+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:57:29.379+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:29.379+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:57:29.399+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:29.398+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:27:29.398793+00:00, run_after=2023-11-10T06:27:29.398793+00:00
+[2023-11-10T11:57:29.413+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-11-10T11:58:36.594+0530] {processor.py:157} INFO - Started process (PID=195999) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:58:36.601+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:58:36.603+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:36.602+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:58:36.618+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:58:36.641+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:36.641+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:58:36.657+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:36.657+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:28:36.657455+00:00, run_after=2023-11-10T06:28:36.657455+00:00
+[2023-11-10T11:58:36.670+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T11:59:44.892+0530] {processor.py:157} INFO - Started process (PID=196091) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:59:44.899+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T11:59:44.901+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:44.900+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:59:44.915+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T11:59:44.938+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:44.938+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:59:44.954+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:44.954+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:29:44.954098+00:00, run_after=2023-11-10T06:29:44.954098+00:00
+[2023-11-10T11:59:44.967+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-11-10T12:00:49.927+0530] {processor.py:157} INFO - Started process (PID=196185) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:00:49.933+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:00:49.934+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:49.934+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:00:49.939+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:00:49.950+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:49.950+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:00:49.965+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:49.964+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:30:49.964753+00:00, run_after=2023-11-10T06:30:49.964753+00:00
+[2023-11-10T12:00:49.977+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.053 seconds
+[2023-11-10T12:01:53.554+0530] {processor.py:157} INFO - Started process (PID=196273) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:01:53.561+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:01:53.563+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:53.562+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:01:53.576+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:01:53.601+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:53.601+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:01:53.618+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:53.618+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:31:53.618421+00:00, run_after=2023-11-10T06:31:53.618421+00:00
+[2023-11-10T12:01:53.631+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T12:02:56.878+0530] {processor.py:157} INFO - Started process (PID=196362) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:02:56.885+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:02:56.887+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:56.886+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:02:56.900+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:02:56.924+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:56.924+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:02:56.941+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:56.940+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:32:56.940770+00:00, run_after=2023-11-10T06:32:56.940770+00:00
+[2023-11-10T12:02:56.962+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-11-10T12:04:03.841+0530] {processor.py:157} INFO - Started process (PID=196455) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:04:03.848+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:04:03.851+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:03.850+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:04:03.865+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:04:03.891+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:03.891+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:04:03.908+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:03.907+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:34:03.907789+00:00, run_after=2023-11-10T06:34:03.907789+00:00
+[2023-11-10T12:04:03.921+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-11-10T12:05:13.364+0530] {processor.py:157} INFO - Started process (PID=196551) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:05:13.371+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:05:13.373+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:13.372+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:05:13.387+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:05:13.409+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:13.409+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:05:13.425+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:13.425+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:35:13.425358+00:00, run_after=2023-11-10T06:35:13.425358+00:00
+[2023-11-10T12:05:13.438+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-11-10T12:06:17.580+0530] {processor.py:157} INFO - Started process (PID=196638) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:06:17.587+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:06:17.589+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:17.588+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:06:17.604+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:06:17.629+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:17.629+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:06:17.646+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:17.645+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:36:17.645769+00:00, run_after=2023-11-10T06:36:17.645769+00:00
+[2023-11-10T12:06:17.658+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-11-10T12:07:27.433+0530] {processor.py:157} INFO - Started process (PID=196733) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:07:27.440+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:07:27.442+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:27.441+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:07:27.455+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:07:27.481+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:27.481+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:07:27.499+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:27.498+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:37:27.498788+00:00, run_after=2023-11-10T06:37:27.498788+00:00
+[2023-11-10T12:07:27.512+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T12:08:30.476+0530] {processor.py:157} INFO - Started process (PID=196827) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:08:30.483+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:08:30.485+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:30.484+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:08:30.499+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:08:30.523+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:30.522+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:08:30.538+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:30.538+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:38:30.538655+00:00, run_after=2023-11-10T06:38:30.538655+00:00
+[2023-11-10T12:08:30.553+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T12:09:36.327+0530] {processor.py:157} INFO - Started process (PID=196916) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:09:36.334+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:09:36.336+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:36.336+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:09:36.351+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:09:36.375+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:36.374+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:09:36.390+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:36.390+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:39:36.390556+00:00, run_after=2023-11-10T06:39:36.390556+00:00
+[2023-11-10T12:09:36.404+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-11-10T12:10:42.081+0530] {processor.py:157} INFO - Started process (PID=197007) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:10:42.088+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:10:42.090+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:42.089+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:10:42.105+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:10:42.127+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:42.127+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:10:42.143+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:42.143+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:40:42.143141+00:00, run_after=2023-11-10T06:40:42.143141+00:00
+[2023-11-10T12:10:42.160+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T12:11:51.038+0530] {processor.py:157} INFO - Started process (PID=197099) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:11:51.039+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:11:51.039+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:51.039+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:11:51.043+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:11:51.054+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:51.054+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:11:51.067+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:51.067+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:41:51.067208+00:00, run_after=2023-11-10T06:41:51.067208+00:00
+[2023-11-10T12:11:51.080+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2023-11-10T12:13:02.168+0530] {processor.py:157} INFO - Started process (PID=197295) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:13:02.175+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:13:02.177+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:02.176+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:13:02.191+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:13:02.216+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:02.216+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:13:02.233+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:02.233+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:43:02.233006+00:00, run_after=2023-11-10T06:43:02.233006+00:00
+[2023-11-10T12:13:02.247+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T12:14:06.177+0530] {processor.py:157} INFO - Started process (PID=197384) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:14:06.177+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:14:06.178+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:06.178+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:14:06.184+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:14:06.197+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:06.197+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:14:06.214+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:06.214+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:44:06.214161+00:00, run_after=2023-11-10T06:44:06.214161+00:00
+[2023-11-10T12:14:06.227+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.053 seconds
+[2023-11-10T12:15:13.190+0530] {processor.py:157} INFO - Started process (PID=197481) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:15:13.197+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:15:13.199+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:13.199+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:15:13.215+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:15:13.241+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:13.241+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:15:13.258+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:13.257+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:45:13.257790+00:00, run_after=2023-11-10T06:45:13.257790+00:00
+[2023-11-10T12:15:13.272+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2023-11-10T12:16:18.358+0530] {processor.py:157} INFO - Started process (PID=197571) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:16:18.364+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:16:18.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:18.365+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:16:18.370+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:16:18.383+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:18.383+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:16:18.398+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:18.398+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:46:18.398370+00:00, run_after=2023-11-10T06:46:18.398370+00:00
+[2023-11-10T12:16:18.412+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2023-11-10T12:17:24.324+0530] {processor.py:157} INFO - Started process (PID=197670) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:17:24.331+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:17:24.331+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:24.331+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:17:24.336+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:17:24.350+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:24.349+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:17:24.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:24.365+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:47:24.365431+00:00, run_after=2023-11-10T06:47:24.365431+00:00
+[2023-11-10T12:17:24.379+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.058 seconds
+[2023-11-10T12:18:34.145+0530] {processor.py:157} INFO - Started process (PID=197766) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:18:34.152+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:18:34.153+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:34.153+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:18:34.159+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:18:34.176+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:34.176+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:18:34.194+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:34.194+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:48:34.194425+00:00, run_after=2023-11-10T06:48:34.194425+00:00
+[2023-11-10T12:18:34.208+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-11-10T12:19:42.186+0530] {processor.py:157} INFO - Started process (PID=197859) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:19:42.187+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:19:42.187+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:42.187+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:19:42.191+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:19:42.202+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:42.202+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:19:42.216+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:42.216+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:49:42.215885+00:00, run_after=2023-11-10T06:49:42.215885+00:00
+[2023-11-10T12:19:42.229+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2023-11-10T12:20:50.323+0530] {processor.py:157} INFO - Started process (PID=197951) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:20:50.330+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:20:50.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:50.331+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:20:50.346+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:20:50.369+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:50.369+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:20:50.476+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:50.476+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:50:50.476524+00:00, run_after=2023-11-10T06:50:50.476524+00:00
+[2023-11-10T12:20:50.500+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.179 seconds
+[2023-11-10T12:22:01.766+0530] {processor.py:157} INFO - Started process (PID=198043) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:22:01.773+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:22:01.774+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:01.774+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:22:01.779+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:22:01.793+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:01.793+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:22:01.809+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:01.809+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:52:01.809484+00:00, run_after=2023-11-10T06:52:01.809484+00:00
+[2023-11-10T12:22:01.912+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.148 seconds
+[2023-11-10T12:23:15.729+0530] {processor.py:157} INFO - Started process (PID=198145) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:23:15.737+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:23:15.739+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:15.738+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:23:15.753+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:23:15.773+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:15.773+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:23:15.789+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:15.789+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:53:15.789513+00:00, run_after=2023-11-10T06:53:15.789513+00:00
+[2023-11-10T12:23:15.803+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T12:24:30.998+0530] {processor.py:157} INFO - Started process (PID=198246) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:24:31.004+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:24:31.005+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:31.005+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:24:31.009+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:24:31.020+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:31.020+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:24:31.034+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:31.033+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:54:31.033722+00:00, run_after=2023-11-10T06:54:31.033722+00:00
+[2023-11-10T12:24:31.047+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2023-11-10T12:25:46.938+0530] {processor.py:157} INFO - Started process (PID=198352) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:25:46.939+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:25:46.940+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:46.940+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:25:46.950+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:25:47.054+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:47.054+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:25:47.071+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:47.071+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:55:47.071243+00:00, run_after=2023-11-10T06:55:47.071243+00:00
+[2023-11-10T12:25:47.098+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.164 seconds
+[2023-11-10T12:26:57.967+0530] {processor.py:157} INFO - Started process (PID=198451) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:26:57.974+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:26:57.976+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:57.975+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:26:57.990+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:26:58.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:58.010+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:26:58.026+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:58.026+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:56:58.026126+00:00, run_after=2023-11-10T06:56:58.026126+00:00
+[2023-11-10T12:26:58.039+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T12:28:02.773+0530] {processor.py:157} INFO - Started process (PID=198571) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:28:02.779+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:28:02.780+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:02.780+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:28:02.787+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:28:02.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:02.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:28:02.821+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:02.821+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:58:02.821645+00:00, run_after=2023-11-10T06:58:02.821645+00:00
+[2023-11-10T12:28:02.836+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2023-11-10T12:29:10.984+0530] {processor.py:157} INFO - Started process (PID=198715) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:29:10.990+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:29:10.991+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:10.991+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:29:10.995+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:29:11.006+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:11.006+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:29:11.019+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:11.019+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T02:59:11.019575+00:00, run_after=2023-11-10T06:59:11.019575+00:00
+[2023-11-10T12:29:11.033+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2023-11-10T12:30:18.080+0530] {processor.py:157} INFO - Started process (PID=198823) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:30:18.087+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:30:18.088+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:18.087+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:30:18.093+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:30:18.107+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:18.107+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:30:18.126+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:18.125+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:00:18.125722+00:00, run_after=2023-11-10T07:00:18.125722+00:00
+[2023-11-10T12:30:18.141+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2023-11-10T12:31:25.123+0530] {processor.py:157} INFO - Started process (PID=198932) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:31:25.130+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:31:25.131+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:25.131+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:31:25.138+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:31:25.158+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:25.158+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:31:25.177+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:25.177+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:01:25.176862+00:00, run_after=2023-11-10T07:01:25.176862+00:00
+[2023-11-10T12:31:25.190+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-11-10T12:32:34.731+0530] {processor.py:157} INFO - Started process (PID=199049) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:32:34.738+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:32:34.738+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:34.738+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:32:34.745+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:32:34.764+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:34.764+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:32:34.784+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:34.784+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:02:34.784592+00:00, run_after=2023-11-10T07:02:34.784592+00:00
+[2023-11-10T12:32:34.798+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-11-10T12:33:40.254+0530] {processor.py:157} INFO - Started process (PID=199166) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:33:40.261+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:33:40.262+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:40.262+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:33:40.267+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:33:40.281+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:40.280+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:33:40.296+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:40.296+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:03:40.296677+00:00, run_after=2023-11-10T07:03:40.296677+00:00
+[2023-11-10T12:33:40.310+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.058 seconds
+[2023-11-10T12:34:48.813+0530] {processor.py:157} INFO - Started process (PID=199281) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:34:48.820+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:34:48.822+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:48.821+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:34:48.835+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:34:48.861+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:48.861+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:34:48.878+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:48.878+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:04:48.877874+00:00, run_after=2023-11-10T07:04:48.877874+00:00
+[2023-11-10T12:34:48.898+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2023-11-10T12:35:53.151+0530] {processor.py:157} INFO - Started process (PID=199389) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:35:53.152+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:35:53.152+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:53.152+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:35:53.157+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:35:53.169+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:53.169+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:35:53.184+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:53.183+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:05:53.183771+00:00, run_after=2023-11-10T07:05:53.183771+00:00
+[2023-11-10T12:35:53.197+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-11-10T12:37:01.059+0530] {processor.py:157} INFO - Started process (PID=199502) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:37:01.066+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:37:01.068+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:01.068+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:37:01.083+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:37:01.107+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:01.107+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:37:01.124+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:01.123+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:07:01.123799+00:00, run_after=2023-11-10T07:07:01.123799+00:00
+[2023-11-10T12:37:01.137+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T12:38:05.798+0530] {processor.py:157} INFO - Started process (PID=199607) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:38:05.805+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:38:05.806+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:05.805+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:38:05.811+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:38:05.824+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:05.824+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:38:05.840+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:05.840+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:08:05.840108+00:00, run_after=2023-11-10T07:08:05.840108+00:00
+[2023-11-10T12:38:05.853+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2023-11-10T12:39:11.838+0530] {processor.py:157} INFO - Started process (PID=199709) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:39:11.845+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:39:11.847+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:11.847+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:39:11.862+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:39:11.886+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:11.886+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:39:11.902+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:11.902+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:09:11.902663+00:00, run_after=2023-11-10T07:09:11.902663+00:00
+[2023-11-10T12:39:11.916+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T12:40:19.169+0530] {processor.py:157} INFO - Started process (PID=199816) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:40:19.175+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:40:19.176+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:19.176+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:40:19.182+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:40:19.198+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:19.198+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:40:19.221+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:19.221+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:10:19.220447+00:00, run_after=2023-11-10T07:10:19.220447+00:00
+[2023-11-10T12:40:19.237+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2023-11-10T12:41:26.131+0530] {processor.py:157} INFO - Started process (PID=199947) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:41:26.132+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:41:26.132+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:26.132+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:41:26.137+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:41:26.149+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:26.149+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:41:26.164+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:26.164+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:11:26.164584+00:00, run_after=2023-11-10T07:11:26.164584+00:00
+[2023-11-10T12:41:26.178+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2023-11-10T12:42:30.883+0530] {processor.py:157} INFO - Started process (PID=200058) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:42:30.890+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:42:30.892+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:30.891+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:42:30.906+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:42:30.931+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:30.931+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:42:30.948+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:30.948+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:12:30.948254+00:00, run_after=2023-11-10T07:12:30.948254+00:00
+[2023-11-10T12:42:30.962+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-11-10T12:43:39.203+0530] {processor.py:157} INFO - Started process (PID=200168) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:43:39.210+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:43:39.212+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:39.212+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:43:39.226+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:43:39.251+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:39.250+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:43:39.267+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:39.267+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:13:39.267026+00:00, run_after=2023-11-10T07:13:39.267026+00:00
+[2023-11-10T12:43:39.281+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-11-10T12:44:47.057+0530] {processor.py:157} INFO - Started process (PID=200275) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:44:47.064+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-10T12:44:47.066+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:47.065+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:44:47.080+0530] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-10T12:44:47.105+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:47.105+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:44:47.122+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:47.122+0530] {dag.py:3696} INFO - Setting next_dagrun for latest_only to 2023-11-10T03:14:47.121914+00:00, run_after=2023-11-10T07:14:47.121914+00:00
+[2023-11-10T12:44:47.135+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds

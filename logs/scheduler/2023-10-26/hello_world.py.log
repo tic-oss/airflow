@@ -1,0 +1,1113 @@
+[2023-10-26T10:19:50.297+0530] {processor.py:157} INFO - Started process (PID=9337) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:19:50.298+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:19:50.298+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:19:50.298+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:19:50.305+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:19:50.318+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:19:50.318+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:19:50.333+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:19:50.333+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:19:50.346+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T10:20:43.873+0530] {processor.py:157} INFO - Started process (PID=9473) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:20:43.880+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:20:43.881+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:20:43.880+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:20:43.887+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:20:43.897+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:20:43.897+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:20:43.915+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:20:43.915+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:20:43.929+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T10:21:32.579+0530] {processor.py:157} INFO - Started process (PID=9596) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:21:32.586+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:21:32.588+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:21:32.587+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:21:32.595+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:21:32.605+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:21:32.604+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:21:32.621+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:21:32.621+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:21:32.636+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T10:22:24.866+0530] {processor.py:157} INFO - Started process (PID=9694) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:22:24.866+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:22:24.867+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:22:24.867+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:22:24.873+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:22:24.883+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:22:24.883+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:22:24.898+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:22:24.898+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:22:24.913+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.050 seconds
+[2023-10-26T10:23:16.342+0530] {processor.py:157} INFO - Started process (PID=9792) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:23:16.342+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:23:16.343+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:23:16.343+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:23:16.349+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:23:16.360+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:23:16.360+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:23:16.378+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:23:16.378+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:23:16.393+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.053 seconds
+[2023-10-26T10:24:15.487+0530] {processor.py:157} INFO - Started process (PID=9895) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:24:15.494+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:24:15.496+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:24:15.496+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:24:15.515+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:24:15.538+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:24:15.538+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:24:15.556+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:24:15.556+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:24:15.568+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T10:25:23.616+0530] {processor.py:157} INFO - Started process (PID=10106) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:25:23.622+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:25:23.623+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:25:23.623+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:25:23.628+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:25:23.638+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:25:23.637+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:25:23.652+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:25:23.652+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:25:23.665+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T10:26:31.804+0530] {processor.py:157} INFO - Started process (PID=10287) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:26:31.812+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:26:31.814+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:26:31.813+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:26:31.834+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:26:31.852+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:26:31.851+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:26:31.870+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:26:31.870+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:26:31.884+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.086 seconds
+[2023-10-26T10:27:12.898+0530] {processor.py:157} INFO - Started process (PID=10341) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:27:12.905+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:27:12.907+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:27:12.906+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:27:12.927+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:27:12.946+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:27:12.946+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:27:12.964+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:27:12.964+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:27:12.978+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T10:28:05.118+0530] {processor.py:157} INFO - Started process (PID=10429) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:28:05.119+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:28:05.120+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:05.120+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:28:05.128+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:28:05.143+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:05.142+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:28:05.161+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:05.161+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:28:05.175+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T10:28:55.990+0530] {processor.py:157} INFO - Started process (PID=10525) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:28:55.996+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:28:55.997+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:55.996+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:28:56.002+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:28:56.012+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:56.012+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:28:56.027+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:56.027+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:28:56.040+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T10:29:47.454+0530] {processor.py:157} INFO - Started process (PID=10661) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:29:47.461+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:29:47.461+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:29:47.461+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:29:47.466+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:29:47.475+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:29:47.475+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:29:47.489+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:29:47.489+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:29:47.502+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.050 seconds
+[2023-10-26T10:30:45.277+0530] {processor.py:157} INFO - Started process (PID=10814) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:30:45.284+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:30:45.284+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:30:45.284+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:30:45.294+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:30:45.300+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:30:45.299+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:30:45.318+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:30:45.318+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:30:45.332+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.057 seconds
+[2023-10-26T10:31:52.210+0530] {processor.py:157} INFO - Started process (PID=11110) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:31:52.217+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:31:52.218+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:31:52.218+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:31:52.224+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:31:52.234+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:31:52.234+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:31:52.251+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:31:52.251+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:31:52.265+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.056 seconds
+[2023-10-26T10:32:47.772+0530] {processor.py:157} INFO - Started process (PID=11206) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:32:47.779+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:32:47.781+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:32:47.780+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:32:47.800+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:32:47.822+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:32:47.822+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:32:47.840+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:32:47.839+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:32:47.854+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:33:51.958+0530] {processor.py:157} INFO - Started process (PID=11455) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:33:51.964+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:33:51.965+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:33:51.965+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:33:51.970+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:33:51.979+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:33:51.979+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:33:51.994+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:33:51.994+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:33:52.007+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T10:35:04.172+0530] {processor.py:157} INFO - Started process (PID=11694) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:35:04.173+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:35:04.174+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:04.174+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:35:04.184+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:35:04.202+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:04.202+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:35:04.220+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:04.220+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:35:04.234+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.064 seconds
+[2023-10-26T10:35:58.377+0530] {processor.py:157} INFO - Started process (PID=11778) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:35:58.384+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:35:58.387+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:58.386+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:35:58.394+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:35:58.405+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:58.404+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:35:58.420+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:58.420+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:35:58.434+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T10:36:37.575+0530] {processor.py:157} INFO - Started process (PID=11922) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:36:37.575+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:36:37.576+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:36:37.576+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:36:37.581+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:36:37.590+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:36:37.590+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:36:37.605+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:36:37.605+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:36:37.617+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.044 seconds
+[2023-10-26T10:37:32.832+0530] {processor.py:157} INFO - Started process (PID=11999) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:37:32.839+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:37:32.841+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:37:32.840+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:37:32.860+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:37:32.883+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:37:32.883+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:37:32.901+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:37:32.901+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:37:32.913+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:38:39.893+0530] {processor.py:157} INFO - Started process (PID=12156) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:38:39.900+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:38:39.902+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:38:39.901+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:38:39.922+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:38:39.945+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:38:39.944+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:38:39.962+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:38:39.962+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:38:39.975+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:39:43.428+0530] {processor.py:157} INFO - Started process (PID=12302) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:39:43.435+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:39:43.437+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:39:43.437+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:39:43.457+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:39:43.478+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:39:43.478+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:39:43.495+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:39:43.495+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:39:43.508+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T10:40:36.705+0530] {processor.py:157} INFO - Started process (PID=12375) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:40:36.711+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:40:36.712+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:40:36.711+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:40:36.722+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:40:36.740+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:40:36.740+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:40:36.758+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:40:36.758+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:40:36.772+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.069 seconds
+[2023-10-26T10:41:27.775+0530] {processor.py:157} INFO - Started process (PID=12447) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:41:27.782+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:41:27.785+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:41:27.784+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:41:27.805+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:41:27.826+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:41:27.826+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:41:27.844+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:41:27.844+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:41:27.856+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:42:15.883+0530] {processor.py:157} INFO - Started process (PID=12549) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:42:15.890+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:42:15.892+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:42:15.892+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:42:15.913+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:42:15.932+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:42:15.931+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:42:15.948+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:42:15.948+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:42:15.961+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.080 seconds
+[2023-10-26T10:43:05.393+0530] {processor.py:157} INFO - Started process (PID=12722) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:43:05.400+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:43:05.402+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:05.401+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:43:05.421+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:43:05.444+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:05.443+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:43:05.461+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:05.461+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:43:05.474+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:43:53.422+0530] {processor.py:157} INFO - Started process (PID=12813) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:43:53.429+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:43:53.431+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:53.430+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:43:53.450+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:43:53.473+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:53.473+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:43:53.491+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:53.490+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:43:53.504+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:44:44.345+0530] {processor.py:157} INFO - Started process (PID=12903) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:44:44.346+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:44:44.347+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:44:44.346+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:44:44.352+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:44:44.362+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:44:44.362+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:44:44.380+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:44:44.380+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:44:44.393+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.049 seconds
+[2023-10-26T10:45:34.923+0530] {processor.py:157} INFO - Started process (PID=12986) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:45:34.929+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:45:34.930+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:45:34.930+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:45:34.937+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:45:34.948+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:45:34.948+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:45:34.964+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:45:34.964+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:45:34.977+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.057 seconds
+[2023-10-26T10:46:27.304+0530] {processor.py:157} INFO - Started process (PID=13080) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:46:27.311+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:46:27.313+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:46:27.313+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:46:27.333+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:46:27.355+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:46:27.355+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:46:27.372+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:46:27.371+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:46:27.384+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.082 seconds
+[2023-10-26T10:47:20.039+0530] {processor.py:157} INFO - Started process (PID=13265) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:47:20.046+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:47:20.047+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:47:20.046+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:47:20.053+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:47:20.062+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:47:20.062+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:47:20.078+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:47:20.078+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:47:20.092+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T10:48:08.094+0530] {processor.py:157} INFO - Started process (PID=13464) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:48:08.101+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:48:08.101+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:08.101+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:48:08.107+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:48:08.116+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:08.116+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:48:08.134+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:08.133+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:48:08.147+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.055 seconds
+[2023-10-26T10:48:52.575+0530] {processor.py:157} INFO - Started process (PID=13638) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:48:52.576+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:48:52.577+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:52.576+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:48:52.584+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:48:52.596+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:52.595+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:48:52.613+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:52.613+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:48:52.626+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T10:49:49.398+0530] {processor.py:157} INFO - Started process (PID=13719) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:49:49.405+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:49:49.406+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:49:49.405+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:49:49.413+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:49:49.426+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:49:49.426+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:49:49.445+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:49:49.445+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:49:49.460+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.064 seconds
+[2023-10-26T10:50:44.287+0530] {processor.py:157} INFO - Started process (PID=13795) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:50:44.288+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:50:44.289+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:50:44.289+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:50:44.297+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:50:44.310+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:50:44.309+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:50:44.327+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:50:44.327+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:50:44.342+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T10:51:39.405+0530] {processor.py:157} INFO - Started process (PID=13883) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:51:39.412+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:51:39.413+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:51:39.412+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:51:39.420+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:51:39.431+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:51:39.431+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:51:39.449+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:51:39.448+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:51:39.465+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.062 seconds
+[2023-10-26T10:52:31.549+0530] {processor.py:157} INFO - Started process (PID=13955) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:52:31.549+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:52:31.550+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:52:31.550+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:52:31.556+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:52:31.568+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:52:31.568+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:52:31.585+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:52:31.585+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:52:31.599+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T10:53:26.873+0530] {processor.py:157} INFO - Started process (PID=14032) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:53:26.875+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:53:26.876+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:53:26.875+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:53:26.882+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:53:26.893+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:53:26.893+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:53:26.915+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:53:26.914+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:53:26.939+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.067 seconds
+[2023-10-26T10:54:20.449+0530] {processor.py:157} INFO - Started process (PID=14240) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:54:20.450+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:54:20.451+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:54:20.450+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:54:20.457+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:54:20.468+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:54:20.468+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:54:20.486+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:54:20.485+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:54:20.500+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.053 seconds
+[2023-10-26T10:55:14.076+0530] {processor.py:157} INFO - Started process (PID=14329) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:55:14.084+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:55:14.086+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:55:14.085+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:55:14.105+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:55:14.125+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:55:14.124+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:55:14.144+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:55:14.143+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:55:14.157+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T10:56:19.059+0530] {processor.py:157} INFO - Started process (PID=14496) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:56:19.066+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:56:19.067+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:56:19.067+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:56:19.074+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:56:19.086+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:56:19.086+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:56:19.103+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:56:19.103+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:56:19.118+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.062 seconds
+[2023-10-26T10:57:14.673+0530] {processor.py:157} INFO - Started process (PID=14584) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:57:14.674+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:57:14.674+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:14.674+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:57:14.680+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:57:14.689+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:14.689+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:57:14.703+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:14.703+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:57:14.716+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.044 seconds
+[2023-10-26T10:58:15.883+0530] {processor.py:157} INFO - Started process (PID=14817) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:58:15.890+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:58:15.893+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:58:15.892+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:58:15.912+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:58:15.933+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:58:15.933+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:58:15.951+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:58:15.951+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:58:15.964+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T10:59:18.463+0530] {processor.py:157} INFO - Started process (PID=15020) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:59:18.470+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T10:59:18.473+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:59:18.472+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:59:18.481+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T10:59:18.492+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:59:18.492+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:59:18.507+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:59:18.507+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T10:59:18.520+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T11:00:26.290+0530] {processor.py:157} INFO - Started process (PID=15200) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:00:26.296+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:00:26.297+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:00:26.297+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:00:26.302+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:00:26.311+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:00:26.311+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:00:26.326+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:00:26.326+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:00:26.339+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T11:01:27.784+0530] {processor.py:157} INFO - Started process (PID=15378) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:01:27.791+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:01:27.793+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:01:27.792+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:01:27.811+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:01:27.820+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:01:27.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:01:27.835+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:01:27.835+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:01:27.848+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.067 seconds
+[2023-10-26T11:02:22.624+0530] {processor.py:157} INFO - Started process (PID=15467) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:02:22.631+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:02:22.632+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:02:22.631+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:02:22.638+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:02:22.650+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:02:22.650+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:02:22.668+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:02:22.668+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:02:22.680+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T11:03:12.959+0530] {processor.py:157} INFO - Started process (PID=15537) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:03:12.966+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:03:12.969+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:03:12.968+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:03:12.988+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:03:13.008+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:03:13.008+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:03:13.025+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:03:13.025+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:03:13.038+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.081 seconds
+[2023-10-26T11:04:02.590+0530] {processor.py:157} INFO - Started process (PID=15607) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:04:02.597+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:04:02.600+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:02.599+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:04:02.620+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:04:02.638+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:02.638+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:04:02.655+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:02.655+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:04:02.668+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.080 seconds
+[2023-10-26T11:04:52.429+0530] {processor.py:157} INFO - Started process (PID=15727) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:04:52.436+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:04:52.438+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:52.438+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:04:52.458+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:04:52.477+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:52.477+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:04:52.494+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:52.494+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:04:52.509+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.081 seconds
+[2023-10-26T11:05:32.455+0530] {processor.py:157} INFO - Started process (PID=15900) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:05:32.463+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:05:32.466+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:05:32.465+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:05:32.484+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:05:32.500+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:05:32.500+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:05:32.522+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:05:32.522+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:05:32.537+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.089 seconds
+[2023-10-26T11:06:27.523+0530] {processor.py:157} INFO - Started process (PID=15979) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:06:27.532+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:06:27.534+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:06:27.533+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:06:27.552+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:06:27.569+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:06:27.569+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:06:27.588+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:06:27.588+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:06:27.604+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.086 seconds
+[2023-10-26T11:07:17.783+0530] {processor.py:157} INFO - Started process (PID=16047) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:07:17.785+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:07:17.788+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:07:17.787+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:07:17.805+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:07:17.820+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:07:17.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:07:17.839+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:07:17.839+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:07:17.855+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.079 seconds
+[2023-10-26T11:08:10.596+0530] {processor.py:157} INFO - Started process (PID=16127) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:08:10.604+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:08:10.607+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:10.606+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:08:10.621+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:08:10.637+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:10.636+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:08:10.658+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:10.658+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:08:10.676+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.089 seconds
+[2023-10-26T11:09:02.850+0530] {processor.py:157} INFO - Started process (PID=16211) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:09:02.858+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:09:02.860+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:09:02.859+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:09:02.879+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:09:02.894+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:09:02.894+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:09:02.914+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:09:02.914+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:09:02.931+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.089 seconds
+[2023-10-26T11:09:57.182+0530] {processor.py:157} INFO - Started process (PID=16287) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:09:57.190+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:09:57.192+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:09:57.191+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:09:57.211+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:09:57.227+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:09:57.227+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:09:57.245+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:09:57.245+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:09:57.260+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T11:10:50.599+0530] {processor.py:157} INFO - Started process (PID=16364) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:10:50.606+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:10:50.607+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:10:50.606+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:10:50.615+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:10:50.627+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:10:50.627+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:10:50.644+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:10:50.644+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:10:50.661+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.064 seconds
+[2023-10-26T11:11:42.984+0530] {processor.py:157} INFO - Started process (PID=16438) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:11:42.992+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:11:42.995+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:11:42.994+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:11:43.012+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:11:43.028+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:11:43.028+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:11:43.049+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:11:43.049+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:11:43.065+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.090 seconds
+[2023-10-26T11:12:34.499+0530] {processor.py:157} INFO - Started process (PID=16504) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:12:34.501+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:12:34.502+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:12:34.502+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:12:34.518+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:12:34.534+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:12:34.534+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:12:34.554+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:12:34.554+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:12:34.569+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.075 seconds
+[2023-10-26T11:13:28.741+0530] {processor.py:157} INFO - Started process (PID=16579) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:13:28.749+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:13:28.751+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:13:28.750+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:13:28.769+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:13:28.785+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:13:28.784+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:13:28.804+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:13:28.804+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:13:28.819+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.086 seconds
+[2023-10-26T11:14:23.323+0530] {processor.py:157} INFO - Started process (PID=16659) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:14:23.331+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:14:23.333+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:14:23.332+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:14:23.345+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:14:23.359+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:14:23.359+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:14:23.379+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:14:23.379+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:14:23.394+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.076 seconds
+[2023-10-26T11:15:15.205+0530] {processor.py:157} INFO - Started process (PID=16762) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:15:15.205+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:15:15.206+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:15:15.206+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:15:15.213+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:15:15.224+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:15:15.224+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:15:15.242+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:15:15.242+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:15:15.257+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T11:16:10.424+0530] {processor.py:157} INFO - Started process (PID=16841) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:16:10.433+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:16:10.435+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:16:10.434+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:16:10.449+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:16:10.462+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:16:10.462+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:16:10.480+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:16:10.480+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:16:10.498+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T11:17:03.777+0530] {processor.py:157} INFO - Started process (PID=16918) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:17:03.784+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:17:03.785+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:03.785+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:17:03.794+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:17:03.808+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:03.808+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:17:03.827+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:03.827+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:17:03.844+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.075 seconds
+[2023-10-26T11:17:55.233+0530] {processor.py:157} INFO - Started process (PID=16986) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:17:55.240+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:17:55.243+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:55.242+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:17:55.265+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:17:55.285+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:55.285+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:17:55.304+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:55.303+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:17:55.319+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.093 seconds
+[2023-10-26T11:18:48.474+0530] {processor.py:157} INFO - Started process (PID=17060) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:18:48.482+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:18:48.484+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:18:48.483+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:18:48.504+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:18:48.522+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:18:48.522+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:18:48.540+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:18:48.539+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:18:48.555+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.088 seconds
+[2023-10-26T11:19:39.047+0530] {processor.py:157} INFO - Started process (PID=17131) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:19:39.054+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:19:39.055+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:19:39.055+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:19:39.065+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:19:39.079+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:19:39.079+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:19:39.100+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:19:39.100+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:19:39.115+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.072 seconds
+[2023-10-26T11:20:33.814+0530] {processor.py:157} INFO - Started process (PID=17210) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:20:33.822+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:20:33.824+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:20:33.823+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:20:33.841+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:20:33.856+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:20:33.856+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:20:33.875+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:20:33.875+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:20:33.890+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T11:21:27.381+0530] {processor.py:157} INFO - Started process (PID=17282) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:21:27.388+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:21:27.388+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:21:27.388+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:21:27.396+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:21:27.409+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:21:27.408+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:21:27.430+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:21:27.429+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:21:27.448+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.069 seconds
+[2023-10-26T11:22:20.652+0530] {processor.py:157} INFO - Started process (PID=17364) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:22:20.660+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:22:20.663+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:22:20.662+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:22:20.682+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:22:20.700+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:22:20.700+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:22:20.719+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:22:20.719+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:22:20.735+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.090 seconds
+[2023-10-26T11:23:11.335+0530] {processor.py:157} INFO - Started process (PID=17432) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:23:11.342+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:23:11.344+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:23:11.343+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:23:11.355+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:23:11.368+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:23:11.368+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:23:11.387+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:23:11.387+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:23:11.403+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.073 seconds
+[2023-10-26T11:24:03.608+0530] {processor.py:157} INFO - Started process (PID=17507) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:24:03.610+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:24:03.612+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:03.611+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:24:03.627+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:24:03.642+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:03.642+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:24:03.660+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:03.660+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:24:03.678+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.077 seconds
+[2023-10-26T11:24:54.529+0530] {processor.py:157} INFO - Started process (PID=17586) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:24:54.530+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:24:54.531+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:54.530+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:24:54.538+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:24:54.551+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:54.550+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:24:54.569+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:54.569+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:24:54.585+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T11:25:43.053+0530] {processor.py:157} INFO - Started process (PID=17662) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:25:43.061+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:25:43.063+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:25:43.062+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:25:43.081+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:25:43.096+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:25:43.096+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:25:43.114+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:25:43.114+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:25:43.136+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.091 seconds
+[2023-10-26T11:26:31.843+0530] {processor.py:157} INFO - Started process (PID=17744) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:26:31.844+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:26:31.845+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:26:31.845+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:26:31.852+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:26:31.866+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:26:31.865+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:26:31.884+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:26:31.884+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:26:31.900+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T11:27:19.878+0530] {processor.py:157} INFO - Started process (PID=17829) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:27:19.886+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:27:19.888+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:27:19.887+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:27:19.906+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:27:19.929+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:27:19.929+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:27:19.947+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:27:19.947+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:27:19.960+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T11:28:11.355+0530] {processor.py:157} INFO - Started process (PID=17949) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:28:11.362+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:28:11.363+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:28:11.363+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:28:11.372+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:28:11.383+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:28:11.383+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:28:11.399+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:28:11.399+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:28:11.412+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.064 seconds
+[2023-10-26T11:29:01.150+0530] {processor.py:157} INFO - Started process (PID=18021) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:29:01.156+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:29:01.157+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:01.157+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:29:01.162+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:29:01.172+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:01.171+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:29:01.186+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:01.186+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:29:01.200+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T11:29:50.238+0530] {processor.py:157} INFO - Started process (PID=18099) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:29:50.244+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:29:50.245+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:50.245+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:29:50.252+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:29:50.262+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:50.262+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:29:50.279+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:50.278+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:29:50.291+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.056 seconds
+[2023-10-26T11:30:40.134+0530] {processor.py:157} INFO - Started process (PID=18190) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:30:40.141+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:30:40.141+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:30:40.141+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:30:40.147+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:30:40.156+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:30:40.156+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:30:40.171+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:30:40.171+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:30:40.184+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T11:31:26.283+0530] {processor.py:157} INFO - Started process (PID=18292) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:31:26.290+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:31:26.291+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:31:26.291+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:31:26.297+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:31:26.306+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:31:26.306+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:31:26.321+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:31:26.321+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:31:26.334+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T11:32:17.016+0530] {processor.py:157} INFO - Started process (PID=18397) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:32:17.023+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:32:17.025+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:32:17.024+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:32:17.044+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:32:17.066+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:32:17.066+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:32:17.084+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:32:17.084+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:32:17.098+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.085 seconds
+[2023-10-26T11:33:06.147+0530] {processor.py:157} INFO - Started process (PID=18520) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:33:06.147+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:33:06.148+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:33:06.148+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:33:06.153+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:33:06.163+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:33:06.163+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:33:06.179+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:33:06.179+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:33:06.192+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.047 seconds
+[2023-10-26T11:33:53.613+0530] {processor.py:157} INFO - Started process (PID=18649) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:33:53.620+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:33:53.622+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:33:53.621+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:33:53.641+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:33:53.663+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:33:53.663+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:33:53.681+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:33:53.681+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:33:53.695+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.085 seconds
+[2023-10-26T11:34:40.419+0530] {processor.py:157} INFO - Started process (PID=18718) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:34:40.425+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:34:40.426+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:34:40.426+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:34:40.432+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:34:40.441+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:34:40.441+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:34:40.457+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:34:40.457+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:34:40.471+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T11:35:41.170+0530] {processor.py:157} INFO - Started process (PID=18885) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:35:41.171+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:35:41.172+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:35:41.171+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:35:41.177+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:35:41.189+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:35:41.189+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:35:41.207+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:35:41.207+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:35:41.221+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.053 seconds
+[2023-10-26T11:36:37.877+0530] {processor.py:157} INFO - Started process (PID=18986) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:36:37.883+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:36:37.884+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:36:37.884+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:36:37.889+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:36:37.899+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:36:37.899+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:36:37.914+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:36:37.914+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:36:37.927+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T11:37:28.331+0530] {processor.py:157} INFO - Started process (PID=19135) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:37:28.331+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:37:28.332+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:37:28.332+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:37:28.337+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:37:28.347+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:37:28.347+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:37:28.363+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:37:28.362+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:37:28.376+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.047 seconds
+[2023-10-26T11:38:18.588+0530] {processor.py:157} INFO - Started process (PID=19217) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:38:18.595+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:38:18.595+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:38:18.595+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:38:18.603+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:38:18.613+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:38:18.613+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:38:18.629+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:38:18.629+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:38:18.644+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T11:39:11.453+0530] {processor.py:157} INFO - Started process (PID=19298) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:39:11.460+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:39:11.461+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:39:11.460+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:39:11.467+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:39:11.486+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:39:11.485+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:39:11.514+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:39:11.514+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:39:11.532+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.081 seconds
+[2023-10-26T11:40:02.606+0530] {processor.py:157} INFO - Started process (PID=19380) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:40:02.612+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:40:02.613+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:40:02.613+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:40:02.619+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:40:02.629+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:40:02.628+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:40:02.643+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:40:02.643+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:40:02.656+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T11:40:54.613+0530] {processor.py:157} INFO - Started process (PID=19480) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:40:54.613+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:40:54.614+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:40:54.614+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:40:54.620+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:40:54.630+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:40:54.630+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:40:54.645+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:40:54.645+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:40:54.658+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.048 seconds
+[2023-10-26T11:41:52.906+0530] {processor.py:157} INFO - Started process (PID=19630) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:41:52.912+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:41:52.913+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:41:52.912+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:41:52.918+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:41:52.927+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:41:52.927+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:41:52.941+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:41:52.941+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:41:52.953+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.049 seconds
+[2023-10-26T11:43:01.990+0530] {processor.py:157} INFO - Started process (PID=19811) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:43:01.997+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:43:01.997+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:01.997+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:43:02.003+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:43:02.013+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:02.013+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:43:02.027+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:02.027+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:43:02.039+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T11:43:58.046+0530] {processor.py:157} INFO - Started process (PID=19894) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:43:58.053+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:43:58.055+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:58.054+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:43:58.074+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:43:58.093+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:58.093+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:43:58.109+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:58.109+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:43:58.122+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.078 seconds
+[2023-10-26T11:44:47.841+0530] {processor.py:157} INFO - Started process (PID=19962) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:44:47.848+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:44:47.850+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:44:47.849+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:44:47.870+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:44:47.888+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:44:47.888+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:44:47.977+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:44:47.977+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:44:48.003+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.165 seconds
+[2023-10-26T11:45:41.930+0530] {processor.py:157} INFO - Started process (PID=20048) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:45:41.936+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:45:41.938+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:45:41.937+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:45:41.945+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:45:41.955+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:45:41.954+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:45:41.970+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:45:41.969+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:45:42.065+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.138 seconds
+[2023-10-26T11:46:37.753+0530] {processor.py:157} INFO - Started process (PID=20128) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:46:37.759+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:46:37.760+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:46:37.760+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:46:37.765+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:46:37.776+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:46:37.776+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:46:37.791+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:46:37.791+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:46:37.804+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.053 seconds
+[2023-10-26T11:47:36.183+0530] {processor.py:157} INFO - Started process (PID=20217) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:47:36.184+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:47:36.185+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:47:36.184+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:47:36.191+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:47:36.201+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:47:36.200+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:47:36.217+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:47:36.216+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:47:36.230+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.049 seconds
+[2023-10-26T11:48:34.419+0530] {processor.py:157} INFO - Started process (PID=20315) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:48:34.426+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:48:34.428+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:48:34.427+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:48:34.436+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:48:34.445+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:48:34.445+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:48:34.539+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:48:34.539+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:48:34.564+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.147 seconds
+[2023-10-26T11:49:18.887+0530] {processor.py:157} INFO - Started process (PID=20446) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:49:18.894+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:49:18.894+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:49:18.894+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:49:18.901+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:49:18.906+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:49:18.906+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:49:18.922+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:49:18.921+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:49:18.934+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.048 seconds
+[2023-10-26T11:50:10.908+0530] {processor.py:157} INFO - Started process (PID=20538) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:50:10.915+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:50:10.917+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:50:10.916+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:50:10.936+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:50:10.956+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:50:10.956+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:50:10.974+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:50:10.974+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:50:10.988+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T11:51:08.891+0530] {processor.py:157} INFO - Started process (PID=20701) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:51:08.898+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:51:08.899+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:08.899+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:51:08.907+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:51:08.921+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:08.921+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:51:08.942+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:08.942+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:51:08.955+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.067 seconds
+[2023-10-26T11:52:02.289+0530] {processor.py:157} INFO - Started process (PID=20830) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:52:02.295+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:52:02.297+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:52:02.297+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:52:02.316+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:52:02.338+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:52:02.337+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:52:02.355+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:52:02.355+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:52:02.368+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.082 seconds
+[2023-10-26T11:52:53.524+0530] {processor.py:157} INFO - Started process (PID=20897) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:52:53.531+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:52:53.533+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:52:53.532+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:52:53.552+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:52:53.571+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:52:53.571+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:52:53.588+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:52:53.588+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:52:53.601+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.079 seconds
+[2023-10-26T11:53:45.685+0530] {processor.py:157} INFO - Started process (PID=20979) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:53:45.688+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:53:45.690+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:53:45.689+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:53:45.710+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:53:45.731+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:53:45.731+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:53:45.749+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:53:45.749+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:53:45.764+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.081 seconds
+[2023-10-26T11:54:39.374+0530] {processor.py:157} INFO - Started process (PID=21047) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:54:39.381+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:54:39.383+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:54:39.382+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:54:39.403+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:54:39.427+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:54:39.426+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:54:39.443+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:54:39.443+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:54:39.456+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.085 seconds
+[2023-10-26T11:55:29.847+0530] {processor.py:157} INFO - Started process (PID=21117) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:55:29.854+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:55:29.855+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:55:29.855+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:55:29.863+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:55:29.874+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:55:29.873+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:55:29.889+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:55:29.888+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:55:29.902+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.057 seconds
+[2023-10-26T11:56:07.262+0530] {processor.py:157} INFO - Started process (PID=21232) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:56:07.268+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:56:07.269+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:56:07.269+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:56:07.274+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:56:07.284+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:56:07.284+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:56:07.298+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:56:07.298+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:56:07.311+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T11:57:01.532+0530] {processor.py:157} INFO - Started process (PID=21310) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:57:01.539+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:57:01.539+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:57:01.539+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:57:01.544+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:57:01.553+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:57:01.553+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:57:01.567+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:57:01.567+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:57:01.580+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.049 seconds
+[2023-10-26T11:57:46.832+0530] {processor.py:157} INFO - Started process (PID=21408) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:57:46.838+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:57:46.839+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:57:46.839+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:57:46.844+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:57:46.853+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:57:46.853+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:57:46.867+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:57:46.867+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:57:46.879+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.050 seconds
+[2023-10-26T11:58:34.226+0530] {processor.py:157} INFO - Started process (PID=21487) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:58:34.227+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:58:34.227+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:58:34.227+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:58:34.234+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:58:34.247+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:58:34.247+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:58:34.265+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:58:34.265+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:58:34.278+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T11:59:24.281+0530] {processor.py:157} INFO - Started process (PID=21560) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:59:24.282+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T11:59:24.283+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:59:24.282+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:59:24.289+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T11:59:24.305+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:59:24.304+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:59:24.322+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:59:24.322+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T11:59:24.342+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.063 seconds
+[2023-10-26T12:00:39.662+0530] {processor.py:157} INFO - Started process (PID=21754) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:00:39.668+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:00:39.669+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:00:39.669+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:00:39.675+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:00:39.685+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:00:39.685+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:00:39.700+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:00:39.700+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:00:39.714+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T12:01:29.136+0530] {processor.py:157} INFO - Started process (PID=21829) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:01:29.143+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:01:29.145+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:01:29.144+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:01:29.164+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:01:29.182+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:01:29.182+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:01:29.199+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:01:29.199+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:01:29.211+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.078 seconds
+[2023-10-26T12:02:17.029+0530] {processor.py:157} INFO - Started process (PID=21901) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:02:17.036+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:02:17.037+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:02:17.037+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:02:17.056+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:02:17.077+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:02:17.076+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:02:17.093+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:02:17.093+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:02:17.106+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.079 seconds
+[2023-10-26T12:03:07.078+0530] {processor.py:157} INFO - Started process (PID=21970) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:03:07.085+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:03:07.086+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:03:07.085+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:03:07.091+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:03:07.101+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:03:07.101+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:03:07.117+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:03:07.116+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:03:07.130+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.053 seconds
+[2023-10-26T12:04:09.233+0530] {processor.py:157} INFO - Started process (PID=22093) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:04:09.240+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:04:09.240+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:04:09.240+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:04:09.250+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:04:09.256+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:04:09.256+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:04:09.275+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:04:09.275+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:04:09.287+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.057 seconds
+[2023-10-26T12:05:10.358+0530] {processor.py:157} INFO - Started process (PID=22249) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:05:10.359+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:05:10.359+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:05:10.359+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:05:10.365+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:05:10.375+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:05:10.375+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:05:10.391+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:05:10.391+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:05:10.405+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.049 seconds
+[2023-10-26T12:06:06.059+0530] {processor.py:157} INFO - Started process (PID=22365) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:06:06.066+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:06:06.068+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:06.067+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:06:06.076+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:06:06.086+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:06.086+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:06:06.102+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:06.101+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:06:06.116+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T12:06:56.740+0530] {processor.py:157} INFO - Started process (PID=22682) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:06:56.741+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:06:56.742+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:56.742+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:06:56.747+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:06:56.757+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:56.757+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:06:56.771+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:56.771+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:06:56.784+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.046 seconds
+[2023-10-26T12:07:46.559+0530] {processor.py:157} INFO - Started process (PID=22829) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:07:46.560+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:07:46.560+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:07:46.560+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:07:46.566+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:07:46.576+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:07:46.576+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:07:46.592+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:07:46.591+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:07:46.605+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.047 seconds
+[2023-10-26T12:08:36.497+0530] {processor.py:157} INFO - Started process (PID=22921) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:08:36.498+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:08:36.498+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:08:36.498+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:08:36.506+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:08:36.521+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:08:36.521+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:08:36.539+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:08:36.538+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:08:36.552+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T12:09:26.282+0530] {processor.py:157} INFO - Started process (PID=22993) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:09:26.289+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:09:26.291+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:09:26.290+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:09:26.310+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:09:26.332+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:09:26.332+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:09:26.350+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:09:26.350+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:09:26.363+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.083 seconds
+[2023-10-26T12:10:16.787+0530] {processor.py:157} INFO - Started process (PID=23057) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:10:16.794+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:10:16.796+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:10:16.796+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:10:16.816+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:10:16.836+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:10:16.835+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:10:16.853+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:10:16.853+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:10:16.874+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.089 seconds
+[2023-10-26T12:11:08.229+0530] {processor.py:157} INFO - Started process (PID=23125) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:11:08.237+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:11:08.239+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:08.238+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:11:08.251+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:11:08.265+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:08.265+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:11:08.281+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:08.281+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:11:08.295+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.072 seconds
+[2023-10-26T12:11:58.612+0530] {processor.py:157} INFO - Started process (PID=23194) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:11:58.619+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:11:58.621+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:58.620+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:11:58.640+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:11:58.660+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:58.660+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:11:58.678+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:58.678+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:11:58.691+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.081 seconds
+[2023-10-26T12:12:46.440+0530] {processor.py:157} INFO - Started process (PID=23261) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:12:46.448+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:12:46.450+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:12:46.449+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:12:46.469+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:12:46.490+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:12:46.490+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:12:46.507+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:12:46.507+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:12:46.521+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.082 seconds
+[2023-10-26T12:13:39.214+0530] {processor.py:157} INFO - Started process (PID=23332) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:13:39.220+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:13:39.222+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:13:39.221+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:13:39.227+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:13:39.238+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:13:39.238+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:13:39.253+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:13:39.253+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:13:39.267+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.055 seconds
+[2023-10-26T12:14:26.454+0530] {processor.py:157} INFO - Started process (PID=23516) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:14:26.460+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:14:26.461+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:14:26.461+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:14:26.466+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:14:26.476+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:14:26.476+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:14:26.491+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:14:26.491+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:14:26.504+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T12:15:13.447+0530] {processor.py:157} INFO - Started process (PID=23607) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:15:13.454+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:15:13.455+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:13.454+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:15:13.464+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:15:13.482+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:13.482+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:15:13.502+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:13.502+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:15:13.515+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.071 seconds
+[2023-10-26T12:15:58.741+0530] {processor.py:157} INFO - Started process (PID=23700) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:15:58.742+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T12:15:58.743+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:58.742+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:15:58.751+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T12:15:58.767+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:58.766+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:15:58.786+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:58.785+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-25T12:00:00+00:00, run_after=2023-10-26T12:00:00+00:00
+[2023-10-26T12:15:58.798+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T19:03:42.127+0530] {processor.py:157} INFO - Started process (PID=7541) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:03:42.134+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:03:42.135+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:03:42.134+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:03:42.149+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:03:42.158+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:03:42.158+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:03:42.180+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:03:42.180+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:03:42.192+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.068 seconds
+[2023-10-26T19:04:36.939+0530] {processor.py:157} INFO - Started process (PID=7637) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:04:36.940+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:04:36.940+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:04:36.940+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:04:36.947+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:04:36.957+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:04:36.957+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:04:36.972+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:04:36.972+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:04:36.984+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.047 seconds
+[2023-10-26T19:05:43.034+0530] {processor.py:157} INFO - Started process (PID=8094) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:05:43.035+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:05:43.035+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:05:43.035+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:05:43.042+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:05:43.054+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:05:43.053+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:05:43.070+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:05:43.070+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:05:43.084+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T19:06:44.420+0530] {processor.py:157} INFO - Started process (PID=8610) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:06:44.421+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:06:44.421+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:06:44.421+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:06:44.428+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:06:44.441+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:06:44.441+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:06:44.459+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:06:44.459+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:06:44.474+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.057 seconds
+[2023-10-26T19:07:33.904+0530] {processor.py:157} INFO - Started process (PID=8675) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:07:33.911+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:07:33.913+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:07:33.912+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:07:33.933+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:07:33.953+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:07:33.953+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:07:33.971+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:07:33.971+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:07:33.985+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.084 seconds
+[2023-10-26T19:08:25.465+0530] {processor.py:157} INFO - Started process (PID=9094) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:08:25.472+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:08:25.472+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:08:25.472+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:08:25.478+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:08:25.489+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:08:25.489+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:08:25.505+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:08:25.505+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:08:25.519+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.056 seconds
+[2023-10-26T19:09:14.329+0530] {processor.py:157} INFO - Started process (PID=9262) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:09:14.331+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:09:14.332+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:14.332+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:09:14.346+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:09:14.361+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:14.361+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:09:14.377+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:14.377+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:09:14.391+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.067 seconds
+[2023-10-26T19:10:05.769+0530] {processor.py:157} INFO - Started process (PID=9415) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:10:05.770+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:10:05.770+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:10:05.770+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:10:05.776+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:10:05.785+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:10:05.785+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:10:05.799+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:10:05.799+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:10:05.812+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.045 seconds
+[2023-10-26T19:11:44.427+0530] {processor.py:157} INFO - Started process (PID=9710) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:11:44.427+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:11:44.428+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:11:44.428+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:11:44.434+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:11:44.444+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:11:44.444+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:11:44.460+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:11:44.460+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:11:44.474+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.049 seconds
+[2023-10-26T19:12:34.729+0530] {processor.py:157} INFO - Started process (PID=9848) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:12:34.736+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:12:34.738+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:12:34.738+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:12:34.758+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:12:34.775+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:12:34.775+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:12:34.790+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:12:34.790+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:12:34.802+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.075 seconds
+[2023-10-26T19:13:27.379+0530] {processor.py:157} INFO - Started process (PID=9948) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:13:27.380+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:13:27.381+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:13:27.380+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:13:27.387+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:13:27.397+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:13:27.397+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:13:27.417+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:13:27.417+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:13:27.431+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T19:14:16.479+0530] {processor.py:157} INFO - Started process (PID=10015) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:14:16.485+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:14:16.486+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:14:16.486+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:14:16.491+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:14:16.501+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:14:16.500+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:14:16.515+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:14:16.515+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:14:16.527+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T19:15:04.334+0530] {processor.py:157} INFO - Started process (PID=10081) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:15:04.335+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:15:04.335+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:04.335+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:15:04.342+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:15:04.355+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:04.354+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:15:04.370+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:04.370+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:15:04.383+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T19:15:57.950+0530] {processor.py:157} INFO - Started process (PID=10158) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:15:57.957+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:15:57.959+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:57.958+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:15:57.978+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:15:57.998+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:57.998+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:15:58.016+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:58.016+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:15:58.028+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.080 seconds
+[2023-10-26T19:16:49.760+0530] {processor.py:157} INFO - Started process (PID=10225) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:16:49.767+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:16:49.768+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:16:49.767+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:16:49.777+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:16:49.793+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:16:49.793+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:16:49.811+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:16:49.810+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:16:49.824+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.066 seconds
+[2023-10-26T19:17:36.890+0530] {processor.py:157} INFO - Started process (PID=10320) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:17:36.897+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:17:36.900+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:17:36.899+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:17:36.908+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:17:36.918+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:17:36.918+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:17:36.933+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:17:36.933+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:17:36.947+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.059 seconds
+[2023-10-26T19:18:28.872+0530] {processor.py:157} INFO - Started process (PID=10399) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:18:28.873+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:18:28.874+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:18:28.873+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:18:28.881+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:18:28.895+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:18:28.895+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:18:28.913+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:18:28.913+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:18:28.926+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.056 seconds
+[2023-10-26T19:19:18.567+0530] {processor.py:157} INFO - Started process (PID=10477) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:19:18.574+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:19:18.576+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:19:18.575+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:19:18.595+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:19:18.614+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:19:18.613+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:19:18.631+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:19:18.631+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:19:18.644+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.079 seconds
+[2023-10-26T19:20:10.313+0530] {processor.py:157} INFO - Started process (PID=10557) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:20:10.320+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:20:10.321+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:10.320+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:20:10.326+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:20:10.336+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:10.336+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:20:10.351+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:10.351+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:20:10.364+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.052 seconds
+[2023-10-26T19:20:58.840+0530] {processor.py:157} INFO - Started process (PID=10635) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:20:58.846+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:20:58.847+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:58.847+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:20:58.852+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:20:58.861+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:58.861+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:20:58.876+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:58.876+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:20:58.889+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.051 seconds
+[2023-10-26T19:21:47.413+0530] {processor.py:157} INFO - Started process (PID=10716) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:21:47.420+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:21:47.421+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:21:47.420+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:21:47.427+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:21:47.439+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:21:47.439+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:21:47.456+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:21:47.456+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:21:47.470+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T19:22:39.938+0530] {processor.py:157} INFO - Started process (PID=10802) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:22:39.945+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:22:39.946+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:22:39.945+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:22:39.953+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:22:39.965+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:22:39.964+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:22:39.981+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:22:39.981+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:22:39.994+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.058 seconds
+[2023-10-26T19:23:30.412+0530] {processor.py:157} INFO - Started process (PID=10879) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:23:30.419+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:23:30.420+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:23:30.420+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:23:30.428+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:23:30.437+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:23:30.437+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:23:30.452+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:23:30.452+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:23:30.464+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.055 seconds
+[2023-10-26T19:24:14.442+0530] {processor.py:157} INFO - Started process (PID=10952) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:24:14.449+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:24:14.451+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:24:14.450+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:24:14.459+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:24:14.468+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:24:14.468+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:24:14.482+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:24:14.482+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:24:14.495+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.054 seconds
+[2023-10-26T19:25:05.652+0530] {processor.py:157} INFO - Started process (PID=11034) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:25:05.659+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:25:05.659+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:05.659+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:25:05.665+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:25:05.674+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:05.674+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:25:05.688+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:05.688+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:25:05.700+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.050 seconds
+[2023-10-26T19:25:53.757+0530] {processor.py:157} INFO - Started process (PID=11130) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:25:53.764+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:25:53.764+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:53.764+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:25:53.771+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:25:53.785+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:53.784+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:25:53.807+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:53.807+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:25:53.823+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.068 seconds
+[2023-10-26T19:28:55.156+0530] {processor.py:157} INFO - Started process (PID=12482) to work on /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:28:55.156+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_world.py for tasks to queue
+[2023-10-26T19:28:55.157+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:28:55.157+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:28:55.168+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_world.py
+[2023-10-26T19:28:55.175+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:28:55.175+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:28:55.197+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:28:55.197+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-26T12:00:00+00:00, run_after=2023-10-27T12:00:00+00:00
+[2023-10-26T19:28:55.217+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_world.py took 0.063 seconds

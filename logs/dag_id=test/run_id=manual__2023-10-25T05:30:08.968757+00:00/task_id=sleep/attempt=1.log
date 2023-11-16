@@ -1,0 +1,16 @@
+[2023-10-25T11:00:49.555+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test.sleep manual__2023-10-25T05:30:08.968757+00:00 [queued]>
+[2023-10-25T11:00:49.560+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test.sleep manual__2023-10-25T05:30:08.968757+00:00 [queued]>
+[2023-10-25T11:00:49.560+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2023-10-25T11:00:49.570+0530] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): sleep> on 2023-10-25 05:30:08.968757+00:00
+[2023-10-25T11:00:49.574+0530] {standard_task_runner.py:57} INFO - Started process 30920 to run task
+[2023-10-25T11:00:49.576+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test', 'sleep', 'manual__2023-10-25T05:30:08.968757+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpvie988w6']
+[2023-10-25T11:00:49.577+0530] {standard_task_runner.py:85} INFO - Job 142: Subtask sleep
+[2023-10-25T11:00:49.600+0530] {task_command.py:415} INFO - Running <TaskInstance: test.sleep manual__2023-10-25T05:30:08.968757+00:00 [running]> on host harika-Latitude-5511
+[2023-10-25T11:00:49.636+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test' AIRFLOW_CTX_TASK_ID='sleep' AIRFLOW_CTX_EXECUTION_DATE='2023-10-25T05:30:08.968757+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-25T05:30:08.968757+00:00'
+[2023-10-25T11:00:49.637+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-10-25T11:00:49.638+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 5']
+[2023-10-25T11:00:49.644+0530] {subprocess.py:86} INFO - Output:
+[2023-10-25T11:00:54.646+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-25T11:00:54.683+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=test, task_id=sleep, execution_date=20231025T053008, start_date=20231025T053049, end_date=20231025T053054
+[2023-10-25T11:00:54.730+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T11:00:54.754+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

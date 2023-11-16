@@ -1,0 +1,174 @@
+[2023-11-16T16:05:10.767+0530] {processor.py:157} INFO - Started process (PID=146436) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:05:10.767+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:05:10.768+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:10.768+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:05:10.775+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:05:10.848+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:10.848+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hooks_demo' as access control is unset.
+[2023-11-16T16:05:10.849+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:10.848+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:05:10.863+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:10.863+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:05:10.885+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.120 seconds
+[2023-11-16T16:05:46.916+0530] {processor.py:157} INFO - Started process (PID=146507) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:05:46.917+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:05:46.918+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:46.917+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:05:46.924+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:05:46.936+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:46.936+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:05:46.956+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:05:46.956+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:05:46.982+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.068 seconds
+[2023-11-16T16:06:20.538+0530] {processor.py:157} INFO - Started process (PID=146557) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:06:20.539+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:06:20.539+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:06:20.539+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:06:20.547+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:06:20.624+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:06:20.624+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hooks_demo' as access control is unset.
+[2023-11-16T16:06:20.624+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:06:20.624+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:06:20.633+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:06:20.633+0530] {dag.py:2937} INFO - Creating ORM DAG for hooks_demo
+[2023-11-16T16:06:20.641+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:06:20.640+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-03T00:00:00+00:00, run_after=2023-11-04T00:00:00+00:00
+[2023-11-16T16:06:20.661+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.126 seconds
+[2023-11-16T16:07:45.098+0530] {processor.py:157} INFO - Started process (PID=147166) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:07:45.105+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:07:45.106+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:07:45.106+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:07:45.114+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:07:45.129+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:07:45.129+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:07:45.146+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:07:45.146+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:07:45.159+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.064 seconds
+[2023-11-16T16:08:39.165+0530] {processor.py:157} INFO - Started process (PID=147336) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:08:39.172+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:08:39.173+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:08:39.173+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:08:39.181+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:08:39.197+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:08:39.196+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:08:39.215+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:08:39.215+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:08:39.229+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.067 seconds
+[2023-11-16T16:09:15.342+0530] {processor.py:157} INFO - Started process (PID=147451) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:09:15.350+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:09:15.352+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:09:15.351+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:09:15.369+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:09:15.393+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:09:15.392+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:09:15.413+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:09:15.413+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:09:15.426+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.091 seconds
+[2023-11-16T16:09:50.281+0530] {processor.py:157} INFO - Started process (PID=147534) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:09:50.287+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:09:50.288+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:09:50.288+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:09:50.293+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:09:50.304+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:09:50.304+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:09:50.321+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:09:50.321+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:09:50.336+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.057 seconds
+[2023-11-16T16:10:25.153+0530] {processor.py:157} INFO - Started process (PID=147642) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:10:25.154+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:10:25.155+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:10:25.155+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:10:25.161+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:10:25.174+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:10:25.173+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:10:25.190+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:10:25.190+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:10:25.203+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.053 seconds
+[2023-11-16T16:11:01.254+0530] {processor.py:157} INFO - Started process (PID=147729) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:11:01.262+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:11:01.265+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:11:01.264+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:11:01.281+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:11:01.297+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:11:01.297+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:11:01.313+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:11:01.313+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:11:01.326+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.079 seconds
+[2023-11-16T16:11:39.032+0530] {processor.py:157} INFO - Started process (PID=147810) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:11:39.038+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:11:39.039+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:11:39.039+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:11:39.044+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:11:39.055+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:11:39.055+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:11:39.072+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:11:39.072+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:11:39.086+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.057 seconds
+[2023-11-16T16:12:15.616+0530] {processor.py:157} INFO - Started process (PID=147915) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:12:15.623+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:12:15.625+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:15.624+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:12:15.638+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:12:15.655+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:15.655+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:12:15.672+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:15.672+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:12:15.685+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.075 seconds
+[2023-11-16T16:12:53.823+0530] {processor.py:157} INFO - Started process (PID=148019) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:12:53.831+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:12:53.833+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:53.832+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:12:53.850+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:12:53.923+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:53.923+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hooks_demo' as access control is unset.
+[2023-11-16T16:12:53.923+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:53.923+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:12:53.930+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:53.930+0530] {dag.py:2937} INFO - Creating ORM DAG for hooks_demo
+[2023-11-16T16:12:53.937+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:12:53.937+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-03T00:00:00+00:00, run_after=2023-11-04T00:00:00+00:00
+[2023-11-16T16:12:53.956+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.140 seconds
+[2023-11-16T16:13:26.809+0530] {processor.py:157} INFO - Started process (PID=148097) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:13:26.815+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:13:26.816+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:13:26.816+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:13:26.825+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:13:26.840+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:13:26.840+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:13:26.856+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:13:26.856+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-03T00:00:00+00:00, run_after=2023-11-04T00:00:00+00:00
+[2023-11-16T16:13:26.870+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.064 seconds
+[2023-11-16T16:14:02.416+0530] {processor.py:157} INFO - Started process (PID=148194) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:14:02.423+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:14:02.424+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:02.423+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:14:02.435+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:14:02.457+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:02.457+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:14:02.493+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:02.493+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-03T00:00:00+00:00, run_after=2023-11-04T00:00:00+00:00
+[2023-11-16T16:14:02.527+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.115 seconds
+[2023-11-16T16:14:36.037+0530] {processor.py:157} INFO - Started process (PID=148278) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:14:36.043+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:14:36.044+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:36.044+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:14:36.051+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:14:36.127+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:36.126+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hooks_demo' as access control is unset.
+[2023-11-16T16:14:36.127+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:36.127+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:14:36.143+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:14:36.143+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:14:36.167+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.133 seconds
+[2023-11-16T16:15:10.677+0530] {processor.py:157} INFO - Started process (PID=148379) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:15:10.685+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:15:10.688+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:15:10.687+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:15:10.704+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:15:10.722+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:15:10.721+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:15:10.736+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:15:10.736+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:15:10.750+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.080 seconds
+[2023-11-16T16:15:50.465+0530] {processor.py:157} INFO - Started process (PID=148447) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:15:50.473+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:15:50.475+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:15:50.474+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:15:50.492+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:15:50.511+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:15:50.511+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:15:50.527+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:15:50.527+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:15:50.540+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.082 seconds
+[2023-11-16T16:16:24.128+0530] {processor.py:157} INFO - Started process (PID=148556) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:16:24.130+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:16:24.132+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:16:24.131+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:16:24.149+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:16:24.166+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:16:24.166+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:16:24.183+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:16:24.183+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:16:24.198+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.077 seconds
+[2023-11-16T16:16:58.699+0530] {processor.py:157} INFO - Started process (PID=148658) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:16:58.706+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:16:58.707+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:16:58.706+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:16:58.712+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:16:58.722+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:16:58.722+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:16:58.737+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:16:58.737+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:16:58.750+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.054 seconds
+[2023-11-16T16:17:35.104+0530] {processor.py:157} INFO - Started process (PID=148756) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:17:35.111+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:17:35.113+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:17:35.112+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:17:35.124+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:17:35.139+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:17:35.139+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:17:35.160+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:17:35.159+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:17:35.176+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.075 seconds
+[2023-11-16T16:18:11.080+0530] {processor.py:157} INFO - Started process (PID=148838) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:18:11.082+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:18:11.084+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:18:11.083+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:18:11.096+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:18:11.110+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:18:11.110+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:18:11.126+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:18:11.126+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:18:11.140+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.067 seconds
+[2023-11-16T16:18:46.113+0530] {processor.py:157} INFO - Started process (PID=148912) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:18:46.120+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:18:46.122+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:18:46.122+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:18:46.141+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:18:46.158+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:18:46.157+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:18:46.176+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:18:46.175+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:18:46.190+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.084 seconds
+[2023-11-16T16:19:23.668+0530] {processor.py:157} INFO - Started process (PID=149021) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:19:23.676+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:19:23.678+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:19:23.678+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:19:23.695+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:19:23.712+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:19:23.712+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:19:23.729+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:19:23.728+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:19:23.741+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.080 seconds
+[2023-11-16T16:20:00.154+0530] {processor.py:157} INFO - Started process (PID=149190) to work on /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:20:00.161+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hooks_demo.py for tasks to queue
+[2023-11-16T16:20:00.162+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:20:00.161+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:20:00.170+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hooks_demo']) retrieved from /home/harika/airflow/dags/hooks_demo.py
+[2023-11-16T16:20:00.183+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:20:00.183+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-16T16:20:00.202+0530] {logging_mixin.py:151} INFO - [2023-11-16T16:20:00.201+0530] {dag.py:3696} INFO - Setting next_dagrun for hooks_demo to 2023-11-16T00:00:00+00:00, run_after=2023-11-17T00:00:00+00:00
+[2023-11-16T16:20:00.216+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hooks_demo.py took 0.066 seconds

@@ -1,0 +1,27 @@
+[2023-11-16T15:16:42.979+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [queued]>
+[2023-11-16T15:16:42.984+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [queued]>
+[2023-11-16T15:16:42.984+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-11-16T15:16:42.994+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transfer> on 2023-11-16 09:46:37.975501+00:00
+[2023-11-16T15:16:42.998+0530] {standard_task_runner.py:57} INFO - Started process 141284 to run task
+[2023-11-16T15:16:43.000+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'transfer', 'manual__2023-11-16T09:46:37.975501+00:00', '--job-id', '4707', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmpekuzx20n']
+[2023-11-16T15:16:43.001+0530] {standard_task_runner.py:85} INFO - Job 4707: Subtask transfer
+[2023-11-16T15:16:43.024+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [running]> on host harika-Latitude-5511
+[2023-11-16T15:16:43.163+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='transfer' AIRFLOW_CTX_EXECUTION_DATE='2023-11-16T09:46:37.975501+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-16T09:46:37.975501+00:00'
+[2023-11-16T15:16:43.167+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T15:16:43.179+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T15:20:01.549+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 141284. PIDs of all processes in the group: [141284]
+[2023-11-16T15:20:01.549+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 141284
+[2023-11-16T15:20:01.549+0530] {taskinstance.py:1630} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-11-16T15:20:01.552+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/hooks.py", line 37, in transfer_function
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1632, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-11-16T15:20:01.557+0530] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=hooks_demo, task_id=transfer, execution_date=20231116T094637, start_date=20231116T094642, end_date=20231116T095001
+[2023-11-16T15:20:01.566+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 4707 for task transfer (Task received SIGTERM signal; 141284)
+[2023-11-16T15:20:01.575+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=141284, status='terminated', exitcode=1, started='15:16:42') (141284) terminated with exit code 1

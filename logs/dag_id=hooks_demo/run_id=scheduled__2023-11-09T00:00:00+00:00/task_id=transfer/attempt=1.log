@@ -1,0 +1,34 @@
+[2023-11-10T10:40:39.033+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.transfer scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-10T10:40:39.038+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.transfer scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-10T10:40:39.038+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-11-10T10:40:39.049+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transfer> on 2023-11-09 00:00:00+00:00
+[2023-11-10T10:40:39.054+0530] {standard_task_runner.py:57} INFO - Started process 187021 to run task
+[2023-11-10T10:40:39.057+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'transfer', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '4522', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmpbz7d8abi']
+[2023-11-10T10:40:39.058+0530] {standard_task_runner.py:85} INFO - Job 4522: Subtask transfer
+[2023-11-10T10:40:39.081+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.transfer scheduled__2023-11-09T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-10T10:40:39.195+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='transfer' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-10T10:40:39.198+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-10T10:40:39.210+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-10T10:40:39.219+0530] {logging_mixin.py:151} INFO - records [('Los Angles                                        ', 'ls                  '), ('Houston                                           ', 'ht                  '), ('New york                                          ', 'ny                  ')]
+[2023-11-10T10:40:39.221+0530] {logging_mixin.py:151} INFO - Data transferred successfully
+[2023-11-10T10:40:39.222+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-10T10:40:39.225+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=hooks_demo, task_id=transfer, execution_date=20231109T000000, start_date=20231110T051039, end_date=20231110T051039
+[2023-11-10T10:40:39.269+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-10T10:40:39.278+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-16T16:07:10.679+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.transfer scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-16T16:07:10.684+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.transfer scheduled__2023-11-09T00:00:00+00:00 [queued]>
+[2023-11-16T16:07:10.684+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-11-16T16:07:10.694+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transfer> on 2023-11-09 00:00:00+00:00
+[2023-11-16T16:07:10.697+0530] {standard_task_runner.py:57} INFO - Started process 146917 to run task
+[2023-11-16T16:07:10.699+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'transfer', 'scheduled__2023-11-09T00:00:00+00:00', '--job-id', '4727', '--raw', '--subdir', 'DAGS_FOLDER/hooks_demo.py', '--cfg-path', '/tmp/tmp9oq6xryq']
+[2023-11-16T16:07:10.700+0530] {standard_task_runner.py:85} INFO - Job 4727: Subtask transfer
+[2023-11-16T16:07:10.726+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.transfer scheduled__2023-11-09T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-16T16:07:10.864+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='transfer' AIRFLOW_CTX_EXECUTION_DATE='2023-11-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-09T00:00:00+00:00'
+[2023-11-16T16:07:10.869+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T16:07:10.882+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T16:07:10.893+0530] {logging_mixin.py:151} INFO - records [('New york                                          ', 'ny                  ')]
+[2023-11-16T16:07:10.895+0530] {logging_mixin.py:151} INFO - Data transferred successfully
+[2023-11-16T16:07:10.895+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-16T16:07:10.899+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=hooks_demo, task_id=transfer, execution_date=20231109T000000, start_date=20231116T103710, end_date=20231116T103710
+[2023-11-16T16:07:10.952+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-16T16:07:10.978+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

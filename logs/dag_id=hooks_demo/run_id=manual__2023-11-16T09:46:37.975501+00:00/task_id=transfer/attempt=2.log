@@ -1,0 +1,19 @@
+[2023-11-16T15:20:04.846+0530] {taskinstance.py:1147} INFO - Dependencies not met for <TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2023-11-16T09:50:04.845981+00:00 and task will be retried at 2023-11-16T09:55:01.556880+00:00.
+[2023-11-16T15:20:04.846+0530] {local_task_job_runner.py:154} INFO - Task is not able to be run
+[2023-11-16T15:25:04.250+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [queued]>
+[2023-11-16T15:25:04.255+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [queued]>
+[2023-11-16T15:25:04.255+0530] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2023-11-16T15:25:04.265+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transfer> on 2023-11-16 09:46:37.975501+00:00
+[2023-11-16T15:25:04.268+0530] {standard_task_runner.py:57} INFO - Started process 142344 to run task
+[2023-11-16T15:25:04.271+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'transfer', 'manual__2023-11-16T09:46:37.975501+00:00', '--job-id', '4713', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmpej0559nq']
+[2023-11-16T15:25:04.271+0530] {standard_task_runner.py:85} INFO - Job 4713: Subtask transfer
+[2023-11-16T15:25:04.295+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.transfer manual__2023-11-16T09:46:37.975501+00:00 [running]> on host harika-Latitude-5511
+[2023-11-16T15:25:04.452+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='transfer' AIRFLOW_CTX_EXECUTION_DATE='2023-11-16T09:46:37.975501+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-16T09:46:37.975501+00:00'
+[2023-11-16T15:25:04.456+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T15:25:04.469+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T15:25:04.480+0530] {logging_mixin.py:151} INFO - records [('sivaaaakummmmmmmarrrr', 'kvs')]
+[2023-11-16T15:25:04.483+0530] {logging_mixin.py:151} INFO - Data transferred successfully
+[2023-11-16T15:25:04.483+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-16T15:25:04.487+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=hooks_demo, task_id=transfer, execution_date=20231116T094637, start_date=20231116T095504, end_date=20231116T095504
+[2023-11-16T15:25:04.523+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-16T15:25:04.552+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

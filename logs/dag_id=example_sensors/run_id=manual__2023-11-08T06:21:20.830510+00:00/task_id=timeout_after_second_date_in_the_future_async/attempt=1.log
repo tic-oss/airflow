@@ -1,0 +1,22 @@
+[2023-11-08T11:52:35.113+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.timeout_after_second_date_in_the_future_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:52:35.119+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.timeout_after_second_date_in_the_future_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:52:35.120+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-08T11:52:35.129+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeSensorAsync): timeout_after_second_date_in_the_future_async> on 2023-11-08 06:21:20.830510+00:00
+[2023-11-08T11:52:35.132+0530] {standard_task_runner.py:57} INFO - Started process 119931 to run task
+[2023-11-08T11:52:35.136+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'timeout_after_second_date_in_the_future_async', 'manual__2023-11-08T06:21:20.830510+00:00', '--job-id', '4440', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpvsk_ge1h']
+[2023-11-08T11:52:35.137+0530] {standard_task_runner.py:85} INFO - Job 4440: Subtask timeout_after_second_date_in_the_future_async
+[2023-11-08T11:52:35.165+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.timeout_after_second_date_in_the_future_async manual__2023-11-08T06:21:20.830510+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T11:52:35.215+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='timeout_after_second_date_in_the_future_async' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T06:21:20.830510+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T06:21:20.830510+00:00'
+[2023-11-08T11:52:35.220+0530] {taskinstance.py:1524} INFO - Pausing task as DEFERRED. dag_id=example_sensors, task_id=timeout_after_second_date_in_the_future_async, execution_date=20231108T062120, start_date=20231108T062235
+[2023-11-08T11:52:35.267+0530] {local_task_job_runner.py:225} INFO - Task exited with return code 100 (task deferral)
+[2023-11-08T12:52:37.123+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.timeout_after_second_date_in_the_future_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T12:52:37.127+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.timeout_after_second_date_in_the_future_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T12:52:37.127+0530] {taskinstance.py:1357} INFO - Resuming after deferral
+[2023-11-08T12:52:37.135+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeSensorAsync): timeout_after_second_date_in_the_future_async> on 2023-11-08 06:21:20.830510+00:00
+[2023-11-08T12:52:37.139+0530] {standard_task_runner.py:57} INFO - Started process 125384 to run task
+[2023-11-08T12:52:37.141+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'timeout_after_second_date_in_the_future_async', 'manual__2023-11-08T06:21:20.830510+00:00', '--job-id', '4496', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpv4_qx23s']
+[2023-11-08T12:52:37.141+0530] {standard_task_runner.py:85} INFO - Job 4496: Subtask timeout_after_second_date_in_the_future_async
+[2023-11-08T12:52:37.161+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.timeout_after_second_date_in_the_future_async manual__2023-11-08T06:21:20.830510+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T12:52:37.203+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=example_sensors, task_id=timeout_after_second_date_in_the_future_async, execution_date=20231108T062120, start_date=20231108T062235, end_date=20231108T072237
+[2023-11-08T12:52:37.232+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T12:52:37.254+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

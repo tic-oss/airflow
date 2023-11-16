@@ -1,0 +1,15 @@
+[2023-10-30T10:14:03.715+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_dag.send_notification_email scheduled__2023-10-29T00:00:00+00:00 [queued]>
+[2023-10-30T10:14:03.720+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_dag.send_notification_email scheduled__2023-10-29T00:00:00+00:00 [queued]>
+[2023-10-30T10:14:03.720+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-30T10:14:03.730+0530] {taskinstance.py:1380} INFO - Executing <Task(EmailOperator): send_notification_email> on 2023-10-29 00:00:00+00:00
+[2023-10-30T10:14:03.733+0530] {standard_task_runner.py:57} INFO - Started process 15068 to run task
+[2023-10-30T10:14:03.735+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_dag', 'send_notification_email', 'scheduled__2023-10-29T00:00:00+00:00', '--job-id', '1864', '--raw', '--subdir', 'DAGS_FOLDER/word_count.py', '--cfg-path', '/tmp/tmpkmisarb2']
+[2023-10-30T10:14:03.736+0530] {standard_task_runner.py:85} INFO - Job 1864: Subtask send_notification_email
+[2023-10-30T10:14:03.756+0530] {task_command.py:415} INFO - Running <TaskInstance: wikipedia_dag.send_notification_email scheduled__2023-10-29T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-30T10:14:03.807+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_dag' AIRFLOW_CTX_TASK_ID='send_notification_email' AIRFLOW_CTX_EXECUTION_DATE='2023-10-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-29T00:00:00+00:00'
+[2023-10-30T10:14:03.824+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-10-30T10:14:03.824+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-30T10:14:05.324+0530] {email.py:282} INFO - Sent an alert email to ['harikasree2225@gmail.com']
+[2023-10-30T10:14:07.089+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=wikipedia_dag, task_id=send_notification_email, execution_date=20231029T000000, start_date=20231030T044403, end_date=20231030T044407
+[2023-10-30T10:14:07.116+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-30T10:14:07.131+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

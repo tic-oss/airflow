@@ -1,0 +1,68 @@
+[2023-11-15T15:36:05.220+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: plugin_dag.data_transfer manual__2023-11-15T10:06:02.021951+00:00 [queued]>
+[2023-11-15T15:36:05.225+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: plugin_dag.data_transfer manual__2023-11-15T10:06:02.021951+00:00 [queued]>
+[2023-11-15T15:36:05.225+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-15T15:36:05.234+0530] {taskinstance.py:1380} INFO - Executing <Task(DataTransferOperator): data_transfer> on 2023-11-15 10:06:02.021951+00:00
+[2023-11-15T15:36:05.237+0530] {standard_task_runner.py:57} INFO - Started process 89199 to run task
+[2023-11-15T15:36:05.239+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'plugin_dag', 'data_transfer', 'manual__2023-11-15T10:06:02.021951+00:00', '--job-id', '4638', '--raw', '--subdir', 'DAGS_FOLDER/dag_plugins.py', '--cfg-path', '/tmp/tmpal2hx_t7']
+[2023-11-15T15:36:05.240+0530] {standard_task_runner.py:85} INFO - Job 4638: Subtask data_transfer
+[2023-11-15T15:36:05.261+0530] {task_command.py:415} INFO - Running <TaskInstance: plugin_dag.data_transfer manual__2023-11-15T10:06:02.021951+00:00 [running]> on host harika-Latitude-5511
+[2023-11-15T15:36:05.398+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='plugin_dag' AIRFLOW_CTX_TASK_ID='data_transfer' AIRFLOW_CTX_EXECUTION_DATE='2023-11-15T10:06:02.021951+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-15T10:06:02.021951+00:00'
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:33} INFO - ### custom operator execution starts
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:34} INFO - source_file_path: /home/harika/airflow/plugins/source.txt
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:35} INFO - dest_file_path: /home/harika/airflow/plugins/destination.txt
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:36} INFO - delete_list: ['Airflow', 'is']
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:41} INFO - reading line: Apache Airflow provides a simple way to write, schedule, and monitor workflows using pure Python. In this blog post, we’ll cover Apache Airflow core concepts and components and then build and operate a simple data pipeline.
+
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:45} INFO - output line is: Apache  provides a simple way to write, schedule, and monitor workflows using pure Python. In th blog post, we’ll cover Apache  core concepts and components and then build and operate a simple data pipeline.
+
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:41} INFO - reading line: 
+
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:45} INFO - output line is: 
+
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:41} INFO - reading line: ## Why Apache Airflow is ideal for data pipelines
+
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.399+0530] {demo_plugin.py:45} INFO - output line is: ## Why Apache   ideal for data pipelines
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:41} INFO - reading line: 
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:45} INFO - output line is: 
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:41} INFO - reading line: Apache Airflow was started by Airbnb in 2014 as a solution to manage complex data workflows. It has been open source since the first commit and was announced as a top-level project by Apache in 2019. Apache Airflow has a number of benefits that make it easier to manage the complexity of managing batch scheduled jobs, including:
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:45} INFO - output line is: Apache  was started by Airbnb in 2014 as a solution to manage complex data workflows. It has been open source since the first commit and was announced as a top-level project by Apache in 2019. Apache  has a number of benefits that make it easier to manage the complexity of managing batch scheduled jobs, including:
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:41} INFO - reading line: 
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:45} INFO - output line is: 
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:41} INFO - reading line: - **Scalable**: the architecture uses a message queue system to run an arbitrary number of workers.
+
+[2023-11-15T15:36:05.400+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:45} INFO - output line is: - **Scalable**: the architecture uses a message queue system to run an arbitrary number of workers.
+
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:41} INFO - reading line: - **Dynamic**: pipelines are written in Python, allowing dynamic generation.
+
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:45} INFO - output line is: - **Dynamic**: pipelines are written in Python, allowing dynamic generation.
+
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:41} INFO - reading line: - **Extensible**: it’s easy to integrate customer operators and libraries.
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:43} INFO - matching string: Airflow
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:43} INFO - matching string: is
+[2023-11-15T15:36:05.401+0530] {demo_plugin.py:45} INFO - output line is: - **Extensible**: it’s easy to integrate customer operators and libraries.
+[2023-11-15T15:36:05.404+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=plugin_dag, task_id=data_transfer, execution_date=20231115T100602, start_date=20231115T100605, end_date=20231115T100605
+[2023-11-15T15:36:05.452+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-15T15:36:05.494+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

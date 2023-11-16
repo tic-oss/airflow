@@ -1,0 +1,41 @@
+[2023-10-25T10:50:01.307+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_dag.model_b scheduled__2022-10-20T00:00:00+00:00 [queued]>
+[2023-10-25T10:50:01.314+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_dag.model_b scheduled__2022-10-20T00:00:00+00:00 [queued]>
+[2023-10-25T10:50:01.314+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-25T10:50:01.324+0530] {taskinstance.py:1380} INFO - Executing <Task(SimpleHttpOperator): model_b> on 2022-10-20 00:00:00+00:00
+[2023-10-25T10:50:01.328+0530] {standard_task_runner.py:57} INFO - Started process 27085 to run task
+[2023-10-25T10:50:01.331+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'model_b', 'scheduled__2022-10-20T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpi5g2oy2p']
+[2023-10-25T10:50:01.332+0530] {standard_task_runner.py:85} INFO - Job 14: Subtask model_b
+[2023-10-25T10:50:01.362+0530] {task_command.py:415} INFO - Running <TaskInstance: first_dag.model_b scheduled__2022-10-20T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-25T10:50:01.406+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='first_dag' AIRFLOW_CTX_TASK_ID='model_b' AIRFLOW_CTX_EXECUTION_DATE='2022-10-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-10-20T00:00:00+00:00'
+[2023-10-25T10:50:01.407+0530] {http.py:143} INFO - Calling HTTP method
+[2023-10-25T10:50:01.415+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/http/operators/http.py", line 145, in execute
+    response = http.run(self.endpoint, self.data, self.headers, self.extra_options)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 145, in run
+    session = self.get_conn(headers)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 98, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `random_data_default` isn't defined
+[2023-10-25T10:50:01.417+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=first_dag, task_id=model_b, execution_date=20221020T000000, start_date=20231025T052001, end_date=20231025T052001
+[2023-10-25T10:50:01.424+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 14 for task model_b (The conn_id `random_data_default` isn't defined; 27085)
+[2023-10-25T10:50:01.462+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-25T10:50:01.483+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-25T10:54:18.360+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_dag.model_b scheduled__2022-10-20T00:00:00+00:00 [queued]>
+[2023-10-25T10:54:18.368+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_dag.model_b scheduled__2022-10-20T00:00:00+00:00 [queued]>
+[2023-10-25T10:54:18.368+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-25T10:54:18.378+0530] {taskinstance.py:1380} INFO - Executing <Task(SimpleHttpOperator): model_b> on 2022-10-20 00:00:00+00:00
+[2023-10-25T10:54:18.383+0530] {standard_task_runner.py:57} INFO - Started process 28220 to run task
+[2023-10-25T10:54:18.385+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'model_b', 'scheduled__2022-10-20T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp6ou7rakm']
+[2023-10-25T10:54:18.386+0530] {standard_task_runner.py:85} INFO - Job 14: Subtask model_b
+[2023-10-25T10:54:18.415+0530] {task_command.py:415} INFO - Running <TaskInstance: first_dag.model_b scheduled__2022-10-20T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-25T10:54:18.457+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='first_dag' AIRFLOW_CTX_TASK_ID='model_b' AIRFLOW_CTX_EXECUTION_DATE='2022-10-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-10-20T00:00:00+00:00'
+[2023-10-25T10:54:18.458+0530] {http.py:143} INFO - Calling HTTP method
+[2023-10-25T10:54:18.462+0530] {base.py:73} INFO - Using connection ID 'random_data_default' for task execution.
+[2023-10-25T10:54:19.902+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=model_b, execution_date=20221020T000000, start_date=20231025T052418, end_date=20231025T052419
+[2023-10-25T10:54:19.961+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T10:54:20.002+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

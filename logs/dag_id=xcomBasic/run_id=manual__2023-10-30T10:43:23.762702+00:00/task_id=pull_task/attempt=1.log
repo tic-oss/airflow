@@ -1,0 +1,13 @@
+[2023-10-30T16:13:31.171+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcomBasic.pull_task manual__2023-10-30T10:43:23.762702+00:00 [queued]>
+[2023-10-30T16:13:31.176+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcomBasic.pull_task manual__2023-10-30T10:43:23.762702+00:00 [queued]>
+[2023-10-30T16:13:31.176+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-30T16:13:31.187+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): pull_task> on 2023-10-30 10:43:23.762702+00:00
+[2023-10-30T16:13:31.190+0530] {standard_task_runner.py:57} INFO - Started process 409781 to run task
+[2023-10-30T16:13:31.193+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'xcomBasic', 'pull_task', 'manual__2023-10-30T10:43:23.762702+00:00', '--job-id', '1892', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmpxy4ajihn']
+[2023-10-30T16:13:31.194+0530] {standard_task_runner.py:85} INFO - Job 1892: Subtask pull_task
+[2023-10-30T16:13:31.217+0530] {task_command.py:415} INFO - Running <TaskInstance: xcomBasic.pull_task manual__2023-10-30T10:43:23.762702+00:00 [running]> on host harika-Latitude-5511
+[2023-10-30T16:13:31.259+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='xcomBasic' AIRFLOW_CTX_TASK_ID='pull_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-30T10:43:23.762702+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-30T10:43:23.762702+00:00'
+[2023-10-30T16:13:31.264+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-30T16:13:31.267+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=xcomBasic, task_id=pull_task, execution_date=20231030T104323, start_date=20231030T104331, end_date=20231030T104331
+[2023-10-30T16:13:31.284+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-30T16:13:31.293+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

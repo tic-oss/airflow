@@ -1,0 +1,23 @@
+[2023-10-13T19:05:06.954+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pdf_word_count_dag.count_word_occurrences_in_pdf manual__2023-10-13T13:35:04.957098+00:00 [queued]>
+[2023-10-13T19:05:06.959+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pdf_word_count_dag.count_word_occurrences_in_pdf manual__2023-10-13T13:35:04.957098+00:00 [queued]>
+[2023-10-13T19:05:06.959+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-13T19:05:06.968+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): count_word_occurrences_in_pdf> on 2023-10-13 13:35:04.957098+00:00
+[2023-10-13T19:05:06.971+0530] {standard_task_runner.py:57} INFO - Started process 41276 to run task
+[2023-10-13T19:05:06.973+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'pdf_word_count_dag', 'count_word_occurrences_in_pdf', 'manual__2023-10-13T13:35:04.957098+00:00', '--job-id', '289', '--raw', '--subdir', 'DAGS_FOLDER/pdf_word.py', '--cfg-path', '/tmp/tmpbt1pmnwc']
+[2023-10-13T19:05:06.973+0530] {standard_task_runner.py:85} INFO - Job 289: Subtask count_word_occurrences_in_pdf
+[2023-10-13T19:05:06.995+0530] {task_command.py:415} INFO - Running <TaskInstance: pdf_word_count_dag.count_word_occurrences_in_pdf manual__2023-10-13T13:35:04.957098+00:00 [running]> on host harika-Latitude-5511
+[2023-10-13T19:05:07.031+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='pdf_word_count_dag' AIRFLOW_CTX_TASK_ID='count_word_occurrences_in_pdf' AIRFLOW_CTX_EXECUTION_DATE='2023-10-13T13:35:04.957098+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-13T13:35:04.957098+00:00'
+[2023-10-13T19:05:07.032+0530] {logging_mixin.py:151} INFO - An error occurred: [Errno 2] No such file or directory: '/sample.pdf'
+[2023-10-13T19:05:07.032+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/pdf_word.py", line 30, in count_word_occurrences
+    pdf_file.close()
+UnboundLocalError: local variable 'pdf_file' referenced before assignment
+[2023-10-13T19:05:07.034+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=pdf_word_count_dag, task_id=count_word_occurrences_in_pdf, execution_date=20231013T133504, start_date=20231013T133506, end_date=20231013T133507
+[2023-10-13T19:05:07.042+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 289 for task count_word_occurrences_in_pdf (local variable 'pdf_file' referenced before assignment; 41276)
+[2023-10-13T19:05:07.064+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-13T19:05:07.072+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

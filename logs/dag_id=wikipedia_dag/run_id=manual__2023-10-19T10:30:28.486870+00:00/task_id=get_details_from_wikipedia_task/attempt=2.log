@@ -1,0 +1,67 @@
+[2023-10-19T16:05:40.790+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task manual__2023-10-19T10:30:28.486870+00:00 [queued]>
+[2023-10-19T16:05:40.794+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task manual__2023-10-19T10:30:28.486870+00:00 [queued]>
+[2023-10-19T16:05:40.794+0530] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2023-10-19T16:05:40.803+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): get_details_from_wikipedia_task> on 2023-10-19 10:30:28.486870+00:00
+[2023-10-19T16:05:40.805+0530] {standard_task_runner.py:57} INFO - Started process 9026 to run task
+[2023-10-19T16:05:40.807+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_dag', 'get_details_from_wikipedia_task', 'manual__2023-10-19T10:30:28.486870+00:00', '--job-id', '695', '--raw', '--subdir', 'DAGS_FOLDER/word_count.py', '--cfg-path', '/tmp/tmpn_4789jf']
+[2023-10-19T16:05:40.807+0530] {standard_task_runner.py:85} INFO - Job 695: Subtask get_details_from_wikipedia_task
+[2023-10-19T16:05:40.831+0530] {task_command.py:415} INFO - Running <TaskInstance: wikipedia_dag.get_details_from_wikipedia_task manual__2023-10-19T10:30:28.486870+00:00 [running]> on host harika-Latitude-5511
+[2023-10-19T16:05:40.878+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_dag' AIRFLOW_CTX_TASK_ID='get_details_from_wikipedia_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T10:30:28.486870+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-19T10:30:28.486870+00:00'
+[2023-10-19T16:05:40.879+0530] {logging_mixin.py:151} INFO - Yeoman
+[2023-10-19T16:05:47.255+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py:389 GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file /home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py. To get rid of this warning, pass the additional argument 'features="html.parser"' to the BeautifulSoup constructor.
+[2023-10-19T16:05:47.273+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/word_count.py", line 40, in get_details_from_wikipedia_api
+    page = wikipedia.page(topic)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py", line 276, in page
+    return WikipediaPage(title, redirect=redirect, preload=preload)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py", line 299, in __init__
+    self.__load(redirect=redirect, preload=preload)
+  File "/home/harika/.local/lib/python3.10/site-packages/wikipedia/wikipedia.py", line 393, in __load
+    raise DisambiguationError(getattr(self, 'title', page['title']), may_refer_to)
+wikipedia.exceptions.DisambiguationError: "yes man" may refer to: 
+Yes Man (book)
+Yes Man (film)
+The Yes Man
+The Yes Men (film)
+Yes Man (Kappa Mikey)
+Fallout: New Vegas
+season 2 episode of The Loud House
+Yes Guy
+Zooey Deschanel
+"Yes Man" (song)
+"Yes Man" (Ben Folds song)
+The Yes-Men
+The Yes Men
+Frank Nelson (actor)
+All pages with titles containing Yes man
+All pages with titles beginning with Yes man 
+[2023-10-19T16:05:47.278+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=wikipedia_dag, task_id=get_details_from_wikipedia_task, execution_date=20231019T103028, start_date=20231019T103540, end_date=20231019T103547
+[2023-10-19T16:05:47.290+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-10-19T16:05:47.290+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-19T16:05:49.393+0530] {email.py:282} INFO - Sent an alert email to ['harikasree2225@gmail.com']
+[2023-10-19T16:05:52.069+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 695 for task get_details_from_wikipedia_task ("yes man" may refer to: 
+Yes Man (book)
+Yes Man (film)
+The Yes Man
+The Yes Men (film)
+Yes Man (Kappa Mikey)
+Fallout: New Vegas
+season 2 episode of The Loud House
+Yes Guy
+Zooey Deschanel
+"Yes Man" (song)
+"Yes Man" (Ben Folds song)
+The Yes-Men
+The Yes Men
+Frank Nelson (actor)
+All pages with titles containing Yes man
+All pages with titles beginning with Yes man ; 9026)
+[2023-10-19T16:05:52.103+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-19T16:05:52.134+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

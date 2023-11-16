@@ -1,0 +1,23 @@
+[2023-11-13T14:27:19.556+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: deferrable.wait_sensor_deferrable manual__2023-11-13T08:52:07.677662+00:00 [queued]>
+[2023-11-13T14:27:19.562+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: deferrable.wait_sensor_deferrable manual__2023-11-13T08:52:07.677662+00:00 [queued]>
+[2023-11-13T14:27:19.562+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-13T14:27:19.572+0530] {taskinstance.py:1380} INFO - Executing <Task(WaitOneHourSensor): wait_sensor_deferrable> on 2023-11-13 08:52:07.677662+00:00
+[2023-11-13T14:27:19.576+0530] {standard_task_runner.py:57} INFO - Started process 225451 to run task
+[2023-11-13T14:27:19.579+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'deferrable', 'wait_sensor_deferrable', 'manual__2023-11-13T08:52:07.677662+00:00', '--job-id', '4549', '--raw', '--subdir', 'DAGS_FOLDER/deferrable_operator.py', '--cfg-path', '/tmp/tmp596d64gg']
+[2023-11-13T14:27:19.580+0530] {standard_task_runner.py:85} INFO - Job 4549: Subtask wait_sensor_deferrable
+[2023-11-13T14:27:19.607+0530] {task_command.py:415} INFO - Running <TaskInstance: deferrable.wait_sensor_deferrable manual__2023-11-13T08:52:07.677662+00:00 [running]> on host harika-Latitude-5511
+[2023-11-13T14:27:19.657+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='deferrable' AIRFLOW_CTX_TASK_ID='wait_sensor_deferrable' AIRFLOW_CTX_EXECUTION_DATE='2023-11-13T08:52:07.677662+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-13T08:52:07.677662+00:00'
+[2023-11-13T14:27:19.660+0530] {taskinstance.py:1524} INFO - Pausing task as DEFERRED. dag_id=deferrable, task_id=wait_sensor_deferrable, execution_date=20231113T085207, start_date=20231113T085719
+[2023-11-13T14:27:19.710+0530] {local_task_job_runner.py:225} INFO - Task exited with return code 100 (task deferral)
+[2023-11-13T15:27:22.924+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: deferrable.wait_sensor_deferrable manual__2023-11-13T08:52:07.677662+00:00 [queued]>
+[2023-11-13T15:27:22.929+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: deferrable.wait_sensor_deferrable manual__2023-11-13T08:52:07.677662+00:00 [queued]>
+[2023-11-13T15:27:22.929+0530] {taskinstance.py:1357} INFO - Resuming after deferral
+[2023-11-13T15:27:22.940+0530] {taskinstance.py:1380} INFO - Executing <Task(WaitOneHourSensor): wait_sensor_deferrable> on 2023-11-13 08:52:07.677662+00:00
+[2023-11-13T15:27:22.943+0530] {standard_task_runner.py:57} INFO - Started process 232315 to run task
+[2023-11-13T15:27:22.945+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'deferrable', 'wait_sensor_deferrable', 'manual__2023-11-13T08:52:07.677662+00:00', '--job-id', '4562', '--raw', '--subdir', 'DAGS_FOLDER/deferrable_operator.py', '--cfg-path', '/tmp/tmp2xyloyd6']
+[2023-11-13T15:27:22.946+0530] {standard_task_runner.py:85} INFO - Job 4562: Subtask wait_sensor_deferrable
+[2023-11-13T15:27:22.969+0530] {task_command.py:415} INFO - Running <TaskInstance: deferrable.wait_sensor_deferrable manual__2023-11-13T08:52:07.677662+00:00 [running]> on host harika-Latitude-5511
+[2023-11-13T15:27:23.013+0530] {logging_mixin.py:151} INFO - Sensor execution completed
+[2023-11-13T15:27:23.016+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=deferrable, task_id=wait_sensor_deferrable, execution_date=20231113T085207, start_date=20231113T085719, end_date=20231113T095723
+[2023-11-13T15:27:23.037+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-13T15:27:23.073+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

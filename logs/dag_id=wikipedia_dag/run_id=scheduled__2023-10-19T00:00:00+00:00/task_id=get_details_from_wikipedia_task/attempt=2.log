@@ -1,0 +1,15 @@
+[2023-10-20T11:48:46.553+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task scheduled__2023-10-19T00:00:00+00:00 [queued]>
+[2023-10-20T11:48:46.557+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task scheduled__2023-10-19T00:00:00+00:00 [queued]>
+[2023-10-20T11:48:46.557+0530] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2023-10-20T11:48:46.565+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): get_details_from_wikipedia_task> on 2023-10-19 00:00:00+00:00
+[2023-10-20T11:48:46.568+0530] {standard_task_runner.py:57} INFO - Started process 15636 to run task
+[2023-10-20T11:48:46.570+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_dag', 'get_details_from_wikipedia_task', 'scheduled__2023-10-19T00:00:00+00:00', '--job-id', '724', '--raw', '--subdir', 'DAGS_FOLDER/word_count.py', '--cfg-path', '/tmp/tmp31saps2e']
+[2023-10-20T11:48:46.570+0530] {standard_task_runner.py:85} INFO - Job 724: Subtask get_details_from_wikipedia_task
+[2023-10-20T11:48:46.592+0530] {task_command.py:415} INFO - Running <TaskInstance: wikipedia_dag.get_details_from_wikipedia_task scheduled__2023-10-19T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-20T11:48:46.625+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_dag' AIRFLOW_CTX_TASK_ID='get_details_from_wikipedia_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-19T00:00:00+00:00'
+[2023-10-20T11:48:46.626+0530] {logging_mixin.py:151} INFO - Fruit
+[2023-10-20T11:48:48.997+0530] {logging_mixin.py:151} INFO - Fruit
+[2023-10-20T11:48:50.036+0530] {python.py:194} INFO - Done. Returned value was: /home/harika/wikidata/Fruit/content.txt
+[2023-10-20T11:48:50.049+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=wikipedia_dag, task_id=get_details_from_wikipedia_task, execution_date=20231019T000000, start_date=20231020T061846, end_date=20231020T061850
+[2023-10-20T11:48:50.080+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-20T11:48:50.116+0530] {taskinstance.py:2776} INFO - 2 downstream tasks scheduled from follow-on schedule check

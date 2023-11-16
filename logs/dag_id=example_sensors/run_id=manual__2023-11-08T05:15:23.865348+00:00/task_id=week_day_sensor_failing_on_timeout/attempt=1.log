@@ -1,0 +1,15 @@
+[2023-11-08T10:48:51.543+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.week_day_sensor_failing_on_timeout manual__2023-11-08T05:15:23.865348+00:00 [queued]>
+[2023-11-08T10:48:51.547+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.week_day_sensor_failing_on_timeout manual__2023-11-08T05:15:23.865348+00:00 [queued]>
+[2023-11-08T10:48:51.547+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-08T10:48:51.555+0530] {taskinstance.py:1380} INFO - Executing <Task(DayOfWeekSensor): week_day_sensor_failing_on_timeout> on 2023-11-08 05:15:23.865348+00:00
+[2023-11-08T10:48:51.559+0530] {standard_task_runner.py:57} INFO - Started process 99276 to run task
+[2023-11-08T10:48:51.560+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'week_day_sensor_failing_on_timeout', 'manual__2023-11-08T05:15:23.865348+00:00', '--job-id', '4428', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpw06kzy_h']
+[2023-11-08T10:48:51.561+0530] {standard_task_runner.py:85} INFO - Job 4428: Subtask week_day_sensor_failing_on_timeout
+[2023-11-08T10:48:51.581+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.week_day_sensor_failing_on_timeout manual__2023-11-08T05:15:23.865348+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T10:48:51.623+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='week_day_sensor_failing_on_timeout' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T05:15:23.865348+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T05:15:23.865348+00:00'
+[2023-11-08T10:48:51.624+0530] {weekday.py:108} INFO - Poking until weekday is in WeekDay.TUESDAY, Today is WEDNESDAY
+[2023-11-08T10:49:51.681+0530] {weekday.py:108} INFO - Poking until weekday is in WeekDay.TUESDAY, Today is WEDNESDAY
+[2023-11-08T10:49:51.682+0530] {taskinstance.py:1540} INFO - Sensor has timed out; run duration of 60.05856037999911 seconds exceeds the specified timeout of 3.0.
+[2023-11-08T10:49:51.687+0530] {taskinstance.py:1398} INFO - Marking task as SKIPPED. dag_id=example_sensors, task_id=week_day_sensor_failing_on_timeout, execution_date=20231108T051523, start_date=20231108T051851, end_date=20231108T051951
+[2023-11-08T10:49:51.740+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T10:49:51.766+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

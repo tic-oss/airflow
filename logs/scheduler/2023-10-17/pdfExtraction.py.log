@@ -1,0 +1,308 @@
+[2023-10-17T10:09:44.654+0530] {processor.py:157} INFO - Started process (PID=10087) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:09:44.655+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:09:44.656+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:09:44.655+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:09:44.658+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:09:44.657+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:09:44.658+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:09:44.671+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.018 seconds
+[2023-10-17T10:10:36.747+0530] {processor.py:157} INFO - Started process (PID=10327) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:10:36.754+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:10:36.755+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:10:36.754+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:10:36.757+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:10:36.756+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:10:36.757+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:10:36.771+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.026 seconds
+[2023-10-17T10:11:20.106+0530] {processor.py:157} INFO - Started process (PID=10380) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:11:20.113+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:11:20.114+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:11:20.113+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:11:20.116+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:11:20.116+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:11:20.117+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:11:20.134+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.031 seconds
+[2023-10-17T10:12:06.312+0530] {processor.py:157} INFO - Started process (PID=10435) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:12:06.319+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:12:06.321+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:12:06.320+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:12:06.327+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:12:06.326+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:12:06.328+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:12:06.358+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.048 seconds
+[2023-10-17T10:12:54.020+0530] {processor.py:157} INFO - Started process (PID=10486) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:12:54.027+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:12:54.028+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:12:54.028+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:12:54.035+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:12:54.034+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:12:54.036+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:12:54.066+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.048 seconds
+[2023-10-17T10:13:41.722+0530] {processor.py:157} INFO - Started process (PID=10547) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:13:41.729+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:13:41.731+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:13:41.730+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:13:41.738+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:13:41.736+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:13:41.739+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:13:41.769+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.049 seconds
+[2023-10-17T10:14:28.004+0530] {processor.py:157} INFO - Started process (PID=10816) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:14:28.011+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:14:28.011+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:14:28.011+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:14:28.014+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:14:28.013+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:14:28.014+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:14:28.026+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.024 seconds
+[2023-10-17T10:15:12.617+0530] {processor.py:157} INFO - Started process (PID=10869) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:15:12.617+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:15:12.618+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:15:12.618+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:15:12.621+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:15:12.620+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:15:12.621+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:15:12.635+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.021 seconds
+[2023-10-17T10:16:02.907+0530] {processor.py:157} INFO - Started process (PID=10926) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:16:02.915+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:16:02.917+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:16:02.916+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:16:02.924+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:16:02.922+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:16:02.924+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:16:02.943+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.043 seconds
+[2023-10-17T10:16:47.963+0530] {processor.py:157} INFO - Started process (PID=10978) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:16:47.970+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:16:47.972+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:16:47.971+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:16:47.978+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:16:47.977+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:16:47.979+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:16:48.008+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.048 seconds
+[2023-10-17T10:17:31.045+0530] {processor.py:157} INFO - Started process (PID=11034) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:17:31.052+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:17:31.054+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:17:31.053+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:17:31.060+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:17:31.059+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:17:31.061+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:17:31.092+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.050 seconds
+[2023-10-17T10:18:16.891+0530] {processor.py:157} INFO - Started process (PID=11090) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:18:16.898+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:18:16.899+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:18:16.899+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:18:16.902+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:18:16.901+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:18:16.902+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:18:16.915+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.026 seconds
+[2023-10-17T10:19:03.333+0530] {processor.py:157} INFO - Started process (PID=11146) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:19:03.340+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:19:03.342+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:19:03.341+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:19:03.348+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:19:03.347+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:19:03.349+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:19:03.377+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.047 seconds
+[2023-10-17T10:19:47.646+0530] {processor.py:157} INFO - Started process (PID=11194) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:19:47.654+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:19:47.656+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:19:47.655+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:19:47.663+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:19:47.661+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:19:47.664+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:19:47.688+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.048 seconds
+[2023-10-17T10:20:30.097+0530] {processor.py:157} INFO - Started process (PID=11240) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:20:30.104+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:20:30.105+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:20:30.104+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:20:30.108+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:20:30.107+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 3, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:20:30.108+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:20:30.125+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.030 seconds
+[2023-10-17T10:21:15.214+0530] {processor.py:157} INFO - Started process (PID=11305) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:21:15.221+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:21:15.221+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:21:15.221+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:21:15.262+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:21:15.262+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:21:15.263+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:21:15.276+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.064 seconds
+[2023-10-17T10:21:31.759+0530] {processor.py:157} INFO - Started process (PID=11337) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:21:31.760+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:21:31.760+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:21:31.760+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:21:31.791+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:21:31.791+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:21:31.792+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:21:31.803+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.046 seconds
+[2023-10-17T10:22:22.729+0530] {processor.py:157} INFO - Started process (PID=11457) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:22:22.730+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:22:22.731+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:22:22.730+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:22:22.766+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:22:22.766+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:22:22.767+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:22:22.778+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.051 seconds
+[2023-10-17T10:22:42.274+0530] {processor.py:157} INFO - Started process (PID=11508) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:22:42.275+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:22:42.276+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:22:42.275+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:22:42.313+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:22:42.312+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:22:42.313+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:22:42.326+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.054 seconds
+[2023-10-17T10:23:22.721+0530] {processor.py:157} INFO - Started process (PID=11606) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:23:22.722+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:23:22.722+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:23:22.722+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:23:22.753+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:23:22.753+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:23:22.753+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:23:22.765+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.045 seconds
+[2023-10-17T10:23:48.491+0530] {processor.py:157} INFO - Started process (PID=11652) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:23:48.492+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:23:48.492+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:23:48.492+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:23:48.531+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:23:48.531+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:23:48.532+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:23:48.548+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.058 seconds
+[2023-10-17T10:24:40.822+0530] {processor.py:157} INFO - Started process (PID=11764) to work on /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:24:40.828+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdfExtraction.py for tasks to queue
+[2023-10-17T10:24:40.829+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:24:40.829+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:24:40.858+0530] {logging_mixin.py:151} INFO - [2023-10-17T10:24:40.858+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/pdfExtraction.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/pdfExtraction.py", line 4, in <module>
+    from airflow.operators import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-17T10:24:40.858+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/pdfExtraction.py
+[2023-10-17T10:24:40.868+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdfExtraction.py took 0.048 seconds

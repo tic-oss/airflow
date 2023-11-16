@@ -1,0 +1,446 @@
+[2023-10-20T13:36:40.794+0530] {processor.py:157} INFO - Started process (PID=25662) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:36:40.795+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:36:40.795+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:36:40.795+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:36:40.797+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:36:40.797+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-10-20T13:36:40.798+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:36:40.808+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.016 seconds
+[2023-10-20T13:37:36.844+0530] {processor.py:157} INFO - Started process (PID=25735) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:37:36.851+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:37:36.852+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:37:36.852+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:37:36.856+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:37:36.855+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-10-20T13:37:36.856+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:37:36.869+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.027 seconds
+[2023-10-20T13:38:02.575+0530] {processor.py:157} INFO - Started process (PID=26028) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:38:02.576+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:38:02.576+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:38:02.576+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:38:02.581+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:38:02.580+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-10-20T13:38:02.581+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:38:02.593+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.021 seconds
+[2023-10-20T13:38:55.162+0530] {processor.py:157} INFO - Started process (PID=26104) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:38:55.163+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:38:55.163+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:38:55.163+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:38:55.574+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:38:55.573+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 17, in <module>
+    from airflow.providers.email.operators.email import SendEmailOperator
+ModuleNotFoundError: No module named 'airflow.providers.email'
+[2023-10-20T13:38:55.574+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:38:55.582+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.422 seconds
+[2023-10-20T13:39:51.737+0530] {processor.py:157} INFO - Started process (PID=26191) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:39:51.738+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:39:51.738+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:39:51.738+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:39:52.122+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:39:52.121+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 17, in <module>
+    from airflow.providers.email.operators.email import SendEmailOperator
+ModuleNotFoundError: No module named 'airflow.providers.email'
+[2023-10-20T13:39:52.122+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:39:52.136+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.402 seconds
+[2023-10-20T13:40:47.281+0530] {processor.py:157} INFO - Started process (PID=26273) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:40:47.288+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:40:47.290+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:40:47.289+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:40:47.673+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:40:47.672+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 17, in <module>
+    from airflow.providers.email.operators.email import SendEmailOperator
+ModuleNotFoundError: No module named 'airflow.providers.email'
+[2023-10-20T13:40:47.673+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:40:47.687+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.408 seconds
+[2023-10-20T13:41:43.248+0530] {processor.py:157} INFO - Started process (PID=26364) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:41:43.255+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:41:43.257+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:41:43.257+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:41:43.681+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:41:43.680+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/word_count_final.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/word_count_final.py", line 17, in <module>
+    from airflow.providers.email.operators.email import SendEmailOperator
+ModuleNotFoundError: No module named 'airflow.providers.email'
+[2023-10-20T13:41:43.681+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:41:43.696+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.455 seconds
+[2023-10-20T13:42:31.829+0530] {processor.py:157} INFO - Started process (PID=26449) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:42:31.835+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:42:31.836+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:31.836+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:42:32.238+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:42:32.307+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.306+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-20T13:42:32.321+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.321+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-20T13:42:32.331+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.330+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-20T13:42:32.331+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.331+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:word_count_dag' as access control is unset.
+[2023-10-20T13:42:32.332+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.331+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:42:32.341+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.340+0530] {dag.py:2937} INFO - Creating ORM DAG for word_count_dag
+[2023-10-20T13:42:32.341+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:32.341+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:42:32.355+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.529 seconds
+[2023-10-20T13:42:54.765+0530] {processor.py:157} INFO - Started process (PID=26503) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:42:54.772+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:42:54.773+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:54.772+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:42:55.179+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:42:55.183+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:55.183+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:42:55.190+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:42:55.190+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:42:55.211+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.448 seconds
+[2023-10-20T13:43:47.045+0530] {processor.py:157} INFO - Started process (PID=26610) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:43:47.053+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:43:47.055+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:43:47.054+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:43:47.477+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:43:47.484+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:43:47.484+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:43:47.491+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:43:47.491+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:43:47.518+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.478 seconds
+[2023-10-20T13:44:41.448+0530] {processor.py:157} INFO - Started process (PID=26692) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:44:41.455+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:44:41.458+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:44:41.457+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:44:41.889+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:44:41.897+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:44:41.896+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:44:41.903+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:44:41.903+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:44:41.928+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.481 seconds
+[2023-10-20T13:45:36.665+0530] {processor.py:157} INFO - Started process (PID=26780) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:45:36.672+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:45:36.673+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:45:36.672+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:45:37.089+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:45:37.097+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:45:37.097+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:45:37.104+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:45:37.104+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:45:37.129+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.467 seconds
+[2023-10-20T13:46:30.507+0530] {processor.py:157} INFO - Started process (PID=26863) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:46:30.514+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:46:30.514+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:46:30.514+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:46:30.931+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:46:30.938+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:46:30.938+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:46:30.945+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:46:30.945+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:46:30.973+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.469 seconds
+[2023-10-20T13:47:21.409+0530] {processor.py:157} INFO - Started process (PID=26947) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:47:21.418+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:47:21.421+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:47:21.420+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:47:21.843+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:47:21.850+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:47:21.850+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:47:21.857+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:47:21.857+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:47:21.869+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.467 seconds
+[2023-10-20T13:48:20.946+0530] {processor.py:157} INFO - Started process (PID=27049) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:48:20.952+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:48:20.953+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:48:20.952+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:48:21.325+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:48:21.333+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:48:21.332+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:48:21.339+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:48:21.339+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:48:21.363+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.419 seconds
+[2023-10-20T13:48:53.047+0530] {processor.py:157} INFO - Started process (PID=27107) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:48:53.054+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:48:53.055+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:48:53.054+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:48:53.437+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:48:53.444+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:48:53.443+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:48:53.450+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:48:53.450+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:48:53.475+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.430 seconds
+[2023-10-20T13:49:42.629+0530] {processor.py:157} INFO - Started process (PID=27186) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:49:42.636+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:49:42.638+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:49:42.637+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:49:43.035+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:49:43.042+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:49:43.042+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:49:43.049+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:49:43.049+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:49:43.072+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.449 seconds
+[2023-10-20T13:50:36.134+0530] {processor.py:157} INFO - Started process (PID=27267) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:50:36.141+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:50:36.143+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:50:36.142+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:50:36.537+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:50:36.543+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:50:36.543+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:50:36.550+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:50:36.549+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:50:36.570+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.438 seconds
+[2023-10-20T13:51:27.014+0530] {processor.py:157} INFO - Started process (PID=27391) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:51:27.021+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:51:27.023+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:51:27.022+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:51:27.419+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:51:27.426+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:51:27.425+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:51:27.432+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:51:27.432+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:51:27.457+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.449 seconds
+[2023-10-20T13:52:20.582+0530] {processor.py:157} INFO - Started process (PID=27479) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:52:20.589+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:52:20.591+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:52:20.590+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:52:21.004+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:52:21.011+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:52:21.010+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:52:21.018+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:52:21.018+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:52:21.036+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.456 seconds
+[2023-10-20T13:53:12.162+0530] {processor.py:157} INFO - Started process (PID=27576) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:53:12.169+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:53:12.170+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:53:12.169+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:53:12.543+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:53:12.550+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:53:12.549+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:53:12.556+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:53:12.556+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:53:12.568+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.408 seconds
+[2023-10-20T13:54:03.711+0530] {processor.py:157} INFO - Started process (PID=27677) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:54:03.712+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:54:03.713+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:54:03.713+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:54:04.092+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:54:04.099+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:54:04.098+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:54:04.105+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:54:04.105+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:54:04.122+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.413 seconds
+[2023-10-20T13:54:59.169+0530] {processor.py:157} INFO - Started process (PID=27764) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:54:59.176+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:54:59.178+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:54:59.177+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:54:59.572+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:54:59.579+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:54:59.579+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:54:59.586+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:54:59.586+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:54:59.604+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.438 seconds
+[2023-10-20T13:55:56.202+0530] {processor.py:157} INFO - Started process (PID=27853) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:55:56.209+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:55:56.211+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:55:56.210+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:55:56.609+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:55:56.615+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:55:56.615+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:55:56.622+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:55:56.622+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:55:56.640+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.440 seconds
+[2023-10-20T13:56:49.503+0530] {processor.py:157} INFO - Started process (PID=27933) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:56:49.504+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:56:49.504+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:56:49.504+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:56:49.877+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:56:49.884+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:56:49.883+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:56:49.890+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:56:49.890+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:56:49.907+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.407 seconds
+[2023-10-20T13:57:45.003+0530] {processor.py:157} INFO - Started process (PID=28019) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:57:45.010+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:57:45.012+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:57:45.011+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:57:45.392+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:57:45.399+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:57:45.398+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:57:45.406+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:57:45.406+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:57:45.424+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.423 seconds
+[2023-10-20T13:58:41.859+0530] {processor.py:157} INFO - Started process (PID=28104) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:58:41.866+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:58:41.868+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:58:41.868+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:58:42.265+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:58:42.272+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:58:42.272+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:58:42.279+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:58:42.279+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:58:42.291+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.433 seconds
+[2023-10-20T13:59:34.733+0530] {processor.py:157} INFO - Started process (PID=28191) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:59:34.740+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T13:59:34.742+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:59:34.741+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:59:35.138+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T13:59:35.145+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:59:35.145+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:59:35.151+0530] {logging_mixin.py:151} INFO - [2023-10-20T13:59:35.151+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T13:59:35.177+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.447 seconds
+[2023-10-20T14:00:30.690+0530] {processor.py:157} INFO - Started process (PID=28279) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:00:30.697+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:00:30.699+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:00:30.698+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:00:31.090+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:00:31.097+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:00:31.097+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:00:31.104+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:00:31.104+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:00:31.127+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.439 seconds
+[2023-10-20T14:01:22.834+0530] {processor.py:157} INFO - Started process (PID=28361) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:01:22.841+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:01:22.843+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:01:22.842+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:01:23.236+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:01:23.242+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:01:23.242+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:01:23.249+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:01:23.249+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:01:23.273+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.441 seconds
+[2023-10-20T14:02:13.262+0530] {processor.py:157} INFO - Started process (PID=28443) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:02:13.268+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:02:13.269+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:02:13.269+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:02:13.641+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:02:13.648+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:02:13.648+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:02:13.654+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:02:13.654+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:02:13.672+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.412 seconds
+[2023-10-20T14:03:06.331+0530] {processor.py:157} INFO - Started process (PID=28533) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:03:06.338+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:03:06.340+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:03:06.340+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:03:06.731+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:03:06.738+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:03:06.738+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:03:06.745+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:03:06.745+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:03:06.770+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.441 seconds
+[2023-10-20T14:04:01.869+0530] {processor.py:157} INFO - Started process (PID=28632) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:04:01.876+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:04:01.878+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:04:01.877+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:04:02.265+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:04:02.271+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:04:02.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:04:02.278+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:04:02.278+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:04:02.295+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.428 seconds
+[2023-10-20T14:04:57.464+0530] {processor.py:157} INFO - Started process (PID=28715) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:04:57.471+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:04:57.472+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:04:57.472+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:04:57.846+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:04:57.852+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:04:57.852+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:04:57.859+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:04:57.858+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:04:57.870+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.408 seconds
+[2023-10-20T14:05:55.509+0530] {processor.py:157} INFO - Started process (PID=28802) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:05:55.516+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:05:55.518+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:05:55.517+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:05:55.889+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:05:55.896+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:05:55.895+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:05:55.903+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:05:55.903+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:05:55.921+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.414 seconds
+[2023-10-20T14:06:48.418+0530] {processor.py:157} INFO - Started process (PID=28885) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:06:48.418+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:06:48.419+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:06:48.419+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:06:48.791+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:06:48.798+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:06:48.798+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:06:48.804+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:06:48.804+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:06:48.827+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.412 seconds
+[2023-10-20T14:07:41.702+0530] {processor.py:157} INFO - Started process (PID=28976) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:07:41.703+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:07:41.703+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:07:41.703+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:07:42.089+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:07:42.097+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:07:42.097+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:07:42.103+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:07:42.103+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:07:42.128+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.429 seconds
+[2023-10-20T14:08:34.439+0530] {processor.py:157} INFO - Started process (PID=29057) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:08:34.446+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:08:34.448+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:08:34.447+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:08:34.837+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:08:34.844+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:08:34.843+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:08:34.851+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:08:34.851+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:08:34.869+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.432 seconds
+[2023-10-20T14:09:23.578+0530] {processor.py:157} INFO - Started process (PID=29137) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:09:23.578+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:09:23.579+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:09:23.579+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:09:23.951+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:09:23.958+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:09:23.958+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:09:23.965+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:09:23.964+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:09:23.989+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.414 seconds
+[2023-10-20T14:10:21.130+0530] {processor.py:157} INFO - Started process (PID=29224) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:10:21.137+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:10:21.139+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:10:21.138+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:10:21.533+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:10:21.540+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:10:21.540+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:10:21.547+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:10:21.546+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:10:21.571+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.443 seconds
+[2023-10-20T14:11:12.308+0530] {processor.py:157} INFO - Started process (PID=29305) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:11:12.316+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:11:12.317+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:11:12.317+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:11:12.702+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:11:12.709+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:11:12.709+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:11:12.716+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:11:12.716+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:11:12.740+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.438 seconds
+[2023-10-20T14:12:03.652+0530] {processor.py:157} INFO - Started process (PID=29384) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:12:03.659+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:12:03.661+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:12:03.660+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:12:04.060+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:12:04.067+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:12:04.066+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:12:04.073+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:12:04.073+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:12:04.098+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.449 seconds
+[2023-10-20T14:12:59.316+0530] {processor.py:157} INFO - Started process (PID=29488) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:12:59.323+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:12:59.325+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:12:59.324+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:12:59.712+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:12:59.719+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:12:59.719+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:12:59.726+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:12:59.725+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:12:59.748+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.435 seconds
+[2023-10-20T14:13:56.730+0530] {processor.py:157} INFO - Started process (PID=29576) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:13:56.737+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:13:56.739+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:13:56.738+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:13:57.121+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:13:57.129+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:13:57.128+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:13:57.135+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:13:57.135+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:13:57.153+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.426 seconds
+[2023-10-20T14:14:48.002+0530] {processor.py:157} INFO - Started process (PID=29661) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:14:48.009+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:14:48.011+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:14:48.010+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:14:48.377+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:14:48.384+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:14:48.383+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:14:48.390+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:14:48.390+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:14:48.409+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.408 seconds
+[2023-10-20T14:15:39.621+0530] {processor.py:157} INFO - Started process (PID=29739) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:15:39.627+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:15:39.628+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:15:39.628+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:15:40.006+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:15:40.013+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:15:40.013+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:15:40.019+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:15:40.019+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:15:40.037+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.419 seconds
+[2023-10-20T14:16:28.609+0530] {processor.py:157} INFO - Started process (PID=29819) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:16:28.616+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:16:28.618+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:16:28.617+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:16:29.008+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:16:29.014+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:16:29.014+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:16:29.021+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:16:29.021+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:16:29.045+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.438 seconds
+[2023-10-20T14:17:25.163+0530] {processor.py:157} INFO - Started process (PID=29907) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:17:25.170+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:17:25.172+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:17:25.171+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:17:25.555+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:17:25.562+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:17:25.561+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:17:25.568+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:17:25.568+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:17:25.591+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.430 seconds
+[2023-10-20T14:18:19.499+0530] {processor.py:157} INFO - Started process (PID=30025) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:18:19.506+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:18:19.507+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:18:19.506+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:18:19.873+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:18:19.880+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:18:19.880+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:18:19.886+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:18:19.886+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:18:19.904+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.407 seconds
+[2023-10-20T14:19:11.547+0530] {processor.py:157} INFO - Started process (PID=30118) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:19:11.554+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:19:11.556+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:19:11.556+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:19:11.960+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:19:11.970+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:19:11.970+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:19:11.981+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:19:11.981+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:19:12.009+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.464 seconds
+[2023-10-20T14:20:01.111+0530] {processor.py:157} INFO - Started process (PID=30275) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:20:01.118+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:20:01.120+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:20:01.119+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:20:01.513+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:20:01.520+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:20:01.519+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:20:01.526+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:20:01.526+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:20:01.543+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.435 seconds
+[2023-10-20T14:20:55.366+0530] {processor.py:157} INFO - Started process (PID=30372) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:20:55.373+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:20:55.375+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:20:55.374+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:20:55.758+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:20:55.766+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:20:55.766+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:20:55.772+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:20:55.772+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:20:55.797+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.434 seconds
+[2023-10-20T14:21:43.434+0530] {processor.py:157} INFO - Started process (PID=30450) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:21:43.441+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:21:43.443+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:21:43.442+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:21:43.812+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:21:43.818+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:21:43.818+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:21:43.826+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:21:43.826+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:21:43.849+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.417 seconds
+[2023-10-20T14:22:38.309+0530] {processor.py:157} INFO - Started process (PID=30536) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:22:38.316+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:22:38.319+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:22:38.318+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:22:38.707+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:22:38.714+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:22:38.713+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:22:38.720+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:22:38.720+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:22:38.744+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.437 seconds
+[2023-10-20T14:23:31.823+0530] {processor.py:157} INFO - Started process (PID=30635) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:23:31.831+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:23:31.833+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:23:31.832+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:23:32.228+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:23:32.236+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:23:32.235+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:23:32.242+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:23:32.242+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:23:32.265+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.447 seconds
+[2023-10-20T14:24:28.603+0530] {processor.py:157} INFO - Started process (PID=30743) to work on /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:24:28.610+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/word_count_final.py for tasks to queue
+[2023-10-20T14:24:28.612+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:24:28.611+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:24:28.982+0530] {processor.py:839} INFO - DAG(s) dict_keys(['word_count_dag']) retrieved from /home/harika/airflow/dags/word_count_final.py
+[2023-10-20T14:24:28.989+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:24:28.988+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:24:28.996+0530] {logging_mixin.py:151} INFO - [2023-10-20T14:24:28.996+0530] {dag.py:3696} INFO - Setting next_dagrun for word_count_dag to None, run_after=None
+[2023-10-20T14:24:29.020+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/word_count_final.py took 0.419 seconds

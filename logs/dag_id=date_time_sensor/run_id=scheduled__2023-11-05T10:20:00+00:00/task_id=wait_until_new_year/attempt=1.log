@@ -1,0 +1,14 @@
+[2023-11-06T15:50:03.248+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: date_time_sensor.wait_until_new_year scheduled__2023-11-05T10:20:00+00:00 [queued]>
+[2023-11-06T15:50:03.253+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: date_time_sensor.wait_until_new_year scheduled__2023-11-05T10:20:00+00:00 [queued]>
+[2023-11-06T15:50:03.253+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-06T15:50:03.261+0530] {taskinstance.py:1380} INFO - Executing <Task(DateTimeSensor): wait_until_new_year> on 2023-11-05 10:20:00+00:00
+[2023-11-06T15:50:03.264+0530] {standard_task_runner.py:57} INFO - Started process 43677 to run task
+[2023-11-06T15:50:03.265+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'date_time_sensor', 'wait_until_new_year', 'scheduled__2023-11-05T10:20:00+00:00', '--job-id', '4323', '--raw', '--subdir', 'DAGS_FOLDER/dataTimeSensor.py', '--cfg-path', '/tmp/tmpefbi3klm']
+[2023-11-06T15:50:03.266+0530] {standard_task_runner.py:85} INFO - Job 4323: Subtask wait_until_new_year
+[2023-11-06T15:50:03.288+0530] {task_command.py:415} INFO - Running <TaskInstance: date_time_sensor.wait_until_new_year scheduled__2023-11-05T10:20:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-06T15:50:03.330+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='date_time_sensor' AIRFLOW_CTX_TASK_ID='wait_until_new_year' AIRFLOW_CTX_EXECUTION_DATE='2023-11-05T10:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-05T10:20:00+00:00'
+[2023-11-06T15:50:03.334+0530] {date_time.py:74} INFO - Checking if the time (2023-11-01T10:20:00) has come
+[2023-11-06T15:50:03.334+0530] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-06T15:50:03.338+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=date_time_sensor, task_id=wait_until_new_year, execution_date=20231105T102000, start_date=20231106T102003, end_date=20231106T102003
+[2023-11-06T15:50:03.437+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-06T15:50:03.448+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

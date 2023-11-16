@@ -1,0 +1,15 @@
+[2023-10-26T19:05:26.225+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task manual__2023-10-26T13:35:22.109135+00:00 [queued]>
+[2023-10-26T19:05:26.230+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_dag.get_details_from_wikipedia_task manual__2023-10-26T13:35:22.109135+00:00 [queued]>
+[2023-10-26T19:05:26.230+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-26T19:05:26.248+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): get_details_from_wikipedia_task> on 2023-10-26 13:35:22.109135+00:00
+[2023-10-26T19:05:26.253+0530] {standard_task_runner.py:57} INFO - Started process 8001 to run task
+[2023-10-26T19:05:26.256+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_dag', 'get_details_from_wikipedia_task', 'manual__2023-10-26T13:35:22.109135+00:00', '--job-id', '1730', '--raw', '--subdir', 'DAGS_FOLDER/word_count.py', '--cfg-path', '/tmp/tmpsnkhpldx']
+[2023-10-26T19:05:26.258+0530] {standard_task_runner.py:85} INFO - Job 1730: Subtask get_details_from_wikipedia_task
+[2023-10-26T19:05:26.287+0530] {task_command.py:415} INFO - Running <TaskInstance: wikipedia_dag.get_details_from_wikipedia_task manual__2023-10-26T13:35:22.109135+00:00 [running]> on host harika-Latitude-5511
+[2023-10-26T19:05:26.337+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_dag' AIRFLOW_CTX_TASK_ID='get_details_from_wikipedia_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-26T13:35:22.109135+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-26T13:35:22.109135+00:00'
+[2023-10-26T19:05:26.339+0530] {logging_mixin.py:151} INFO - Kerala
+[2023-10-26T19:05:28.386+0530] {logging_mixin.py:151} INFO - Kerala
+[2023-10-26T19:05:32.103+0530] {python.py:194} INFO - Done. Returned value was: /home/harika/wikidata/Kerala/content.txt
+[2023-10-26T19:05:32.132+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=wikipedia_dag, task_id=get_details_from_wikipedia_task, execution_date=20231026T133522, start_date=20231026T133526, end_date=20231026T133532
+[2023-10-26T19:05:32.174+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-26T19:05:32.201+0530] {taskinstance.py:2776} INFO - 2 downstream tasks scheduled from follow-on schedule check

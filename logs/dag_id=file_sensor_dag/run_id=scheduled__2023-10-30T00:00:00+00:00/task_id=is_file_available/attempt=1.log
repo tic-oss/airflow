@@ -1,0 +1,16 @@
+[2023-10-31T09:56:08.126+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: file_sensor_dag.is_file_available scheduled__2023-10-30T00:00:00+00:00 [queued]>
+[2023-10-31T09:56:08.131+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: file_sensor_dag.is_file_available scheduled__2023-10-30T00:00:00+00:00 [queued]>
+[2023-10-31T09:56:08.131+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-31T09:56:08.143+0530] {taskinstance.py:1380} INFO - Executing <Task(FileSensor): is_file_available> on 2023-10-30 00:00:00+00:00
+[2023-10-31T09:56:08.147+0530] {standard_task_runner.py:57} INFO - Started process 589892 to run task
+[2023-10-31T09:56:08.150+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'file_sensor_dag', 'is_file_available', 'scheduled__2023-10-30T00:00:00+00:00', '--job-id', '2012', '--raw', '--subdir', 'DAGS_FOLDER/fileSensor.py', '--cfg-path', '/tmp/tmpzygf5rzu']
+[2023-10-31T09:56:08.151+0530] {standard_task_runner.py:85} INFO - Job 2012: Subtask is_file_available
+[2023-10-31T09:56:08.176+0530] {task_command.py:415} INFO - Running <TaskInstance: file_sensor_dag.is_file_available scheduled__2023-10-30T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-31T09:56:08.225+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='file_sensor_dag' AIRFLOW_CTX_TASK_ID='is_file_available' AIRFLOW_CTX_EXECUTION_DATE='2023-10-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-30T00:00:00+00:00'
+[2023-10-31T09:56:08.229+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-31T09:56:08.230+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.pdf
+[2023-10-31T09:56:08.230+0530] {filesystem.py:69} INFO - Found File /home/harika/airflow/dags/sample.pdf last modified: 20231013175109
+[2023-10-31T09:56:08.230+0530] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-10-31T09:56:08.233+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=file_sensor_dag, task_id=is_file_available, execution_date=20231030T000000, start_date=20231031T042608, end_date=20231031T042608
+[2023-10-31T09:56:08.281+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-31T09:56:08.295+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

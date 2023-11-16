@@ -1,0 +1,23 @@
+[2023-10-30T18:04:36.802+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcomEx2.training_model_A manual__2023-10-30T12:34:29.947867+00:00 [queued]>
+[2023-10-30T18:04:36.808+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcomEx2.training_model_A manual__2023-10-30T12:34:29.947867+00:00 [queued]>
+[2023-10-30T18:04:36.809+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-30T18:04:36.817+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): training_model_A> on 2023-10-30 12:34:29.947867+00:00
+[2023-10-30T18:04:36.821+0530] {standard_task_runner.py:57} INFO - Started process 531005 to run task
+[2023-10-30T18:04:36.824+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'xcomEx2', 'training_model_A', 'manual__2023-10-30T12:34:29.947867+00:00', '--job-id', '1973', '--raw', '--subdir', 'DAGS_FOLDER/xcom2.py', '--cfg-path', '/tmp/tmp53lynd83']
+[2023-10-30T18:04:36.825+0530] {standard_task_runner.py:85} INFO - Job 1973: Subtask training_model_A
+[2023-10-30T18:04:36.847+0530] {task_command.py:415} INFO - Running <TaskInstance: xcomEx2.training_model_A manual__2023-10-30T12:34:29.947867+00:00 [running]> on host harika-Latitude-5511
+[2023-10-30T18:04:36.894+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='xcomEx2' AIRFLOW_CTX_TASK_ID='training_model_A' AIRFLOW_CTX_EXECUTION_DATE='2023-10-30T12:34:29.947867+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-30T12:34:29.947867+00:00'
+[2023-10-30T18:04:36.895+0530] {logging_mixin.py:151} INFO - model's accuracy: 9.733305237028596
+[2023-10-30T18:04:36.895+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/xcom2.py", line 15, in _training_model
+    ti.xcom_push(key=modal_accuracy, value=accuracy)
+NameError: name 'modal_accuracy' is not defined
+[2023-10-30T18:04:36.897+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=xcomEx2, task_id=training_model_A, execution_date=20231030T123429, start_date=20231030T123436, end_date=20231030T123436
+[2023-10-30T18:04:36.904+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 1973 for task training_model_A (name 'modal_accuracy' is not defined; 531005)
+[2023-10-30T18:04:36.916+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-30T18:04:36.949+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

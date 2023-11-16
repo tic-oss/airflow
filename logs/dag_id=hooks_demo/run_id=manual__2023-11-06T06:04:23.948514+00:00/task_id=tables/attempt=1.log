@@ -1,0 +1,30 @@
+[2023-11-06T11:34:25.861+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.tables manual__2023-11-06T06:04:23.948514+00:00 [queued]>
+[2023-11-06T11:34:25.865+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.tables manual__2023-11-06T06:04:23.948514+00:00 [queued]>
+[2023-11-06T11:34:25.865+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-11-06T11:34:25.875+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): tables> on 2023-11-06 06:04:23.948514+00:00
+[2023-11-06T11:34:25.877+0530] {standard_task_runner.py:57} INFO - Started process 16236 to run task
+[2023-11-06T11:34:25.879+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'tables', 'manual__2023-11-06T06:04:23.948514+00:00', '--job-id', '4294', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmpd_4cdbob']
+[2023-11-06T11:34:25.880+0530] {standard_task_runner.py:85} INFO - Job 4294: Subtask tables
+[2023-11-06T11:34:25.904+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.tables manual__2023-11-06T06:04:23.948514+00:00 [running]> on host harika-Latitude-5511
+[2023-11-06T11:34:26.027+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='tables' AIRFLOW_CTX_EXECUTION_DATE='2023-11-06T06:04:23.948514+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-06T06:04:23.948514+00:00'
+[2023-11-06T11:34:26.032+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-06T11:34:26.044+0530] {logging_mixin.py:151} INFO - \dt
+[2023-11-06T11:34:26.045+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/hooks.py", line 53, in list_tables
+    cursor.execute(query)
+psycopg2.errors.SyntaxError: syntax error at or near "\"
+LINE 1: \dt
+        ^
+
+[2023-11-06T11:34:26.048+0530] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=hooks_demo, task_id=tables, execution_date=20231106T060423, start_date=20231106T060425, end_date=20231106T060426
+[2023-11-06T11:34:26.056+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 4294 for task tables (syntax error at or near "\"
+LINE 1: \dt
+        ^
+; 16236)
+[2023-11-06T11:34:26.091+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-06T11:34:26.124+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,18 @@
+[2023-10-20T11:48:56.961+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_dag.submit_spark_word_count_job scheduled__2023-10-19T00:00:00+00:00 [queued]>
+[2023-10-20T11:48:56.965+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_dag.submit_spark_word_count_job scheduled__2023-10-19T00:00:00+00:00 [queued]>
+[2023-10-20T11:48:56.965+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-20T11:48:56.974+0530] {taskinstance.py:1380} INFO - Executing <Task(SparkSubmitOperator): submit_spark_word_count_job> on 2023-10-19 00:00:00+00:00
+[2023-10-20T11:48:56.976+0530] {standard_task_runner.py:57} INFO - Started process 15650 to run task
+[2023-10-20T11:48:56.978+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_dag', 'submit_spark_word_count_job', 'scheduled__2023-10-19T00:00:00+00:00', '--job-id', '726', '--raw', '--subdir', 'DAGS_FOLDER/word_count.py', '--cfg-path', '/tmp/tmp960qzaci']
+[2023-10-20T11:48:56.978+0530] {standard_task_runner.py:85} INFO - Job 726: Subtask submit_spark_word_count_job
+[2023-10-20T11:48:57.010+0530] {task_command.py:415} INFO - Running <TaskInstance: wikipedia_dag.submit_spark_word_count_job scheduled__2023-10-19T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-20T11:48:57.049+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_dag' AIRFLOW_CTX_TASK_ID='submit_spark_word_count_job' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-19T00:00:00+00:00'
+[2023-10-20T11:48:57.052+0530] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2023-10-20T11:48:57.053+0530] {spark_submit.py:340} INFO - Spark-Submit cmd: spark-submit --master local --name PythonWordCount --queue root.default /home/harika/sparkjobs/word_count_extended.py /home/harika/wikidata/Fruit/content.txt
+[2023-10-20T11:48:57.963+0530] {spark_submit.py:491} INFO - 23/10/20 11:48:57 WARN Utils: Your hostname, harika-Latitude-5511 resolves to a loopback address: 127.0.1.1; using 192.168.161.97 instead (on interface wlo1)
+[2023-10-20T11:48:57.964+0530] {spark_submit.py:491} INFO - 23/10/20 11:48:57 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2023-10-20T11:48:58.272+0530] {spark_submit.py:491} INFO - 23/10/20 11:48:58 INFO ShutdownHookManager: Shutdown hook called
+[2023-10-20T11:48:58.272+0530] {spark_submit.py:491} INFO - 23/10/20 11:48:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-2afb46d9-9691-4205-ac5f-1a89e3abe3c6
+[2023-10-20T11:48:58.305+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=wikipedia_dag, task_id=submit_spark_word_count_job, execution_date=20231019T000000, start_date=20231020T061856, end_date=20231020T061858
+[2023-10-20T11:48:58.354+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-20T11:48:58.389+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

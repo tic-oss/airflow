@@ -1,0 +1,34 @@
+[2023-10-27T10:38:14.547+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: webpage_dag.submit_spark_word_count_job scheduled__2023-10-26T00:00:00+00:00 [queued]>
+[2023-10-27T10:38:14.553+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: webpage_dag.submit_spark_word_count_job scheduled__2023-10-26T00:00:00+00:00 [queued]>
+[2023-10-27T10:38:14.553+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-27T10:38:14.563+0530] {taskinstance.py:1380} INFO - Executing <Task(SparkSubmitOperator): submit_spark_word_count_job> on 2023-10-26 00:00:00+00:00
+[2023-10-27T10:38:14.566+0530] {standard_task_runner.py:57} INFO - Started process 10519 to run task
+[2023-10-27T10:38:14.568+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'webpage_dag', 'submit_spark_word_count_job', 'scheduled__2023-10-26T00:00:00+00:00', '--job-id', '1748', '--raw', '--subdir', 'DAGS_FOLDER/word_count_url.py', '--cfg-path', '/tmp/tmpq7bwm9fa']
+[2023-10-27T10:38:14.569+0530] {standard_task_runner.py:85} INFO - Job 1748: Subtask submit_spark_word_count_job
+[2023-10-27T10:38:14.591+0530] {task_command.py:415} INFO - Running <TaskInstance: webpage_dag.submit_spark_word_count_job scheduled__2023-10-26T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-27T10:38:14.636+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='harikasree2225@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='webpage_dag' AIRFLOW_CTX_TASK_ID='submit_spark_word_count_job' AIRFLOW_CTX_EXECUTION_DATE='2023-10-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-26T00:00:00+00:00'
+[2023-10-27T10:38:14.640+0530] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2023-10-27T10:38:14.641+0530] {spark_submit.py:340} INFO - Spark-Submit cmd: spark-submit --master  --name PythonWordCount --queue root.default /home/harika/sparkjobs/word_count_extended.py /home/harika/webdata/web_page_data/content.txt
+[2023-10-27T10:38:15.664+0530] {spark_submit.py:491} INFO - 23/10/27 10:38:15 WARN Utils: Your hostname, harika-Latitude-5511 resolves to a loopback address: 127.0.1.1; using 192.168.29.76 instead (on interface wlo1)
+[2023-10-27T10:38:15.666+0530] {spark_submit.py:491} INFO - 23/10/27 10:38:15 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2023-10-27T10:38:15.744+0530] {spark_submit.py:491} INFO - Exception in thread "main" org.apache.spark.SparkException: Master must either be yarn or start with spark, mesos, k8s, or local
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.error(SparkSubmit.scala:1047)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:256)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:964)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:194)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:217)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1120)
+[2023-10-27T10:38:15.745+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1129)
+[2023-10-27T10:38:15.746+0530] {spark_submit.py:491} INFO - at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2023-10-27T10:38:15.764+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 156, in execute
+    self._hook.submit(self._application)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 422, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master  --name PythonWordCount --queue root.default /home/harika/sparkjobs/word_count_extended.py /home/harika/webdata/web_page_data/content.txt. Error code is: 1.
+[2023-10-27T10:38:15.769+0530] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=webpage_dag, task_id=submit_spark_word_count_job, execution_date=20231026T000000, start_date=20231027T050814, end_date=20231027T050815
+[2023-10-27T10:38:15.781+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 1748 for task submit_spark_word_count_job (Cannot execute: spark-submit --master  --name PythonWordCount --queue root.default /home/harika/sparkjobs/word_count_extended.py /home/harika/webdata/web_page_data/content.txt. Error code is: 1.; 10519)
+[2023-10-27T10:38:15.823+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-27T10:38:15.856+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

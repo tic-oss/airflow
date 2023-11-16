@@ -1,0 +1,13 @@
+[2023-11-13T14:27:15.620+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: deferrable.wait_sensor_non_deferrable manual__2023-11-13T07:37:47.437792+00:00 [queued]>
+[2023-11-13T14:27:15.626+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: deferrable.wait_sensor_non_deferrable manual__2023-11-13T07:37:47.437792+00:00 [queued]>
+[2023-11-13T14:27:15.627+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-13T14:27:15.637+0530] {taskinstance.py:1380} INFO - Executing <Task(WaitOneHourSensor): wait_sensor_non_deferrable> on 2023-11-13 07:37:47.437792+00:00
+[2023-11-13T14:27:15.640+0530] {standard_task_runner.py:57} INFO - Started process 225418 to run task
+[2023-11-13T14:27:15.643+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'deferrable', 'wait_sensor_non_deferrable', 'manual__2023-11-13T07:37:47.437792+00:00', '--job-id', '4547', '--raw', '--subdir', 'DAGS_FOLDER/deferrable_operator.py', '--cfg-path', '/tmp/tmp4jb9gvko']
+[2023-11-13T14:27:15.644+0530] {standard_task_runner.py:85} INFO - Job 4547: Subtask wait_sensor_non_deferrable
+[2023-11-13T14:27:15.670+0530] {task_command.py:415} INFO - Running <TaskInstance: deferrable.wait_sensor_non_deferrable manual__2023-11-13T07:37:47.437792+00:00 [running]> on host harika-Latitude-5511
+[2023-11-13T14:27:15.741+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='deferrable' AIRFLOW_CTX_TASK_ID='wait_sensor_non_deferrable' AIRFLOW_CTX_EXECUTION_DATE='2023-11-13T07:37:47.437792+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-13T07:37:47.437792+00:00'
+[2023-11-13T14:27:15.742+0530] {logging_mixin.py:151} INFO - not deferrable
+[2023-11-13T14:27:15.746+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=deferrable, task_id=wait_sensor_non_deferrable, execution_date=20231113T073747, start_date=20231113T085715, end_date=20231113T085715
+[2023-11-13T14:27:15.855+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-13T14:27:15.875+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

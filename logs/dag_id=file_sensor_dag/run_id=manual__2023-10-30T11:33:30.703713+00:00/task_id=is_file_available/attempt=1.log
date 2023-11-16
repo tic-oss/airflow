@@ -1,0 +1,75 @@
+[2023-10-30T17:03:34.292+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: file_sensor_dag.is_file_available manual__2023-10-30T11:33:30.703713+00:00 [queued]>
+[2023-10-30T17:03:34.298+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: file_sensor_dag.is_file_available manual__2023-10-30T11:33:30.703713+00:00 [queued]>
+[2023-10-30T17:03:34.298+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-30T17:03:34.307+0530] {taskinstance.py:1380} INFO - Executing <Task(FileSensor): is_file_available> on 2023-10-30 11:33:30.703713+00:00
+[2023-10-30T17:03:34.311+0530] {standard_task_runner.py:57} INFO - Started process 464411 to run task
+[2023-10-30T17:03:34.313+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'file_sensor_dag', 'is_file_available', 'manual__2023-10-30T11:33:30.703713+00:00', '--job-id', '1932', '--raw', '--subdir', 'DAGS_FOLDER/fileSensor.py', '--cfg-path', '/tmp/tmp2j5pato_']
+[2023-10-30T17:03:34.313+0530] {standard_task_runner.py:85} INFO - Job 1932: Subtask is_file_available
+[2023-10-30T17:03:34.335+0530] {task_command.py:415} INFO - Running <TaskInstance: file_sensor_dag.is_file_available manual__2023-10-30T11:33:30.703713+00:00 [running]> on host harika-Latitude-5511
+[2023-10-30T17:03:34.379+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='file_sensor_dag' AIRFLOW_CTX_TASK_ID='is_file_available' AIRFLOW_CTX_EXECUTION_DATE='2023-10-30T11:33:30.703713+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-30T11:33:30.703713+00:00'
+[2023-10-30T17:03:34.383+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:03:34.383+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:03:44.399+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:03:44.399+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:03:54.412+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:03:54.412+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:04:04.427+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:04:04.427+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:04:14.439+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:04:14.440+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:04:24.454+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:04:24.454+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:04:34.463+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:04:34.463+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:04:44.474+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:04:44.475+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:04:54.487+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:04:54.487+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:05:04.498+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:05:04.499+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:05:14.511+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:05:14.511+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:05:24.518+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:05:24.519+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:05:34.532+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:05:34.532+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:05:44.543+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:05:44.543+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:05:54.558+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:05:54.558+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:06:04.573+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:06:04.574+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:06:14.590+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:06:14.590+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:06:24.599+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:06:24.599+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:06:34.614+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:06:34.615+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:06:44.631+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:06:44.632+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:06:54.646+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:06:54.647+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:04.657+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:07:04.658+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:14.671+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:07:14.671+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:24.686+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:07:24.687+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:34.698+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:07:34.699+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:44.710+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:07:44.710+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:54.719+0530] {base.py:73} INFO - Using connection ID 'my_file_system' for task execution.
+[2023-10-30T17:07:54.719+0530] {filesystem.py:64} INFO - Poking for file /home/harika/airflow/dags/sample.txt
+[2023-10-30T17:07:56.943+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 464411. PIDs of all processes in the group: [464411]
+[2023-10-30T17:07:56.944+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 464411
+[2023-10-30T17:07:56.944+0530] {taskinstance.py:1630} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-10-30T17:07:56.953+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1632, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-10-30T17:07:56.956+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=file_sensor_dag, task_id=is_file_available, execution_date=20231030T113330, start_date=20231030T113334, end_date=20231030T113756
+[2023-10-30T17:07:57.093+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 1932 for task is_file_available (Task received SIGTERM signal; 464411)

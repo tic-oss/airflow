@@ -1,0 +1,30 @@
+[2023-11-16T15:56:45.092+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hooks_demo.transfer manual__2023-11-16T10:21:37.637570+00:00 [queued]>
+[2023-11-16T15:56:45.097+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hooks_demo.transfer manual__2023-11-16T10:21:37.637570+00:00 [queued]>
+[2023-11-16T15:56:45.097+0530] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2023-11-16T15:56:45.106+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transfer> on 2023-11-16 10:21:37.637570+00:00
+[2023-11-16T15:56:45.110+0530] {standard_task_runner.py:57} INFO - Started process 145517 to run task
+[2023-11-16T15:56:45.112+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hooks_demo', 'transfer', 'manual__2023-11-16T10:21:37.637570+00:00', '--job-id', '4728', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmp2nfyv2xb']
+[2023-11-16T15:56:45.113+0530] {standard_task_runner.py:85} INFO - Job 4728: Subtask transfer
+[2023-11-16T15:56:45.136+0530] {task_command.py:415} INFO - Running <TaskInstance: hooks_demo.transfer manual__2023-11-16T10:21:37.637570+00:00 [running]> on host harika-Latitude-5511
+[2023-11-16T15:56:45.272+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='hooks_demo' AIRFLOW_CTX_TASK_ID='transfer' AIRFLOW_CTX_EXECUTION_DATE='2023-11-16T10:21:37.637570+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-16T10:21:37.637570+00:00'
+[2023-11-16T15:56:45.277+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T15:56:45.289+0530] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-16T15:56:45.298+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/harika/airflow/dags/hooks.py", line 36, in transfer_function
+    source_cursor.execute(qqq)
+psycopg2.errors.SyntaxError: syntax error at or near "*"
+LINE 1: GRANT ALL PRIVILEGES ON *.* TO 'postgres'@'localhost' WITH G...
+                                ^
+
+[2023-11-16T15:56:45.301+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=hooks_demo, task_id=transfer, execution_date=20231116T102137, start_date=20231116T102645, end_date=20231116T102645
+[2023-11-16T15:56:45.308+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 4728 for task transfer (syntax error at or near "*"
+LINE 1: GRANT ALL PRIVILEGES ON *.* TO 'postgres'@'localhost' WITH G...
+                                ^
+; 145517)
+[2023-11-16T15:56:45.324+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-16T15:56:45.338+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

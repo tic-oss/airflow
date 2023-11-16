@@ -1,0 +1,1350 @@
+[2023-10-30T16:08:52.722+0530] {processor.py:157} INFO - Started process (PID=404584) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:08:52.723+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:08:52.724+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:08:52.723+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:08:52.728+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:08:52.727+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 10, in <module>
+    dag = DAG('xcomBasic', default_args=default_args, description='A multi step DAG to download Wikipedia content and count words', schedule_interval=timedelta(days=1))
+NameError: name 'default_args' is not defined
+[2023-10-30T16:08:52.728+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:08:52.745+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.025 seconds
+[2023-10-30T16:09:51.423+0530] {processor.py:157} INFO - Started process (PID=405745) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:09:51.424+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:09:51.424+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:09:51.424+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:09:51.426+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:09:51.426+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 10, in <module>
+    dag = DAG('xcomBasic', default_args=default_args, description='A multi step DAG to download Wikipedia content and count words', schedule_interval=timedelta(days=1))
+NameError: name 'default_args' is not defined
+[2023-10-30T16:09:51.426+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:09:51.437+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.016 seconds
+[2023-10-30T16:10:17.095+0530] {processor.py:157} INFO - Started process (PID=406312) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:10:17.101+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:10:17.102+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:10:17.102+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:10:17.104+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:10:17.104+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 10, in <module>
+    dag = DAG('xcomBasic', description='A multi step DAG to download Wikipedia content and count words', schedule_interval=timedelta(days=1))
+NameError: name 'timedelta' is not defined
+[2023-10-30T16:10:17.104+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:10:17.115+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.022 seconds
+[2023-10-30T16:11:12.766+0530] {processor.py:157} INFO - Started process (PID=407302) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:11:12.773+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:11:12.773+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:11:12.773+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:11:12.775+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:11:12.775+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 10, in <module>
+    dag = DAG('xcomBasic', description='A multi step DAG to download Wikipedia content and count words', schedule_interval=timedelta(days=1))
+NameError: name 'timedelta' is not defined
+[2023-10-30T16:11:12.776+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:11:12.788+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.024 seconds
+[2023-10-30T16:11:41.433+0530] {processor.py:157} INFO - Started process (PID=407757) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:11:41.440+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:11:41.440+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:11:41.440+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:11:41.443+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:11:41.443+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 14, in <module>
+    dag = DAG('xcomBasic', default_args=default_args, description='A multi step DAG to download Wikipedia content and count words', schedule_interval=timedelta(days=1))
+NameError: name 'timedelta' is not defined
+[2023-10-30T16:11:41.443+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:11:41.456+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.026 seconds
+[2023-10-30T16:12:09.813+0530] {processor.py:157} INFO - Started process (PID=408330) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:12:09.813+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:12:09.814+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.814+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:12:09.819+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:12:09.893+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.893+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-30T16:12:09.901+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.901+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-30T16:12:09.906+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.906+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-30T16:12:09.907+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.906+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:xcomBasic' as access control is unset.
+[2023-10-30T16:12:09.907+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.907+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:12:09.916+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.915+0530] {dag.py:2937} INFO - Creating ORM DAG for xcomBasic
+[2023-10-30T16:12:09.925+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:09.924+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-28T00:00:00+00:00, run_after=2023-10-29T00:00:00+00:00
+[2023-10-30T16:12:09.951+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.140 seconds
+[2023-10-30T16:12:37.424+0530] {processor.py:157} INFO - Started process (PID=408746) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:12:37.424+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:12:37.425+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:37.425+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:12:37.430+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:12:37.435+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:37.435+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:12:37.451+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:12:37.450+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-28T00:00:00+00:00, run_after=2023-10-29T00:00:00+00:00
+[2023-10-30T16:12:37.465+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.044 seconds
+[2023-10-30T16:13:41.629+0530] {processor.py:157} INFO - Started process (PID=409996) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:13:41.636+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:13:41.636+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:13:41.636+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:13:41.641+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:13:41.702+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:13:41.702+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:xcomBasic' as access control is unset.
+[2023-10-30T16:13:41.702+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:13:41.702+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:13:41.714+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:13:41.714+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:13:41.728+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.101 seconds
+[2023-10-30T16:14:17.905+0530] {processor.py:157} INFO - Started process (PID=410615) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:14:17.912+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:14:17.912+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:14:17.912+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:14:17.917+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:14:17.928+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:14:17.928+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:14:17.942+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:14:17.942+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:14:17.955+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T16:14:44.912+0530] {processor.py:157} INFO - Started process (PID=411172) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:14:44.913+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:14:44.913+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:14:44.913+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:14:44.919+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:14:44.929+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:14:44.929+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:14:44.943+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:14:44.943+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:14:44.957+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:15:40.378+0530] {processor.py:157} INFO - Started process (PID=412148) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:15:40.378+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:15:40.379+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:15:40.379+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:15:40.383+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:15:40.395+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:15:40.394+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:15:40.409+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:15:40.409+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:15:40.423+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:16:32.803+0530] {processor.py:157} INFO - Started process (PID=413097) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:16:32.809+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:16:32.810+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:16:32.809+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:16:32.814+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:16:32.823+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:16:32.823+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:16:32.836+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:16:32.836+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:16:32.848+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:17:24.690+0530] {processor.py:157} INFO - Started process (PID=414067) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:17:24.691+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:17:24.692+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:17:24.691+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:17:24.696+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:17:24.706+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:17:24.705+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:17:24.719+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:17:24.719+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:17:24.732+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.044 seconds
+[2023-10-30T16:18:19.282+0530] {processor.py:157} INFO - Started process (PID=415043) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:18:19.286+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:18:19.288+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:18:19.287+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:18:19.302+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:18:19.320+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:18:19.320+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:18:19.335+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:18:19.335+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:18:19.348+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.072 seconds
+[2023-10-30T16:19:13.361+0530] {processor.py:157} INFO - Started process (PID=416020) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:19:13.367+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:19:13.368+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:19:13.367+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:19:13.372+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:19:13.381+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:19:13.381+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:19:13.394+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:19:13.394+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:19:13.407+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T16:20:04.736+0530] {processor.py:157} INFO - Started process (PID=416989) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:20:04.742+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:20:04.743+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:20:04.743+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:20:04.747+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:20:04.756+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:20:04.756+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:20:04.769+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:20:04.769+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:20:04.782+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T16:20:57.583+0530] {processor.py:157} INFO - Started process (PID=417948) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:20:57.589+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:20:57.590+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:20:57.589+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:20:57.594+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:20:57.603+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:20:57.603+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:20:57.616+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:20:57.616+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:20:57.629+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T16:21:54.123+0530] {processor.py:157} INFO - Started process (PID=418931) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:21:54.130+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:21:54.130+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:21:54.130+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:21:54.134+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:21:54.144+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:21:54.144+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:21:54.157+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:21:54.157+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:21:54.170+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T16:22:48.806+0530] {processor.py:157} INFO - Started process (PID=419943) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:22:48.813+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:22:48.813+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:22:48.813+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:22:48.819+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:22:48.830+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:22:48.829+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:22:48.845+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:22:48.845+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:22:48.858+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T16:23:44.432+0530] {processor.py:157} INFO - Started process (PID=420943) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:23:44.439+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:23:44.441+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:23:44.440+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:23:44.455+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:23:44.479+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:23:44.479+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:23:44.496+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:23:44.496+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:23:44.509+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.079 seconds
+[2023-10-30T16:24:37.185+0530] {processor.py:157} INFO - Started process (PID=421904) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:24:37.191+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:24:37.192+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:24:37.191+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:24:37.196+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:24:37.205+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:24:37.205+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:24:37.218+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:24:37.218+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:24:37.230+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:25:30.982+0530] {processor.py:157} INFO - Started process (PID=422731) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:25:30.989+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:25:30.989+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:25:30.989+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:25:30.994+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:25:31.004+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:25:31.004+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:25:31.017+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:25:31.017+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:25:31.030+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T16:26:26.922+0530] {processor.py:157} INFO - Started process (PID=423718) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:26:26.929+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:26:26.931+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:26:26.930+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:26:26.937+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:26:26.946+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:26:26.946+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:26:26.959+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:26:26.959+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:26:26.972+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T16:27:20.745+0530] {processor.py:157} INFO - Started process (PID=424679) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:27:20.751+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:27:20.752+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:27:20.752+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:27:20.759+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:27:20.775+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:27:20.775+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:27:20.793+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:27:20.792+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:27:20.805+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.063 seconds
+[2023-10-30T16:28:16.602+0530] {processor.py:157} INFO - Started process (PID=425667) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:28:16.610+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:28:16.612+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:28:16.611+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:28:16.626+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:28:16.647+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:28:16.647+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:28:16.663+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:28:16.663+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:28:16.676+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T16:29:09.621+0530] {processor.py:157} INFO - Started process (PID=426635) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:29:09.628+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:29:09.629+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:29:09.629+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:29:09.633+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:29:09.643+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:29:09.643+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:29:09.656+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:29:09.656+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:29:09.669+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T16:30:03.889+0530] {processor.py:157} INFO - Started process (PID=427611) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:30:03.896+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:30:03.898+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:30:03.897+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:30:03.912+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:30:03.935+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:30:03.935+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:30:03.951+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:30:03.950+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:30:03.963+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.076 seconds
+[2023-10-30T16:30:58.276+0530] {processor.py:157} INFO - Started process (PID=428590) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:30:58.277+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:30:58.277+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:30:58.277+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:30:58.282+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:30:58.292+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:30:58.292+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:30:58.306+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:30:58.306+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:30:58.319+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.045 seconds
+[2023-10-30T16:31:51.043+0530] {processor.py:157} INFO - Started process (PID=429561) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:31:51.044+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:31:51.045+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:31:51.044+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:31:51.050+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:31:51.062+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:31:51.062+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:31:51.076+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:31:51.076+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:31:51.089+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T16:32:46.101+0530] {processor.py:157} INFO - Started process (PID=430544) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:32:46.108+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:32:46.111+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:32:46.110+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:32:46.125+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:32:46.149+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:32:46.149+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:32:46.165+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:32:46.165+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:32:46.178+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.079 seconds
+[2023-10-30T16:33:38.876+0530] {processor.py:157} INFO - Started process (PID=431522) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:33:38.883+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:33:38.883+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:33:38.883+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:33:38.888+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:33:38.897+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:33:38.897+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:33:38.911+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:33:38.911+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:33:38.924+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T16:34:34.856+0530] {processor.py:157} INFO - Started process (PID=432534) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:34:34.863+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:34:34.863+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:34:34.863+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:34:34.868+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:34:34.878+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:34:34.878+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:34:34.892+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:34:34.892+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:34:34.905+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.051 seconds
+[2023-10-30T16:35:27.871+0530] {processor.py:157} INFO - Started process (PID=433506) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:35:27.877+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:35:27.878+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:35:27.878+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:35:27.883+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:35:27.882+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 15, in <module>
+    push_task = PythonOperator(
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 177, in __init__
+    super().__init__(**kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-10-30T16:35:27.883+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:35:27.894+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.026 seconds
+[2023-10-30T16:35:45.302+0530] {processor.py:157} INFO - Started process (PID=433907) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:35:45.303+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:35:45.303+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:35:45.303+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:35:45.310+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:35:45.308+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/xcom.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/xcom.py", line 15, in <module>
+    push_task = PythonOperator(
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 177, in __init__
+    super().__init__(**kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-10-30T16:35:45.310+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:35:45.321+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.021 seconds
+[2023-10-30T16:36:36.451+0530] {processor.py:157} INFO - Started process (PID=434898) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:36:36.452+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:36:36.452+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:36:36.452+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:36:36.461+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:36:36.466+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:36:36.465+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:36:36.481+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:36:36.481+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:36:36.496+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:37:36.880+0530] {processor.py:157} INFO - Started process (PID=436024) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:37:36.881+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:37:36.881+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:37:36.881+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:37:36.887+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:37:36.898+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:37:36.898+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:37:36.915+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:37:36.915+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:37:36.932+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T16:38:30.613+0530] {processor.py:157} INFO - Started process (PID=437018) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:38:30.614+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:38:30.614+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:38:30.614+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:38:30.619+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:38:30.631+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:38:30.631+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:38:30.646+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:38:30.646+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:38:30.663+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.053 seconds
+[2023-10-30T16:39:26.518+0530] {processor.py:157} INFO - Started process (PID=438072) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:39:26.525+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:39:26.525+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:39:26.525+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:39:26.530+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:39:26.539+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:39:26.539+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:39:26.552+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:39:26.552+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:39:26.565+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T16:40:18.138+0530] {processor.py:157} INFO - Started process (PID=439033) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:40:18.145+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:40:18.147+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:40:18.146+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:40:18.162+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:40:18.184+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:40:18.184+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:40:18.201+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:40:18.201+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:40:18.216+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T16:41:11.247+0530] {processor.py:157} INFO - Started process (PID=440052) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:41:11.254+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:41:11.254+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:41:11.254+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:41:11.259+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:41:11.269+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:41:11.269+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:41:11.283+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:41:11.283+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:41:11.300+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T16:42:06.780+0530] {processor.py:157} INFO - Started process (PID=441033) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:42:06.787+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:42:06.787+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:42:06.787+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:42:06.791+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:42:06.801+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:42:06.801+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:42:06.815+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:42:06.815+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:42:06.828+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T16:43:05.150+0530] {processor.py:157} INFO - Started process (PID=442022) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:43:05.157+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:43:05.159+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:43:05.158+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:43:05.173+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:43:05.197+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:43:05.197+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:43:05.214+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:43:05.214+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:43:05.227+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.079 seconds
+[2023-10-30T16:43:57.702+0530] {processor.py:157} INFO - Started process (PID=443072) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:43:57.704+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:43:57.705+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:43:57.704+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:43:57.709+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:43:57.719+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:43:57.719+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:43:57.733+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:43:57.733+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:43:57.746+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.046 seconds
+[2023-10-30T16:44:52.335+0530] {processor.py:157} INFO - Started process (PID=444081) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:44:52.336+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:44:52.336+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:44:52.336+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:44:52.340+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:44:52.350+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:44:52.350+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:44:52.364+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:44:52.364+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:44:52.377+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.044 seconds
+[2023-10-30T16:45:44.381+0530] {processor.py:157} INFO - Started process (PID=444914) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:45:44.387+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:45:44.388+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:45:44.388+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:45:44.392+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:45:44.402+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:45:44.402+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:45:44.416+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:45:44.416+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:45:44.428+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T16:46:36.500+0530] {processor.py:157} INFO - Started process (PID=445900) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:46:36.501+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:46:36.502+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:36.502+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:46:36.507+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:46:36.520+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:36.520+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:46:36.536+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:36.536+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:46:36.548+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T16:47:31.097+0530] {processor.py:157} INFO - Started process (PID=446892) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:47:31.104+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:47:31.104+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:31.104+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:47:31.109+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:47:31.119+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:31.118+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:47:31.133+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:31.133+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:47:31.146+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.051 seconds
+[2023-10-30T16:48:03.558+0530] {processor.py:157} INFO - Started process (PID=447542) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:48:03.564+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:48:03.565+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:48:03.565+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:48:03.569+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:48:03.578+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:48:03.578+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:48:03.591+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:48:03.591+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:48:03.603+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:50:36.533+0530] {processor.py:157} INFO - Started process (PID=450363) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:50:36.539+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:50:36.540+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:50:36.540+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:50:36.547+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:50:36.552+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:50:36.552+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:50:36.566+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:50:36.566+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:50:36.581+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T16:51:35.336+0530] {processor.py:157} INFO - Started process (PID=451368) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:51:35.338+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:51:35.340+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:51:35.339+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:51:35.356+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:51:35.373+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:51:35.373+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:51:35.389+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:51:35.389+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:51:35.405+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.076 seconds
+[2023-10-30T16:52:32.326+0530] {processor.py:157} INFO - Started process (PID=452380) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:52:32.332+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:52:32.333+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:32.333+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:52:32.338+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:52:32.347+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:32.347+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:52:32.361+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:32.361+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:52:32.375+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.051 seconds
+[2023-10-30T16:52:57.147+0530] {processor.py:157} INFO - Started process (PID=452812) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:52:57.154+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:52:57.154+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:57.154+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:52:57.161+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:52:57.165+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:57.165+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:52:57.179+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:57.179+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:52:57.192+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T16:53:57.771+0530] {processor.py:157} INFO - Started process (PID=453992) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:53:57.777+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:53:57.778+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:53:57.778+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:53:57.782+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:53:57.793+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:53:57.793+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:53:57.808+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:53:57.808+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:53:57.822+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T16:54:53.038+0530] {processor.py:157} INFO - Started process (PID=455017) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:54:53.046+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:54:53.048+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:54:53.048+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:54:53.063+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:54:53.080+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:54:53.080+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:54:53.095+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:54:53.095+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:54:53.108+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.078 seconds
+[2023-10-30T16:55:48.407+0530] {processor.py:157} INFO - Started process (PID=456038) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:55:48.408+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:55:48.408+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:48.408+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:55:48.416+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:55:48.420+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:48.420+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:55:48.434+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:48.434+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:55:48.446+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.041 seconds
+[2023-10-30T16:56:45.928+0530] {processor.py:157} INFO - Started process (PID=457044) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:56:45.928+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:56:45.929+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:56:45.929+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:56:45.933+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:56:45.943+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:56:45.943+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:56:45.957+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:56:45.957+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:56:45.969+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.043 seconds
+[2023-10-30T16:57:39.867+0530] {processor.py:157} INFO - Started process (PID=458039) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:57:39.873+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:57:39.874+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:39.874+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:57:39.880+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:57:39.892+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:39.892+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:57:39.909+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:39.909+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:57:39.925+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.061 seconds
+[2023-10-30T16:58:37.733+0530] {processor.py:157} INFO - Started process (PID=459046) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:58:37.739+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:58:37.740+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:58:37.740+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:58:37.744+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:58:37.754+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:58:37.754+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:58:37.768+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:58:37.768+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:58:37.782+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.051 seconds
+[2023-10-30T16:59:31.687+0530] {processor.py:157} INFO - Started process (PID=460049) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:59:31.693+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T16:59:31.694+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:31.694+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:59:31.701+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T16:59:31.706+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:31.706+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:59:31.719+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:31.719+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:59:31.734+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T17:00:30.501+0530] {processor.py:157} INFO - Started process (PID=461051) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:00:30.508+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:00:30.509+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:00:30.509+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:00:30.518+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:00:30.531+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:00:30.531+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:00:30.545+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:00:30.545+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:00:30.558+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.059 seconds
+[2023-10-30T17:01:30.163+0530] {processor.py:157} INFO - Started process (PID=462191) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:01:30.170+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:01:30.171+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:30.171+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:01:30.180+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:01:30.199+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:30.199+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:01:30.217+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:30.217+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:01:30.231+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.071 seconds
+[2023-10-30T17:02:31.047+0530] {processor.py:157} INFO - Started process (PID=463221) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:02:31.055+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:02:31.057+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:02:31.056+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:02:31.073+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:02:31.093+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:02:31.093+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:02:31.108+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:02:31.108+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:02:31.122+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.081 seconds
+[2023-10-30T17:03:03.068+0530] {processor.py:157} INFO - Started process (PID=463811) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:03:03.075+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:03:03.075+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:03.075+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:03:03.081+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:03:03.094+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:03.094+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:03:03.111+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:03.111+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:03:03.124+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.058 seconds
+[2023-10-30T17:08:05.466+0530] {processor.py:157} INFO - Started process (PID=469127) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:08:05.472+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:08:05.473+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:08:05.473+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:08:05.480+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:08:05.484+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:08:05.484+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:08:05.498+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:08:05.497+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:08:05.511+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T17:09:04.904+0530] {processor.py:157} INFO - Started process (PID=470139) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:09:04.912+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:09:04.914+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:09:04.913+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:09:04.928+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:09:04.952+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:09:04.952+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:09:04.969+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:09:04.969+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:09:04.983+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.081 seconds
+[2023-10-30T17:10:25.831+0530] {processor.py:157} INFO - Started process (PID=471474) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:10:25.838+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:10:25.839+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:10:25.838+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:10:25.844+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:10:25.858+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:10:25.858+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:10:25.870+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:10:25.869+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:10:25.884+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T17:11:24.681+0530] {processor.py:157} INFO - Started process (PID=472633) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:11:24.682+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:11:24.682+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:24.682+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:11:24.686+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:11:24.695+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:24.695+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:11:24.707+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:24.707+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:11:24.719+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.040 seconds
+[2023-10-30T17:12:21.597+0530] {processor.py:157} INFO - Started process (PID=473616) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:12:21.604+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:12:21.604+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:12:21.604+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:12:21.608+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:12:21.620+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:12:21.619+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:12:21.631+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:12:21.631+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:12:21.643+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T17:13:16.856+0530] {processor.py:157} INFO - Started process (PID=474605) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:13:16.863+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:13:16.865+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:13:16.864+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:13:16.877+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:13:16.902+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:13:16.901+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:13:16.916+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:13:16.916+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:13:16.928+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.075 seconds
+[2023-10-30T17:14:16.524+0530] {processor.py:157} INFO - Started process (PID=475726) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:14:16.524+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:14:16.525+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:14:16.525+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:14:16.528+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:14:16.540+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:14:16.540+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:14:16.554+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:14:16.554+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:14:16.570+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T17:15:10.850+0530] {processor.py:157} INFO - Started process (PID=476719) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:15:10.856+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:15:10.857+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:15:10.857+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:15:10.862+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:15:10.876+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:15:10.876+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:15:10.890+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:15:10.890+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:15:10.903+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T17:16:05.055+0530] {processor.py:157} INFO - Started process (PID=477778) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:16:05.062+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:16:05.063+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:16:05.062+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:16:05.068+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:16:05.080+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:16:05.080+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:16:05.092+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:16:05.091+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:16:05.103+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.053 seconds
+[2023-10-30T17:17:02.723+0530] {processor.py:157} INFO - Started process (PID=478791) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:17:02.729+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:17:02.730+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:02.729+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:17:02.733+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:17:02.743+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:02.743+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:17:02.754+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:02.754+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:17:02.767+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.046 seconds
+[2023-10-30T17:17:59.875+0530] {processor.py:157} INFO - Started process (PID=479913) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:17:59.881+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:17:59.882+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:59.881+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:17:59.885+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:17:59.894+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:59.894+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:17:59.905+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:59.905+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:17:59.918+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.045 seconds
+[2023-10-30T17:18:59.135+0530] {processor.py:157} INFO - Started process (PID=480944) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:18:59.142+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:18:59.144+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:18:59.143+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:18:59.155+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:18:59.181+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:18:59.181+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:18:59.195+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:18:59.195+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:18:59.207+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.075 seconds
+[2023-10-30T17:19:54.040+0530] {processor.py:157} INFO - Started process (PID=481953) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:19:54.047+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:19:54.048+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:19:54.047+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:19:54.051+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:19:54.062+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:19:54.062+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:19:54.075+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:19:54.075+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:19:54.088+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T17:20:22.836+0530] {processor.py:157} INFO - Started process (PID=482414) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:20:22.844+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:20:22.846+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:20:22.846+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:20:22.868+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:20:22.876+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:20:22.876+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:20:22.891+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:20:22.891+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:20:22.905+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.075 seconds
+[2023-10-30T17:21:22.151+0530] {processor.py:157} INFO - Started process (PID=483542) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:21:22.152+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:21:22.153+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:21:22.152+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:21:22.159+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:21:22.173+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:21:22.173+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:21:22.190+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:21:22.189+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:21:22.203+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T17:22:20.501+0530] {processor.py:157} INFO - Started process (PID=484544) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:22:20.502+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:22:20.502+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:22:20.502+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:22:20.508+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:22:20.518+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:22:20.518+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:22:20.534+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:22:20.533+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:22:20.548+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T17:23:02.011+0530] {processor.py:157} INFO - Started process (PID=485381) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:23:02.017+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:23:02.019+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:23:02.018+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:23:02.028+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:23:02.033+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:23:02.032+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:23:02.046+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:23:02.046+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:23:02.060+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.051 seconds
+[2023-10-30T17:24:02.670+0530] {processor.py:157} INFO - Started process (PID=486421) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:24:02.671+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:24:02.671+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:02.671+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:24:02.676+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:24:02.687+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:02.687+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:24:02.702+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:02.701+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:24:02.714+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T17:25:03.232+0530] {processor.py:157} INFO - Started process (PID=487570) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:25:03.239+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:25:03.239+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:25:03.239+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:25:03.244+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:25:03.253+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:25:03.253+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:25:03.267+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:25:03.266+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:25:03.279+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T17:26:04.726+0530] {processor.py:157} INFO - Started process (PID=488593) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:26:04.732+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:26:04.733+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:04.733+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:26:04.737+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:26:04.748+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:04.748+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:26:04.762+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:04.762+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:26:04.776+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T17:27:01.899+0530] {processor.py:157} INFO - Started process (PID=489730) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:27:01.899+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:27:01.900+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:01.900+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:27:01.904+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:27:01.914+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:01.914+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:27:01.927+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:01.927+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:27:01.940+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.043 seconds
+[2023-10-30T17:27:57.889+0530] {processor.py:157} INFO - Started process (PID=490732) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:27:57.896+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:27:57.898+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:57.897+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:27:57.912+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:27:57.934+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:57.934+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:27:57.950+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:57.950+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:27:57.963+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.076 seconds
+[2023-10-30T17:28:30.559+0530] {processor.py:157} INFO - Started process (PID=491329) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:28:30.559+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:28:30.560+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:28:30.560+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:28:30.565+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:28:30.577+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:28:30.576+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:28:30.592+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:28:30.592+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:28:30.607+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T17:29:43.886+0530] {processor.py:157} INFO - Started process (PID=492695) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:29:43.887+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:29:43.887+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:29:43.887+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:29:43.891+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:29:43.901+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:29:43.901+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:29:43.915+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:29:43.915+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:29:43.927+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.043 seconds
+[2023-10-30T17:30:29.537+0530] {processor.py:157} INFO - Started process (PID=493511) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:30:29.543+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:30:29.544+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:29.544+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:30:29.549+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:30:29.559+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:29.559+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:30:29.574+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:29.574+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:30:29.586+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T17:31:27.505+0530] {processor.py:157} INFO - Started process (PID=494643) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:31:27.512+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:31:27.513+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:27.512+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:31:27.518+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:31:27.529+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:27.529+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:31:27.544+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:27.543+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:31:27.556+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T17:32:24.434+0530] {processor.py:157} INFO - Started process (PID=495685) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:32:24.441+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:32:24.442+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:32:24.441+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:32:24.449+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:32:24.468+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:32:24.468+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:32:24.488+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:32:24.488+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:32:24.501+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.069 seconds
+[2023-10-30T17:33:20.879+0530] {processor.py:157} INFO - Started process (PID=496730) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:33:20.885+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:33:20.886+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:33:20.885+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:33:20.890+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:33:20.900+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:33:20.900+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:33:20.916+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:33:20.916+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:33:20.931+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T17:34:20.600+0530] {processor.py:157} INFO - Started process (PID=497793) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:34:20.607+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:34:20.609+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:20.608+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:34:20.625+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:34:20.651+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:20.650+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:34:20.668+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:20.667+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:34:20.680+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.082 seconds
+[2023-10-30T17:34:54.841+0530] {processor.py:157} INFO - Started process (PID=498431) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:34:54.848+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:34:54.851+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:54.850+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:34:54.866+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:34:54.881+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:54.881+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:34:54.897+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:54.897+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:34:54.910+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.076 seconds
+[2023-10-30T17:35:29.249+0530] {processor.py:157} INFO - Started process (PID=499217) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:35:29.255+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:35:29.256+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:35:29.256+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:35:29.262+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:35:29.276+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:35:29.276+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:35:29.292+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:35:29.292+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:35:29.306+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.059 seconds
+[2023-10-30T17:36:27.594+0530] {processor.py:157} INFO - Started process (PID=500220) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:36:27.600+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:36:27.601+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:27.601+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:36:27.606+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:36:27.616+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:27.616+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:36:27.631+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:27.631+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:36:27.645+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.053 seconds
+[2023-10-30T17:37:30.664+0530] {processor.py:157} INFO - Started process (PID=501345) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:37:30.670+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:37:30.671+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:37:30.671+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:37:30.676+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:37:30.691+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:37:30.691+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:37:30.708+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:37:30.708+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:37:30.721+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.060 seconds
+[2023-10-30T17:38:25.879+0530] {processor.py:157} INFO - Started process (PID=502357) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:38:25.880+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:38:25.881+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:38:25.880+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:38:25.885+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:38:25.895+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:38:25.895+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:38:25.908+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:38:25.908+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:38:25.928+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T17:39:20.206+0530] {processor.py:157} INFO - Started process (PID=503369) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:39:20.212+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:39:20.213+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:39:20.212+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:39:20.217+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:39:20.227+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:39:20.226+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:39:20.240+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:39:20.240+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:39:20.253+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T17:40:20.842+0530] {processor.py:157} INFO - Started process (PID=504515) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:40:20.843+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:40:20.844+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:40:20.843+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:40:20.848+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:40:20.857+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:40:20.857+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:40:20.871+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:40:20.871+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:40:20.884+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.044 seconds
+[2023-10-30T17:41:18.460+0530] {processor.py:157} INFO - Started process (PID=505513) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:41:18.467+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:41:18.467+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:18.467+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:41:18.472+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:41:18.481+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:18.481+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:41:18.495+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:18.495+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:41:18.509+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T17:42:19.224+0530] {processor.py:157} INFO - Started process (PID=506699) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:42:19.231+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:42:19.233+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:42:19.232+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:42:19.248+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:42:19.268+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:42:19.268+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:42:19.283+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:42:19.283+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:42:19.296+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.078 seconds
+[2023-10-30T17:43:17.114+0530] {processor.py:157} INFO - Started process (PID=507776) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:43:17.121+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:43:17.121+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:43:17.121+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:43:17.125+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:43:17.135+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:43:17.135+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:43:17.149+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:43:17.149+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:43:17.162+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T17:44:10.722+0530] {processor.py:157} INFO - Started process (PID=508768) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:44:10.729+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:44:10.731+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:44:10.730+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:44:10.737+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:44:10.747+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:44:10.747+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:44:10.761+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:44:10.761+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:44:10.774+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T17:45:05.167+0530] {processor.py:157} INFO - Started process (PID=509754) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:45:05.173+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:45:05.174+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:05.173+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:45:05.179+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:45:05.189+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:05.189+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:45:05.204+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:05.203+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:45:05.217+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.053 seconds
+[2023-10-30T17:45:56.589+0530] {processor.py:157} INFO - Started process (PID=510567) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:45:56.596+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:45:56.598+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:56.597+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:45:56.612+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:45:56.636+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:56.635+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:45:56.652+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:56.652+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:45:56.665+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.078 seconds
+[2023-10-30T17:46:54.340+0530] {processor.py:157} INFO - Started process (PID=511719) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:46:54.348+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:46:54.350+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:46:54.350+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:46:54.366+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:46:54.386+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:46:54.385+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:46:54.403+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:46:54.403+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:46:54.417+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.084 seconds
+[2023-10-30T17:47:25.877+0530] {processor.py:157} INFO - Started process (PID=512165) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:47:25.884+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:47:25.884+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:47:25.884+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:47:25.889+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:47:25.900+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:47:25.900+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:47:25.915+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:47:25.915+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:47:25.928+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.053 seconds
+[2023-10-30T17:48:24.717+0530] {processor.py:157} INFO - Started process (PID=513399) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:48:24.724+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:48:24.724+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:48:24.724+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:48:24.729+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:48:24.740+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:48:24.740+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:48:24.755+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:48:24.754+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:48:24.767+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T17:49:22.067+0530] {processor.py:157} INFO - Started process (PID=514450) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:49:22.076+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:49:22.077+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:49:22.077+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:49:22.090+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:49:22.114+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:49:22.114+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:49:22.131+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:49:22.131+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:49:22.145+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.081 seconds
+[2023-10-30T17:50:23.470+0530] {processor.py:157} INFO - Started process (PID=515461) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:50:23.478+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:50:23.480+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:50:23.480+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:50:23.495+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:50:23.514+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:50:23.513+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:50:23.529+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:50:23.529+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:50:23.543+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T17:51:21.772+0530] {processor.py:157} INFO - Started process (PID=516597) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:51:21.780+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:51:21.782+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:51:21.781+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:51:21.797+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:51:21.810+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:51:21.810+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:51:21.825+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:51:21.825+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:51:21.839+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.073 seconds
+[2023-10-30T17:52:22.398+0530] {processor.py:157} INFO - Started process (PID=517603) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:52:22.406+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:52:22.408+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:52:22.407+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:52:22.423+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:52:22.443+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:52:22.443+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:52:22.459+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:52:22.459+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:52:22.472+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.081 seconds
+[2023-10-30T17:53:22.987+0530] {processor.py:157} INFO - Started process (PID=518773) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:53:22.987+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:53:22.988+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:53:22.988+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:53:22.994+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:53:23.007+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:53:23.007+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:53:23.027+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:53:23.027+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:53:23.044+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.060 seconds
+[2023-10-30T17:54:23.094+0530] {processor.py:157} INFO - Started process (PID=519803) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:54:23.100+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:54:23.101+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:54:23.101+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:54:23.106+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:54:23.118+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:54:23.118+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:54:23.134+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:54:23.134+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:54:23.148+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.057 seconds
+[2023-10-30T17:55:21.610+0530] {processor.py:157} INFO - Started process (PID=520836) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:55:21.619+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:55:21.621+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:55:21.620+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:55:21.636+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:55:21.654+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:55:21.653+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:55:21.669+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:55:21.669+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:55:21.683+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.079 seconds
+[2023-10-30T17:56:20.003+0530] {processor.py:157} INFO - Started process (PID=521973) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:56:20.009+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:56:20.010+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:20.010+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:56:20.016+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:56:20.026+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:20.026+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:56:20.041+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:20.041+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:56:20.057+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.056 seconds
+[2023-10-30T17:57:18.150+0530] {processor.py:157} INFO - Started process (PID=522980) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:57:18.151+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:57:18.151+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:18.151+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:57:18.157+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:57:18.170+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:18.170+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:57:18.189+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:18.188+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:57:18.207+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.059 seconds
+[2023-10-30T17:57:56.624+0530] {processor.py:157} INFO - Started process (PID=523630) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:57:56.631+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:57:56.631+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:56.631+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:57:56.637+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:57:56.642+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:56.642+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:57:56.656+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:56.656+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:57:56.671+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T17:59:19.131+0530] {processor.py:157} INFO - Started process (PID=525293) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:59:19.137+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T17:59:19.138+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:59:19.138+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:59:19.142+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T17:59:19.152+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:59:19.152+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:59:19.166+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:59:19.166+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:59:19.179+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T18:00:18.831+0530] {processor.py:157} INFO - Started process (PID=526304) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:00:18.839+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:00:18.841+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:00:18.840+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:00:18.856+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:00:18.878+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:00:18.878+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:00:18.893+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:00:18.893+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:00:18.907+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.079 seconds
+[2023-10-30T18:01:20.146+0530] {processor.py:157} INFO - Started process (PID=527462) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:01:20.153+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:01:20.153+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:01:20.153+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:01:20.157+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:01:20.167+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:01:20.167+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:01:20.180+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:01:20.180+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:01:20.192+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T18:02:20.169+0530] {processor.py:157} INFO - Started process (PID=528473) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:02:20.169+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:02:20.170+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:02:20.170+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:02:20.175+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:02:20.185+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:02:20.185+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:02:20.204+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:02:20.204+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:02:20.219+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T18:03:18.652+0530] {processor.py:157} INFO - Started process (PID=529588) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:03:18.653+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:03:18.653+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:03:18.653+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:03:18.658+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:03:18.667+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:03:18.667+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:03:18.681+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:03:18.681+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:03:18.695+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.045 seconds
+[2023-10-30T18:04:15.630+0530] {processor.py:157} INFO - Started process (PID=530592) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:04:15.637+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:04:15.637+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:15.637+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:04:15.642+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:04:15.652+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:15.652+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:04:15.666+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:15.666+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:04:15.679+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.051 seconds
+[2023-10-30T18:04:54.003+0530] {processor.py:157} INFO - Started process (PID=531248) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:04:54.004+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:04:54.004+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:54.004+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:04:54.008+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:04:54.018+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:54.018+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:04:54.032+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:54.032+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:04:54.045+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.045 seconds
+[2023-10-30T18:05:32.471+0530] {processor.py:157} INFO - Started process (PID=532014) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:05:32.478+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:05:32.481+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:05:32.480+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:05:32.496+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:05:32.519+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:05:32.519+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:05:32.536+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:05:32.536+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:05:32.549+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T18:06:13.105+0530] {processor.py:157} INFO - Started process (PID=532706) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:06:13.112+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:06:13.113+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:13.112+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:06:13.118+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:06:13.128+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:13.128+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:06:13.144+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:13.144+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:06:13.158+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.054 seconds
+[2023-10-30T18:06:50.194+0530] {processor.py:157} INFO - Started process (PID=533462) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:06:50.195+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:06:50.195+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:50.195+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:06:50.199+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:06:50.210+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:50.210+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:06:50.224+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:50.224+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:06:50.237+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.045 seconds
+[2023-10-30T18:07:50.132+0530] {processor.py:157} INFO - Started process (PID=534474) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:07:50.139+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:07:50.140+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:07:50.139+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:07:50.145+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:07:50.159+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:07:50.159+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:07:50.178+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:07:50.178+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:07:50.197+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.067 seconds
+[2023-10-30T18:08:30.226+0530] {processor.py:157} INFO - Started process (PID=535310) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:08:30.233+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:08:30.233+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:08:30.233+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:08:30.238+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:08:30.247+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:08:30.247+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:08:30.261+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:08:30.261+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:08:30.274+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T18:09:09.083+0530] {processor.py:157} INFO - Started process (PID=535921) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:09:09.090+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:09:09.091+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:09:09.091+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:09:09.097+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:09:09.113+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:09:09.113+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:09:09.131+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:09:09.131+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:09:09.144+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.064 seconds
+[2023-10-30T18:10:09.571+0530] {processor.py:157} INFO - Started process (PID=537075) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:10:09.577+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:10:09.578+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:10:09.578+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:10:09.584+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:10:09.597+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:10:09.597+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:10:09.613+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:10:09.613+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:10:09.631+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.063 seconds
+[2023-10-30T18:11:11.485+0530] {processor.py:157} INFO - Started process (PID=538106) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:11:11.486+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:11:11.487+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:11.486+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:11:11.492+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:11:11.504+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:11.504+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:11:11.520+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:11.520+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:11:11.534+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T18:11:53.513+0530] {processor.py:157} INFO - Started process (PID=538955) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:11:53.520+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:11:53.522+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:53.521+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:11:53.536+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:11:53.561+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:53.561+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:11:53.578+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:53.577+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:11:53.590+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T18:12:33.658+0530] {processor.py:157} INFO - Started process (PID=539718) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:12:33.665+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:12:33.665+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:12:33.665+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:12:33.672+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:12:33.684+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:12:33.683+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:12:33.702+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:12:33.702+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:12:33.718+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.063 seconds
+[2023-10-30T18:13:33.875+0530] {processor.py:157} INFO - Started process (PID=540746) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:13:33.882+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:13:33.882+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:13:33.882+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:13:33.887+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:13:33.898+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:13:33.897+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:13:33.912+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:13:33.912+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:13:33.924+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.052 seconds
+[2023-10-30T18:14:33.306+0530] {processor.py:157} INFO - Started process (PID=541898) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:14:33.313+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:14:33.314+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:14:33.313+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:14:33.319+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:14:33.331+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:14:33.331+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:14:33.348+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:14:33.348+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:14:33.363+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.059 seconds
+[2023-10-30T18:15:29.015+0530] {processor.py:157} INFO - Started process (PID=542878) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:15:29.017+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:15:29.019+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:15:29.018+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:15:29.034+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:15:29.051+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:15:29.051+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:15:29.066+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:15:29.066+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:15:29.079+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.070 seconds
+[2023-10-30T18:16:30.416+0530] {processor.py:157} INFO - Started process (PID=543912) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:16:30.417+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:16:30.418+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:16:30.417+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:16:30.423+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:16:30.434+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:16:30.434+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:16:30.448+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:16:30.447+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:16:30.460+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.046 seconds
+[2023-10-30T18:17:29.631+0530] {processor.py:157} INFO - Started process (PID=545062) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:17:29.638+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:17:29.638+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:29.638+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:17:29.643+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:17:29.654+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:29.654+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:17:29.670+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:29.670+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:17:29.689+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.060 seconds
+[2023-10-30T18:18:39.166+0530] {processor.py:157} INFO - Started process (PID=546347) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:18:39.172+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:18:39.173+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:18:39.173+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:18:39.179+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:18:39.193+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:18:39.193+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:18:39.210+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:18:39.210+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:18:39.222+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.059 seconds
+[2023-10-30T18:19:20.883+0530] {processor.py:157} INFO - Started process (PID=547131) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:19:20.890+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:19:20.892+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:19:20.891+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:19:20.899+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:19:20.909+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:19:20.909+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:19:20.922+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:19:20.922+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:19:20.935+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T18:20:18.331+0530] {processor.py:157} INFO - Started process (PID=548199) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:20:18.333+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:20:18.335+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:20:18.334+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:20:18.350+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:20:18.368+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:20:18.368+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:20:18.384+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:20:18.383+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:20:18.396+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.071 seconds
+[2023-10-30T18:21:20.026+0530] {processor.py:157} INFO - Started process (PID=549340) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:21:20.033+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:21:20.034+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:21:20.034+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:21:20.043+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:21:20.060+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:21:20.060+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:21:20.074+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:21:20.074+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:21:20.088+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.066 seconds
+[2023-10-30T18:22:19.353+0530] {processor.py:157} INFO - Started process (PID=550355) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:22:19.355+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:22:19.357+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:19.356+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:22:19.372+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:22:19.390+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:19.389+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:22:19.405+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:19.405+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:22:19.419+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.073 seconds
+[2023-10-30T18:23:20.244+0530] {processor.py:157} INFO - Started process (PID=551393) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:23:20.244+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:23:20.245+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:23:20.245+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:23:20.249+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:23:20.259+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:23:20.259+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:23:20.274+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:23:20.274+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:23:20.289+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T18:24:31.053+0530] {processor.py:157} INFO - Started process (PID=552803) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:24:31.059+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:24:31.060+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:24:31.060+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:24:31.064+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:24:31.074+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:24:31.074+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:24:31.089+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:24:31.088+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:24:31.101+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T18:25:09.806+0530] {processor.py:157} INFO - Started process (PID=553439) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:25:09.806+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:25:09.807+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:25:09.807+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:25:09.812+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:25:09.824+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:25:09.823+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:25:09.838+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:25:09.838+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:25:09.853+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T18:26:08.647+0530] {processor.py:157} INFO - Started process (PID=554581) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:26:08.654+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:26:08.654+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:26:08.654+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:26:08.659+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:26:08.670+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:26:08.670+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:26:08.685+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:26:08.685+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:26:08.703+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.058 seconds
+[2023-10-30T18:27:18.545+0530] {processor.py:157} INFO - Started process (PID=555840) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:27:18.551+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:27:18.552+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:18.552+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:27:18.556+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:27:18.566+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:18.566+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:27:18.580+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:18.580+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:27:18.593+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T18:28:00.212+0530] {processor.py:157} INFO - Started process (PID=556615) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:28:00.220+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:28:00.222+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:28:00.221+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:28:00.237+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:28:00.256+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:28:00.256+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:28:00.272+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:28:00.272+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:28:00.285+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T18:29:01.114+0530] {processor.py:157} INFO - Started process (PID=557645) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:29:01.121+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:29:01.123+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:01.122+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:29:01.138+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:29:01.159+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:01.159+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:29:01.174+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:01.174+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:29:01.187+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.076 seconds
+[2023-10-30T18:30:01.034+0530] {processor.py:157} INFO - Started process (PID=558777) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:30:01.040+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:30:01.041+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:01.041+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:30:01.047+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:30:01.060+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:01.060+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:30:01.074+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:01.074+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:30:01.087+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.056 seconds
+[2023-10-30T18:30:59.664+0530] {processor.py:157} INFO - Started process (PID=559777) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:30:59.670+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:30:59.671+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:59.671+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:30:59.676+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:30:59.690+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:59.690+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:30:59.705+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:59.705+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:30:59.718+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.057 seconds
+[2023-10-30T18:31:57.829+0530] {processor.py:157} INFO - Started process (PID=560774) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:31:57.836+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:31:57.837+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:31:57.836+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:31:57.843+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:31:57.860+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:31:57.859+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:31:57.876+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:31:57.876+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:31:57.889+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.062 seconds
+[2023-10-30T18:32:53.082+0530] {processor.py:157} INFO - Started process (PID=561759) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:32:53.088+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:32:53.089+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:32:53.089+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:32:53.094+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:32:53.105+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:32:53.105+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:32:53.120+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:32:53.119+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:32:53.133+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T18:33:55.135+0530] {processor.py:157} INFO - Started process (PID=562922) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:33:55.136+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:33:55.136+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:33:55.136+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:33:55.141+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:33:55.151+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:33:55.151+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:33:55.164+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:33:55.164+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:33:55.177+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.045 seconds
+[2023-10-30T18:34:29.521+0530] {processor.py:157} INFO - Started process (PID=563523) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:34:29.528+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:34:29.528+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:34:29.528+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:34:29.534+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:34:29.545+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:34:29.545+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:34:29.560+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:34:29.560+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:34:29.574+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T18:35:29.255+0530] {processor.py:157} INFO - Started process (PID=564543) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:35:29.261+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:35:29.262+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:35:29.262+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:35:29.266+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:35:29.276+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:35:29.276+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:35:29.290+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:35:29.290+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:35:29.303+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T18:36:28.348+0530] {processor.py:157} INFO - Started process (PID=565696) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:36:28.349+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:36:28.350+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:36:28.350+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:36:28.355+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:36:28.368+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:36:28.367+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:36:28.383+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:36:28.383+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:36:28.395+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T18:37:27.994+0530] {processor.py:157} INFO - Started process (PID=566694) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:37:28.000+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:37:28.001+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:37:28.001+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:37:28.006+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:37:28.018+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:37:28.017+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:37:28.034+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:37:28.033+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:37:28.047+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.055 seconds
+[2023-10-30T18:38:29.779+0530] {processor.py:157} INFO - Started process (PID=567846) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:38:29.787+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:38:29.789+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:38:29.788+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:38:29.804+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:38:29.823+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:38:29.823+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:38:29.838+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:38:29.838+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:38:29.851+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.078 seconds
+[2023-10-30T18:39:31.617+0530] {processor.py:157} INFO - Started process (PID=568852) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:39:31.624+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:39:31.626+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:39:31.625+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:39:31.640+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:39:31.662+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:39:31.662+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:39:31.678+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:39:31.678+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:39:31.691+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.076 seconds
+[2023-10-30T18:40:05.346+0530] {processor.py:157} INFO - Started process (PID=569447) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:40:05.353+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:40:05.355+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:05.354+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:40:05.369+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:40:05.394+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:05.394+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:40:05.410+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:05.410+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:40:05.423+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T18:40:37.996+0530] {processor.py:157} INFO - Started process (PID=570032) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:40:38.003+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:40:38.004+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:38.004+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:40:38.013+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:40:38.032+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:38.032+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:40:38.051+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:38.051+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:40:38.064+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.070 seconds
+[2023-10-30T18:41:40.070+0530] {processor.py:157} INFO - Started process (PID=571167) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:41:40.070+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:41:40.071+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:41:40.071+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:41:40.076+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:41:40.088+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:41:40.088+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:41:40.102+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:41:40.102+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:41:40.115+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.047 seconds
+[2023-10-30T18:42:43.130+0530] {processor.py:157} INFO - Started process (PID=572331) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:42:43.131+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:42:43.132+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:42:43.131+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:42:43.137+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:42:43.148+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:42:43.148+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:42:43.164+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:42:43.164+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:42:43.177+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.049 seconds
+[2023-10-30T18:43:44.904+0530] {processor.py:157} INFO - Started process (PID=573347) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:43:44.905+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:43:44.906+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:43:44.906+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:43:44.910+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:43:44.921+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:43:44.921+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:43:44.935+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:43:44.935+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:43:44.948+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.046 seconds
+[2023-10-30T18:44:44.269+0530] {processor.py:157} INFO - Started process (PID=574481) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:44:44.271+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:44:44.274+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:44:44.272+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:44:44.289+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:44:44.307+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:44:44.307+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:44:44.322+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:44:44.321+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:44:44.334+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.072 seconds
+[2023-10-30T18:45:17.487+0530] {processor.py:157} INFO - Started process (PID=575076) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:45:17.495+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:45:17.497+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:45:17.496+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:45:17.512+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:45:17.532+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:45:17.531+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:45:17.548+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:45:17.548+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:45:17.561+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T18:46:18.768+0530] {processor.py:157} INFO - Started process (PID=576092) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:46:18.769+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:46:18.770+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:46:18.770+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:46:18.779+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:46:18.797+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:46:18.797+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:46:18.819+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:46:18.819+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:46:18.834+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.070 seconds
+[2023-10-30T18:47:17.702+0530] {processor.py:157} INFO - Started process (PID=577220) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:47:17.709+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:47:17.712+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:47:17.711+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:47:17.728+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:47:17.747+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:47:17.747+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:47:17.763+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:47:17.763+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:47:17.776+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.081 seconds
+[2023-10-30T18:48:18.524+0530] {processor.py:157} INFO - Started process (PID=578225) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:48:18.532+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:48:18.534+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:48:18.533+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:48:18.548+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:48:18.566+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:48:18.566+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:48:18.582+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:48:18.581+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:48:18.595+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.078 seconds
+[2023-10-30T18:49:19.527+0530] {processor.py:157} INFO - Started process (PID=579375) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:49:19.534+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:49:19.536+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:19.535+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:49:19.551+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:49:19.575+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:19.575+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:49:19.592+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:19.592+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:49:19.605+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.080 seconds
+[2023-10-30T18:49:54.005+0530] {processor.py:157} INFO - Started process (PID=579968) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:49:54.012+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:49:54.013+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:54.012+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:49:54.018+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:49:54.032+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:54.032+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:49:54.049+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:54.049+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:49:54.062+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.059 seconds
+[2023-10-30T18:50:53.419+0530] {processor.py:157} INFO - Started process (PID=580967) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:50:53.426+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:50:53.428+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:50:53.428+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:50:53.443+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:50:53.466+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:50:53.466+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:50:53.483+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:50:53.483+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:50:53.496+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.079 seconds
+[2023-10-30T18:51:57.403+0530] {processor.py:157} INFO - Started process (PID=582121) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:51:57.411+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:51:57.413+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:51:57.412+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:51:57.429+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:51:57.442+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:51:57.442+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:51:57.458+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:51:57.458+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:51:57.473+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.078 seconds
+[2023-10-30T18:52:58.979+0530] {processor.py:157} INFO - Started process (PID=583248) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:52:58.983+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:52:58.984+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:58.984+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:52:58.989+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:52:58.999+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:58.999+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:52:59.014+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:59.014+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:52:59.027+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.050 seconds
+[2023-10-30T18:53:58.679+0530] {processor.py:157} INFO - Started process (PID=584499) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:53:58.686+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:53:58.686+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:53:58.686+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:53:58.693+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:53:58.710+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:53:58.710+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:53:58.728+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:53:58.727+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:53:58.740+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.064 seconds
+[2023-10-30T18:54:57.642+0530] {processor.py:157} INFO - Started process (PID=585536) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:54:57.649+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:54:57.649+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:54:57.649+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:54:57.653+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:54:57.663+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:54:57.662+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:54:57.676+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:54:57.676+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:54:57.688+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.048 seconds
+[2023-10-30T18:55:57.689+0530] {processor.py:157} INFO - Started process (PID=586691) to work on /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:55:57.696+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/xcom.py for tasks to queue
+[2023-10-30T18:55:57.698+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:55:57.697+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:55:57.714+0530] {processor.py:839} INFO - DAG(s) dict_keys(['xcomBasic']) retrieved from /home/harika/airflow/dags/xcom.py
+[2023-10-30T18:55:57.737+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:55:57.737+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:55:57.755+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:55:57.755+0530] {dag.py:3696} INFO - Setting next_dagrun for xcomBasic to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:55:57.776+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/xcom.py took 0.089 seconds

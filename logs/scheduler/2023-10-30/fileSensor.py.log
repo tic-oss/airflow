@@ -1,0 +1,1069 @@
+[2023-10-30T16:46:37.069+0530] {processor.py:157} INFO - Started process (PID=445903) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:46:37.069+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:46:37.070+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.070+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:46:37.075+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:46:37.146+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.146+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-30T16:46:37.153+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.153+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-30T16:46:37.158+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.158+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-30T16:46:37.158+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.158+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:file_sensor_dag' as access control is unset.
+[2023-10-30T16:46:37.158+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.158+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:46:37.166+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.166+0530] {dag.py:2937} INFO - Creating ORM DAG for file_sensor_dag
+[2023-10-30T16:46:37.172+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:46:37.171+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-10-30T16:46:37.184+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.117 seconds
+[2023-10-30T16:47:29.850+0530] {processor.py:157} INFO - Started process (PID=446880) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:47:29.857+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:47:29.857+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:29.857+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:47:29.862+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:47:29.931+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:29.931+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:file_sensor_dag' as access control is unset.
+[2023-10-30T16:47:29.932+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:29.931+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:47:29.945+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:47:29.945+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-10-30T16:47:29.960+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.112 seconds
+[2023-10-30T16:48:02.413+0530] {processor.py:157} INFO - Started process (PID=447533) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:48:02.419+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:48:02.420+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:48:02.420+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:48:02.427+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:48:02.439+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:48:02.439+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:48:02.456+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:48:02.455+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2022-01-04T00:00:00+00:00, run_after=2022-01-05T00:00:00+00:00
+[2023-10-30T16:48:02.470+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.059 seconds
+[2023-10-30T16:50:35.371+0530] {processor.py:157} INFO - Started process (PID=450350) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:50:35.371+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:50:35.372+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:50:35.372+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:50:35.374+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:50:35.374+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/fileSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/fileSensor.py", line 6, in <module>
+    with DAG('file_sensor_dag', start_date=datetime("@daily")) as dag:
+TypeError: 'str' object cannot be interpreted as an integer
+[2023-10-30T16:50:35.375+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:50:35.386+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.017 seconds
+[2023-10-30T16:51:34.202+0530] {processor.py:157} INFO - Started process (PID=451367) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:51:34.209+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:51:34.211+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:51:34.210+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:51:34.217+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:51:34.216+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/fileSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/fileSensor.py", line 6, in <module>
+    with DAG('file_sensor_dag', start_date=datetime("@daily")) as dag:
+TypeError: 'str' object cannot be interpreted as an integer
+[2023-10-30T16:51:34.218+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:51:34.250+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T16:52:02.346+0530] {processor.py:157} INFO - Started process (PID=451801) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:52:02.353+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:52:02.353+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:02.353+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:52:02.358+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:52:02.420+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:02.419+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:file_sensor_dag' as access control is unset.
+[2023-10-30T16:52:02.420+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:02.420+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:52:02.432+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:02.431+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:52:02.447+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.102 seconds
+[2023-10-30T16:52:55.992+0530] {processor.py:157} INFO - Started process (PID=452810) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:52:55.992+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:52:55.993+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:55.992+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:52:55.999+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:52:56.004+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:56.004+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:52:56.018+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:52:56.018+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:52:56.031+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.041 seconds
+[2023-10-30T16:53:56.636+0530] {processor.py:157} INFO - Started process (PID=453988) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:53:56.642+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:53:56.643+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:53:56.643+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:53:56.647+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:53:56.657+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:53:56.657+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:53:56.671+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:53:56.671+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:53:56.685+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T16:54:51.875+0530] {processor.py:157} INFO - Started process (PID=455015) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:54:51.876+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:54:51.877+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:54:51.876+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:54:51.882+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:54:51.893+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:54:51.893+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:54:51.907+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:54:51.907+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:54:51.920+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.047 seconds
+[2023-10-30T16:55:18.909+0530] {processor.py:157} INFO - Started process (PID=455451) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:55:18.916+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:55:18.916+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:18.916+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:55:18.920+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:18.919+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/fileSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/fileSensor.py", line 3, in <module>
+    from file_sensor import FileSensor
+  File "/home/harika/airflow/plugins/file_sensor.py", line 2, in <module>
+    from airflow.operators.sensors import FileSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-10-30T16:55:18.920+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:55:18.934+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.028 seconds
+[2023-10-30T16:55:47.258+0530] {processor.py:157} INFO - Started process (PID=456036) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:55:47.259+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:55:47.259+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:47.259+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:55:47.262+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:55:47.261+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/fileSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/fileSensor.py", line 3, in <module>
+    from file_sensor import FileSensor
+ImportError: cannot import name 'FileSensor' from 'file_sensor' (/home/harika/airflow/plugins/file_sensor.py)
+[2023-10-30T16:55:47.262+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:55:47.274+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.017 seconds
+[2023-10-30T16:56:44.799+0530] {processor.py:157} INFO - Started process (PID=457043) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:56:44.805+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:56:44.806+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:56:44.805+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:56:44.808+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:56:44.807+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/fileSensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/fileSensor.py", line 3, in <module>
+    from file_sensor import FileSensor
+ImportError: cannot import name 'FileSensor' from 'file_sensor' (/home/harika/airflow/plugins/file_sensor.py)
+[2023-10-30T16:56:44.808+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:56:44.819+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.022 seconds
+[2023-10-30T16:57:10.526+0530] {processor.py:157} INFO - Started process (PID=457464) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:57:10.534+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:57:10.536+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:10.535+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:57:10.553+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:57:10.626+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:10.626+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:file_sensor_dag' as access control is unset.
+[2023-10-30T16:57:10.626+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:10.626+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:57:10.639+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:10.639+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:57:10.657+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.137 seconds
+[2023-10-30T16:57:38.732+0530] {processor.py:157} INFO - Started process (PID=458038) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:57:38.738+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:57:38.739+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:38.739+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:57:38.744+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:57:38.749+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:38.749+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:57:38.764+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:57:38.764+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:57:38.784+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T16:58:09.163+0530] {processor.py:157} INFO - Started process (PID=458614) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:58:09.170+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:58:09.171+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:58:09.171+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:58:09.177+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:58:09.190+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:58:09.189+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:58:09.205+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:58:09.205+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:58:09.221+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.061 seconds
+[2023-10-30T16:59:06.330+0530] {processor.py:157} INFO - Started process (PID=459621) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:59:06.338+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:59:06.340+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:06.340+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:59:06.355+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:59:06.372+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:06.372+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:59:06.387+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:06.387+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:59:06.401+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.077 seconds
+[2023-10-30T16:59:30.535+0530] {processor.py:157} INFO - Started process (PID=460036) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:59:30.536+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T16:59:30.537+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:30.536+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:59:30.544+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T16:59:30.549+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:30.549+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T16:59:30.563+0530] {logging_mixin.py:151} INFO - [2023-10-30T16:59:30.563+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T16:59:30.576+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.043 seconds
+[2023-10-30T17:00:29.494+0530] {processor.py:157} INFO - Started process (PID=461044) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:00:29.501+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:00:29.501+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:00:29.501+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:00:29.507+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:00:29.520+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:00:29.520+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:00:29.537+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:00:29.537+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:00:29.549+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.058 seconds
+[2023-10-30T17:01:28.986+0530] {processor.py:157} INFO - Started process (PID=462182) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:01:28.993+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:01:28.994+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:28.993+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:01:28.999+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:01:29.010+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:29.010+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:01:29.025+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:29.025+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:01:29.039+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.055 seconds
+[2023-10-30T17:01:59.617+0530] {processor.py:157} INFO - Started process (PID=462768) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:01:59.618+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:01:59.619+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:59.618+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:01:59.623+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:01:59.633+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:59.633+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:01:59.646+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:01:59.646+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:01:59.659+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.043 seconds
+[2023-10-30T17:02:30.598+0530] {processor.py:157} INFO - Started process (PID=463220) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:02:30.606+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:02:30.608+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:02:30.607+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:02:30.627+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:02:30.647+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:02:30.646+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:02:30.663+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:02:30.663+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:02:30.677+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.085 seconds
+[2023-10-30T17:03:01.930+0530] {processor.py:157} INFO - Started process (PID=463810) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:03:01.937+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:03:01.939+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:01.938+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:03:01.954+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:03:01.981+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:01.981+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:03:01.999+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:01.999+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:03:02.012+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.083 seconds
+[2023-10-30T17:03:30.693+0530] {processor.py:157} INFO - Started process (PID=464371) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:03:30.700+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:03:30.700+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:30.700+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:03:30.706+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:03:30.801+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:30.801+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:file_sensor_dag' as access control is unset.
+[2023-10-30T17:03:30.801+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:30.801+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:03:30.821+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:03:30.821+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:03:30.856+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.165 seconds
+[2023-10-30T17:08:04.291+0530] {processor.py:157} INFO - Started process (PID=469118) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:08:04.292+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:08:04.293+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:08:04.292+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:08:04.299+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:08:04.304+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:08:04.303+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:08:04.319+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:08:04.319+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:08:04.333+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.043 seconds
+[2023-10-30T17:09:04.235+0530] {processor.py:157} INFO - Started process (PID=470131) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:09:04.241+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:09:04.242+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:09:04.242+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:09:04.247+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:09:04.257+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:09:04.257+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:09:04.271+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:09:04.271+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:09:04.284+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T17:10:24.687+0530] {processor.py:157} INFO - Started process (PID=471466) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:10:24.688+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:10:24.689+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:10:24.688+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:10:24.692+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:10:24.707+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:10:24.707+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:10:24.719+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:10:24.719+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:10:24.733+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.048 seconds
+[2023-10-30T17:11:23.586+0530] {processor.py:157} INFO - Started process (PID=472632) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:11:23.588+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:11:23.591+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:23.590+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:11:23.602+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:11:23.679+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:23.679+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:file_sensor_dag' as access control is unset.
+[2023-10-30T17:11:23.680+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:23.680+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:11:23.693+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:11:23.693+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:11:23.714+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.135 seconds
+[2023-10-30T17:12:20.450+0530] {processor.py:157} INFO - Started process (PID=473615) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:12:20.451+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:12:20.451+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:12:20.451+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:12:20.454+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:12:20.464+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:12:20.464+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:12:20.475+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:12:20.475+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:12:20.487+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.039 seconds
+[2023-10-30T17:13:16.213+0530] {processor.py:157} INFO - Started process (PID=474604) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:13:16.219+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:13:16.220+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:13:16.220+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:13:16.225+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:13:16.235+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:13:16.235+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:13:16.246+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:13:16.246+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:13:16.258+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.047 seconds
+[2023-10-30T17:14:15.392+0530] {processor.py:157} INFO - Started process (PID=475711) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:14:15.393+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:14:15.394+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:14:15.393+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:14:15.397+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:14:15.407+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:14:15.407+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:14:15.418+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:14:15.418+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:14:15.431+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.040 seconds
+[2023-10-30T17:15:09.714+0530] {processor.py:157} INFO - Started process (PID=476711) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:15:09.720+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:15:09.721+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:15:09.721+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:15:09.725+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:15:09.737+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:15:09.737+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:15:09.751+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:15:09.751+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:15:09.763+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T17:16:04.574+0530] {processor.py:157} INFO - Started process (PID=477777) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:16:04.582+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:16:04.584+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:16:04.583+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:16:04.594+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:16:04.617+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:16:04.617+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:16:04.631+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:16:04.631+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:16:04.643+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.076 seconds
+[2023-10-30T17:17:01.590+0530] {processor.py:157} INFO - Started process (PID=478779) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:17:01.596+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:17:01.597+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:01.596+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:17:01.600+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:17:01.610+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:01.610+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:17:01.621+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:01.620+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:17:01.633+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.045 seconds
+[2023-10-30T17:17:58.734+0530] {processor.py:157} INFO - Started process (PID=479773) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:17:58.740+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:17:58.741+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:58.741+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:17:58.744+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:17:58.755+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:58.755+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:17:58.768+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:17:58.768+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:17:58.786+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T17:18:29.183+0530] {processor.py:157} INFO - Started process (PID=480353) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:18:29.190+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:18:29.190+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:18:29.190+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:18:29.194+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:18:29.205+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:18:29.204+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:18:29.216+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:18:29.216+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:18:29.229+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.047 seconds
+[2023-10-30T17:19:27.146+0530] {processor.py:157} INFO - Started process (PID=481389) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:19:27.151+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:19:27.152+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:19:27.151+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:19:27.156+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:19:27.168+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:19:27.168+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:19:27.182+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:19:27.182+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:19:27.196+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T17:20:21.684+0530] {processor.py:157} INFO - Started process (PID=482399) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:20:21.690+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:20:21.691+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:20:21.691+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:20:21.697+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:20:21.701+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:20:21.701+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:20:21.716+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:20:21.715+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:20:21.729+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.046 seconds
+[2023-10-30T17:21:21.033+0530] {processor.py:157} INFO - Started process (PID=483541) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:21:21.039+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:21:21.040+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:21:21.040+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:21:21.045+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:21:21.055+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:21:21.055+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:21:21.068+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:21:21.068+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:21:21.081+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T17:22:19.800+0530] {processor.py:157} INFO - Started process (PID=484543) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:22:19.808+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:22:19.810+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:22:19.809+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:22:19.825+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:22:19.845+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:22:19.845+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:22:19.861+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:22:19.861+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:22:19.874+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.080 seconds
+[2023-10-30T17:23:00.881+0530] {processor.py:157} INFO - Started process (PID=485376) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:23:00.888+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:23:00.888+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:23:00.888+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:23:00.894+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:23:00.899+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:23:00.899+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:23:00.912+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:23:00.912+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:23:00.925+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.046 seconds
+[2023-10-30T17:24:01.488+0530] {processor.py:157} INFO - Started process (PID=486409) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:24:01.489+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:24:01.490+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:01.489+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:24:01.495+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:24:01.507+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:01.506+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:24:01.520+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:01.520+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:24:01.533+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.047 seconds
+[2023-10-30T17:24:33.621+0530] {processor.py:157} INFO - Started process (PID=487001) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:24:33.628+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:24:33.630+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:33.629+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:24:33.645+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:24:33.668+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:33.667+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:24:33.684+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:24:33.683+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:24:33.697+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.078 seconds
+[2023-10-30T17:25:32.195+0530] {processor.py:157} INFO - Started process (PID=488004) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:25:32.202+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:25:32.203+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:25:32.202+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:25:32.207+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:25:32.218+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:25:32.218+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:25:32.233+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:25:32.233+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:25:32.247+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T17:26:03.596+0530] {processor.py:157} INFO - Started process (PID=488591) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:26:03.596+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:26:03.597+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:03.597+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:26:03.601+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:26:03.612+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:03.611+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:26:03.625+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:03.625+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:26:03.639+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.045 seconds
+[2023-10-30T17:26:35.007+0530] {processor.py:157} INFO - Started process (PID=489172) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:26:35.013+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:26:35.014+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:35.014+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:26:35.018+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:26:35.028+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:35.028+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:26:35.042+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:26:35.042+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:26:35.056+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T17:27:31.052+0530] {processor.py:157} INFO - Started process (PID=490164) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:27:31.059+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:27:31.060+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:31.059+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:27:31.065+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:27:31.080+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:31.079+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:27:31.095+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:27:31.095+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:27:31.108+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.058 seconds
+[2023-10-30T17:28:29.422+0530] {processor.py:157} INFO - Started process (PID=491187) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:28:29.422+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:28:29.423+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:28:29.423+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:28:29.427+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:28:29.438+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:28:29.438+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:28:29.460+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:28:29.459+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:28:29.473+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T17:29:42.746+0530] {processor.py:157} INFO - Started process (PID=492682) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:29:42.746+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:29:42.747+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:29:42.747+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:29:42.752+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:29:42.765+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:29:42.765+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:29:42.782+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:29:42.782+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:29:42.795+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T17:30:28.393+0530] {processor.py:157} INFO - Started process (PID=493510) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:30:28.400+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:30:28.400+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:28.400+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:30:28.410+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:30:28.421+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:28.421+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:30:28.436+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:28.436+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:30:28.449+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.058 seconds
+[2023-10-30T17:30:59.968+0530] {processor.py:157} INFO - Started process (PID=494088) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:30:59.969+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:30:59.970+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:59.969+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:30:59.976+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:30:59.987+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:30:59.987+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:31:00.001+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:00.001+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:31:00.014+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.048 seconds
+[2023-10-30T17:31:56.387+0530] {processor.py:157} INFO - Started process (PID=495086) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:31:56.393+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:31:56.394+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:56.394+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:31:56.401+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:31:56.416+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:56.415+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:31:56.429+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:31:56.429+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:31:56.442+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.057 seconds
+[2023-10-30T17:32:55.019+0530] {processor.py:157} INFO - Started process (PID=496317) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:32:55.026+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:32:55.028+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:32:55.027+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:32:55.043+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:32:55.068+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:32:55.068+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:32:55.084+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:32:55.084+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:32:55.097+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.080 seconds
+[2023-10-30T17:33:50.148+0530] {processor.py:157} INFO - Started process (PID=497352) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:33:50.149+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:33:50.150+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:33:50.150+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:33:50.155+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:33:50.170+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:33:50.170+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:33:50.186+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:33:50.186+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:33:50.202+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.055 seconds
+[2023-10-30T17:34:54.514+0530] {processor.py:157} INFO - Started process (PID=498430) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:34:54.522+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:34:54.523+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:54.523+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:34:54.539+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:34:54.559+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:54.559+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:34:54.576+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:34:54.575+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:34:54.589+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.082 seconds
+[2023-10-30T17:35:28.107+0530] {processor.py:157} INFO - Started process (PID=499062) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:35:28.107+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:35:28.108+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:35:28.108+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:35:28.112+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:35:28.125+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:35:28.124+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:35:28.140+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:35:28.140+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:35:28.155+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.050 seconds
+[2023-10-30T17:36:26.988+0530] {processor.py:157} INFO - Started process (PID=500219) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:36:26.995+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:36:26.997+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:26.996+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:36:27.013+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:36:27.039+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:27.039+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:36:27.056+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:27.056+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:36:27.069+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.083 seconds
+[2023-10-30T17:36:58.763+0530] {processor.py:157} INFO - Started process (PID=500867) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:36:58.764+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:36:58.764+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:58.764+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:36:58.770+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:36:58.782+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:58.782+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:36:58.798+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:36:58.797+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:36:58.812+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T17:37:30.411+0530] {processor.py:157} INFO - Started process (PID=501344) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:37:30.418+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:37:30.419+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:37:30.419+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:37:30.427+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:37:30.446+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:37:30.446+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:37:30.472+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:37:30.472+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:37:30.486+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.077 seconds
+[2023-10-30T17:38:24.736+0530] {processor.py:157} INFO - Started process (PID=502356) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:38:24.743+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:38:24.746+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:38:24.745+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:38:24.761+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:38:24.782+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:38:24.782+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:38:24.796+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:38:24.796+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:38:24.809+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.075 seconds
+[2023-10-30T17:39:19.059+0530] {processor.py:157} INFO - Started process (PID=503361) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:39:19.059+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:39:19.060+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:39:19.059+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:39:19.065+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:39:19.076+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:39:19.076+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:39:19.091+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:39:19.091+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:39:19.106+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.049 seconds
+[2023-10-30T17:40:19.713+0530] {processor.py:157} INFO - Started process (PID=504514) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:40:19.714+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:40:19.714+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:40:19.714+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:40:19.719+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:40:19.728+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:40:19.728+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:40:19.742+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:40:19.742+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:40:19.755+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.043 seconds
+[2023-10-30T17:41:17.326+0530] {processor.py:157} INFO - Started process (PID=505512) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:41:17.333+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:41:17.333+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:17.333+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:41:17.337+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:41:17.347+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:17.347+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:41:17.361+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:17.361+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:41:17.373+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.049 seconds
+[2023-10-30T17:41:49.377+0530] {processor.py:157} INFO - Started process (PID=506094) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:41:49.378+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:41:49.378+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:49.378+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:41:49.382+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:41:49.392+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:49.392+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:41:49.406+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:41:49.406+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:41:49.418+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.043 seconds
+[2023-10-30T17:42:50.159+0530] {processor.py:157} INFO - Started process (PID=507237) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:42:50.165+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:42:50.166+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:42:50.166+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:42:50.170+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:42:50.181+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:42:50.180+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:42:50.195+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:42:50.195+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:42:50.207+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T17:43:44.946+0530] {processor.py:157} INFO - Started process (PID=508224) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:43:44.953+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:43:44.953+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:43:44.953+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:43:44.957+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:43:44.967+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:43:44.967+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:43:44.981+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:43:44.981+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:43:44.994+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.050 seconds
+[2023-10-30T17:44:39.340+0530] {processor.py:157} INFO - Started process (PID=509202) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:44:39.347+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:44:39.348+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:44:39.347+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:44:39.353+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:44:39.364+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:44:39.364+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:44:39.379+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:44:39.379+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:44:39.393+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.055 seconds
+[2023-10-30T17:45:31.971+0530] {processor.py:157} INFO - Started process (PID=510169) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:45:31.978+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:45:31.979+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:31.978+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:45:31.983+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:45:31.994+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:31.994+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:45:32.009+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:45:32.009+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:45:32.023+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T17:46:26.193+0530] {processor.py:157} INFO - Started process (PID=511156) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:46:26.200+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:46:26.201+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:46:26.201+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:46:26.206+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:46:26.219+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:46:26.219+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:46:26.235+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:46:26.235+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:46:26.248+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.057 seconds
+[2023-10-30T17:47:24.745+0530] {processor.py:157} INFO - Started process (PID=512164) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:47:24.751+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:47:24.752+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:47:24.752+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:47:24.757+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:47:24.767+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:47:24.767+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:47:24.781+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:47:24.781+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:47:24.794+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T17:48:23.572+0530] {processor.py:157} INFO - Started process (PID=513386) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:48:23.579+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:48:23.581+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:48:23.580+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:48:23.589+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:48:23.603+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:48:23.603+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:48:23.621+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:48:23.621+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:48:23.636+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.068 seconds
+[2023-10-30T17:49:21.647+0530] {processor.py:157} INFO - Started process (PID=514449) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:49:21.654+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:49:21.656+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:49:21.655+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:49:21.671+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:49:21.696+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:49:21.696+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:49:21.713+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:49:21.713+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:49:21.726+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.081 seconds
+[2023-10-30T17:50:22.295+0530] {processor.py:157} INFO - Started process (PID=515453) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:50:22.303+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:50:22.305+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:50:22.304+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:50:22.319+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:50:22.336+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:50:22.336+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:50:22.351+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:50:22.351+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:50:22.364+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.076 seconds
+[2023-10-30T17:51:21.223+0530] {processor.py:157} INFO - Started process (PID=516596) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:51:21.230+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:51:21.232+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:51:21.231+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:51:21.248+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:51:21.271+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:51:21.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:51:21.287+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:51:21.287+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:51:21.300+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.079 seconds
+[2023-10-30T17:52:21.463+0530] {processor.py:157} INFO - Started process (PID=517595) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:52:21.470+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:52:21.471+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:52:21.470+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:52:21.476+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:52:21.488+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:52:21.488+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:52:21.504+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:52:21.504+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:52:21.517+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.058 seconds
+[2023-10-30T17:53:22.411+0530] {processor.py:157} INFO - Started process (PID=518758) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:53:22.418+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:53:22.419+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:53:22.419+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:53:22.424+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:53:22.439+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:53:22.438+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:53:22.457+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:53:22.457+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:53:22.473+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.065 seconds
+[2023-10-30T17:54:21.956+0530] {processor.py:157} INFO - Started process (PID=519802) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:54:21.956+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:54:21.957+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:54:21.957+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:54:21.963+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:54:21.979+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:54:21.979+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:54:22.011+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:54:22.011+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:54:22.030+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.077 seconds
+[2023-10-30T17:55:21.354+0530] {processor.py:157} INFO - Started process (PID=520835) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:55:21.361+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:55:21.361+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:55:21.361+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:55:21.366+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:55:21.376+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:55:21.376+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:55:21.391+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:55:21.391+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:55:21.404+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T17:56:18.868+0530] {processor.py:157} INFO - Started process (PID=521960) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:56:18.875+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:56:18.876+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:18.876+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:56:18.882+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:56:18.893+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:18.893+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:56:18.908+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:18.908+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:56:18.924+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.063 seconds
+[2023-10-30T17:56:50.977+0530] {processor.py:157} INFO - Started process (PID=522546) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:56:50.984+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:56:50.985+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:50.985+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:56:50.990+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:56:51.001+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:51.001+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:56:51.016+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:56:51.016+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:56:51.030+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.060 seconds
+[2023-10-30T17:57:55.492+0530] {processor.py:157} INFO - Started process (PID=523627) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:57:55.499+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:57:55.499+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:55.499+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:57:55.506+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:57:55.512+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:55.512+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:57:55.527+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:57:55.527+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:57:55.543+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T17:59:18.002+0530] {processor.py:157} INFO - Started process (PID=525285) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:59:18.003+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T17:59:18.003+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:59:18.003+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:59:18.007+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T17:59:18.017+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:59:18.017+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T17:59:18.031+0530] {logging_mixin.py:151} INFO - [2023-10-30T17:59:18.031+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T17:59:18.044+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.044 seconds
+[2023-10-30T18:00:17.693+0530] {processor.py:157} INFO - Started process (PID=526296) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:00:17.695+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:00:17.698+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:00:17.697+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:00:17.711+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:00:17.726+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:00:17.726+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:00:17.741+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:00:17.741+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:00:17.755+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.069 seconds
+[2023-10-30T18:01:19.854+0530] {processor.py:157} INFO - Started process (PID=527461) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:01:19.860+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:01:19.861+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:01:19.860+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:01:19.865+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:01:19.875+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:01:19.875+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:01:19.890+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:01:19.890+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:01:19.904+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T18:02:19.038+0530] {processor.py:157} INFO - Started process (PID=528461) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:02:19.039+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:02:19.039+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:02:19.039+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:02:19.044+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:02:19.054+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:02:19.053+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:02:19.067+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:02:19.067+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:02:19.080+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.043 seconds
+[2023-10-30T18:03:17.516+0530] {processor.py:157} INFO - Started process (PID=529587) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:03:17.517+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:03:17.517+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:03:17.517+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:03:17.522+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:03:17.533+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:03:17.532+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:03:17.547+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:03:17.547+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:03:17.560+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.045 seconds
+[2023-10-30T18:04:14.501+0530] {processor.py:157} INFO - Started process (PID=530580) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:04:14.508+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:04:14.510+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:14.509+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:04:14.525+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:04:14.551+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:14.551+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:04:14.568+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:14.567+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:04:14.589+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.090 seconds
+[2023-10-30T18:04:53.352+0530] {processor.py:157} INFO - Started process (PID=531247) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:04:53.359+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:04:53.359+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:53.359+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:04:53.365+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:04:53.376+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:53.376+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:04:53.390+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:04:53.390+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:04:53.403+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T18:05:31.507+0530] {processor.py:157} INFO - Started process (PID=532013) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:05:31.513+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:05:31.514+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:05:31.514+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:05:31.519+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:05:31.530+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:05:31.530+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:05:31.544+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:05:31.543+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:05:31.556+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T18:06:12.505+0530] {processor.py:157} INFO - Started process (PID=532705) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:06:12.512+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:06:12.514+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:12.513+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:06:12.529+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:06:12.541+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:12.541+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:06:12.554+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:12.554+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:06:12.567+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.064 seconds
+[2023-10-30T18:06:49.059+0530] {processor.py:157} INFO - Started process (PID=533437) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:06:49.066+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:06:49.067+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:49.066+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:06:49.071+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:06:49.082+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:49.082+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:06:49.097+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:06:49.097+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:06:49.111+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:07:48.992+0530] {processor.py:157} INFO - Started process (PID=534454) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:07:48.999+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:07:49.000+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:07:48.999+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:07:49.006+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:07:49.020+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:07:49.019+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:07:49.036+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:07:49.036+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:07:49.055+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.065 seconds
+[2023-10-30T18:08:29.091+0530] {processor.py:157} INFO - Started process (PID=535292) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:08:29.098+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:08:29.098+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:08:29.098+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:08:29.103+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:08:29.115+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:08:29.115+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:08:29.130+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:08:29.130+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:08:29.142+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:09:07.924+0530] {processor.py:157} INFO - Started process (PID=535919) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:09:07.931+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:09:07.932+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:09:07.932+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:09:07.938+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:09:07.951+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:09:07.951+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:09:07.967+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:09:07.967+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:09:07.981+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.061 seconds
+[2023-10-30T18:10:09.022+0530] {processor.py:157} INFO - Started process (PID=537067) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:10:09.029+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:10:09.029+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:10:09.029+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:10:09.035+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:10:09.048+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:10:09.048+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:10:09.065+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:10:09.065+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:10:09.081+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.061 seconds
+[2023-10-30T18:11:11.049+0530] {processor.py:157} INFO - Started process (PID=538105) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:11:11.056+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:11:11.057+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:11.056+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:11:11.062+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:11:11.073+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:11.073+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:11:11.089+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:11.088+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:11:11.102+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.056 seconds
+[2023-10-30T18:11:52.333+0530] {processor.py:157} INFO - Started process (PID=538954) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:11:52.333+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:11:52.334+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:52.334+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:11:52.340+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:11:52.354+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:52.354+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:11:52.372+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:11:52.372+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:11:52.386+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.055 seconds
+[2023-10-30T18:12:33.191+0530] {processor.py:157} INFO - Started process (PID=539716) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:12:33.191+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:12:33.192+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:12:33.192+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:12:33.197+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:12:33.208+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:12:33.208+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:12:33.221+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:12:33.221+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:12:33.234+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.046 seconds
+[2023-10-30T18:13:32.729+0530] {processor.py:157} INFO - Started process (PID=540745) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:13:32.736+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:13:32.736+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:13:32.736+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:13:32.742+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:13:32.753+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:13:32.753+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:13:32.766+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:13:32.766+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:13:32.779+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T18:14:32.162+0530] {processor.py:157} INFO - Started process (PID=541897) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:14:32.168+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:14:32.169+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:14:32.169+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:14:32.174+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:14:32.186+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:14:32.186+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:14:32.202+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:14:32.202+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:14:32.217+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.058 seconds
+[2023-10-30T18:15:28.663+0530] {processor.py:157} INFO - Started process (PID=542877) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:15:28.664+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:15:28.665+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:15:28.664+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:15:28.672+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:15:28.689+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:15:28.689+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:15:28.705+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:15:28.705+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:15:28.717+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.058 seconds
+[2023-10-30T18:16:29.287+0530] {processor.py:157} INFO - Started process (PID=543904) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:16:29.294+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:16:29.296+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:16:29.295+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:16:29.311+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:16:29.333+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:16:29.332+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:16:29.348+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:16:29.348+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:16:29.360+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.080 seconds
+[2023-10-30T18:17:01.640+0530] {processor.py:157} INFO - Started process (PID=544506) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:17:01.647+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:17:01.647+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:01.647+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:17:01.652+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:17:01.664+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:01.663+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:17:01.678+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:01.678+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:17:01.691+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T18:17:59.435+0530] {processor.py:157} INFO - Started process (PID=545525) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:17:59.442+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:17:59.442+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:59.442+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:17:59.447+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:17:59.457+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:59.457+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:17:59.471+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:17:59.471+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:17:59.484+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T18:18:38.030+0530] {processor.py:157} INFO - Started process (PID=546346) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:18:38.037+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:18:38.037+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:18:38.037+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:18:38.043+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:18:38.057+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:18:38.057+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:18:38.075+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:18:38.074+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:18:38.087+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.059 seconds
+[2023-10-30T18:19:19.744+0530] {processor.py:157} INFO - Started process (PID=547112) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:19:19.750+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:19:19.751+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:19:19.751+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:19:19.758+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:19:19.774+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:19:19.774+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:19:19.791+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:19:19.791+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:19:19.804+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.062 seconds
+[2023-10-30T18:20:18.173+0530] {processor.py:157} INFO - Started process (PID=548198) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:20:18.180+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:20:18.181+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:20:18.181+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:20:18.189+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:20:18.208+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:20:18.208+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:20:18.227+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:20:18.227+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:20:18.240+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.069 seconds
+[2023-10-30T18:21:18.885+0530] {processor.py:157} INFO - Started process (PID=549206) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:21:18.892+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:21:18.893+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:21:18.892+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:21:18.897+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:21:18.907+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:21:18.907+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:21:18.921+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:21:18.921+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:21:18.935+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T18:22:18.193+0530] {processor.py:157} INFO - Started process (PID=550347) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:22:18.195+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:22:18.196+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:18.196+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:22:18.200+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:22:18.210+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:18.210+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:22:18.225+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:18.224+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:22:18.239+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.048 seconds
+[2023-10-30T18:22:51.280+0530] {processor.py:157} INFO - Started process (PID=550950) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:22:51.287+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:22:51.288+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:51.287+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:22:51.292+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:22:51.302+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:51.302+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:22:51.317+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:22:51.317+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:22:51.331+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T18:23:50.022+0530] {processor.py:157} INFO - Started process (PID=551968) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:23:50.023+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:23:50.023+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:23:50.023+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:23:50.028+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:23:50.040+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:23:50.040+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:23:50.055+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:23:50.055+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:23:50.073+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T18:24:30.830+0530] {processor.py:157} INFO - Started process (PID=552802) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:24:30.837+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:24:30.837+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:24:30.837+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:24:30.842+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:24:30.853+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:24:30.853+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:24:30.868+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:24:30.867+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:24:30.881+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T18:25:08.664+0530] {processor.py:157} INFO - Started process (PID=553438) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:25:08.664+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:25:08.665+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:25:08.665+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:25:08.670+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:25:08.681+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:25:08.680+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:25:08.694+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:25:08.694+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:25:08.708+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.046 seconds
+[2023-10-30T18:26:07.515+0530] {processor.py:157} INFO - Started process (PID=554580) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:26:07.522+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:26:07.524+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:26:07.523+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:26:07.539+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:26:07.563+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:26:07.563+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:26:07.579+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:26:07.579+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:26:07.591+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.078 seconds
+[2023-10-30T18:27:17.413+0530] {processor.py:157} INFO - Started process (PID=555839) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:27:17.414+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:27:17.414+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:17.414+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:27:17.418+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:27:17.428+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:17.428+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:27:17.442+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:17.442+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:27:17.455+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.044 seconds
+[2023-10-30T18:27:59.029+0530] {processor.py:157} INFO - Started process (PID=556614) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:27:59.036+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:27:59.037+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:59.037+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:27:59.042+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:27:59.053+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:59.052+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:27:59.067+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:27:59.066+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:27:59.081+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:29:00.789+0530] {processor.py:157} INFO - Started process (PID=557637) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:29:00.795+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:29:00.796+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:00.796+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:29:00.803+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:29:00.820+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:00.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:29:00.837+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:00.837+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:29:00.850+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.064 seconds
+[2023-10-30T18:29:59.899+0530] {processor.py:157} INFO - Started process (PID=558774) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:29:59.900+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:29:59.901+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:59.900+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:29:59.906+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:29:59.918+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:59.917+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:29:59.933+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:29:59.933+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:29:59.946+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.049 seconds
+[2023-10-30T18:30:58.508+0530] {processor.py:157} INFO - Started process (PID=559769) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:30:58.509+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:30:58.510+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:58.509+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:30:58.515+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:30:58.528+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:58.528+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:30:58.544+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:30:58.544+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:30:58.557+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T18:31:30.216+0530] {processor.py:157} INFO - Started process (PID=560344) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:31:30.222+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:31:30.223+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:31:30.222+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:31:30.227+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:31:30.236+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:31:30.236+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:31:30.250+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:31:30.249+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:31:30.262+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.049 seconds
+[2023-10-30T18:32:27.183+0530] {processor.py:157} INFO - Started process (PID=561337) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:32:27.184+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:32:27.184+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:32:27.184+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:32:27.189+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:32:27.201+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:32:27.201+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:32:27.219+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:32:27.219+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:32:27.235+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:33:24.201+0530] {processor.py:157} INFO - Started process (PID=562335) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:33:24.202+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:33:24.203+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:33:24.202+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:33:24.208+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:33:24.219+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:33:24.219+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:33:24.235+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:33:24.235+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:33:24.251+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.052 seconds
+[2023-10-30T18:34:28.391+0530] {processor.py:157} INFO - Started process (PID=563521) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:34:28.398+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:34:28.400+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:34:28.399+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:34:28.416+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:34:28.438+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:34:28.438+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:34:28.454+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:34:28.454+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:34:28.467+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.079 seconds
+[2023-10-30T18:35:28.124+0530] {processor.py:157} INFO - Started process (PID=564540) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:35:28.124+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:35:28.125+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:35:28.125+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:35:28.130+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:35:28.141+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:35:28.141+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:35:28.157+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:35:28.157+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:35:28.173+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T18:36:27.220+0530] {processor.py:157} INFO - Started process (PID=565693) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:36:27.227+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:36:27.228+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:36:27.228+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:36:27.235+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:36:27.248+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:36:27.248+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:36:27.266+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:36:27.266+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:36:27.281+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.066 seconds
+[2023-10-30T18:37:26.841+0530] {processor.py:157} INFO - Started process (PID=566679) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:37:26.848+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:37:26.851+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:37:26.849+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:37:26.858+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:37:26.871+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:37:26.871+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:37:26.888+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:37:26.888+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:37:26.902+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.064 seconds
+[2023-10-30T18:38:28.627+0530] {processor.py:157} INFO - Started process (PID=567838) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:38:28.634+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:38:28.636+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:38:28.635+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:38:28.651+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:38:28.676+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:38:28.676+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:38:28.693+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:38:28.693+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:38:28.706+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.082 seconds
+[2023-10-30T18:39:01.779+0530] {processor.py:157} INFO - Started process (PID=568424) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:39:01.786+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:39:01.787+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:39:01.786+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:39:01.792+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:39:01.803+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:39:01.803+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:39:01.817+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:39:01.817+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:39:01.830+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T18:40:04.209+0530] {processor.py:157} INFO - Started process (PID=569446) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:40:04.216+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:40:04.218+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:04.217+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:40:04.233+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:40:04.258+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:04.258+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:40:04.275+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:04.275+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:40:04.288+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.081 seconds
+[2023-10-30T18:40:37.386+0530] {processor.py:157} INFO - Started process (PID=570031) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:40:37.387+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:40:37.389+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:37.389+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:40:37.403+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:40:37.419+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:37.419+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:40:37.435+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:40:37.435+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:40:37.449+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.070 seconds
+[2023-10-30T18:41:38.996+0530] {processor.py:157} INFO - Started process (PID=571166) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:41:39.003+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:41:39.003+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:41:39.003+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:41:39.008+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:41:39.019+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:41:39.019+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:41:39.035+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:41:39.034+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:41:39.047+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:42:11.683+0530] {processor.py:157} INFO - Started process (PID=571749) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:42:11.691+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:42:11.693+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:42:11.692+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:42:11.708+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:42:11.725+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:42:11.725+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:42:11.741+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:42:11.741+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:42:11.755+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.079 seconds
+[2023-10-30T18:43:12.875+0530] {processor.py:157} INFO - Started process (PID=572772) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:43:12.882+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:43:12.883+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:43:12.882+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:43:12.888+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:43:12.899+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:43:12.899+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:43:12.914+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:43:12.914+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:43:12.928+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:44:14.637+0530] {processor.py:157} INFO - Started process (PID=573920) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:44:14.645+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:44:14.647+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:44:14.647+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:44:14.661+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:44:14.678+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:44:14.678+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:44:14.693+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:44:14.693+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:44:14.707+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.076 seconds
+[2023-10-30T18:45:16.330+0530] {processor.py:157} INFO - Started process (PID=575057) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:45:16.337+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:45:16.337+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:45:16.337+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:45:16.345+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:45:16.362+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:45:16.362+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:45:16.379+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:45:16.379+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:45:16.392+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.065 seconds
+[2023-10-30T18:46:17.597+0530] {processor.py:157} INFO - Started process (PID=576077) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:46:17.597+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:46:17.598+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:46:17.598+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:46:17.602+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:46:17.614+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:46:17.614+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:46:17.628+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:46:17.628+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:46:17.642+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.047 seconds
+[2023-10-30T18:47:16.534+0530] {processor.py:157} INFO - Started process (PID=577076) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:47:16.542+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:47:16.544+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:47:16.543+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:47:16.559+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:47:16.577+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:47:16.577+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:47:16.593+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:47:16.593+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:47:16.606+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.079 seconds
+[2023-10-30T18:48:17.342+0530] {processor.py:157} INFO - Started process (PID=578206) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:48:17.349+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:48:17.350+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:48:17.349+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:48:17.355+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:48:17.367+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:48:17.367+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:48:17.381+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:48:17.381+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:48:17.394+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.054 seconds
+[2023-10-30T18:49:18.375+0530] {processor.py:157} INFO - Started process (PID=579239) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:49:18.376+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:49:18.377+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:18.377+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:49:18.383+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:49:18.396+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:18.396+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:49:18.414+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:18.414+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:49:18.429+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.056 seconds
+[2023-10-30T18:49:52.847+0530] {processor.py:157} INFO - Started process (PID=579953) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:49:52.847+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:49:52.848+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:52.848+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:49:52.853+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:49:52.865+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:52.865+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:49:52.880+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:49:52.879+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:49:52.892+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.048 seconds
+[2023-10-30T18:50:52.277+0530] {processor.py:157} INFO - Started process (PID=580947) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:50:52.277+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:50:52.278+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:50:52.278+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:50:52.284+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:50:52.298+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:50:52.298+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:50:52.314+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:50:52.314+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:50:52.327+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.053 seconds
+[2023-10-30T18:51:25.620+0530] {processor.py:157} INFO - Started process (PID=581556) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:51:25.628+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:51:25.630+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:51:25.629+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:51:25.645+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:51:25.658+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:51:25.658+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:51:25.671+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:51:25.671+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:51:25.684+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.070 seconds
+[2023-10-30T18:52:25.004+0530] {processor.py:157} INFO - Started process (PID=582591) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:52:25.011+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:52:25.013+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:25.012+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:52:25.027+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:52:25.051+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:25.050+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:52:25.065+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:25.065+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:52:25.078+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.076 seconds
+[2023-10-30T18:52:58.178+0530] {processor.py:157} INFO - Started process (PID=583236) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:52:58.179+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:52:58.179+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:58.179+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:52:58.183+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:52:58.194+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:58.193+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:52:58.207+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:52:58.207+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:52:58.220+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.044 seconds
+[2023-10-30T18:53:57.538+0530] {processor.py:157} INFO - Started process (PID=584471) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:53:57.538+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:53:57.539+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:53:57.539+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:53:57.547+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:53:57.560+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:53:57.560+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:53:57.574+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:53:57.573+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:53:57.586+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.051 seconds
+[2023-10-30T18:54:56.513+0530] {processor.py:157} INFO - Started process (PID=585535) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:54:56.514+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:54:56.514+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:54:56.514+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:54:56.519+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:54:56.529+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:54:56.529+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:54:56.543+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:54:56.542+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:54:56.555+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.044 seconds
+[2023-10-30T18:55:56.848+0530] {processor.py:157} INFO - Started process (PID=586690) to work on /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:55:56.851+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/fileSensor.py for tasks to queue
+[2023-10-30T18:55:56.852+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:55:56.852+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:55:56.858+0530] {processor.py:839} INFO - DAG(s) dict_keys(['file_sensor_dag']) retrieved from /home/harika/airflow/dags/fileSensor.py
+[2023-10-30T18:55:56.873+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:55:56.873+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T18:55:56.888+0530] {logging_mixin.py:151} INFO - [2023-10-30T18:55:56.888+0530] {dag.py:3696} INFO - Setting next_dagrun for file_sensor_dag to 2023-10-30T00:00:00+00:00, run_after=2023-10-31T00:00:00+00:00
+[2023-10-30T18:55:56.902+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/fileSensor.py took 0.056 seconds

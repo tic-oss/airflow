@@ -1,0 +1,833 @@
+[2023-10-26T10:20:27.238+0530] {processor.py:157} INFO - Started process (PID=9423) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:20:27.238+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:20:27.239+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:20:27.239+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:20:27.246+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:20:27.261+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:20:27.261+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:20:27.281+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:20:27.281+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:20:27.298+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.063 seconds
+[2023-10-26T10:21:22.306+0530] {processor.py:157} INFO - Started process (PID=9586) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:21:22.313+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:21:22.313+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:21:22.313+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:21:22.319+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:21:22.331+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:21:22.331+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:21:22.346+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:21:22.345+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:21:22.358+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.055 seconds
+[2023-10-26T10:22:37.496+0530] {processor.py:157} INFO - Started process (PID=9728) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:22:37.503+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:22:37.504+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:22:37.503+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:22:37.510+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:22:37.524+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:22:37.524+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:22:37.543+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:22:37.543+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:22:37.559+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2023-10-26T10:23:33.792+0530] {processor.py:157} INFO - Started process (PID=9831) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:23:33.799+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:23:33.799+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:23:33.799+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:23:33.806+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:23:33.818+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:23:33.818+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:23:33.833+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:23:33.833+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:23:33.847+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T10:25:10.618+0530] {processor.py:157} INFO - Started process (PID=10092) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:25:10.624+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:25:10.625+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:25:10.625+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:25:10.631+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:25:10.643+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:25:10.643+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:25:10.657+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:25:10.657+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:25:10.670+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.054 seconds
+[2023-10-26T10:26:04.711+0530] {processor.py:157} INFO - Started process (PID=10175) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:26:04.717+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:26:04.718+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:26:04.718+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:26:04.724+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:26:04.738+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:26:04.738+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:26:04.754+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:26:04.754+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:26:04.770+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2023-10-26T10:27:25.967+0530] {processor.py:157} INFO - Started process (PID=10354) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:27:25.968+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:27:25.969+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:27:25.968+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:27:25.977+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:27:25.992+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:27:25.992+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:27:26.008+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:27:26.008+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:27:26.028+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.063 seconds
+[2023-10-26T10:28:18.911+0530] {processor.py:157} INFO - Started process (PID=10456) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:28:18.917+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:28:18.918+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:18.918+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:28:18.930+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:28:18.952+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:18.952+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:28:18.969+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:28:18.969+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:28:18.982+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2023-10-26T10:29:34.880+0530] {processor.py:157} INFO - Started process (PID=10646) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:29:34.886+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:29:34.887+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:29:34.887+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:29:34.893+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:29:34.905+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:29:34.905+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:29:34.919+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:29:34.919+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:29:34.932+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.053 seconds
+[2023-10-26T10:31:35.651+0530] {processor.py:157} INFO - Started process (PID=11080) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:31:35.658+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:31:35.658+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:31:35.658+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:31:35.664+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:31:35.679+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:31:35.679+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:31:35.695+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:31:35.695+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:31:35.709+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2023-10-26T10:32:32.916+0530] {processor.py:157} INFO - Started process (PID=11185) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:32:32.923+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:32:32.924+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:32:32.924+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:32:32.934+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:32:32.954+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:32:32.954+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:32:32.977+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:32:32.976+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:32:32.991+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2023-10-26T10:33:37.040+0530] {processor.py:157} INFO - Started process (PID=11424) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:33:37.046+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:33:37.047+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:33:37.047+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:33:37.053+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:33:37.067+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:33:37.066+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:33:37.082+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:33:37.082+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:33:37.097+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.059 seconds
+[2023-10-26T10:34:51.345+0530] {processor.py:157} INFO - Started process (PID=11680) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:34:51.353+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:34:51.355+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:34:51.354+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:34:51.376+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:34:51.395+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:34:51.395+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:34:51.411+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:34:51.411+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:34:51.425+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.086 seconds
+[2023-10-26T10:35:49.155+0530] {processor.py:157} INFO - Started process (PID=11768) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:35:49.156+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:35:49.157+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:49.156+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:35:49.163+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:35:49.176+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:49.176+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:35:49.192+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:35:49.192+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:35:49.206+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.053 seconds
+[2023-10-26T10:36:56.699+0530] {processor.py:157} INFO - Started process (PID=11945) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:36:56.706+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:36:56.708+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:36:56.708+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:36:56.731+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:36:56.755+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:36:56.754+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:36:56.770+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:36:56.770+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:36:56.783+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.086 seconds
+[2023-10-26T10:37:52.183+0530] {processor.py:157} INFO - Started process (PID=12023) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:37:52.183+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:37:52.184+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:37:52.184+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:37:52.193+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:37:52.206+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:37:52.206+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:37:52.220+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:37:52.220+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:37:52.233+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.053 seconds
+[2023-10-26T10:39:03.931+0530] {processor.py:157} INFO - Started process (PID=12186) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:39:03.938+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:39:03.940+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:39:03.939+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:39:03.964+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:39:03.985+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:39:03.985+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:39:04.000+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:39:04.000+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:39:04.013+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2023-10-26T10:40:06.852+0530] {processor.py:157} INFO - Started process (PID=12332) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:40:06.859+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:40:06.861+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:40:06.860+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:40:06.882+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:40:06.907+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:40:06.907+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:40:06.923+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:40:06.923+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:40:06.936+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2023-10-26T10:41:21.277+0530] {processor.py:157} INFO - Started process (PID=12441) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:41:21.277+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:41:21.278+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:41:21.278+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:41:21.288+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:41:21.308+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:41:21.308+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:41:21.324+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:41:21.324+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:41:21.337+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.063 seconds
+[2023-10-26T10:42:35.078+0530] {processor.py:157} INFO - Started process (PID=12673) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:42:35.079+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:42:35.079+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:42:35.079+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:42:35.086+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:42:35.098+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:42:35.098+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:42:35.112+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:42:35.112+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:42:35.125+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.048 seconds
+[2023-10-26T10:43:47.518+0530] {processor.py:157} INFO - Started process (PID=12807) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:43:47.526+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:43:47.528+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:47.527+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:43:47.550+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:43:47.569+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:47.569+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:43:47.584+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:43:47.584+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:43:47.597+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.084 seconds
+[2023-10-26T10:44:41.814+0530] {processor.py:157} INFO - Started process (PID=12898) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:44:41.815+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:44:41.815+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:44:41.815+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:44:41.822+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:44:41.834+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:44:41.834+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:44:41.848+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:44:41.848+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:44:41.861+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2023-10-26T10:45:58.432+0530] {processor.py:157} INFO - Started process (PID=13013) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:45:58.439+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:45:58.441+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:45:58.440+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:45:58.450+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:45:58.463+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:45:58.463+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:45:58.476+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:45:58.476+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:45:58.489+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.060 seconds
+[2023-10-26T10:47:16.239+0530] {processor.py:157} INFO - Started process (PID=13261) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:47:16.240+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:47:16.241+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:47:16.241+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:47:16.258+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:47:16.276+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:47:16.276+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:47:16.292+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:47:16.291+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:47:16.305+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2023-10-26T10:48:42.283+0530] {processor.py:157} INFO - Started process (PID=13623) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:48:42.290+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:48:42.291+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:42.290+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:48:42.297+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:48:42.311+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:42.311+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:48:42.329+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:48:42.329+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:48:42.343+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.062 seconds
+[2023-10-26T10:49:47.074+0530] {processor.py:157} INFO - Started process (PID=13716) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:49:47.082+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:49:47.084+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:49:47.083+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:49:47.107+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:49:47.128+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:49:47.128+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:49:47.146+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:49:47.146+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:49:47.161+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2023-10-26T10:51:08.829+0530] {processor.py:157} INFO - Started process (PID=13832) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:51:08.836+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:51:08.837+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:51:08.836+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:51:08.846+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:51:08.865+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:51:08.865+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:51:08.884+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:51:08.884+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:51:08.900+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2023-10-26T10:52:03.234+0530] {processor.py:157} INFO - Started process (PID=13920) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:52:03.241+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:52:03.243+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:52:03.242+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:52:03.266+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:52:03.288+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:52:03.288+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:52:03.305+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:52:03.305+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:52:03.320+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2023-10-26T10:53:23.431+0530] {processor.py:157} INFO - Started process (PID=14026) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:53:23.432+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:53:23.432+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:53:23.432+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:53:23.443+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:53:23.466+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:53:23.466+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:53:23.486+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:53:23.485+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:53:23.500+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2023-10-26T10:54:41.343+0530] {processor.py:157} INFO - Started process (PID=14275) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:54:41.345+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:54:41.347+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:54:41.347+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:54:41.367+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:54:41.383+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:54:41.383+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:54:41.399+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:54:41.398+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:54:41.413+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.076 seconds
+[2023-10-26T10:55:55.058+0530] {processor.py:157} INFO - Started process (PID=14387) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:55:55.066+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:55:55.068+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:55:55.067+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:55:55.090+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:55:55.109+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:55:55.109+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:55:55.126+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:55:55.125+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:55:55.140+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2023-10-26T10:57:05.116+0530] {processor.py:157} INFO - Started process (PID=14572) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:57:05.123+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:57:05.125+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:05.124+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:57:05.148+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:57:05.164+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:05.164+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:57:05.180+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:05.180+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:57:05.195+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2023-10-26T10:57:56.571+0530] {processor.py:157} INFO - Started process (PID=14721) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:57:56.578+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:57:56.578+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:56.578+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:57:56.584+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:57:56.597+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:56.597+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:57:56.611+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:57:56.611+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:57:56.625+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.055 seconds
+[2023-10-26T10:59:07.897+0530] {processor.py:157} INFO - Started process (PID=15005) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:59:07.898+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T10:59:07.898+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:59:07.898+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:59:07.905+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T10:59:07.917+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:59:07.917+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T10:59:07.933+0530] {logging_mixin.py:151} INFO - [2023-10-26T10:59:07.933+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T10:59:07.962+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
+[2023-10-26T11:00:14.864+0530] {processor.py:157} INFO - Started process (PID=15179) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:00:14.871+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:00:14.871+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:00:14.871+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:00:14.878+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:00:14.893+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:00:14.893+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:00:14.910+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:00:14.910+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:00:14.926+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.064 seconds
+[2023-10-26T11:01:21.478+0530] {processor.py:157} INFO - Started process (PID=15372) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:01:21.478+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:01:21.479+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:01:21.479+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:01:21.488+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:01:21.502+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:01:21.502+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:01:21.520+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:01:21.519+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:01:21.537+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.062 seconds
+[2023-10-26T11:02:19.368+0530] {processor.py:157} INFO - Started process (PID=15462) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:02:19.375+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:02:19.377+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:02:19.377+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:02:19.400+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:02:19.424+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:02:19.424+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:02:19.440+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:02:19.440+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:02:19.453+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2023-10-26T11:03:33.257+0530] {processor.py:157} INFO - Started process (PID=15574) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:03:33.258+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:03:33.259+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:03:33.258+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:03:33.267+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:03:33.281+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:03:33.280+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:03:33.297+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:03:33.297+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:03:33.313+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.058 seconds
+[2023-10-26T11:04:47.785+0530] {processor.py:157} INFO - Started process (PID=15721) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:04:47.791+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:04:47.792+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:47.792+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:04:47.804+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:04:47.827+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:47.827+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:04:47.844+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:04:47.844+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:04:47.858+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.076 seconds
+[2023-10-26T11:05:49.227+0530] {processor.py:157} INFO - Started process (PID=15927) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:05:49.228+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:05:49.229+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:05:49.229+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:05:49.239+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:05:49.259+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:05:49.258+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:05:49.279+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:05:49.279+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:05:49.296+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.072 seconds
+[2023-10-26T11:06:44.635+0530] {processor.py:157} INFO - Started process (PID=15999) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:06:44.642+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:06:44.644+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:06:44.643+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:06:44.656+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:06:44.676+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:06:44.676+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:06:44.695+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:06:44.695+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:06:44.712+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2023-10-26T11:08:01.424+0530] {processor.py:157} INFO - Started process (PID=16117) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:08:01.431+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:08:01.434+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:01.433+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:08:01.452+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:08:01.471+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:01.471+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:08:01.489+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:01.489+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:08:01.509+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.093 seconds
+[2023-10-26T11:08:56.403+0530] {processor.py:157} INFO - Started process (PID=16203) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:08:56.411+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:08:56.413+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:56.412+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:08:56.434+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:08:56.454+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:56.454+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:08:56.472+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:08:56.471+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:08:56.490+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.094 seconds
+[2023-10-26T11:10:16.982+0530] {processor.py:157} INFO - Started process (PID=16314) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:10:16.989+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:10:16.990+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:10:16.990+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:10:16.999+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:10:17.016+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:10:17.016+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:10:17.034+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:10:17.034+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:10:17.052+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.072 seconds
+[2023-10-26T11:11:36.214+0530] {processor.py:157} INFO - Started process (PID=16430) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:11:36.221+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:11:36.223+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:11:36.222+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:11:36.239+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:11:36.257+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:11:36.257+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:11:36.275+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:11:36.274+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:11:36.293+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.086 seconds
+[2023-10-26T11:12:54.680+0530] {processor.py:157} INFO - Started process (PID=16529) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:12:54.687+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:12:54.688+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:12:54.687+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:12:54.701+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:12:54.721+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:12:54.721+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:12:54.739+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:12:54.738+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:12:54.754+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2023-10-26T11:14:14.010+0530] {processor.py:157} INFO - Started process (PID=16649) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:14:14.012+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:14:14.013+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:14:14.013+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:14:14.029+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:14:14.048+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:14:14.048+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:14:14.066+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:14:14.065+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:14:14.082+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2023-10-26T11:15:33.012+0530] {processor.py:157} INFO - Started process (PID=16786) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:15:33.020+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:15:33.021+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:15:33.020+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:15:33.038+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:15:33.058+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:15:33.058+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:15:33.078+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:15:33.078+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:15:33.093+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2023-10-26T11:16:27.518+0530] {processor.py:157} INFO - Started process (PID=16859) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:16:27.525+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:16:27.527+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:16:27.526+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:16:27.542+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:16:27.560+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:16:27.560+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:16:27.577+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:16:27.576+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:16:27.603+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2023-10-26T11:17:20.494+0530] {processor.py:157} INFO - Started process (PID=16937) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:17:20.501+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:17:20.503+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:20.502+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:17:20.513+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:17:20.531+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:20.531+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:17:20.548+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:17:20.548+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:17:20.563+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2023-10-26T11:18:39.141+0530] {processor.py:157} INFO - Started process (PID=17050) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:18:39.142+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:18:39.143+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:18:39.142+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:18:39.152+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:18:39.167+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:18:39.167+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:18:39.183+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:18:39.183+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:18:39.198+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2023-10-26T11:19:56.287+0530] {processor.py:157} INFO - Started process (PID=17156) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:19:56.288+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:19:56.289+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:19:56.288+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:19:56.304+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:19:56.323+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:19:56.323+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:19:56.340+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:19:56.340+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:19:56.355+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2023-10-26T11:20:51.507+0530] {processor.py:157} INFO - Started process (PID=17233) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:20:51.514+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:20:51.516+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:20:51.515+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:20:51.523+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:20:51.538+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:20:51.537+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:20:51.555+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:20:51.555+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:20:51.571+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2023-10-26T11:21:46.864+0530] {processor.py:157} INFO - Started process (PID=17312) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:21:46.872+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:21:46.874+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:21:46.873+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:21:46.896+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:21:46.915+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:21:46.915+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:21:46.934+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:21:46.934+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:21:46.949+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.093 seconds
+[2023-10-26T11:23:02.544+0530] {processor.py:157} INFO - Started process (PID=17422) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:23:02.551+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:23:02.551+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:23:02.551+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:23:02.559+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:23:02.578+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:23:02.577+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:23:02.601+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:23:02.601+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:23:02.627+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2023-10-26T11:24:21.958+0530] {processor.py:157} INFO - Started process (PID=17529) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:24:21.966+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:24:21.968+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:21.967+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:24:21.986+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:24:22.005+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:22.005+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:24:22.023+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:24:22.023+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:24:22.039+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.090 seconds
+[2023-10-26T11:25:33.872+0530] {processor.py:157} INFO - Started process (PID=17646) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:25:33.880+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:25:33.882+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:25:33.881+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:25:33.903+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:25:33.924+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:25:33.924+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:25:33.943+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:25:33.943+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:25:33.958+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.094 seconds
+[2023-10-26T11:26:47.179+0530] {processor.py:157} INFO - Started process (PID=17766) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:26:47.180+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:26:47.180+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:26:47.180+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:26:47.190+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:26:47.211+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:26:47.210+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:26:47.231+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:26:47.231+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:26:47.247+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2023-10-26T11:28:02.212+0530] {processor.py:157} INFO - Started process (PID=17935) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:28:02.219+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:28:02.221+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:28:02.220+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:28:02.240+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:28:02.258+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:28:02.258+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:28:02.275+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:28:02.275+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:28:02.292+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2023-10-26T11:29:17.271+0530] {processor.py:157} INFO - Started process (PID=18047) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:29:17.277+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:29:17.278+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:17.278+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:29:17.284+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:29:17.297+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:17.297+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:29:17.312+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:29:17.312+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:29:17.327+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.058 seconds
+[2023-10-26T11:30:32.165+0530] {processor.py:157} INFO - Started process (PID=18181) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:30:32.172+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:30:32.174+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:30:32.173+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:30:32.196+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:30:32.221+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:30:32.221+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:30:32.237+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:30:32.237+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:30:32.250+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.088 seconds
+[2023-10-26T11:31:42.745+0530] {processor.py:157} INFO - Started process (PID=18345) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:31:42.751+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:31:42.752+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:31:42.752+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:31:42.759+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:31:42.773+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:31:42.773+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:31:42.790+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:31:42.790+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:31:42.803+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2023-10-26T11:32:56.801+0530] {processor.py:157} INFO - Started process (PID=18490) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:32:56.808+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:32:56.809+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:32:56.809+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:32:56.819+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:32:56.838+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:32:56.838+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:32:56.855+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:32:56.855+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:32:56.868+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2023-10-26T11:34:06.637+0530] {processor.py:157} INFO - Started process (PID=18664) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:34:06.644+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:34:06.646+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:34:06.645+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:34:06.668+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:34:06.690+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:34:06.689+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:34:06.705+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:34:06.705+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:34:06.732+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.098 seconds
+[2023-10-26T11:35:19.315+0530] {processor.py:157} INFO - Started process (PID=18779) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:35:19.323+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:35:19.325+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:35:19.324+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:35:19.346+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:35:19.365+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:35:19.365+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:35:19.380+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:35:19.380+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:35:19.393+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2023-10-26T11:36:26.421+0530] {processor.py:157} INFO - Started process (PID=18972) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:36:26.423+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:36:26.423+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:36:26.423+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:36:26.432+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:36:26.448+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:36:26.448+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:36:26.467+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:36:26.467+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:36:26.483+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2023-10-26T11:37:23.050+0530] {processor.py:157} INFO - Started process (PID=19076) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:37:23.050+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:37:23.051+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:37:23.051+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:37:23.059+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:37:23.074+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:37:23.073+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:37:23.089+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:37:23.088+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:37:23.103+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds
+[2023-10-26T11:38:38.845+0530] {processor.py:157} INFO - Started process (PID=19245) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:38:38.846+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:38:38.847+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:38:38.846+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:38:38.855+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:38:38.869+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:38:38.869+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:38:38.884+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:38:38.884+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:38:38.897+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.054 seconds
+[2023-10-26T11:39:54.925+0530] {processor.py:157} INFO - Started process (PID=19366) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:39:54.927+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:39:54.929+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:39:54.928+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:39:54.947+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:39:54.965+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:39:54.964+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:39:54.982+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:39:54.982+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:39:54.998+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2023-10-26T11:41:13.093+0530] {processor.py:157} INFO - Started process (PID=19502) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:41:13.100+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:41:13.102+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:41:13.101+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:41:13.124+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:41:13.144+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:41:13.144+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:41:13.160+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:41:13.160+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:41:13.173+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2023-10-26T11:42:13.512+0530] {processor.py:157} INFO - Started process (PID=19661) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:42:13.519+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:42:13.520+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:42:13.520+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:42:13.528+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:42:13.545+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:42:13.545+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:42:13.566+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:42:13.565+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:42:13.584+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2023-10-26T11:43:25.053+0530] {processor.py:157} INFO - Started process (PID=19848) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:43:25.054+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:43:25.054+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:25.054+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:43:25.062+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:43:25.076+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:25.076+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:43:25.092+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:43:25.092+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:43:25.192+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.141 seconds
+[2023-10-26T11:44:39.619+0530] {processor.py:157} INFO - Started process (PID=19952) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:44:39.626+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:44:39.628+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:44:39.628+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:44:39.637+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:44:39.649+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:44:39.649+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:44:39.664+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:44:39.664+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:44:39.761+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.144 seconds
+[2023-10-26T11:45:37.275+0530] {processor.py:157} INFO - Started process (PID=20037) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:45:37.282+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:45:37.284+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:45:37.283+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:45:37.306+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:45:37.328+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:45:37.328+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:45:37.343+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:45:37.343+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:45:37.435+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.162 seconds
+[2023-10-26T11:46:56.993+0530] {processor.py:157} INFO - Started process (PID=20169) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:46:57.000+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:46:57.002+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:46:57.002+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:46:57.035+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:46:57.060+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:46:57.060+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:46:57.081+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:46:57.081+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:46:57.181+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.190 seconds
+[2023-10-26T11:47:56.593+0530] {processor.py:157} INFO - Started process (PID=20259) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:47:56.600+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:47:56.601+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:47:56.601+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:47:56.610+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:47:56.621+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:47:56.621+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:47:56.635+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:47:56.635+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:47:56.648+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T11:48:53.249+0530] {processor.py:157} INFO - Started process (PID=20361) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:48:53.250+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:48:53.251+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:48:53.251+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:48:53.258+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:48:53.272+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:48:53.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:48:53.287+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:48:53.287+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:48:53.301+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.054 seconds
+[2023-10-26T11:49:55.765+0530] {processor.py:157} INFO - Started process (PID=20519) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:49:55.766+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:49:55.767+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:49:55.766+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:49:55.777+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:49:55.800+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:49:55.800+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:49:55.816+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:49:55.816+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:49:55.830+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2023-10-26T11:51:00.181+0530] {processor.py:157} INFO - Started process (PID=20692) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:51:00.188+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:51:00.190+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:00.189+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:51:00.212+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:51:00.236+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:00.236+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:51:00.251+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:00.251+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:51:00.265+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.086 seconds
+[2023-10-26T11:51:59.625+0530] {processor.py:157} INFO - Started process (PID=20826) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:51:59.631+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:51:59.632+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:59.632+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:51:59.639+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:51:59.654+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:59.653+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:51:59.669+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:51:59.669+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:51:59.683+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.060 seconds
+[2023-10-26T11:53:16.551+0530] {processor.py:157} INFO - Started process (PID=20934) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:53:16.558+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:53:16.558+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:53:16.558+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:53:16.565+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:53:16.578+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:53:16.578+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:53:16.593+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:53:16.593+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:53:16.606+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T11:54:35.755+0530] {processor.py:157} INFO - Started process (PID=21043) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:54:35.762+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:54:35.762+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:54:35.762+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:54:35.773+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:54:35.793+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:54:35.793+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:54:35.809+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:54:35.809+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:54:35.822+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.070 seconds
+[2023-10-26T11:55:58.414+0530] {processor.py:157} INFO - Started process (PID=21222) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:55:58.414+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:55:58.415+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:55:58.414+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:55:58.421+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:55:58.433+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:55:58.433+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:55:58.448+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:55:58.447+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:55:58.461+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2023-10-26T11:56:52.675+0530] {processor.py:157} INFO - Started process (PID=21301) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:56:52.681+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:56:52.682+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:56:52.682+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:56:52.692+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:56:52.710+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:56:52.710+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:56:52.726+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:56:52.726+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:56:52.741+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2023-10-26T11:58:01.121+0530] {processor.py:157} INFO - Started process (PID=21429) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:58:01.122+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:58:01.123+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:58:01.122+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:58:01.129+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:58:01.142+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:58:01.142+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:58:01.158+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:58:01.158+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:58:01.173+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.053 seconds
+[2023-10-26T11:59:14.764+0530] {processor.py:157} INFO - Started process (PID=21550) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:59:14.771+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T11:59:14.772+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:59:14.772+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:59:14.779+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T11:59:14.797+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:59:14.796+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T11:59:14.814+0530] {logging_mixin.py:151} INFO - [2023-10-26T11:59:14.813+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T11:59:14.834+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.072 seconds
+[2023-10-26T12:00:25.276+0530] {processor.py:157} INFO - Started process (PID=21738) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:00:25.278+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:00:25.279+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:00:25.279+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:00:25.300+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:00:25.319+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:00:25.319+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:00:25.334+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:00:25.334+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:00:25.348+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.079 seconds
+[2023-10-26T12:01:20.533+0530] {processor.py:157} INFO - Started process (PID=21820) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:01:20.540+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:01:20.542+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:01:20.541+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:01:20.563+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:01:20.583+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:01:20.583+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:01:20.598+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:01:20.598+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:01:20.611+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2023-10-26T12:02:32.860+0530] {processor.py:157} INFO - Started process (PID=21919) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:02:32.866+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:02:32.867+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:02:32.867+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:02:32.873+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:02:32.885+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:02:32.885+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:02:32.899+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:02:32.899+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:02:32.911+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.053 seconds
+[2023-10-26T12:03:46.010+0530] {processor.py:157} INFO - Started process (PID=22035) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:03:46.017+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:03:46.018+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:03:46.017+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:03:46.024+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:03:46.036+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:03:46.036+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:03:46.053+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:03:46.052+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:03:46.066+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T12:04:54.494+0530] {processor.py:157} INFO - Started process (PID=22218) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:04:54.501+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:04:54.501+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:04:54.501+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:04:54.508+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:04:54.524+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:04:54.524+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:04:54.541+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:04:54.541+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:04:54.554+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.062 seconds
+[2023-10-26T12:05:50.908+0530] {processor.py:157} INFO - Started process (PID=22315) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:05:50.915+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:05:50.916+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:05:50.915+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:05:50.926+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:05:50.943+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:05:50.943+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:05:50.964+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:05:50.964+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:05:50.983+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2023-10-26T12:06:46.000+0530] {processor.py:157} INFO - Started process (PID=22669) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:06:46.006+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:06:46.007+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:46.007+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:06:46.013+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:06:46.026+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:46.025+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:06:46.040+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:06:46.040+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:06:46.053+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds
+[2023-10-26T12:07:59.847+0530] {processor.py:157} INFO - Started process (PID=22876) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:07:59.849+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:07:59.850+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:07:59.850+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:07:59.865+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:07:59.884+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:07:59.884+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:07:59.898+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:07:59.898+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:07:59.911+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2023-10-26T12:09:14.855+0530] {processor.py:157} INFO - Started process (PID=22981) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:09:14.861+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:09:14.862+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:09:14.862+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:09:14.869+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:09:14.881+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:09:14.881+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:09:14.896+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:09:14.896+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:09:14.909+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T12:10:30.352+0530] {processor.py:157} INFO - Started process (PID=23083) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:10:30.360+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:10:30.362+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:10:30.361+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:10:30.387+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:10:30.405+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:10:30.405+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:10:30.420+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:10:30.420+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:10:30.433+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.088 seconds
+[2023-10-26T12:11:25.907+0530] {processor.py:157} INFO - Started process (PID=23157) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:11:25.914+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:11:25.916+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:25.915+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:11:25.939+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:11:25.960+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:25.959+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:11:25.975+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:11:25.975+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:11:25.988+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2023-10-26T12:12:37.917+0530] {processor.py:157} INFO - Started process (PID=23252) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:12:37.917+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:12:37.918+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:12:37.918+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:12:37.927+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:12:37.943+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:12:37.943+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:12:37.958+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:12:37.958+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:12:37.972+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.058 seconds
+[2023-10-26T12:13:54.953+0530] {processor.py:157} INFO - Started process (PID=23403) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:13:54.959+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:13:54.960+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:13:54.960+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:13:54.967+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:13:54.981+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:13:54.981+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:13:54.996+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:13:54.996+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:13:55.010+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.059 seconds
+[2023-10-26T12:15:04.612+0530] {processor.py:157} INFO - Started process (PID=23598) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:15:04.619+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:15:04.619+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:04.619+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:15:04.626+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:15:04.639+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:04.639+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:15:04.655+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:15:04.655+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:15:04.669+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.059 seconds
+[2023-10-26T12:16:14.005+0530] {processor.py:157} INFO - Started process (PID=23726) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:16:14.011+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T12:16:14.012+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:16:14.012+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:16:14.018+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T12:16:14.031+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:16:14.031+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:16:14.046+0530] {logging_mixin.py:151} INFO - [2023-10-26T12:16:14.046+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T12:16:14.060+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T19:04:21.412+0530] {processor.py:157} INFO - Started process (PID=7619) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:04:21.413+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:04:21.413+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:04:21.413+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:04:21.420+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:04:21.436+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:04:21.436+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:04:21.451+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:04:21.451+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:04:21.464+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.054 seconds
+[2023-10-26T19:05:14.734+0530] {processor.py:157} INFO - Started process (PID=7932) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:05:14.735+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:05:14.736+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:05:14.735+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:05:14.746+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:05:14.764+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:05:14.764+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:05:14.780+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:05:14.780+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:05:14.793+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.062 seconds
+[2023-10-26T19:06:34.096+0530] {processor.py:157} INFO - Started process (PID=8597) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:06:34.097+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:06:34.098+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:06:34.098+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:06:34.110+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:06:34.133+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:06:34.132+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:06:34.154+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:06:34.154+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:06:34.170+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2023-10-26T19:07:49.069+0530] {processor.py:157} INFO - Started process (PID=8703) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:07:49.076+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:07:49.077+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:07:49.077+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:07:49.086+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:07:49.105+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:07:49.105+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:07:49.121+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:07:49.121+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:07:49.135+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2023-10-26T19:09:01.674+0530] {processor.py:157} INFO - Started process (PID=9250) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:09:01.675+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:09:01.676+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:01.675+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:09:01.684+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:09:01.699+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:01.699+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:09:01.716+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:01.716+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:09:01.730+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.059 seconds
+[2023-10-26T19:09:57.118+0530] {processor.py:157} INFO - Started process (PID=9404) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:09:57.119+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:09:57.120+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:57.119+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:09:57.128+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:09:57.143+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:57.143+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:09:57.158+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:09:57.158+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:09:57.173+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2023-10-26T19:12:21.614+0530] {processor.py:157} INFO - Started process (PID=9834) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:12:21.614+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:12:21.615+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:12:21.615+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:12:21.622+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:12:21.635+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:12:21.635+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:12:21.649+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:12:21.649+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:12:21.662+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.051 seconds
+[2023-10-26T19:13:17.082+0530] {processor.py:157} INFO - Started process (PID=9923) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:13:17.090+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:13:17.092+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:13:17.091+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:13:17.113+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:13:17.131+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:13:17.131+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:13:17.146+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:13:17.146+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:13:17.159+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.084 seconds
+[2023-10-26T19:14:31.607+0530] {processor.py:157} INFO - Started process (PID=10043) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:14:31.613+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:14:31.614+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:14:31.613+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:14:31.620+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:14:31.631+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:14:31.631+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:14:31.645+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:14:31.645+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:14:31.658+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.053 seconds
+[2023-10-26T19:15:47.672+0530] {processor.py:157} INFO - Started process (PID=10146) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:15:47.673+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:15:47.674+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:47.673+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:15:47.681+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:15:47.695+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:47.694+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:15:47.709+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:15:47.709+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:15:47.722+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.052 seconds
+[2023-10-26T19:17:02.898+0530] {processor.py:157} INFO - Started process (PID=10263) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:17:02.904+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:17:02.905+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:17:02.904+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:17:02.912+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:17:02.927+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:17:02.927+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:17:02.943+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:17:02.943+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:17:02.956+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2023-10-26T19:18:18.643+0530] {processor.py:157} INFO - Started process (PID=10381) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:18:18.650+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:18:18.652+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:18:18.651+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:18:18.674+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:18:18.695+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:18:18.695+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:18:18.710+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:18:18.710+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:18:18.723+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2023-10-26T19:19:34.552+0530] {processor.py:157} INFO - Started process (PID=10508) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:19:34.559+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:19:34.561+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:19:34.560+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:19:34.583+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:19:34.603+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:19:34.603+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:19:34.617+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:19:34.617+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:19:34.630+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2023-10-26T19:20:48.432+0530] {processor.py:157} INFO - Started process (PID=10621) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:20:48.439+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:20:48.440+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:48.439+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:20:48.457+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:20:48.481+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:48.481+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:20:48.496+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:20:48.496+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:20:48.510+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2023-10-26T19:22:02.953+0530] {processor.py:157} INFO - Started process (PID=10752) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:22:02.960+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:22:02.962+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:22:02.961+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:22:02.985+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:22:03.006+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:22:03.005+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:22:03.021+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:22:03.021+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:22:03.034+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2023-10-26T19:23:21.167+0530] {processor.py:157} INFO - Started process (PID=10866) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:23:21.174+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:23:21.174+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:23:21.174+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:23:21.181+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:23:21.192+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:23:21.192+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:23:21.207+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:23:21.207+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:23:21.219+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.054 seconds
+[2023-10-26T19:24:31.040+0530] {processor.py:157} INFO - Started process (PID=10982) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:24:31.047+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:24:31.049+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:24:31.048+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:24:31.072+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:24:31.096+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:24:31.096+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:24:31.112+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:24:31.112+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:24:31.125+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.088 seconds
+[2023-10-26T19:25:42.763+0530] {processor.py:157} INFO - Started process (PID=11115) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:25:42.771+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-10-26T19:25:42.773+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:42.772+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:25:42.785+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-10-26T19:25:42.811+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:42.811+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T19:25:42.833+0530] {logging_mixin.py:151} INFO - [2023-10-26T19:25:42.832+0530] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-10-25T00:00:00+00:00, run_after=2023-10-26T00:00:00+00:00
+[2023-10-26T19:25:42.855+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.098 seconds

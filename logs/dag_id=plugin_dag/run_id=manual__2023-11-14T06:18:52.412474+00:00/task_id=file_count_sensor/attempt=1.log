@@ -1,0 +1,15 @@
+[2023-11-14T11:48:56.775+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: plugin_dag.file_count_sensor manual__2023-11-14T06:18:52.412474+00:00 [queued]>
+[2023-11-14T11:48:56.779+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: plugin_dag.file_count_sensor manual__2023-11-14T06:18:52.412474+00:00 [queued]>
+[2023-11-14T11:48:56.780+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-14T11:48:56.789+0530] {taskinstance.py:1380} INFO - Executing <Task(FileCountSensor): file_count_sensor> on 2023-11-14 06:18:52.412474+00:00
+[2023-11-14T11:48:56.792+0530] {standard_task_runner.py:57} INFO - Started process 17865 to run task
+[2023-11-14T11:48:56.794+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'plugin_dag', 'file_count_sensor', 'manual__2023-11-14T06:18:52.412474+00:00', '--job-id', '4594', '--raw', '--subdir', 'DAGS_FOLDER/dag_plugins.py', '--cfg-path', '/tmp/tmpehptig76']
+[2023-11-14T11:48:56.794+0530] {standard_task_runner.py:85} INFO - Job 4594: Subtask file_count_sensor
+[2023-11-14T11:48:56.815+0530] {task_command.py:415} INFO - Running <TaskInstance: plugin_dag.file_count_sensor manual__2023-11-14T06:18:52.412474+00:00 [running]> on host harika-Latitude-5511
+[2023-11-14T11:48:56.939+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='plugin_dag' AIRFLOW_CTX_TASK_ID='file_count_sensor' AIRFLOW_CTX_EXECUTION_DATE='2023-11-14T06:18:52.412474+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-14T06:18:52.412474+00:00'
+[2023-11-14T11:48:56.943+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2023-11-14T11:48:56.943+0530] {demo_plugin.py:63} INFO - poking location is /home/harika/airflow/plugins
+[2023-11-14T11:48:56.944+0530] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-14T11:48:56.946+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=plugin_dag, task_id=file_count_sensor, execution_date=20231114T061852, start_date=20231114T061856, end_date=20231114T061856
+[2023-11-14T11:48:56.965+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-14T11:48:56.981+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

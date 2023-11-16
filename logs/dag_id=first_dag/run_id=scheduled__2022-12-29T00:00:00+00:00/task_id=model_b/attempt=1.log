@@ -1,0 +1,14 @@
+[2023-10-25T11:09:05.917+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_dag.model_b scheduled__2022-12-29T00:00:00+00:00 [queued]>
+[2023-10-25T11:09:05.921+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_dag.model_b scheduled__2022-12-29T00:00:00+00:00 [queued]>
+[2023-10-25T11:09:05.921+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-25T11:09:05.930+0530] {taskinstance.py:1380} INFO - Executing <Task(SimpleHttpOperator): model_b> on 2022-12-29 00:00:00+00:00
+[2023-10-25T11:09:05.934+0530] {standard_task_runner.py:57} INFO - Started process 34500 to run task
+[2023-10-25T11:09:05.935+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'model_b', 'scheduled__2022-12-29T00:00:00+00:00', '--job-id', '310', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp18hhqp5c']
+[2023-10-25T11:09:05.937+0530] {standard_task_runner.py:85} INFO - Job 310: Subtask model_b
+[2023-10-25T11:09:05.958+0530] {task_command.py:415} INFO - Running <TaskInstance: first_dag.model_b scheduled__2022-12-29T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-25T11:09:05.999+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='first_dag' AIRFLOW_CTX_TASK_ID='model_b' AIRFLOW_CTX_EXECUTION_DATE='2022-12-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-12-29T00:00:00+00:00'
+[2023-10-25T11:09:06.000+0530] {http.py:143} INFO - Calling HTTP method
+[2023-10-25T11:09:06.003+0530] {base.py:73} INFO - Using connection ID 'random_data_default' for task execution.
+[2023-10-25T11:09:07.580+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=model_b, execution_date=20221229T000000, start_date=20231025T053905, end_date=20231025T053907
+[2023-10-25T11:09:07.634+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T11:09:07.658+0530] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

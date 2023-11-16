@@ -1,0 +1,14 @@
+[2023-10-31T09:56:13.955+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcomEx2.training_model_B scheduled__2023-10-30T00:00:00+00:00 [queued]>
+[2023-10-31T09:56:13.962+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcomEx2.training_model_B scheduled__2023-10-30T00:00:00+00:00 [queued]>
+[2023-10-31T09:56:13.963+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-31T09:56:13.973+0530] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): training_model_B> on 2023-10-30 00:00:00+00:00
+[2023-10-31T09:56:13.977+0530] {standard_task_runner.py:57} INFO - Started process 590636 to run task
+[2023-10-31T09:56:13.979+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'xcomEx2', 'training_model_B', 'scheduled__2023-10-30T00:00:00+00:00', '--job-id', '2015', '--raw', '--subdir', 'DAGS_FOLDER/xcom2.py', '--cfg-path', '/tmp/tmp5fesa9gn']
+[2023-10-31T09:56:13.980+0530] {standard_task_runner.py:85} INFO - Job 2015: Subtask training_model_B
+[2023-10-31T09:56:14.016+0530] {task_command.py:415} INFO - Running <TaskInstance: xcomEx2.training_model_B scheduled__2023-10-30T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-31T09:56:14.065+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='xcomEx2' AIRFLOW_CTX_TASK_ID='training_model_B' AIRFLOW_CTX_EXECUTION_DATE='2023-10-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-30T00:00:00+00:00'
+[2023-10-31T09:56:14.066+0530] {logging_mixin.py:151} INFO - model's accuracy: 9.165257982208455
+[2023-10-31T09:56:14.073+0530] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-31T09:56:14.077+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=xcomEx2, task_id=training_model_B, execution_date=20231030T000000, start_date=20231031T042613, end_date=20231031T042614
+[2023-10-31T09:56:14.191+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-31T09:56:14.205+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

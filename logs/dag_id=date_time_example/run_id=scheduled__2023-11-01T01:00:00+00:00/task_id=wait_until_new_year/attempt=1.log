@@ -1,0 +1,26 @@
+[2023-11-01T09:58:46.417+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: date_time_example.wait_until_new_year scheduled__2023-11-01T01:00:00+00:00 [queued]>
+[2023-11-01T09:58:46.423+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: date_time_example.wait_until_new_year scheduled__2023-11-01T01:00:00+00:00 [queued]>
+[2023-11-01T09:58:46.423+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-01T09:58:46.433+0530] {taskinstance.py:1380} INFO - Executing <Task(DateTimeSensor): wait_until_new_year> on 2023-11-01 01:00:00+00:00
+[2023-11-01T09:58:46.437+0530] {standard_task_runner.py:57} INFO - Started process 930851 to run task
+[2023-11-01T09:58:46.439+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'date_time_example', 'wait_until_new_year', 'scheduled__2023-11-01T01:00:00+00:00', '--job-id', '2253', '--raw', '--subdir', 'DAGS_FOLDER/dataTimeSensor.py', '--cfg-path', '/tmp/tmpko_w2c7e']
+[2023-11-01T09:58:46.439+0530] {standard_task_runner.py:85} INFO - Job 2253: Subtask wait_until_new_year
+[2023-11-01T09:58:46.462+0530] {task_command.py:415} INFO - Running <TaskInstance: date_time_example.wait_until_new_year scheduled__2023-11-01T01:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-01T09:58:46.515+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='date_time_example' AIRFLOW_CTX_TASK_ID='wait_until_new_year' AIRFLOW_CTX_EXECUTION_DATE='2023-11-01T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-01T01:00:00+00:00'
+[2023-11-01T09:58:46.519+0530] {date_time.py:74} INFO - Checking if the time (2023-11-1T09:52:00) has come
+[2023-11-01T09:58:46.606+0530] {taskinstance.py:1895} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-11-01T09:58:46.651+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-01T09:58:46.667+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-01T09:59:49.398+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: date_time_example.wait_until_new_year scheduled__2023-11-01T01:00:00+00:00 [queued]>
+[2023-11-01T09:59:49.406+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: date_time_example.wait_until_new_year scheduled__2023-11-01T01:00:00+00:00 [queued]>
+[2023-11-01T09:59:49.406+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-01T09:59:49.417+0530] {taskinstance.py:1380} INFO - Executing <Task(DateTimeSensor): wait_until_new_year> on 2023-11-01 01:00:00+00:00
+[2023-11-01T09:59:49.421+0530] {standard_task_runner.py:57} INFO - Started process 932254 to run task
+[2023-11-01T09:59:49.423+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'date_time_example', 'wait_until_new_year', 'scheduled__2023-11-01T01:00:00+00:00', '--job-id', '2269', '--raw', '--subdir', 'DAGS_FOLDER/dataTimeSensor.py', '--cfg-path', '/tmp/tmphw3xqepu']
+[2023-11-01T09:59:49.424+0530] {standard_task_runner.py:85} INFO - Job 2269: Subtask wait_until_new_year
+[2023-11-01T09:59:49.450+0530] {task_command.py:415} INFO - Running <TaskInstance: date_time_example.wait_until_new_year scheduled__2023-11-01T01:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-11-01T09:59:49.503+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='date_time_example' AIRFLOW_CTX_TASK_ID='wait_until_new_year' AIRFLOW_CTX_EXECUTION_DATE='2023-11-01T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-01T01:00:00+00:00'
+[2023-11-01T09:59:49.507+0530] {date_time.py:74} INFO - Checking if the time (2023-11-01T09:52:00) has come
+[2023-11-01T09:59:49.596+0530] {taskinstance.py:1895} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-11-01T09:59:49.635+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-01T09:59:49.645+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

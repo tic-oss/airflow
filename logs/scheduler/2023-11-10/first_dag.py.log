@@ -1,0 +1,896 @@
+[2023-11-10T10:41:07.295+0530] {processor.py:157} INFO - Started process (PID=188780) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:41:07.295+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:41:07.296+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:07.296+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:41:07.304+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:41:07.306+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:41:07.316+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:07.316+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:41:07.331+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:07.331+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:41:07.349+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.057 seconds
+[2023-11-10T10:41:51.705+0530] {processor.py:157} INFO - Started process (PID=188976) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:41:51.712+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:41:51.714+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:51.714+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:41:51.744+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:41:51.747+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:41:51.762+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:51.762+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:41:51.852+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:51.852+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:41:51.876+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.174 seconds
+[2023-11-10T10:43:03.452+0530] {processor.py:157} INFO - Started process (PID=189376) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:43:03.458+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:43:03.459+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:03.459+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:43:03.472+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:43:03.474+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:43:03.489+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:03.488+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:43:03.504+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:03.504+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:43:03.517+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.068 seconds
+[2023-11-10T10:44:09.049+0530] {processor.py:157} INFO - Started process (PID=189464) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:44:09.056+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:44:09.057+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:09.057+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:44:09.070+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:44:09.072+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:44:09.087+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:09.086+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:44:09.103+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:09.103+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:44:09.117+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.071 seconds
+[2023-11-10T10:45:16.410+0530] {processor.py:157} INFO - Started process (PID=189563) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:45:16.416+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:45:16.417+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:16.417+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:45:16.428+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:45:16.430+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:45:16.442+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:16.442+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:45:16.458+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:16.457+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:45:16.472+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.065 seconds
+[2023-11-10T10:46:21.043+0530] {processor.py:157} INFO - Started process (PID=189664) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:46:21.050+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:46:21.052+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:21.052+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:46:21.077+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:46:21.080+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:46:21.093+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:21.093+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:46:21.108+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:21.108+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:46:21.121+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.085 seconds
+[2023-11-10T10:47:26.009+0530] {processor.py:157} INFO - Started process (PID=189754) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:47:26.016+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:47:26.018+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:26.017+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:47:26.048+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:47:26.051+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:47:26.065+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:26.065+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:47:26.080+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:26.080+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:47:26.093+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T10:48:35.628+0530] {processor.py:157} INFO - Started process (PID=189849) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:48:35.635+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:48:35.636+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:35.635+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:48:35.650+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:48:35.652+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:48:35.668+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:35.668+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:48:35.684+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:35.683+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:48:35.696+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.071 seconds
+[2023-11-10T10:49:43.960+0530] {processor.py:157} INFO - Started process (PID=189940) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:49:43.967+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:49:43.969+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:43.968+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:49:43.997+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:49:44.000+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:49:44.014+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:44.014+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:49:44.030+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:44.030+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:49:44.043+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.085 seconds
+[2023-11-10T10:50:48.703+0530] {processor.py:157} INFO - Started process (PID=190038) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:50:48.710+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:50:48.712+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:48.711+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:50:48.743+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:50:48.746+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:50:48.762+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:48.761+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:50:48.777+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:48.777+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:50:48.790+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T10:51:56.190+0530] {processor.py:157} INFO - Started process (PID=190130) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:51:56.191+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:51:56.191+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:56.191+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:51:56.203+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:51:56.205+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:51:56.218+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:56.218+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:51:56.234+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:56.234+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:51:56.247+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.060 seconds
+[2023-11-10T10:53:02.545+0530] {processor.py:157} INFO - Started process (PID=190219) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:53:02.551+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:53:02.552+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:02.552+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:53:02.567+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:53:02.570+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:53:02.587+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:02.587+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:53:02.603+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:02.603+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:53:02.616+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.074 seconds
+[2023-11-10T10:54:09.369+0530] {processor.py:157} INFO - Started process (PID=190316) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:54:09.376+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:54:09.377+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:09.377+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:54:09.393+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:54:09.396+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:54:09.414+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:09.414+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:54:09.430+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:09.430+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:54:09.443+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.076 seconds
+[2023-11-10T10:55:16.611+0530] {processor.py:157} INFO - Started process (PID=190411) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:55:16.619+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:55:16.621+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:16.620+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:55:16.648+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:55:16.651+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:55:16.664+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:16.664+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:55:16.679+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:16.679+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:55:16.692+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.088 seconds
+[2023-11-10T10:56:19.810+0530] {processor.py:157} INFO - Started process (PID=190499) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:56:19.817+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:56:19.819+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:19.818+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:56:19.847+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:56:19.850+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:56:19.865+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:19.865+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:56:19.880+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:19.880+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:56:19.893+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T10:57:24.603+0530] {processor.py:157} INFO - Started process (PID=190590) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:57:24.610+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:57:24.610+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:24.610+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:57:24.621+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:57:24.622+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:57:24.634+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:24.634+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:57:24.649+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:24.649+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:57:24.662+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.061 seconds
+[2023-11-10T10:58:29.558+0530] {processor.py:157} INFO - Started process (PID=190683) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:58:29.566+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:58:29.568+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:29.567+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:58:29.580+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:58:29.581+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:58:29.593+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:29.592+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:58:29.607+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:29.607+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:58:29.628+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.072 seconds
+[2023-11-10T10:59:34.617+0530] {processor.py:157} INFO - Started process (PID=190775) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:59:34.624+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T10:59:34.626+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:34.625+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:59:34.656+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T10:59:34.659+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T10:59:34.674+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:34.674+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:59:34.689+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:34.689+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T10:59:34.702+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:00:41.460+0530] {processor.py:157} INFO - Started process (PID=190873) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:00:41.467+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:00:41.469+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:41.468+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:00:41.499+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:00:41.502+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:00:41.517+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:41.517+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:00:41.532+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:41.532+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:00:41.544+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:01:50.823+0530] {processor.py:157} INFO - Started process (PID=190966) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:01:50.830+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:01:50.832+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:50.831+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:01:50.863+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:01:50.866+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:01:50.882+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:50.882+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:01:50.897+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:50.897+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:01:50.910+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:03:00.922+0530] {processor.py:157} INFO - Started process (PID=191062) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:03:00.929+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:03:00.931+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:00.930+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:03:00.958+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:03:00.961+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:03:00.975+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:00.975+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:03:00.990+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:00.990+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:03:01.003+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.084 seconds
+[2023-11-10T11:04:03.585+0530] {processor.py:157} INFO - Started process (PID=191150) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:04:03.592+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:04:03.593+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:03.593+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:04:03.607+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:04:03.609+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:04:03.625+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:03.625+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:04:03.641+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:03.641+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:04:03.663+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.080 seconds
+[2023-11-10T11:05:13.059+0530] {processor.py:157} INFO - Started process (PID=191248) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:05:13.066+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:05:13.068+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:13.067+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:05:13.098+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:05:13.100+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:05:13.115+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:13.115+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:05:13.130+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:13.129+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:05:13.142+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T11:06:21.623+0530] {processor.py:157} INFO - Started process (PID=191340) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:06:21.630+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:06:21.632+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:21.631+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:06:21.659+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:06:21.662+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:06:21.676+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:21.676+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:06:21.690+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:21.690+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:06:21.706+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T11:07:22.817+0530] {processor.py:157} INFO - Started process (PID=191424) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:07:22.824+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:07:22.827+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:22.826+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:07:22.857+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:07:22.860+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:07:22.876+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:22.876+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:07:22.891+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:22.891+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:07:22.905+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T11:08:27.633+0530] {processor.py:157} INFO - Started process (PID=191614) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:08:27.640+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:08:27.642+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:27.641+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:08:27.672+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:08:27.675+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:08:27.690+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:27.690+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:08:27.706+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:27.706+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:08:27.719+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:09:34.500+0530] {processor.py:157} INFO - Started process (PID=191709) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:09:34.501+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:09:34.501+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:34.501+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:09:34.510+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:09:34.512+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:09:34.522+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:34.522+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:09:34.537+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:34.537+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:09:34.551+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.053 seconds
+[2023-11-10T11:10:40.977+0530] {processor.py:157} INFO - Started process (PID=191802) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:10:40.984+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:10:40.984+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:40.984+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:10:40.997+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:10:40.999+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:10:41.010+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:41.010+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:10:41.026+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:41.026+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:10:41.039+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.064 seconds
+[2023-11-10T11:11:47.006+0530] {processor.py:157} INFO - Started process (PID=191895) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:11:47.013+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:11:47.014+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:47.013+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:11:47.028+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:11:47.030+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:11:47.047+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:47.047+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:11:47.063+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:47.063+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:11:47.076+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.072 seconds
+[2023-11-10T11:12:54.226+0530] {processor.py:157} INFO - Started process (PID=191989) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:12:54.233+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:12:54.235+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:54.234+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:12:54.264+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:12:54.267+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:12:54.282+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:54.282+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:12:54.297+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:54.297+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:12:54.310+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:14:01.511+0530] {processor.py:157} INFO - Started process (PID=192081) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:14:01.518+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:14:01.520+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:01.520+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:14:01.549+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:14:01.551+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:14:01.566+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:01.566+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:14:01.582+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:01.581+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:14:01.594+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T11:15:08.833+0530] {processor.py:157} INFO - Started process (PID=192187) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:15:08.840+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:15:08.842+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:08.841+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:15:08.872+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:15:08.874+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:15:08.889+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:08.889+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:15:08.904+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:08.904+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:15:08.918+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.088 seconds
+[2023-11-10T11:16:15.745+0530] {processor.py:157} INFO - Started process (PID=192280) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:16:15.752+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:16:15.754+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:15.753+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:16:15.785+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:16:15.788+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:16:15.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:15.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:16:15.820+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:15.820+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:16:15.833+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.091 seconds
+[2023-11-10T11:17:25.514+0530] {processor.py:157} INFO - Started process (PID=192376) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:17:25.522+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:17:25.524+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:25.523+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:17:25.550+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:17:25.552+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:17:25.566+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:25.566+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:17:25.581+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:25.581+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:17:25.594+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:18:33.367+0530] {processor.py:157} INFO - Started process (PID=192476) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:18:33.373+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:18:33.374+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:33.374+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:18:33.385+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:18:33.386+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:18:33.399+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:33.399+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:18:33.414+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:33.414+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:18:33.427+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.062 seconds
+[2023-11-10T11:19:40.214+0530] {processor.py:157} INFO - Started process (PID=192569) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:19:40.221+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:19:40.222+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:40.222+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:19:40.236+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:19:40.239+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:19:40.254+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:40.254+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:19:40.270+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:40.269+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:19:40.282+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.071 seconds
+[2023-11-10T11:20:44.788+0530] {processor.py:157} INFO - Started process (PID=192665) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:20:44.795+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:20:44.797+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:44.796+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:20:44.828+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:20:44.831+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:20:44.847+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:44.847+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:20:44.862+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:44.862+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:20:44.875+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T11:21:51.910+0530] {processor.py:157} INFO - Started process (PID=192765) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:21:51.917+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:21:51.919+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:51.918+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:21:51.950+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:21:51.953+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:21:51.968+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:51.968+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:21:51.984+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:51.984+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:21:51.997+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T11:22:58.933+0530] {processor.py:157} INFO - Started process (PID=192858) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:22:58.940+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:22:58.942+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:58.942+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:22:58.966+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:22:58.967+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:22:58.978+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:58.977+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:22:58.992+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:58.992+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:22:59.005+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.080 seconds
+[2023-11-10T11:24:05.265+0530] {processor.py:157} INFO - Started process (PID=192950) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:24:05.272+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:24:05.274+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:05.273+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:24:05.298+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:24:05.300+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:24:05.311+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:05.311+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:24:05.325+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:05.325+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:24:05.337+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.075 seconds
+[2023-11-10T11:25:11.236+0530] {processor.py:157} INFO - Started process (PID=193042) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:25:11.243+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:25:11.245+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:11.244+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:25:11.275+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:25:11.278+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:25:11.293+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:11.292+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:25:11.308+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:11.307+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:25:11.320+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:26:17.165+0530] {processor.py:157} INFO - Started process (PID=193133) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:26:17.166+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:26:17.167+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:17.166+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:26:17.177+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:26:17.179+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:26:17.190+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:17.190+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:26:17.204+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:17.204+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:26:17.216+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.053 seconds
+[2023-11-10T11:27:20.912+0530] {processor.py:157} INFO - Started process (PID=193223) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:27:20.919+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:27:20.921+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:20.920+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:27:20.951+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:27:20.955+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:27:20.970+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:20.970+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:27:20.986+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:20.985+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:27:20.998+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:28:26.067+0530] {processor.py:157} INFO - Started process (PID=193311) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:28:26.068+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:28:26.069+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:26.068+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:28:26.078+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:28:26.080+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:28:26.090+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:26.090+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:28:26.105+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:26.104+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:28:26.118+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.053 seconds
+[2023-11-10T11:29:27.234+0530] {processor.py:157} INFO - Started process (PID=193400) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:29:27.241+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:29:27.241+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:27.241+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:29:27.253+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:29:27.254+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:29:27.267+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:27.267+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:29:27.282+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:27.282+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:29:27.294+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.063 seconds
+[2023-11-10T11:30:33.328+0530] {processor.py:157} INFO - Started process (PID=193495) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:30:33.328+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:30:33.329+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:33.329+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:30:33.342+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:30:33.344+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:30:33.358+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:33.358+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:30:33.373+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:33.373+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:30:33.385+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.060 seconds
+[2023-11-10T11:31:41.667+0530] {processor.py:157} INFO - Started process (PID=193589) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:31:41.674+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:31:41.676+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:41.676+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:31:41.707+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:31:41.710+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:31:41.725+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:41.725+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:31:41.740+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:41.740+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:31:41.753+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.088 seconds
+[2023-11-10T11:32:43.464+0530] {processor.py:157} INFO - Started process (PID=193675) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:32:43.471+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:32:43.473+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:43.472+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:32:43.508+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:32:43.511+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:32:43.525+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:43.525+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:32:43.540+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:43.540+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:32:43.552+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.091 seconds
+[2023-11-10T11:33:46.259+0530] {processor.py:157} INFO - Started process (PID=193769) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:33:46.266+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:33:46.268+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:46.267+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:33:46.298+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:33:46.301+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:33:46.317+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:46.317+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:33:46.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:46.332+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:33:46.345+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:34:54.521+0530] {processor.py:157} INFO - Started process (PID=193860) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:34:54.528+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:34:54.529+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:54.528+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:34:54.540+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:34:54.542+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:34:54.555+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:54.555+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:34:54.570+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:54.570+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:34:54.583+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.064 seconds
+[2023-11-10T11:35:59.509+0530] {processor.py:157} INFO - Started process (PID=193955) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:35:59.517+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:35:59.519+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:59.518+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:35:59.545+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:35:59.547+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:35:59.561+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:59.561+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:35:59.575+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:59.575+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:35:59.589+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T11:37:10.108+0530] {processor.py:157} INFO - Started process (PID=194048) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:37:10.115+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:37:10.117+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:10.116+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:37:10.148+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:37:10.151+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:37:10.167+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:10.166+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:37:10.182+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:10.182+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:37:10.194+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:38:15.496+0530] {processor.py:157} INFO - Started process (PID=194192) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:38:15.503+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:38:15.505+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:15.505+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:38:15.535+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:38:15.538+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:38:15.553+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:15.553+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:38:15.568+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:15.568+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:38:15.580+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:39:15.244+0530] {processor.py:157} INFO - Started process (PID=194280) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:39:15.251+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:39:15.253+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:15.252+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:39:15.284+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:39:15.287+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:39:15.303+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:15.302+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:39:15.318+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:15.318+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:39:15.331+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:40:24.316+0530] {processor.py:157} INFO - Started process (PID=194375) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:40:24.323+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:40:24.325+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:24.324+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:40:24.353+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:40:24.356+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:40:24.371+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:24.371+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:40:24.386+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:24.386+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:40:24.399+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T11:41:31.959+0530] {processor.py:157} INFO - Started process (PID=194481) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:41:31.966+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:41:31.968+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:31.967+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:41:31.995+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:41:31.998+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:41:32.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:32.011+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:41:32.025+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:32.025+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:41:32.038+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.082 seconds
+[2023-11-10T11:42:40.679+0530] {processor.py:157} INFO - Started process (PID=194574) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:42:40.686+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:42:40.687+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:40.686+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:42:40.702+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:42:40.705+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:42:40.723+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:40.723+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:42:40.739+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:40.739+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:42:40.751+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.075 seconds
+[2023-11-10T11:43:46.189+0530] {processor.py:157} INFO - Started process (PID=194671) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:43:46.196+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:43:46.198+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:46.198+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:43:46.224+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:43:46.227+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:43:46.241+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:46.240+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:43:46.255+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:46.255+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:43:46.267+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T11:44:56.012+0530] {processor.py:157} INFO - Started process (PID=194761) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:44:56.019+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:44:56.021+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:56.020+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:44:56.033+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:44:56.035+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:44:56.046+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:56.046+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:44:56.060+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:56.060+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:44:56.073+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.063 seconds
+[2023-11-10T11:46:04.385+0530] {processor.py:157} INFO - Started process (PID=194857) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:46:04.392+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:46:04.394+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:04.393+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:46:04.424+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:46:04.427+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:46:04.442+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:04.442+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:46:04.457+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:04.457+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:46:04.470+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:47:11.828+0530] {processor.py:157} INFO - Started process (PID=194945) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:47:11.835+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:47:11.837+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:11.836+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:47:11.868+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:47:11.871+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:47:11.887+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:11.886+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:47:11.902+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:11.902+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:47:11.915+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T11:48:19.598+0530] {processor.py:157} INFO - Started process (PID=195041) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:48:19.605+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:48:19.606+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:19.605+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:48:19.622+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:48:19.625+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:48:19.642+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:19.642+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:48:19.657+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:19.657+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:48:19.671+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.075 seconds
+[2023-11-10T11:49:24.067+0530] {processor.py:157} INFO - Started process (PID=195130) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:49:24.068+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:49:24.069+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:24.068+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:49:24.079+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:49:24.081+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:49:24.092+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:24.092+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:49:24.107+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:24.107+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:49:24.120+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.056 seconds
+[2023-11-10T11:50:29.599+0530] {processor.py:157} INFO - Started process (PID=195226) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:50:29.605+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:50:29.606+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:29.606+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:50:29.622+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:50:29.625+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:50:29.643+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:29.643+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:50:29.659+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:29.659+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:50:29.672+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.075 seconds
+[2023-11-10T11:51:36.739+0530] {processor.py:157} INFO - Started process (PID=195356) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:51:36.745+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:51:36.746+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:36.746+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:51:36.757+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:51:36.759+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:51:36.773+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:36.773+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:51:36.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:36.788+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:51:36.800+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.064 seconds
+[2023-11-10T11:52:45.434+0530] {processor.py:157} INFO - Started process (PID=195512) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:52:45.434+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:52:45.435+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:45.435+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:52:45.446+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:52:45.448+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:52:45.460+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:45.460+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:52:45.476+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:45.475+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:52:45.488+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.057 seconds
+[2023-11-10T11:53:50.946+0530] {processor.py:157} INFO - Started process (PID=195606) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:53:50.953+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:53:50.955+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:50.954+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:53:50.970+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:53:50.972+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:53:50.983+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:50.983+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:53:50.998+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:50.998+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:53:51.011+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.068 seconds
+[2023-11-10T11:54:56.073+0530] {processor.py:157} INFO - Started process (PID=195694) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:54:56.074+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:54:56.075+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:56.074+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:54:56.087+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:54:56.089+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:54:56.104+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:56.103+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:54:56.119+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:56.119+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:54:56.132+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.062 seconds
+[2023-11-10T11:56:02.131+0530] {processor.py:157} INFO - Started process (PID=195785) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:56:02.138+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:56:02.141+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:02.140+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:56:02.171+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:56:02.175+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:56:02.190+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:02.190+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:56:02.206+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:02.206+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:56:02.218+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T11:57:09.937+0530] {processor.py:157} INFO - Started process (PID=195880) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:57:09.944+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:57:09.946+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:09.946+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:57:09.976+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:57:09.979+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:57:09.994+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:09.993+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:57:10.009+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:10.009+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:57:10.021+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T11:58:17.296+0530] {processor.py:157} INFO - Started process (PID=195974) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:58:17.303+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:58:17.303+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:17.303+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:58:17.314+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:58:17.316+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:58:17.328+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:17.328+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:58:17.343+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:17.343+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:58:17.355+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.062 seconds
+[2023-11-10T11:59:25.187+0530] {processor.py:157} INFO - Started process (PID=196067) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:59:25.194+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T11:59:25.196+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:25.195+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:59:25.206+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T11:59:25.207+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T11:59:25.218+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:25.217+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:59:25.232+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:25.231+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T11:59:25.244+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.059 seconds
+[2023-11-10T12:00:30.855+0530] {processor.py:157} INFO - Started process (PID=196161) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:00:30.862+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:00:30.864+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:30.864+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:00:30.895+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:00:30.899+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:00:30.914+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:30.914+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:00:30.930+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:30.930+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:00:30.942+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T12:01:35.711+0530] {processor.py:157} INFO - Started process (PID=196253) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:01:35.718+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:01:35.720+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:35.719+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:01:35.748+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:01:35.751+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:01:35.765+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:35.765+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:01:35.780+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:35.780+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:01:35.793+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.084 seconds
+[2023-11-10T12:02:38.786+0530] {processor.py:157} INFO - Started process (PID=196341) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:02:38.793+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:02:38.795+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:38.794+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:02:38.808+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:02:38.809+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:02:38.821+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:38.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:02:38.835+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:38.835+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:02:38.847+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.064 seconds
+[2023-11-10T12:03:46.292+0530] {processor.py:157} INFO - Started process (PID=196433) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:03:46.299+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:03:46.302+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:46.301+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:03:46.332+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:03:46.335+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:03:46.349+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:46.349+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:03:46.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:46.364+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:03:46.377+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T12:04:54.292+0530] {processor.py:157} INFO - Started process (PID=196523) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:04:54.294+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:04:54.296+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:54.295+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:04:54.319+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:04:54.321+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:04:54.335+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:54.334+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:04:54.349+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:54.349+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:04:54.362+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.078 seconds
+[2023-11-10T12:05:58.405+0530] {processor.py:157} INFO - Started process (PID=196617) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:05:58.413+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:05:58.415+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:58.414+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:05:58.444+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:05:58.447+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:05:58.460+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:58.460+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:05:58.475+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:58.474+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:05:58.488+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.085 seconds
+[2023-11-10T12:07:07.658+0530] {processor.py:157} INFO - Started process (PID=196708) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:07:07.665+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:07:07.665+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:07.665+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:07:07.675+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:07:07.676+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:07:07.688+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:07.687+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:07:07.702+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:07.702+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:07:07.716+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.060 seconds
+[2023-11-10T12:08:13.011+0530] {processor.py:157} INFO - Started process (PID=196800) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:08:13.011+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:08:13.012+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:13.012+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:08:13.023+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:08:13.025+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:08:13.038+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:13.038+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:08:13.053+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:13.053+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:08:13.065+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.057 seconds
+[2023-11-10T12:09:17.552+0530] {processor.py:157} INFO - Started process (PID=196890) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:09:17.559+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:09:17.561+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:17.561+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:09:17.589+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:09:17.591+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:09:17.601+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:17.601+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:09:17.616+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:17.615+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:09:17.628+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.078 seconds
+[2023-11-10T12:10:23.016+0530] {processor.py:157} INFO - Started process (PID=196980) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:10:23.016+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:10:23.017+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:23.017+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:10:23.025+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:10:23.027+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:10:23.037+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:23.037+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:10:23.051+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:23.051+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:10:23.063+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.049 seconds
+[2023-11-10T12:11:31.554+0530] {processor.py:157} INFO - Started process (PID=197078) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:11:31.561+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:11:31.563+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:31.562+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:11:31.592+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:11:31.596+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:11:31.612+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:31.612+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:11:31.627+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:31.627+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:11:31.640+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.088 seconds
+[2023-11-10T12:12:42.471+0530] {processor.py:157} INFO - Started process (PID=197269) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:12:42.478+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:12:42.480+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:42.479+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:12:42.509+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:12:42.512+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:12:42.527+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:42.526+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:12:42.542+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:42.542+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:12:42.555+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.086 seconds
+[2023-11-10T12:13:47.786+0530] {processor.py:157} INFO - Started process (PID=197362) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:13:47.793+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:13:47.794+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:47.794+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:13:47.808+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:13:47.811+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:13:47.827+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:47.827+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:13:47.844+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:47.844+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:13:47.857+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.073 seconds
+[2023-11-10T12:14:54.212+0530] {processor.py:157} INFO - Started process (PID=197456) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:14:54.220+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:14:54.222+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:54.221+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:14:54.250+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:14:54.252+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:14:54.266+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:54.266+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:14:54.281+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:54.281+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:14:54.294+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T12:15:59.166+0530] {processor.py:157} INFO - Started process (PID=197550) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:15:59.173+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:15:59.175+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:59.174+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:15:59.206+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:15:59.209+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:15:59.224+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:59.224+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:15:59.240+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:59.240+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:15:59.253+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T12:17:05.949+0530] {processor.py:157} INFO - Started process (PID=197647) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:17:05.956+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:17:05.957+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:05.956+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:17:05.967+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:17:05.969+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:17:05.981+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:05.981+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:17:05.996+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:05.996+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:17:06.008+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.062 seconds
+[2023-11-10T12:18:15.305+0530] {processor.py:157} INFO - Started process (PID=197741) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:18:15.311+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:18:15.312+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:15.312+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:18:15.323+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:18:15.325+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:18:15.338+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:15.338+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:18:15.354+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:15.353+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:18:15.367+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.065 seconds
+[2023-11-10T12:19:22.194+0530] {processor.py:157} INFO - Started process (PID=197831) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:19:22.194+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:19:22.195+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:22.195+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:19:22.204+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:19:22.206+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:19:22.216+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:22.216+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:19:22.309+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:22.309+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:19:22.335+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.144 seconds
+[2023-11-10T12:20:29.580+0530] {processor.py:157} INFO - Started process (PID=197927) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:20:29.588+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:20:29.590+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:29.589+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:20:29.616+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:20:29.619+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:20:29.633+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:29.633+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:20:29.648+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:29.648+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:20:29.740+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.167 seconds
+[2023-11-10T12:21:41.909+0530] {processor.py:157} INFO - Started process (PID=198023) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:21:41.916+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:21:41.918+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:41.917+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:21:41.948+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:21:41.951+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:21:41.967+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:41.966+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:21:41.982+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:41.982+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:21:41.996+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.090 seconds
+[2023-11-10T12:22:55.219+0530] {processor.py:157} INFO - Started process (PID=198124) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:22:55.227+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:22:55.229+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:55.229+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:22:55.255+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:22:55.258+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:22:55.271+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:55.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:22:55.288+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:55.288+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:22:55.302+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T12:24:12.099+0530] {processor.py:157} INFO - Started process (PID=198220) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:24:12.106+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:24:12.106+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:12.106+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:24:12.121+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:24:12.124+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:24:12.223+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:12.222+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:24:12.241+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:12.241+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:24:12.266+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.169 seconds
+[2023-11-10T12:25:24.696+0530] {processor.py:157} INFO - Started process (PID=198327) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:25:24.703+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:25:24.704+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:24.704+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:25:24.720+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:25:24.723+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:25:24.741+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:24.741+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:25:24.843+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:24.843+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:25:24.864+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.171 seconds
+[2023-11-10T12:26:38.805+0530] {processor.py:157} INFO - Started process (PID=198422) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:26:38.812+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:26:38.814+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:38.813+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:26:38.843+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:26:38.846+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:26:38.862+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:38.861+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:26:38.877+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:38.877+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:26:38.890+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.087 seconds
+[2023-11-10T12:27:43.315+0530] {processor.py:157} INFO - Started process (PID=198523) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:27:43.322+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:27:43.323+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:43.323+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:27:43.334+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:27:43.336+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:27:43.349+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:43.349+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:27:43.369+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:43.368+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:27:43.383+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.070 seconds
+[2023-11-10T12:28:50.736+0530] {processor.py:157} INFO - Started process (PID=198684) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:28:50.743+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:28:50.745+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:50.744+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:28:50.775+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:28:50.778+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:28:50.794+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:50.793+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:28:50.809+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:50.809+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:28:50.822+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T12:29:58.501+0530] {processor.py:157} INFO - Started process (PID=198794) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:29:58.508+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:29:58.509+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:58.508+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:29:58.521+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:29:58.523+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:29:58.537+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:58.537+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:29:58.553+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:58.553+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:29:58.566+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.068 seconds
+[2023-11-10T12:31:04.746+0530] {processor.py:157} INFO - Started process (PID=198902) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:31:04.753+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:31:04.755+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:04.754+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:31:04.785+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:31:04.788+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:31:04.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:04.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:31:04.819+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:04.819+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:31:04.833+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T12:32:15.601+0530] {processor.py:157} INFO - Started process (PID=199018) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:32:15.601+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:32:15.602+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:15.602+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:32:15.612+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:32:15.614+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:32:15.626+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:15.626+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:32:15.642+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:15.642+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:32:15.656+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.057 seconds
+[2023-11-10T12:33:20.159+0530] {processor.py:157} INFO - Started process (PID=199133) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:33:20.166+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:33:20.167+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:20.167+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:33:20.178+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:33:20.180+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:33:20.193+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:20.193+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:33:20.208+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:20.208+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:33:20.222+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.065 seconds
+[2023-11-10T12:34:29.741+0530] {processor.py:157} INFO - Started process (PID=199253) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:34:29.748+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:34:29.750+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:29.749+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:34:29.761+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:34:29.763+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:34:29.774+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:29.774+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:34:29.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:29.788+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:34:29.801+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.063 seconds
+[2023-11-10T12:35:34.394+0530] {processor.py:157} INFO - Started process (PID=199364) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:35:34.401+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:35:34.402+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:34.401+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:35:34.413+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:35:34.414+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:35:34.427+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:34.427+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:35:34.443+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:34.443+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:35:34.459+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.067 seconds
+[2023-11-10T12:36:41.950+0530] {processor.py:157} INFO - Started process (PID=199477) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:36:41.957+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:36:41.957+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:41.957+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:36:41.967+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:36:41.969+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:36:41.980+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:41.980+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:36:41.995+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:41.995+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:36:42.008+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.061 seconds
+[2023-11-10T12:37:46.921+0530] {processor.py:157} INFO - Started process (PID=199578) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:37:46.928+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:37:46.930+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:46.929+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:37:46.958+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:37:46.961+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:37:46.972+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:46.972+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:37:46.987+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:46.987+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:37:47.001+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.082 seconds
+[2023-11-10T12:38:53.650+0530] {processor.py:157} INFO - Started process (PID=199679) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:38:53.657+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:38:53.657+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:53.657+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:38:53.672+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:38:53.675+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:38:53.690+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:53.690+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:38:53.705+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:53.705+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:38:53.719+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.072 seconds
+[2023-11-10T12:39:58.759+0530] {processor.py:157} INFO - Started process (PID=199788) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:39:58.760+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:39:58.760+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:58.760+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:39:58.770+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:39:58.771+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:39:58.782+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:58.782+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:39:58.798+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:58.798+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:39:58.813+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.057 seconds
+[2023-11-10T12:41:05.544+0530] {processor.py:157} INFO - Started process (PID=199916) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:41:05.551+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:41:05.551+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:05.551+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:41:05.566+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:41:05.568+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:41:05.585+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:05.585+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:41:05.601+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:05.601+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:41:05.615+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.073 seconds
+[2023-11-10T12:42:11.721+0530] {processor.py:157} INFO - Started process (PID=200022) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:42:11.728+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:42:11.730+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:11.729+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:42:11.761+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:42:11.764+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:42:11.781+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:11.780+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:42:11.797+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:11.797+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:42:11.810+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.092 seconds
+[2023-11-10T12:43:18.878+0530] {processor.py:157} INFO - Started process (PID=200137) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:43:18.885+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:43:18.887+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:18.886+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:43:18.919+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:43:18.922+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:43:18.936+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:18.936+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:43:18.951+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:18.951+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:43:18.964+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.089 seconds
+[2023-11-10T12:44:26.452+0530] {processor.py:157} INFO - Started process (PID=200244) to work on /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:44:26.459+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/first_dag.py for tasks to queue
+[2023-11-10T12:44:26.461+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:26.461+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:44:26.490+0530] {logging_mixin.py:151} WARNING - /home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-11-10T12:44:26.493+0530] {processor.py:839} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/harika/airflow/dags/first_dag.py
+[2023-11-10T12:44:26.507+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:26.507+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:44:26.529+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:26.528+0530] {dag.py:3696} INFO - Setting next_dagrun for first_dag to 2023-10-31T00:00:00+00:00, run_after=2023-11-01T00:00:00+00:00
+[2023-11-10T12:44:26.542+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/first_dag.py took 0.092 seconds

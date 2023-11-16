@@ -1,0 +1,777 @@
+[2023-11-10T10:41:31.957+0530] {processor.py:157} INFO - Started process (PID=188954) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:41:31.957+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:41:31.958+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:31.958+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:41:31.968+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:41:31.988+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:31.988+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:41:31.996+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:31.996+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:41:32.102+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.147 seconds
+[2023-11-10T10:42:42.815+0530] {processor.py:157} INFO - Started process (PID=189139) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:42:42.821+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:42:42.822+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:42.822+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:42:42.831+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:42:42.853+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:42.853+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:42:42.861+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:42.861+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:42:42.876+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2023-11-10T10:43:49.895+0530] {processor.py:157} INFO - Started process (PID=189444) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:43:49.902+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:43:49.903+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:49.902+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:43:49.914+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:43:49.939+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:49.939+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:43:49.948+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:49.947+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:43:49.961+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds
+[2023-11-10T10:44:55.818+0530] {processor.py:157} INFO - Started process (PID=189537) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:44:55.818+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:44:55.819+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:55.819+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:44:55.829+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:44:55.850+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:55.849+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:44:55.858+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:55.857+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:44:55.872+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2023-11-10T10:46:05.381+0530] {processor.py:157} INFO - Started process (PID=189644) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:46:05.388+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:46:05.388+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:05.388+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:46:05.399+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:46:05.426+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:05.425+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:46:05.437+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:05.437+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:46:05.456+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.078 seconds
+[2023-11-10T10:47:10.529+0530] {processor.py:157} INFO - Started process (PID=189733) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:47:10.536+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:47:10.537+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:10.536+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:47:10.552+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:47:10.581+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:10.581+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:47:10.589+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:10.589+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:47:10.603+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2023-11-10T10:48:16.407+0530] {processor.py:157} INFO - Started process (PID=189822) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:48:16.414+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:48:16.416+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:16.415+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:48:16.443+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:48:16.470+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:16.470+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:48:16.478+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:16.478+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:48:16.491+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T10:49:26.369+0530] {processor.py:157} INFO - Started process (PID=189918) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:49:26.376+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:49:26.377+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:26.377+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:49:26.387+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:49:26.410+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:26.410+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:49:26.418+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:26.418+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:49:26.432+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2023-11-10T10:50:31.348+0530] {processor.py:157} INFO - Started process (PID=190016) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:50:31.355+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:50:31.356+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:31.355+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:50:31.367+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:50:31.393+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:31.393+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:50:31.402+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:31.401+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:50:31.415+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2023-11-10T10:51:37.188+0530] {processor.py:157} INFO - Started process (PID=190110) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:51:37.195+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:51:37.196+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:37.195+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:51:37.207+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:51:37.231+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:37.231+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:51:37.239+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:37.239+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:51:37.253+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2023-11-10T10:52:45.016+0530] {processor.py:157} INFO - Started process (PID=190199) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:52:45.017+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:52:45.017+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:45.017+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:52:45.026+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:52:45.046+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:45.046+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:52:45.054+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:52:45.054+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:52:45.067+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2023-11-10T10:53:51.373+0530] {processor.py:157} INFO - Started process (PID=190296) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:53:51.381+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:53:51.382+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:51.382+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:53:51.409+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:53:51.436+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:51.436+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:53:51.443+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:51.443+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:53:51.456+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T10:54:59.714+0530] {processor.py:157} INFO - Started process (PID=190386) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:54:59.721+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:54:59.721+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:59.721+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:54:59.735+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:54:59.765+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:59.765+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:54:59.773+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:59.773+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:54:59.786+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.075 seconds
+[2023-11-10T10:56:02.275+0530] {processor.py:157} INFO - Started process (PID=190478) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:56:02.282+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:56:02.284+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:02.283+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:56:02.311+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:56:02.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:02.332+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:56:02.340+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:02.340+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:56:02.353+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.081 seconds
+[2023-11-10T10:57:07.658+0530] {processor.py:157} INFO - Started process (PID=190569) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:57:07.666+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:57:07.667+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:07.667+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:57:07.692+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:57:07.716+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:07.716+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:57:07.724+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:07.724+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:57:07.738+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T10:58:11.730+0530] {processor.py:157} INFO - Started process (PID=190661) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:58:11.737+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:58:11.739+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:11.738+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:58:11.767+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:58:11.794+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:11.794+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:58:11.802+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:11.802+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:58:11.815+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T10:59:16.607+0530] {processor.py:157} INFO - Started process (PID=190752) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:59:16.613+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T10:59:16.614+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:16.614+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:59:16.629+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T10:59:16.658+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:16.658+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:59:16.666+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:16.666+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T10:59:16.690+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:00:25.761+0530] {processor.py:157} INFO - Started process (PID=190843) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:00:25.768+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:00:25.769+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:25.768+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:00:25.779+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:00:25.801+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:25.800+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:00:25.808+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:25.808+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:00:25.821+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2023-11-10T11:01:32.818+0530] {processor.py:157} INFO - Started process (PID=190943) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:01:32.825+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:01:32.827+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:32.826+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:01:32.856+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:01:32.883+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:32.883+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:01:32.891+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:32.891+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:01:32.905+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.090 seconds
+[2023-11-10T11:02:42.719+0530] {processor.py:157} INFO - Started process (PID=191040) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:02:42.719+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:02:42.720+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:42.720+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:02:42.729+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:02:42.747+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:42.747+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:02:42.755+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:02:42.754+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:02:42.769+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.052 seconds
+[2023-11-10T11:03:47.918+0530] {processor.py:157} INFO - Started process (PID=191133) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:03:47.926+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:03:47.928+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:47.927+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:03:47.956+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:03:47.984+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:47.984+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:03:47.992+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:47.992+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:03:48.005+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T11:04:53.568+0530] {processor.py:157} INFO - Started process (PID=191223) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:04:53.575+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:04:53.575+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:53.575+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:04:53.582+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:04:53.600+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:53.600+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:04:53.607+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:53.607+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:04:53.620+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.053 seconds
+[2023-11-10T11:06:03.583+0530] {processor.py:157} INFO - Started process (PID=191318) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:06:03.590+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:06:03.592+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:03.591+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:06:03.621+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:06:03.647+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:03.647+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:06:03.655+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:03.655+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:06:03.668+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T11:07:07.394+0530] {processor.py:157} INFO - Started process (PID=191405) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:07:07.401+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:07:07.403+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:07.402+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:07:07.431+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:07:07.456+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:07.456+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:07:07.464+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:07.464+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:07:07.477+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:08:11.630+0530] {processor.py:157} INFO - Started process (PID=191594) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:08:11.631+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:08:11.631+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:11.631+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:08:11.641+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:08:11.662+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:11.662+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:08:11.670+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:11.670+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:08:11.684+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2023-11-10T11:09:19.078+0530] {processor.py:157} INFO - Started process (PID=191687) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:09:19.079+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:09:19.079+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:19.079+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:09:19.089+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:09:19.109+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:19.109+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:09:19.117+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:19.117+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:09:19.131+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-11-10T11:10:22.108+0530] {processor.py:157} INFO - Started process (PID=191777) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:10:22.115+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:10:22.117+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:22.116+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:10:22.146+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:10:22.172+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:22.172+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:10:22.180+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:22.179+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:10:22.193+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T11:11:29.375+0530] {processor.py:157} INFO - Started process (PID=191876) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:11:29.376+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:11:29.376+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:29.376+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:11:29.385+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:11:29.403+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:29.403+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:11:29.411+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:29.411+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:11:29.424+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.052 seconds
+[2023-11-10T11:12:36.427+0530] {processor.py:157} INFO - Started process (PID=191969) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:12:36.434+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:12:36.435+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:36.434+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:12:36.444+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:12:36.466+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:36.466+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:12:36.474+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:36.474+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:12:36.488+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2023-11-10T11:13:42.107+0530] {processor.py:157} INFO - Started process (PID=192060) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:13:42.113+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:13:42.114+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:42.114+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:13:42.129+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:13:42.158+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:42.158+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:13:42.166+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:13:42.166+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:13:42.180+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2023-11-10T11:14:49.111+0530] {processor.py:157} INFO - Started process (PID=192163) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:14:49.112+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:14:49.112+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:49.112+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:14:49.124+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:14:49.148+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:49.148+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:14:49.156+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:49.156+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:14:49.170+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2023-11-10T11:15:57.769+0530] {processor.py:157} INFO - Started process (PID=192259) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:15:57.776+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:15:57.776+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:57.776+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:15:57.786+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:15:57.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:57.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:15:57.812+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:57.812+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:15:57.825+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2023-11-10T11:17:06.951+0530] {processor.py:157} INFO - Started process (PID=192354) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:17:06.958+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:17:06.960+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:06.960+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:17:06.987+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:17:07.013+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:07.013+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:17:07.021+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:07.021+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:17:07.035+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:18:17.955+0530] {processor.py:157} INFO - Started process (PID=192451) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:18:17.962+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:18:17.962+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:17.962+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:18:17.972+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:18:17.994+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:17.993+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:18:18.002+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:18.001+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:18:18.015+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2023-11-10T11:19:22.502+0530] {processor.py:157} INFO - Started process (PID=192543) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:19:22.503+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:19:22.503+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:22.503+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:19:22.513+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:19:22.533+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:22.533+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:19:22.541+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:22.541+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:19:22.554+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2023-11-10T11:20:27.069+0530] {processor.py:157} INFO - Started process (PID=192636) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:20:27.076+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:20:27.076+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:27.076+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:20:27.088+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:20:27.115+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:27.114+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:20:27.123+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:27.123+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:20:27.136+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.070 seconds
+[2023-11-10T11:21:34.634+0530] {processor.py:157} INFO - Started process (PID=192745) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:21:34.641+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:21:34.643+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:34.642+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:21:34.671+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:21:34.699+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:34.699+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:21:34.706+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:34.706+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:21:34.719+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T11:22:42.905+0530] {processor.py:157} INFO - Started process (PID=192840) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:22:42.912+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:22:42.914+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:42.913+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:22:42.942+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:22:42.970+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:42.970+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:22:42.978+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:22:42.978+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:22:42.991+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T11:23:48.586+0530] {processor.py:157} INFO - Started process (PID=192931) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:23:48.593+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:23:48.595+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:48.594+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:23:48.623+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:23:48.651+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:48.651+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:23:48.658+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:48.658+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:23:48.671+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T11:24:55.536+0530] {processor.py:157} INFO - Started process (PID=193021) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:24:55.543+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:24:55.545+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:55.544+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:24:55.554+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:24:55.572+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:55.572+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:24:55.580+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:55.580+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:24:55.592+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2023-11-10T11:25:58.398+0530] {processor.py:157} INFO - Started process (PID=193112) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:25:58.405+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:25:58.407+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:58.406+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:25:58.435+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:25:58.462+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:58.462+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:25:58.470+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:58.470+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:25:58.483+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T11:27:04.025+0530] {processor.py:157} INFO - Started process (PID=193203) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:27:04.032+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:27:04.034+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:04.033+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:27:04.061+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:27:04.087+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:04.087+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:27:04.095+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:04.095+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:27:04.108+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:28:09.232+0530] {processor.py:157} INFO - Started process (PID=193292) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:28:09.239+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:28:09.241+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:09.241+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:28:09.269+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:28:09.296+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:09.296+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:28:09.303+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:09.303+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:28:09.316+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:29:13.283+0530] {processor.py:157} INFO - Started process (PID=193379) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:29:13.291+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:29:13.293+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:13.292+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:29:13.317+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:29:13.341+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:13.341+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:29:13.348+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:13.348+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:29:13.361+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:30:14.459+0530] {processor.py:157} INFO - Started process (PID=193470) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:30:14.466+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:30:14.468+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:14.467+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:30:14.495+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:30:14.520+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:14.520+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:30:14.528+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:14.528+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:30:14.541+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.084 seconds
+[2023-11-10T11:31:25.325+0530] {processor.py:157} INFO - Started process (PID=193568) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:31:25.332+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:31:25.334+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:25.333+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:31:25.361+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:31:25.388+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:25.388+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:31:25.396+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:25.396+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:31:25.408+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:32:27.303+0530] {processor.py:157} INFO - Started process (PID=193653) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:32:27.310+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:32:27.312+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:27.312+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:32:27.340+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:32:27.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:27.365+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:32:27.373+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:27.373+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:32:27.386+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.085 seconds
+[2023-11-10T11:33:28.990+0530] {processor.py:157} INFO - Started process (PID=193744) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:33:28.997+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:33:28.999+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:28.998+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:33:29.027+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:33:29.054+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:29.054+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:33:29.062+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:29.062+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:33:29.075+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T11:34:37.697+0530] {processor.py:157} INFO - Started process (PID=193842) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:34:37.704+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:34:37.705+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:37.704+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:34:37.717+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:34:37.744+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:37.743+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:34:37.751+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:37.751+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:34:37.764+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2023-11-10T11:35:43.751+0530] {processor.py:157} INFO - Started process (PID=193936) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:35:43.758+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:35:43.760+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:43.759+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:35:43.787+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:35:43.814+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:43.814+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:35:43.822+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:35:43.822+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:35:43.835+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T11:36:50.027+0530] {processor.py:157} INFO - Started process (PID=194027) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:36:50.034+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:36:50.036+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:50.035+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:36:50.063+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:36:50.089+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:50.088+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:36:50.096+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:50.096+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:36:50.110+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.085 seconds
+[2023-11-10T11:37:59.120+0530] {processor.py:157} INFO - Started process (PID=194119) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:37:59.121+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:37:59.121+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:59.121+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:37:59.131+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:37:59.149+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:59.149+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:37:59.156+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:59.156+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:37:59.169+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2023-11-10T11:39:00.823+0530] {processor.py:157} INFO - Started process (PID=194261) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:39:00.830+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:39:00.832+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:00.831+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:39:00.859+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:39:00.887+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:00.887+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:39:00.895+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:00.895+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:39:00.908+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T11:40:04.710+0530] {processor.py:157} INFO - Started process (PID=194349) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:40:04.717+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:40:04.719+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:04.718+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:40:04.739+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:40:04.757+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:04.757+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:40:04.765+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:04.765+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:40:04.779+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.072 seconds
+[2023-11-10T11:41:13.953+0530] {processor.py:157} INFO - Started process (PID=194458) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:41:13.961+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:41:13.963+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:13.962+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:41:13.986+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:41:14.009+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:14.009+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:41:14.017+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:14.017+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:41:14.030+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.084 seconds
+[2023-11-10T11:42:21.827+0530] {processor.py:157} INFO - Started process (PID=194548) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:42:21.834+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:42:21.836+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:21.835+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:42:21.864+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:42:21.890+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:21.890+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:42:21.898+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:21.898+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:42:21.911+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T11:43:31.032+0530] {processor.py:157} INFO - Started process (PID=194652) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:43:31.039+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:43:31.040+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:31.040+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:43:31.048+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:43:31.066+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:31.066+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:43:31.074+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:31.074+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:43:31.087+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2023-11-10T11:44:36.922+0530] {processor.py:157} INFO - Started process (PID=194742) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:44:36.929+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:44:36.929+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:36.929+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:44:36.939+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:44:36.961+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:36.961+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:44:36.969+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:44:36.969+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:44:36.982+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2023-11-10T11:45:47.823+0530] {processor.py:157} INFO - Started process (PID=194838) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:45:47.830+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:45:47.832+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:47.831+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:45:47.862+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:45:47.889+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:47.888+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:45:47.896+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:47.896+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:45:47.910+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T11:46:54.274+0530] {processor.py:157} INFO - Started process (PID=194925) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:46:54.281+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:46:54.283+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:54.282+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:46:54.294+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:46:54.312+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:54.312+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:46:54.319+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:54.319+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:46:54.332+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2023-11-10T11:48:00.274+0530] {processor.py:157} INFO - Started process (PID=195020) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:48:00.282+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:48:00.284+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:00.283+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:48:00.307+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:48:00.331+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:00.331+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:48:00.338+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:00.338+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:48:00.351+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.084 seconds
+[2023-11-10T11:49:07.311+0530] {processor.py:157} INFO - Started process (PID=195110) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:49:07.316+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:49:07.316+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:07.316+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:49:07.328+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:49:07.355+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:07.355+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:49:07.363+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:07.363+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:49:07.376+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2023-11-10T11:50:11.934+0530] {processor.py:157} INFO - Started process (PID=195201) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:50:11.941+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:50:11.943+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:11.942+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:50:11.970+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:50:11.997+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:11.997+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:50:12.005+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:12.005+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:50:12.018+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T11:51:19.349+0530] {processor.py:157} INFO - Started process (PID=195299) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:51:19.357+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:51:19.359+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:19.358+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:51:19.387+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:51:19.415+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:19.414+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:51:19.422+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:19.422+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:51:19.435+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T11:52:26.147+0530] {processor.py:157} INFO - Started process (PID=195488) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:52:26.154+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:52:26.155+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:26.154+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:52:26.167+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:52:26.195+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:26.195+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:52:26.203+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:26.203+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:52:26.217+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.072 seconds
+[2023-11-10T11:53:34.111+0530] {processor.py:157} INFO - Started process (PID=195584) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:53:34.118+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:53:34.119+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:34.118+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:53:34.131+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:53:34.158+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:34.158+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:53:34.165+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:34.165+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:53:34.178+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.070 seconds
+[2023-11-10T11:54:38.533+0530] {processor.py:157} INFO - Started process (PID=195677) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:54:38.541+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:54:38.543+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:38.542+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:54:38.571+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:54:38.598+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:38.598+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:54:38.606+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:54:38.606+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:54:38.619+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T11:55:46.822+0530] {processor.py:157} INFO - Started process (PID=195768) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:55:46.830+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:55:46.832+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:46.831+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:55:46.857+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:55:46.881+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:46.881+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:55:46.889+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:46.889+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:55:46.902+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T11:56:52.512+0530] {processor.py:157} INFO - Started process (PID=195861) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:56:52.512+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:56:52.513+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:52.513+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:56:52.523+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:56:52.543+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:52.542+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:56:52.550+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:52.550+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:56:52.563+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2023-11-10T11:58:00.925+0530] {processor.py:157} INFO - Started process (PID=195952) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:58:00.931+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:58:00.932+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:00.932+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:58:00.941+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:58:00.959+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:00.959+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:58:00.967+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:00.967+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:58:00.980+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.057 seconds
+[2023-11-10T11:59:08.612+0530] {processor.py:157} INFO - Started process (PID=196047) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:59:08.619+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T11:59:08.621+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:08.620+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:59:08.650+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T11:59:08.677+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:08.677+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:59:08.685+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:08.685+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T11:59:08.698+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T12:00:14.230+0530] {processor.py:157} INFO - Started process (PID=196137) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:00:14.237+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:00:14.239+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:14.239+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:00:14.268+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:00:14.295+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:14.295+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:00:14.303+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:14.303+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:00:14.316+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T12:01:17.757+0530] {processor.py:157} INFO - Started process (PID=196229) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:01:17.758+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:01:17.758+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:17.758+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:01:17.768+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:01:17.788+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:17.788+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:01:17.796+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:17.796+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:01:17.809+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-11-10T12:02:21.265+0530] {processor.py:157} INFO - Started process (PID=196317) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:02:21.272+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:02:21.274+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:21.273+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:02:21.300+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:02:21.324+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:21.324+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:02:21.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:21.332+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:02:21.345+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T12:03:26.668+0530] {processor.py:157} INFO - Started process (PID=196409) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:03:26.675+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:03:26.677+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:26.676+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:03:26.704+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:03:26.730+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:26.730+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:03:26.738+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:26.738+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:03:26.751+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.085 seconds
+[2023-11-10T12:04:34.658+0530] {processor.py:157} INFO - Started process (PID=196502) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:04:34.666+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:04:34.668+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:34.667+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:04:34.694+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:04:34.718+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:34.718+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:04:34.726+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:34.726+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:04:34.739+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T12:05:42.847+0530] {processor.py:157} INFO - Started process (PID=196600) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:05:42.854+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:05:42.856+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:42.855+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:05:42.883+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:05:42.909+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:42.909+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:05:42.916+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:05:42.916+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:05:42.930+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.085 seconds
+[2023-11-10T12:06:49.358+0530] {processor.py:157} INFO - Started process (PID=196688) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:06:49.365+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:06:49.367+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:49.366+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:06:49.394+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:06:49.423+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:49.423+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:06:49.430+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:49.430+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:06:49.443+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T12:07:57.454+0530] {processor.py:157} INFO - Started process (PID=196782) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:07:57.461+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:07:57.463+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:57.462+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:07:57.480+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:07:57.498+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:57.498+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:07:57.506+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:57.506+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:07:57.518+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds
+[2023-11-10T12:08:59.970+0530] {processor.py:157} INFO - Started process (PID=196870) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:08:59.977+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:08:59.979+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:59.979+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:09:00.008+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:09:00.035+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:00.035+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:09:00.043+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:00.043+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:09:00.056+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T12:10:06.081+0530] {processor.py:157} INFO - Started process (PID=196962) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:10:06.081+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:10:06.082+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:06.082+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:10:06.092+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:10:06.111+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:06.111+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:10:06.119+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:06.119+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:10:06.132+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2023-11-10T12:11:13.639+0530] {processor.py:157} INFO - Started process (PID=197055) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:11:13.646+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:11:13.648+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:13.647+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:11:13.676+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:11:13.703+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:13.703+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:11:13.711+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:13.711+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:11:13.724+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T12:12:22.318+0530] {processor.py:157} INFO - Started process (PID=197176) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:12:22.325+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:12:22.327+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:22.326+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:12:22.353+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:12:22.380+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:22.379+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:12:22.388+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:22.387+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:12:22.401+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T12:13:31.970+0530] {processor.py:157} INFO - Started process (PID=197344) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:13:31.976+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:13:31.977+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:31.977+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:13:31.987+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:13:32.011+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:32.011+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:13:32.019+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:32.018+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:13:32.032+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2023-11-10T12:14:36.984+0530] {processor.py:157} INFO - Started process (PID=197438) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:14:36.990+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:14:36.991+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:36.991+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:14:36.999+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:14:37.019+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:37.019+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:14:37.027+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:37.027+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:14:37.040+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2023-11-10T12:15:44.139+0530] {processor.py:157} INFO - Started process (PID=197532) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:15:44.146+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:15:44.148+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:44.148+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:15:44.159+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:15:44.178+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:44.178+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:15:44.186+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:15:44.186+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:15:44.199+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2023-11-10T12:16:48.154+0530] {processor.py:157} INFO - Started process (PID=197622) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:16:48.161+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:16:48.163+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:48.162+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:16:48.191+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:16:48.219+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:48.219+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:16:48.227+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:48.227+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:16:48.240+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T12:17:55.758+0530] {processor.py:157} INFO - Started process (PID=197720) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:17:55.765+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:17:55.767+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:55.767+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:17:55.795+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:17:55.820+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:55.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:17:55.829+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:55.829+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:17:55.932+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.176 seconds
+[2023-11-10T12:19:03.904+0530] {processor.py:157} INFO - Started process (PID=197811) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:19:03.910+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:19:03.911+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:03.911+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:19:03.921+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:19:03.944+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:03.944+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:19:03.952+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:03.952+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:19:03.965+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2023-11-10T12:20:12.628+0530] {processor.py:157} INFO - Started process (PID=197904) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:20:12.635+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:20:12.637+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:12.637+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:20:12.666+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:20:12.694+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:12.694+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:20:12.702+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:12.702+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:20:12.715+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T12:21:23.808+0530] {processor.py:157} INFO - Started process (PID=197999) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:21:23.815+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:21:23.817+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:23.816+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:21:23.844+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:21:23.871+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:23.871+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:21:23.879+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:23.878+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:21:23.892+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T12:22:35.744+0530] {processor.py:157} INFO - Started process (PID=198098) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:22:35.752+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:22:35.754+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:35.753+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:22:35.779+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:22:35.804+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:35.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:22:35.812+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:22:35.812+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:22:35.825+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T12:23:49.979+0530] {processor.py:157} INFO - Started process (PID=198198) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:23:49.986+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:23:49.988+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:49.987+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:23:50.015+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:23:50.042+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:50.042+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:23:50.130+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:50.129+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:23:50.151+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.175 seconds
+[2023-11-10T12:25:02.370+0530] {processor.py:157} INFO - Started process (PID=198295) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:25:02.377+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:25:02.379+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:02.378+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:25:02.405+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:25:02.431+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:02.431+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:25:02.440+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:02.439+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:25:02.544+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.176 seconds
+[2023-11-10T12:26:22.995+0530] {processor.py:157} INFO - Started process (PID=198400) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:26:22.996+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:26:22.997+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:22.996+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:26:23.009+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:26:23.028+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:23.028+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:26:23.036+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:23.036+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:26:23.050+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2023-11-10T12:27:28.255+0530] {processor.py:157} INFO - Started process (PID=198502) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:27:28.263+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:27:28.265+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:28.264+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:27:28.288+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:27:28.312+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:28.312+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:27:28.320+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:28.320+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:27:28.341+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-11-10T12:28:33.690+0530] {processor.py:157} INFO - Started process (PID=198659) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:28:33.697+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:28:33.699+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:33.698+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:28:33.726+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:28:33.754+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:33.754+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:28:33.762+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:33.762+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:28:33.775+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T12:29:41.415+0530] {processor.py:157} INFO - Started process (PID=198772) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:29:41.422+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:29:41.424+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:41.423+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:29:41.451+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:29:41.478+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:41.478+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:29:41.486+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:29:41.486+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:29:41.499+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2023-11-10T12:30:46.887+0530] {processor.py:157} INFO - Started process (PID=198878) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:30:46.893+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:30:46.894+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:46.894+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:30:46.902+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:30:46.921+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:46.920+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:30:46.929+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:46.928+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:30:46.943+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2023-11-10T12:31:57.211+0530] {processor.py:157} INFO - Started process (PID=198990) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:31:57.217+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:31:57.218+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:57.218+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:31:57.228+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:31:57.250+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:57.250+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:31:57.258+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:57.258+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:31:57.272+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2023-11-10T12:33:02.887+0530] {processor.py:157} INFO - Started process (PID=199102) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:33:02.888+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:33:02.888+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:02.888+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:33:02.897+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:33:02.916+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:02.916+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:33:02.925+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:02.925+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:33:02.939+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-11-10T12:34:11.470+0530] {processor.py:157} INFO - Started process (PID=199220) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:34:11.478+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:34:11.479+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:11.478+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:34:11.499+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:34:11.523+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:11.523+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:34:11.531+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:11.531+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:34:11.557+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.091 seconds
+[2023-11-10T12:35:19.147+0530] {processor.py:157} INFO - Started process (PID=199335) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:35:19.154+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:35:19.154+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:19.154+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:35:19.164+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:35:19.185+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:19.185+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:35:19.193+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:19.193+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:35:19.206+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2023-11-10T12:36:24.088+0530] {processor.py:157} INFO - Started process (PID=199450) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:36:24.095+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:36:24.097+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:24.096+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:36:24.122+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:36:24.147+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:24.147+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:36:24.155+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:24.155+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:36:24.168+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.083 seconds
+[2023-11-10T12:37:30.951+0530] {processor.py:157} INFO - Started process (PID=199556) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:37:30.958+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:37:30.960+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:30.959+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:37:30.987+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:37:31.014+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:31.014+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:37:31.023+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:31.023+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:37:31.037+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2023-11-10T12:38:34.961+0530] {processor.py:157} INFO - Started process (PID=199655) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:38:34.969+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:38:34.971+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:34.971+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:38:34.991+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:38:35.013+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:35.013+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:38:35.021+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:35.021+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:38:35.035+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.081 seconds
+[2023-11-10T12:39:43.011+0530] {processor.py:157} INFO - Started process (PID=199767) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:39:43.017+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:39:43.018+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:43.018+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:39:43.026+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:39:43.045+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:43.044+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:39:43.053+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:39:43.052+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:39:43.066+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2023-11-10T12:40:49.341+0530] {processor.py:157} INFO - Started process (PID=199889) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:40:49.348+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:40:49.350+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:49.350+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:40:49.377+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:40:49.403+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:49.403+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:40:49.411+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:49.411+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:40:49.425+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2023-11-10T12:41:56.824+0530] {processor.py:157} INFO - Started process (PID=200001) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:41:56.831+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:41:56.833+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:56.832+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:41:56.861+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:41:56.891+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:56.890+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:41:56.899+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:56.899+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:41:56.912+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.090 seconds
+[2023-11-10T12:43:02.582+0530] {processor.py:157} INFO - Started process (PID=200112) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:43:02.589+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:43:02.591+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:02.591+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:43:02.619+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:43:02.646+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:02.646+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:43:02.654+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:02.654+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:43:02.668+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2023-11-10T12:44:09.705+0530] {processor.py:157} INFO - Started process (PID=200223) to work on /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:44:09.712+0530] {processor.py:829} INFO - Processing file /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-10T12:44:09.714+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:09.713+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:44:09.741+0530] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-10T12:44:09.770+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:09.770+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:44:09.778+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:09.778+0530] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-10T12:44:09.793+0530] {processor.py:179} INFO - Processing /home/harika/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.090 seconds

@@ -1,0 +1,1241 @@
+[2023-10-18T15:43:11.223+0530] {processor.py:157} INFO - Started process (PID=75624) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:43:11.223+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:43:11.224+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:43:11.224+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:43:11.236+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:43:11.241+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:43:11.241+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:43:11.256+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:43:11.256+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_world to 2023-10-18T10:12:00+00:00, run_after=2023-10-18T10:13:00+00:00
+[2023-10-18T15:43:11.269+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.049 seconds
+[2023-10-18T15:44:04.586+0530] {processor.py:157} INFO - Started process (PID=75705) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:44:04.593+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:44:04.593+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.593+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:44:04.602+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:44:04.668+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.668+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T15:44:04.676+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.676+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T15:44:04.681+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.681+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-18T15:44:04.681+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.681+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hello_emailOperator' as access control is unset.
+[2023-10-18T15:44:04.681+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.681+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:44:04.689+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.689+0530] {dag.py:2937} INFO - Creating ORM DAG for hello_emailOperator
+[2023-10-18T15:44:04.697+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:04.697+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:13:00+00:00, run_after=2023-10-18T10:14:00+00:00
+[2023-10-18T15:44:04.709+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.124 seconds
+[2023-10-18T15:44:50.824+0530] {processor.py:157} INFO - Started process (PID=75763) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:44:50.831+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:44:50.831+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:50.831+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:44:50.842+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:44:50.855+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:50.854+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:44:50.870+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:44:50.870+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:13:00+00:00, run_after=2023-10-18T10:14:00+00:00
+[2023-10-18T15:44:50.883+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T15:45:19.727+0530] {processor.py:157} INFO - Started process (PID=75811) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:45:19.734+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:45:19.735+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:19.734+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:45:19.743+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:45:19.804+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:19.804+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hello_emailOperator' as access control is unset.
+[2023-10-18T15:45:19.804+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:19.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:45:19.818+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:19.817+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:15:00+00:00, run_after=2023-10-18T10:16:00+00:00
+[2023-10-18T15:45:19.831+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.106 seconds
+[2023-10-18T15:45:50.081+0530] {processor.py:157} INFO - Started process (PID=75857) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:45:50.087+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:45:50.088+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:50.088+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:45:50.097+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:45:50.109+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:50.108+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:45:50.125+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:45:50.125+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:15:00+00:00, run_after=2023-10-18T10:16:00+00:00
+[2023-10-18T15:45:50.139+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T15:46:42.148+0530] {processor.py:157} INFO - Started process (PID=75938) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:46:42.155+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:46:42.157+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:46:42.156+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:46:42.184+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:46:42.201+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:46:42.201+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:46:42.217+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:46:42.217+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:16:00+00:00, run_after=2023-10-18T10:17:00+00:00
+[2023-10-18T15:46:42.230+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T15:47:32.423+0530] {processor.py:157} INFO - Started process (PID=76016) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:47:32.430+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:47:32.432+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:47:32.431+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:47:32.459+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:47:32.478+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:47:32.477+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:47:32.494+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:47:32.493+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:17:00+00:00, run_after=2023-10-18T10:18:00+00:00
+[2023-10-18T15:47:32.506+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T15:48:21.250+0530] {processor.py:157} INFO - Started process (PID=76091) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:48:21.257+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:48:21.258+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:48:21.258+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:48:21.270+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:48:21.285+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:48:21.285+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:48:21.302+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:48:21.302+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:18:00+00:00, run_after=2023-10-18T10:19:00+00:00
+[2023-10-18T15:48:21.315+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.068 seconds
+[2023-10-18T15:49:14.243+0530] {processor.py:157} INFO - Started process (PID=76179) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:49:14.250+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:49:14.252+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:49:14.251+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:49:14.279+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:49:14.297+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:49:14.297+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:49:14.313+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:49:14.313+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:19:00+00:00, run_after=2023-10-18T10:20:00+00:00
+[2023-10-18T15:49:14.326+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.085 seconds
+[2023-10-18T15:50:03.801+0530] {processor.py:157} INFO - Started process (PID=76251) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:50:03.808+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:50:03.810+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:50:03.809+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:50:03.837+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:50:03.853+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:50:03.853+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:50:03.869+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:50:03.869+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:20:00+00:00, run_after=2023-10-18T10:21:00+00:00
+[2023-10-18T15:50:03.882+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T15:50:57.807+0530] {processor.py:157} INFO - Started process (PID=76318) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:50:57.808+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:50:57.808+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:50:57.808+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:50:57.817+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:50:57.829+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:50:57.829+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:50:57.844+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:50:57.844+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:20:00+00:00, run_after=2023-10-18T10:21:00+00:00
+[2023-10-18T15:50:57.857+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T15:51:48.339+0530] {processor.py:157} INFO - Started process (PID=76448) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:51:48.346+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:51:48.347+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:51:48.346+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:51:48.357+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:51:48.366+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:51:48.366+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:51:48.381+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:51:48.381+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:21:00+00:00, run_after=2023-10-18T10:22:00+00:00
+[2023-10-18T15:51:48.394+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T15:52:42.767+0530] {processor.py:157} INFO - Started process (PID=76590) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:52:42.774+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:52:42.775+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:52:42.774+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:52:42.782+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:52:42.792+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:52:42.792+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:52:42.806+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:52:42.806+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:22:00+00:00, run_after=2023-10-18T10:23:00+00:00
+[2023-10-18T15:52:42.819+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.054 seconds
+[2023-10-18T15:53:35.160+0530] {processor.py:157} INFO - Started process (PID=76674) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:53:35.167+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:53:35.169+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:53:35.168+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:53:35.197+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:53:35.214+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:53:35.214+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:53:35.229+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:53:35.229+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:23:00+00:00, run_after=2023-10-18T10:24:00+00:00
+[2023-10-18T15:53:35.242+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T15:54:24.128+0530] {processor.py:157} INFO - Started process (PID=76755) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:54:24.135+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:54:24.137+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:54:24.136+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:54:24.164+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:54:24.182+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:54:24.182+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:54:24.198+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:54:24.198+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:24:00+00:00, run_after=2023-10-18T10:25:00+00:00
+[2023-10-18T15:54:24.211+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T15:55:14.343+0530] {processor.py:157} INFO - Started process (PID=76848) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:55:14.344+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:55:14.346+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:55:14.345+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:55:14.367+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:55:14.383+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:55:14.383+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:55:14.398+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:55:14.398+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:25:00+00:00, run_after=2023-10-18T10:26:00+00:00
+[2023-10-18T15:55:14.411+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.073 seconds
+[2023-10-18T15:56:04.615+0530] {processor.py:157} INFO - Started process (PID=76941) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:56:04.622+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:56:04.623+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:56:04.622+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:56:04.636+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:56:04.651+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:56:04.651+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:56:04.668+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:56:04.668+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:26:00+00:00, run_after=2023-10-18T10:27:00+00:00
+[2023-10-18T15:56:04.681+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.069 seconds
+[2023-10-18T15:56:56.565+0530] {processor.py:157} INFO - Started process (PID=77009) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:56:56.572+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:56:56.574+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:56:56.573+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:56:56.601+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:56:56.618+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:56:56.618+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:56:56.634+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:56:56.634+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:26:00+00:00, run_after=2023-10-18T10:27:00+00:00
+[2023-10-18T15:56:56.647+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T15:57:50.813+0530] {processor.py:157} INFO - Started process (PID=77093) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:57:50.820+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:57:50.822+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:57:50.821+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:57:50.849+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:57:50.862+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:57:50.862+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:57:50.877+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:57:50.877+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:27:00+00:00, run_after=2023-10-18T10:28:00+00:00
+[2023-10-18T15:57:50.890+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.080 seconds
+[2023-10-18T15:58:42.671+0530] {processor.py:157} INFO - Started process (PID=77180) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:58:42.678+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:58:42.681+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:58:42.680+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:58:42.708+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:58:42.726+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:58:42.726+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:58:42.742+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:58:42.742+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:28:00+00:00, run_after=2023-10-18T10:29:00+00:00
+[2023-10-18T15:58:42.755+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T15:59:36.545+0530] {processor.py:157} INFO - Started process (PID=77259) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:59:36.552+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T15:59:36.553+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:59:36.552+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:59:36.560+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T15:59:36.571+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:59:36.571+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T15:59:36.586+0530] {logging_mixin.py:151} INFO - [2023-10-18T15:59:36.586+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:29:00+00:00, run_after=2023-10-18T10:30:00+00:00
+[2023-10-18T15:59:36.605+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:00:24.530+0530] {processor.py:157} INFO - Started process (PID=77336) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:00:24.537+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:00:24.538+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:00:24.538+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:00:24.565+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:00:24.583+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:00:24.582+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:00:24.598+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:00:24.598+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:30:00+00:00, run_after=2023-10-18T10:31:00+00:00
+[2023-10-18T16:00:24.611+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:01:17.106+0530] {processor.py:157} INFO - Started process (PID=77497) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:01:17.107+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:01:17.107+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:01:17.107+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:01:17.117+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:01:17.130+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:01:17.130+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:01:17.146+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:01:17.146+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:31:00+00:00, run_after=2023-10-18T10:32:00+00:00
+[2023-10-18T16:01:17.162+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.058 seconds
+[2023-10-18T16:02:06.538+0530] {processor.py:157} INFO - Started process (PID=77586) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:02:06.545+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:02:06.547+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:02:06.546+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:02:06.574+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:02:06.591+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:02:06.591+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:02:06.607+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:02:06.607+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:32:00+00:00, run_after=2023-10-18T10:33:00+00:00
+[2023-10-18T16:02:06.620+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:02:57.023+0530] {processor.py:157} INFO - Started process (PID=77646) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:02:57.024+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:02:57.024+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:02:57.024+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:02:57.034+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:02:57.048+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:02:57.048+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:02:57.064+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:02:57.064+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:32:00+00:00, run_after=2023-10-18T10:33:00+00:00
+[2023-10-18T16:02:57.077+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T16:03:46.215+0530] {processor.py:157} INFO - Started process (PID=77765) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:03:46.216+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:03:46.217+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:03:46.216+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:03:46.228+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:03:46.241+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:03:46.241+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:03:46.256+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:03:46.256+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:33:00+00:00, run_after=2023-10-18T10:34:00+00:00
+[2023-10-18T16:03:46.269+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T16:04:35.184+0530] {processor.py:157} INFO - Started process (PID=77837) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:04:35.185+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:04:35.186+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:04:35.185+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:04:35.195+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:04:35.206+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:04:35.206+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:04:35.221+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:04:35.221+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:34:00+00:00, run_after=2023-10-18T10:35:00+00:00
+[2023-10-18T16:04:35.234+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T16:05:21.456+0530] {processor.py:157} INFO - Started process (PID=77895) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:05:21.463+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:05:21.466+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:05:21.465+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:05:21.496+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:05:21.509+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:05:21.509+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:05:21.528+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:05:21.528+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:35:00+00:00, run_after=2023-10-18T10:36:00+00:00
+[2023-10-18T16:05:21.543+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.089 seconds
+[2023-10-18T16:06:14.291+0530] {processor.py:157} INFO - Started process (PID=77957) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:06:14.298+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:06:14.300+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:06:14.299+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:06:14.327+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:06:14.338+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:06:14.337+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:06:14.352+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:06:14.352+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:36:00+00:00, run_after=2023-10-18T10:37:00+00:00
+[2023-10-18T16:06:14.366+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.078 seconds
+[2023-10-18T16:07:08.298+0530] {processor.py:157} INFO - Started process (PID=78090) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:07:08.305+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:07:08.305+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:07:08.305+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:07:08.313+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:07:08.323+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:07:08.323+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:07:08.339+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:07:08.339+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:37:00+00:00, run_after=2023-10-18T10:38:00+00:00
+[2023-10-18T16:07:08.352+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T16:07:57.429+0530] {processor.py:157} INFO - Started process (PID=78148) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:07:57.436+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:07:57.438+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:07:57.437+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:07:57.465+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:07:57.481+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:07:57.481+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:07:57.497+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:07:57.496+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:37:00+00:00, run_after=2023-10-18T10:38:00+00:00
+[2023-10-18T16:07:57.510+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T16:08:48.078+0530] {processor.py:157} INFO - Started process (PID=78213) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:08:48.085+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:08:48.086+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:08:48.086+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:08:48.097+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:08:48.109+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:08:48.109+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:08:48.125+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:08:48.125+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:38:00+00:00, run_after=2023-10-18T10:39:00+00:00
+[2023-10-18T16:08:48.137+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:09:38.723+0530] {processor.py:157} INFO - Started process (PID=78276) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:09:38.724+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:09:38.725+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:09:38.725+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:09:38.737+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:09:38.751+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:09:38.751+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:09:38.769+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:09:38.768+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:39:00+00:00, run_after=2023-10-18T10:40:00+00:00
+[2023-10-18T16:09:38.782+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:10:28.485+0530] {processor.py:157} INFO - Started process (PID=78339) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:10:28.485+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:10:28.486+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:10:28.486+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:10:28.496+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:10:28.508+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:10:28.508+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:10:28.524+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:10:28.524+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:40:00+00:00, run_after=2023-10-18T10:41:00+00:00
+[2023-10-18T16:10:28.538+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T16:11:21.123+0530] {processor.py:157} INFO - Started process (PID=78735) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:11:21.131+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:11:21.133+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:11:21.133+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:11:21.157+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:11:21.172+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:11:21.171+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:11:21.191+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:11:21.191+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:41:00+00:00, run_after=2023-10-18T10:42:00+00:00
+[2023-10-18T16:11:21.204+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.088 seconds
+[2023-10-18T16:12:10.748+0530] {processor.py:157} INFO - Started process (PID=78840) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:12:10.755+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:12:10.756+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:12:10.755+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:12:10.765+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:12:10.777+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:12:10.777+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:12:10.794+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:12:10.794+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:42:00+00:00, run_after=2023-10-18T10:43:00+00:00
+[2023-10-18T16:12:10.810+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.064 seconds
+[2023-10-18T16:12:59.208+0530] {processor.py:157} INFO - Started process (PID=78907) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:12:59.209+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:12:59.209+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:12:59.209+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:12:59.217+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:12:59.227+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:12:59.227+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:12:59.242+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:12:59.242+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:42:00+00:00, run_after=2023-10-18T10:43:00+00:00
+[2023-10-18T16:12:59.254+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.048 seconds
+[2023-10-18T16:13:45.280+0530] {processor.py:157} INFO - Started process (PID=79010) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:13:45.280+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:13:45.281+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:13:45.281+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:13:45.292+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:13:45.304+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:13:45.304+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:13:45.321+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:13:45.321+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:43:00+00:00, run_after=2023-10-18T10:44:00+00:00
+[2023-10-18T16:13:45.334+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T16:14:40.567+0530] {processor.py:157} INFO - Started process (PID=79116) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:14:40.574+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:14:40.576+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:14:40.575+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:14:40.604+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:14:40.622+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:14:40.621+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:14:40.638+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:14:40.638+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:44:00+00:00, run_after=2023-10-18T10:45:00+00:00
+[2023-10-18T16:14:40.651+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T16:15:31.133+0530] {processor.py:157} INFO - Started process (PID=79199) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:15:31.140+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:15:31.142+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:15:31.142+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:15:31.168+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:15:31.185+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:15:31.184+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:15:31.201+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:15:31.201+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:45:00+00:00, run_after=2023-10-18T10:46:00+00:00
+[2023-10-18T16:15:31.214+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T16:16:25.214+0530] {processor.py:157} INFO - Started process (PID=79261) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:16:25.221+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:16:25.223+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:16:25.222+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:16:25.250+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:16:25.267+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:16:25.267+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:16:25.283+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:16:25.283+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:46:00+00:00, run_after=2023-10-18T10:47:00+00:00
+[2023-10-18T16:16:25.296+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:17:18.335+0530] {processor.py:157} INFO - Started process (PID=79329) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:17:18.335+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:17:18.336+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:17:18.336+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:17:18.346+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:17:18.357+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:17:18.356+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:17:18.372+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:17:18.371+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:47:00+00:00, run_after=2023-10-18T10:48:00+00:00
+[2023-10-18T16:17:18.384+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T16:18:13.201+0530] {processor.py:157} INFO - Started process (PID=79392) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:18:13.208+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:18:13.210+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:18:13.209+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:18:13.237+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:18:13.255+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:18:13.255+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:18:13.271+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:18:13.271+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:48:00+00:00, run_after=2023-10-18T10:49:00+00:00
+[2023-10-18T16:18:13.284+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:19:05.199+0530] {processor.py:157} INFO - Started process (PID=79466) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:19:05.206+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:19:05.208+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:19:05.207+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:19:05.219+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:19:05.229+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:19:05.229+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:19:05.244+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:19:05.244+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:49:00+00:00, run_after=2023-10-18T10:50:00+00:00
+[2023-10-18T16:19:05.256+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T16:19:59.295+0530] {processor.py:157} INFO - Started process (PID=79528) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:19:59.303+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:19:59.304+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:19:59.304+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:19:59.332+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:19:59.351+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:19:59.350+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:19:59.367+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:19:59.367+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:49:00+00:00, run_after=2023-10-18T10:50:00+00:00
+[2023-10-18T16:19:59.379+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T16:20:50.502+0530] {processor.py:157} INFO - Started process (PID=79592) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:20:50.509+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:20:50.511+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:20:50.511+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:20:50.538+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:20:50.555+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:20:50.555+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:20:50.571+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:20:50.571+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:50:00+00:00, run_after=2023-10-18T10:51:00+00:00
+[2023-10-18T16:20:50.584+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:21:43.523+0530] {processor.py:157} INFO - Started process (PID=79674) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:21:43.530+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:21:43.531+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:21:43.530+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:21:43.552+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:21:43.570+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:21:43.570+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:21:43.586+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:21:43.586+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:51:00+00:00, run_after=2023-10-18T10:52:00+00:00
+[2023-10-18T16:21:43.600+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.080 seconds
+[2023-10-18T16:22:36.077+0530] {processor.py:157} INFO - Started process (PID=79739) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:22:36.084+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:22:36.085+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:22:36.085+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:22:36.098+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:22:36.114+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:22:36.114+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:22:36.130+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:22:36.130+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:52:00+00:00, run_after=2023-10-18T10:53:00+00:00
+[2023-10-18T16:22:36.143+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.069 seconds
+[2023-10-18T16:23:28.615+0530] {processor.py:157} INFO - Started process (PID=79807) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:23:28.622+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:23:28.623+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:23:28.622+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:23:28.633+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:23:28.646+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:23:28.646+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:23:28.664+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:23:28.663+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:53:00+00:00, run_after=2023-10-18T10:54:00+00:00
+[2023-10-18T16:23:28.676+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.063 seconds
+[2023-10-18T16:24:21.108+0530] {processor.py:157} INFO - Started process (PID=79875) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:24:21.115+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:24:21.117+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:24:21.116+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:24:21.143+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:24:21.160+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:24:21.160+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:24:21.175+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:24:21.175+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:54:00+00:00, run_after=2023-10-18T10:55:00+00:00
+[2023-10-18T16:24:21.188+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T16:25:16.678+0530] {processor.py:157} INFO - Started process (PID=79952) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:25:16.685+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:25:16.687+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:25:16.686+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:25:16.714+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:25:16.730+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:25:16.730+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:25:16.746+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:25:16.746+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:55:00+00:00, run_after=2023-10-18T10:56:00+00:00
+[2023-10-18T16:25:16.766+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.091 seconds
+[2023-10-18T16:26:08.158+0530] {processor.py:157} INFO - Started process (PID=80012) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:26:08.161+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:26:08.161+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:26:08.161+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:26:08.176+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:26:08.194+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:26:08.194+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:26:08.212+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:26:08.211+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:56:00+00:00, run_after=2023-10-18T10:57:00+00:00
+[2023-10-18T16:26:08.224+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.068 seconds
+[2023-10-18T16:26:59.240+0530] {processor.py:157} INFO - Started process (PID=80073) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:26:59.246+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:26:59.247+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:26:59.246+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:26:59.257+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:26:59.269+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:26:59.269+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:26:59.285+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:26:59.285+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:56:00+00:00, run_after=2023-10-18T10:57:00+00:00
+[2023-10-18T16:26:59.298+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:27:52.358+0530] {processor.py:157} INFO - Started process (PID=80134) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:27:52.365+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:27:52.366+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:27:52.365+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:27:52.378+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:27:52.394+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:27:52.394+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:27:52.410+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:27:52.410+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:57:00+00:00, run_after=2023-10-18T10:58:00+00:00
+[2023-10-18T16:27:52.422+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.066 seconds
+[2023-10-18T16:28:41.940+0530] {processor.py:157} INFO - Started process (PID=80199) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:28:41.947+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:28:41.948+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:28:41.947+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:28:41.962+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:28:41.980+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:28:41.980+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:28:41.998+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:28:41.998+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:58:00+00:00, run_after=2023-10-18T10:59:00+00:00
+[2023-10-18T16:28:42.011+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.073 seconds
+[2023-10-18T16:29:31.031+0530] {processor.py:157} INFO - Started process (PID=80257) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:29:31.038+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:29:31.040+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:29:31.039+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:29:31.067+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:29:31.085+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:29:31.085+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:29:31.101+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:29:31.101+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T10:59:00+00:00, run_after=2023-10-18T11:00:00+00:00
+[2023-10-18T16:29:31.114+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T16:30:25.695+0530] {processor.py:157} INFO - Started process (PID=80335) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:30:25.701+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:30:25.702+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:30:25.702+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:30:25.713+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:30:25.724+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:30:25.724+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:30:25.739+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:30:25.739+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:00:00+00:00, run_after=2023-10-18T11:01:00+00:00
+[2023-10-18T16:30:25.751+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.059 seconds
+[2023-10-18T16:31:16.845+0530] {processor.py:157} INFO - Started process (PID=80393) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:31:16.852+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:31:16.854+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:31:16.853+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:31:16.879+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:31:16.895+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:31:16.895+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:31:16.911+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:31:16.911+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:01:00+00:00, run_after=2023-10-18T11:02:00+00:00
+[2023-10-18T16:31:16.923+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.081 seconds
+[2023-10-18T16:32:07.903+0530] {processor.py:157} INFO - Started process (PID=80457) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:32:07.910+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:32:07.912+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:32:07.911+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:32:07.939+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:32:07.955+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:32:07.955+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:32:07.971+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:32:07.970+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:02:00+00:00, run_after=2023-10-18T11:03:00+00:00
+[2023-10-18T16:32:07.983+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T16:33:00.765+0530] {processor.py:157} INFO - Started process (PID=80520) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:33:00.772+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:33:00.774+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:33:00.773+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:33:00.801+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:33:00.820+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:33:00.819+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:33:00.836+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:33:00.836+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:02:00+00:00, run_after=2023-10-18T11:03:00+00:00
+[2023-10-18T16:33:00.849+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T16:33:50.778+0530] {processor.py:157} INFO - Started process (PID=80583) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:33:50.785+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:33:50.788+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:33:50.787+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:33:50.815+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:33:50.833+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:33:50.833+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:33:50.849+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:33:50.849+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:03:00+00:00, run_after=2023-10-18T11:04:00+00:00
+[2023-10-18T16:33:50.862+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T16:34:42.172+0530] {processor.py:157} INFO - Started process (PID=80767) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:34:42.179+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:34:42.181+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:34:42.180+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:34:42.209+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:34:42.228+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:34:42.228+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:34:42.244+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:34:42.244+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:04:00+00:00, run_after=2023-10-18T11:05:00+00:00
+[2023-10-18T16:34:42.257+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.088 seconds
+[2023-10-18T16:35:33.538+0530] {processor.py:157} INFO - Started process (PID=80828) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:35:33.538+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:35:33.539+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:35:33.539+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:35:33.550+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:35:33.565+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:35:33.565+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:35:33.581+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:35:33.581+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:05:00+00:00, run_after=2023-10-18T11:06:00+00:00
+[2023-10-18T16:35:33.593+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.058 seconds
+[2023-10-18T16:36:24.917+0530] {processor.py:157} INFO - Started process (PID=80944) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:36:24.924+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:36:24.925+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:36:24.924+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:36:24.934+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:36:24.947+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:36:24.947+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:36:24.964+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:36:24.964+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:06:00+00:00, run_after=2023-10-18T11:07:00+00:00
+[2023-10-18T16:36:24.979+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.063 seconds
+[2023-10-18T16:37:17.540+0530] {processor.py:157} INFO - Started process (PID=81009) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:37:17.547+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:37:17.547+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:37:17.547+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:37:17.555+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:37:17.565+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:37:17.565+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:37:17.580+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:37:17.580+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:07:00+00:00, run_after=2023-10-18T11:08:00+00:00
+[2023-10-18T16:37:17.593+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T16:38:10.293+0530] {processor.py:157} INFO - Started process (PID=81079) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:38:10.299+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:38:10.300+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:38:10.299+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:38:10.307+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:38:10.318+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:38:10.317+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:38:10.332+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:38:10.332+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:08:00+00:00, run_after=2023-10-18T11:09:00+00:00
+[2023-10-18T16:38:10.346+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T16:38:59.329+0530] {processor.py:157} INFO - Started process (PID=81144) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:38:59.330+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:38:59.331+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:38:59.330+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:38:59.341+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:38:59.352+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:38:59.352+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:38:59.367+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:38:59.367+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:08:00+00:00, run_after=2023-10-18T11:09:00+00:00
+[2023-10-18T16:38:59.381+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.054 seconds
+[2023-10-18T16:39:50.708+0530] {processor.py:157} INFO - Started process (PID=81215) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:39:50.715+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:39:50.717+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:39:50.716+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:39:50.744+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:39:50.761+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:39:50.761+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:39:50.776+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:39:50.776+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:09:00+00:00, run_after=2023-10-18T11:10:00+00:00
+[2023-10-18T16:39:50.789+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T16:40:45.842+0530] {processor.py:157} INFO - Started process (PID=81279) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:40:45.849+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:40:45.851+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:40:45.850+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:40:45.862+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:40:45.872+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:40:45.872+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:40:45.886+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:40:45.886+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:10:00+00:00, run_after=2023-10-18T11:11:00+00:00
+[2023-10-18T16:40:45.899+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T16:41:40.075+0530] {processor.py:157} INFO - Started process (PID=81415) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:41:40.082+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:41:40.082+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:41:40.082+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:41:40.090+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:41:40.101+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:41:40.101+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:41:40.115+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:41:40.115+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:11:00+00:00, run_after=2023-10-18T11:12:00+00:00
+[2023-10-18T16:41:40.131+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T16:42:32.754+0530] {processor.py:157} INFO - Started process (PID=81560) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:42:32.760+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:42:32.761+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:42:32.761+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:42:32.773+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:42:32.787+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:42:32.787+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:42:32.803+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:42:32.803+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:12:00+00:00, run_after=2023-10-18T11:13:00+00:00
+[2023-10-18T16:42:32.816+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.065 seconds
+[2023-10-18T16:43:26.245+0530] {processor.py:157} INFO - Started process (PID=81650) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:43:26.252+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:43:26.252+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:43:26.252+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:43:26.261+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:43:26.271+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:43:26.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:43:26.288+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:43:26.288+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:13:00+00:00, run_after=2023-10-18T11:14:00+00:00
+[2023-10-18T16:43:26.302+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.059 seconds
+[2023-10-18T16:44:18.919+0530] {processor.py:157} INFO - Started process (PID=81713) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:44:18.926+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:44:18.929+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:44:18.928+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:44:18.957+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:44:18.974+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:44:18.974+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:44:18.990+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:44:18.990+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:14:00+00:00, run_after=2023-10-18T11:15:00+00:00
+[2023-10-18T16:44:19.003+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T16:45:12.385+0530] {processor.py:157} INFO - Started process (PID=81898) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:45:12.392+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:45:12.394+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:45:12.393+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:45:12.420+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:45:12.438+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:45:12.438+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:45:12.453+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:45:12.453+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:15:00+00:00, run_after=2023-10-18T11:16:00+00:00
+[2023-10-18T16:45:12.466+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:46:03.515+0530] {processor.py:157} INFO - Started process (PID=81965) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:46:03.521+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:46:03.522+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:46:03.522+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:46:03.532+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:46:03.543+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:46:03.543+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:46:03.560+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:46:03.560+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:16:00+00:00, run_after=2023-10-18T11:17:00+00:00
+[2023-10-18T16:46:03.573+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:46:51.394+0530] {processor.py:157} INFO - Started process (PID=82043) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:46:51.400+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:46:51.401+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:46:51.400+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:46:51.409+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:46:51.419+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:46:51.419+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:46:51.434+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:46:51.434+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:16:00+00:00, run_after=2023-10-18T11:17:00+00:00
+[2023-10-18T16:46:51.447+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T16:47:39.901+0530] {processor.py:157} INFO - Started process (PID=82110) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:47:39.908+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:47:39.910+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:47:39.909+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:47:39.936+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:47:39.953+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:47:39.953+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:47:39.969+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:47:39.969+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:17:00+00:00, run_after=2023-10-18T11:18:00+00:00
+[2023-10-18T16:47:39.981+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T16:48:30.097+0530] {processor.py:157} INFO - Started process (PID=82180) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:48:30.103+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:48:30.104+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:48:30.104+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:48:30.112+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:48:30.122+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:48:30.122+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:48:30.136+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:48:30.136+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:18:00+00:00, run_after=2023-10-18T11:19:00+00:00
+[2023-10-18T16:48:30.148+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.053 seconds
+[2023-10-18T16:49:20.063+0530] {processor.py:157} INFO - Started process (PID=82241) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:49:20.070+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:49:20.072+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:49:20.071+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:49:20.099+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:49:20.117+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:49:20.117+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:49:20.133+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:49:20.133+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:19:00+00:00, run_after=2023-10-18T11:20:00+00:00
+[2023-10-18T16:49:20.145+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T16:50:09.299+0530] {processor.py:157} INFO - Started process (PID=82334) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:50:09.299+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:50:09.300+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:50:09.300+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:50:09.309+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:50:09.320+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:50:09.320+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:50:09.335+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:50:09.335+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:20:00+00:00, run_after=2023-10-18T11:21:00+00:00
+[2023-10-18T16:50:09.348+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T16:51:02.519+0530] {processor.py:157} INFO - Started process (PID=82437) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:51:02.519+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:51:02.520+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:51:02.520+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:51:02.526+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:51:02.525+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/hello_emailOperator.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/hello_emailOperator.py", line 23, in <module>
+    email = EmailOperator(
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/operators/email.py", line 64, in __init__
+    super().__init__(**kwargs)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmailOperator (task_id: send_email). Invalid arguments were:
+**kwargs: {'smtp_host': 'smtp.gmail.com', 'smtp_port': 587, 'smtp_starttls': True, 'smtp_user': 'harikasree2225@gmail.com', 'smtp_password': 'Harika@2225'}
+[2023-10-18T16:51:02.526+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:51:02.536+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.019 seconds
+[2023-10-18T16:51:57.740+0530] {processor.py:157} INFO - Started process (PID=82517) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:51:57.747+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:51:57.747+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:51:57.747+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:51:57.758+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:51:57.827+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:51:57.827+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:hello_emailOperator' as access control is unset.
+[2023-10-18T16:51:57.827+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:51:57.827+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:51:57.840+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:51:57.840+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:21:00+00:00, run_after=2023-10-18T11:22:00+00:00
+[2023-10-18T16:51:57.856+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.118 seconds
+[2023-10-18T16:52:32.559+0530] {processor.py:157} INFO - Started process (PID=82575) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:52:32.566+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:52:32.566+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:52:32.566+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:52:32.577+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:52:32.582+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:52:32.582+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:52:32.597+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:52:32.596+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:22:00+00:00, run_after=2023-10-18T11:23:00+00:00
+[2023-10-18T16:52:32.610+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T16:53:28.360+0530] {processor.py:157} INFO - Started process (PID=82673) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:53:28.366+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:53:28.367+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:53:28.367+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:53:28.376+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:53:28.387+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:53:28.387+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:53:28.404+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:53:28.404+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:23:00+00:00, run_after=2023-10-18T11:24:00+00:00
+[2023-10-18T16:53:28.434+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.076 seconds
+[2023-10-18T16:54:00.716+0530] {processor.py:157} INFO - Started process (PID=82782) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:54:00.716+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:54:00.717+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:54:00.717+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:54:00.728+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:54:00.742+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:54:00.742+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:54:00.760+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:54:00.760+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:23:00+00:00, run_after=2023-10-18T11:24:00+00:00
+[2023-10-18T16:54:00.774+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:54:34.476+0530] {processor.py:157} INFO - Started process (PID=82831) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:54:34.483+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:54:34.483+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:54:34.483+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:54:34.491+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:54:34.501+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:54:34.501+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:54:34.516+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:54:34.515+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:24:00+00:00, run_after=2023-10-18T11:25:00+00:00
+[2023-10-18T16:54:34.533+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.059 seconds
+[2023-10-18T16:55:28.065+0530] {processor.py:157} INFO - Started process (PID=82894) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:55:28.072+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:55:28.074+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:55:28.073+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:55:28.100+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:55:28.116+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:55:28.116+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:55:28.132+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:55:28.131+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:25:00+00:00, run_after=2023-10-18T11:26:00+00:00
+[2023-10-18T16:55:28.144+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T16:56:22.580+0530] {processor.py:157} INFO - Started process (PID=82952) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:56:22.587+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:56:22.588+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:56:22.587+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:56:22.603+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:56:22.621+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:56:22.621+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:56:22.640+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:56:22.640+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:26:00+00:00, run_after=2023-10-18T11:27:00+00:00
+[2023-10-18T16:56:22.652+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.075 seconds
+[2023-10-18T16:57:16.103+0530] {processor.py:157} INFO - Started process (PID=83040) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:57:16.110+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:57:16.112+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:57:16.111+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:57:16.125+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:57:16.138+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:57:16.138+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:57:16.153+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:57:16.153+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:27:00+00:00, run_after=2023-10-18T11:28:00+00:00
+[2023-10-18T16:57:16.166+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.065 seconds
+[2023-10-18T16:58:08.359+0530] {processor.py:157} INFO - Started process (PID=83180) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:58:08.366+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:58:08.366+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:58:08.366+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:58:08.375+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:58:08.385+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:58:08.385+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:58:08.402+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:58:08.401+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:28:00+00:00, run_after=2023-10-18T11:29:00+00:00
+[2023-10-18T16:58:08.418+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T16:59:00.877+0530] {processor.py:157} INFO - Started process (PID=83300) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:59:00.884+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:59:00.886+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:59:00.885+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:59:00.913+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:59:00.932+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:59:00.932+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:59:00.948+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:59:00.948+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:28:00+00:00, run_after=2023-10-18T11:29:00+00:00
+[2023-10-18T16:59:00.961+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T16:59:54.081+0530] {processor.py:157} INFO - Started process (PID=83366) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:59:54.088+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T16:59:54.090+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:59:54.090+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:59:54.118+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T16:59:54.128+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:59:54.128+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T16:59:54.143+0530] {logging_mixin.py:151} INFO - [2023-10-18T16:59:54.143+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:29:00+00:00, run_after=2023-10-18T11:30:00+00:00
+[2023-10-18T16:59:54.156+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.077 seconds
+[2023-10-18T17:00:45.390+0530] {processor.py:157} INFO - Started process (PID=83426) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:00:45.390+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:00:45.391+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:00:45.391+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:00:45.402+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:00:45.414+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:00:45.414+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:00:45.430+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:00:45.430+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:30:00+00:00, run_after=2023-10-18T11:31:00+00:00
+[2023-10-18T17:00:45.442+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.056 seconds
+[2023-10-18T17:01:36.846+0530] {processor.py:157} INFO - Started process (PID=83526) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:01:36.847+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:01:36.847+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:01:36.847+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:01:36.856+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:01:36.866+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:01:36.866+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:01:36.886+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:01:36.886+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:31:00+00:00, run_after=2023-10-18T11:32:00+00:00
+[2023-10-18T17:01:36.900+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.056 seconds
+[2023-10-18T17:02:27.034+0530] {processor.py:157} INFO - Started process (PID=83605) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:02:27.041+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:02:27.042+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:02:27.041+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:02:27.049+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:02:27.060+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:02:27.060+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:02:27.076+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:02:27.076+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:32:00+00:00, run_after=2023-10-18T11:33:00+00:00
+[2023-10-18T17:02:27.091+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.058 seconds
+[2023-10-18T17:03:17.089+0530] {processor.py:157} INFO - Started process (PID=83685) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:03:17.096+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:03:17.097+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:03:17.096+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:03:17.106+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:03:17.117+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:03:17.117+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:03:17.133+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:03:17.133+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:33:00+00:00, run_after=2023-10-18T11:34:00+00:00
+[2023-10-18T17:03:17.148+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:04:05.626+0530] {processor.py:157} INFO - Started process (PID=83790) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:04:05.633+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:04:05.635+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:04:05.634+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:04:05.662+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:04:05.679+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:04:05.678+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:04:05.695+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:04:05.694+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:34:00+00:00, run_after=2023-10-18T11:35:00+00:00
+[2023-10-18T17:04:05.708+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T17:04:58.021+0530] {processor.py:157} INFO - Started process (PID=83852) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:04:58.026+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:04:58.027+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:04:58.027+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:04:58.037+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:04:58.049+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:04:58.049+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:04:58.066+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:04:58.066+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:34:00+00:00, run_after=2023-10-18T11:35:00+00:00
+[2023-10-18T17:04:58.080+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:05:50.377+0530] {processor.py:157} INFO - Started process (PID=83953) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:05:50.384+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:05:50.384+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:05:50.384+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:05:50.392+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:05:50.402+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:05:50.402+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:05:50.416+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:05:50.416+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:35:00+00:00, run_after=2023-10-18T11:36:00+00:00
+[2023-10-18T17:05:50.430+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T17:06:41.433+0530] {processor.py:157} INFO - Started process (PID=84106) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:06:41.439+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:06:41.440+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:06:41.440+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:06:41.447+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:06:41.457+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:06:41.457+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:06:41.471+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:06:41.471+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:36:00+00:00, run_after=2023-10-18T11:37:00+00:00
+[2023-10-18T17:06:41.483+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T17:07:29.874+0530] {processor.py:157} INFO - Started process (PID=84237) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:07:29.875+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:07:29.875+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:07:29.875+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:07:29.885+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:07:29.896+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:07:29.896+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:07:29.912+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:07:29.911+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:37:00+00:00, run_after=2023-10-18T11:38:00+00:00
+[2023-10-18T17:07:29.926+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.054 seconds
+[2023-10-18T17:08:19.258+0530] {processor.py:157} INFO - Started process (PID=84371) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:08:19.265+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:08:19.266+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:08:19.265+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:08:19.276+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:08:19.288+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:08:19.288+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:08:19.304+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:08:19.304+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:38:00+00:00, run_after=2023-10-18T11:39:00+00:00
+[2023-10-18T17:08:19.317+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:09:08.237+0530] {processor.py:157} INFO - Started process (PID=84437) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:09:08.244+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:09:08.245+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:09:08.244+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:09:08.255+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:09:08.268+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:09:08.268+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:09:08.286+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:09:08.286+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:39:00+00:00, run_after=2023-10-18T11:40:00+00:00
+[2023-10-18T17:09:08.299+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.064 seconds
+[2023-10-18T17:10:00.512+0530] {processor.py:157} INFO - Started process (PID=84540) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:10:00.519+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:10:00.521+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:10:00.521+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:10:00.533+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:10:00.544+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:10:00.543+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:10:00.560+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:10:00.560+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:39:00+00:00, run_after=2023-10-18T11:40:00+00:00
+[2023-10-18T17:10:00.574+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.064 seconds
+[2023-10-18T17:10:51.667+0530] {processor.py:157} INFO - Started process (PID=84750) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:10:51.674+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:10:51.676+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:10:51.675+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:10:51.686+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:10:51.696+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:10:51.696+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:10:51.711+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:10:51.711+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:40:00+00:00, run_after=2023-10-18T11:41:00+00:00
+[2023-10-18T17:10:51.725+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T17:11:43.538+0530] {processor.py:157} INFO - Started process (PID=84813) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:11:43.545+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:11:43.545+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:11:43.545+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:11:43.553+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:11:43.563+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:11:43.563+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:11:43.577+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:11:43.577+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:41:00+00:00, run_after=2023-10-18T11:42:00+00:00
+[2023-10-18T17:11:43.590+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.053 seconds
+[2023-10-18T17:12:33.919+0530] {processor.py:157} INFO - Started process (PID=84912) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:12:33.926+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:12:33.928+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:12:33.927+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:12:33.956+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:12:33.974+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:12:33.974+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:12:33.990+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:12:33.990+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:42:00+00:00, run_after=2023-10-18T11:43:00+00:00
+[2023-10-18T17:12:34.003+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:13:24.152+0530] {processor.py:157} INFO - Started process (PID=85030) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:13:24.159+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:13:24.159+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:13:24.159+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:13:24.168+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:13:24.179+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:13:24.178+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:13:24.194+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:13:24.194+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:43:00+00:00, run_after=2023-10-18T11:44:00+00:00
+[2023-10-18T17:13:24.207+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T17:13:45.125+0530] {processor.py:157} INFO - Started process (PID=85083) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:13:45.126+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:13:45.126+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:13:45.126+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:13:45.138+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:13:45.143+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:13:45.143+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:13:45.158+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:13:45.158+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:43:00+00:00, run_after=2023-10-18T11:44:00+00:00
+[2023-10-18T17:13:45.171+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.048 seconds
+[2023-10-18T17:14:45.110+0530] {processor.py:157} INFO - Started process (PID=85235) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:14:45.118+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:14:45.119+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:14:45.119+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:14:45.141+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:14:45.160+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:14:45.160+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:14:45.178+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:14:45.178+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:44:00+00:00, run_after=2023-10-18T11:45:00+00:00
+[2023-10-18T17:14:45.192+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T17:15:16.464+0530] {processor.py:157} INFO - Started process (PID=85288) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:15:16.472+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:15:16.473+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:15:16.473+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:15:16.497+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:15:16.512+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:15:16.512+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:15:16.531+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:15:16.531+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:45:00+00:00, run_after=2023-10-18T11:46:00+00:00
+[2023-10-18T17:15:16.545+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:16:20.089+0530] {processor.py:157} INFO - Started process (PID=85414) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:16:20.095+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:16:20.096+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:16:20.095+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:16:20.104+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:16:20.115+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:16:20.115+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:16:20.131+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:16:20.131+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:46:00+00:00, run_after=2023-10-18T11:47:00+00:00
+[2023-10-18T17:16:20.144+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T17:16:55.317+0530] {processor.py:157} INFO - Started process (PID=85470) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:16:55.324+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:16:55.325+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:16:55.324+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:16:55.335+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:16:55.347+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:16:55.347+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:16:55.363+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:16:55.363+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:46:00+00:00, run_after=2023-10-18T11:47:00+00:00
+[2023-10-18T17:16:55.376+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.062 seconds
+[2023-10-18T17:17:11.291+0530] {processor.py:157} INFO - Started process (PID=85505) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:17:11.292+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:17:11.292+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:17:11.292+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:17:11.305+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:17:11.310+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:17:11.310+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:17:11.327+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:17:11.327+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:47:00+00:00, run_after=2023-10-18T11:48:00+00:00
+[2023-10-18T17:17:11.341+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T17:18:14.083+0530] {processor.py:157} INFO - Started process (PID=85657) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:18:14.089+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:18:14.090+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:18:14.090+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:18:14.098+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:18:14.109+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:18:14.109+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:18:14.126+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:18:14.126+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:48:00+00:00, run_after=2023-10-18T11:49:00+00:00
+[2023-10-18T17:18:14.140+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.059 seconds
+[2023-10-18T17:18:46.360+0530] {processor.py:157} INFO - Started process (PID=85693) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:18:46.367+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:18:46.369+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:18:46.368+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:18:46.397+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:18:46.415+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:18:46.415+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:18:46.431+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:18:46.431+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:48:00+00:00, run_after=2023-10-18T11:49:00+00:00
+[2023-10-18T17:18:46.444+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T17:19:44.426+0530] {processor.py:157} INFO - Started process (PID=85812) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:19:44.427+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:19:44.427+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:19:44.427+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:19:44.439+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:19:44.454+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:19:44.453+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:19:44.470+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:19:44.470+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:49:00+00:00, run_after=2023-10-18T11:50:00+00:00
+[2023-10-18T17:19:44.483+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T17:20:41.180+0530] {processor.py:157} INFO - Started process (PID=85887) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:20:41.186+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:20:41.187+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:20:41.187+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:20:41.195+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:20:41.209+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:20:41.209+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:20:41.228+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:20:41.228+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:50:00+00:00, run_after=2023-10-18T11:51:00+00:00
+[2023-10-18T17:20:41.244+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.066 seconds
+[2023-10-18T17:21:33.977+0530] {processor.py:157} INFO - Started process (PID=86006) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:21:33.978+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:21:33.979+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:21:33.978+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:21:33.988+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:21:33.999+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:21:33.998+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:21:34.013+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:21:34.013+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:51:00+00:00, run_after=2023-10-18T11:52:00+00:00
+[2023-10-18T17:21:34.026+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.050 seconds
+[2023-10-18T17:22:10.586+0530] {processor.py:157} INFO - Started process (PID=86063) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:22:10.586+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:22:10.587+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:22:10.587+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:22:10.601+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:22:10.607+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:22:10.607+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:22:10.624+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:22:10.624+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:52:00+00:00, run_after=2023-10-18T11:53:00+00:00
+[2023-10-18T17:22:10.639+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.055 seconds
+[2023-10-18T17:23:14.459+0530] {processor.py:157} INFO - Started process (PID=86300) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:23:14.466+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:23:14.466+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:23:14.466+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:23:14.475+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:23:14.487+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:23:14.486+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:23:14.505+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:23:14.504+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:53:00+00:00, run_after=2023-10-18T11:54:00+00:00
+[2023-10-18T17:23:14.518+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:24:10.552+0530] {processor.py:157} INFO - Started process (PID=86387) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:24:10.559+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:24:10.561+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:24:10.560+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:24:10.589+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:24:10.605+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:24:10.605+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:24:10.622+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:24:10.622+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:54:00+00:00, run_after=2023-10-18T11:55:00+00:00
+[2023-10-18T17:24:10.636+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T17:25:03.051+0530] {processor.py:157} INFO - Started process (PID=86508) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:25:03.058+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:25:03.059+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:25:03.058+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:25:03.079+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:25:03.086+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:25:03.086+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:25:03.102+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:25:03.102+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:55:00+00:00, run_after=2023-10-18T11:56:00+00:00
+[2023-10-18T17:25:03.118+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.070 seconds
+[2023-10-18T17:25:57.481+0530] {processor.py:157} INFO - Started process (PID=87139) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:25:57.489+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:25:57.491+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:25:57.490+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:25:57.514+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:25:57.529+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:25:57.529+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:25:57.546+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:25:57.546+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:55:00+00:00, run_after=2023-10-18T11:56:00+00:00
+[2023-10-18T17:25:57.559+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.085 seconds
+[2023-10-18T17:26:48.961+0530] {processor.py:157} INFO - Started process (PID=87245) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:26:48.969+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:26:48.971+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:26:48.970+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:26:48.996+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:26:49.010+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:26:49.010+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:26:49.027+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:26:49.027+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:56:00+00:00, run_after=2023-10-18T11:57:00+00:00
+[2023-10-18T17:26:49.041+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:27:01.940+0530] {processor.py:157} INFO - Started process (PID=87304) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:27:01.941+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:27:01.942+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:27:01.941+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:27:01.953+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:27:01.958+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:27:01.958+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:27:01.973+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:27:01.972+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:56:00+00:00, run_after=2023-10-18T11:57:00+00:00
+[2023-10-18T17:27:01.986+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.047 seconds
+[2023-10-18T17:28:01.252+0530] {processor.py:157} INFO - Started process (PID=87458) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:28:01.252+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:28:01.253+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:28:01.252+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:28:01.260+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:28:01.270+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:28:01.270+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:28:01.285+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:28:01.285+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:57:00+00:00, run_after=2023-10-18T11:58:00+00:00
+[2023-10-18T17:28:01.299+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.049 seconds
+[2023-10-18T17:28:57.868+0530] {processor.py:157} INFO - Started process (PID=87537) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:28:57.875+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:28:57.877+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:28:57.877+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:28:57.888+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:28:57.899+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:28:57.899+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:28:57.914+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:28:57.914+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:58:00+00:00, run_after=2023-10-18T11:59:00+00:00
+[2023-10-18T17:28:57.927+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:29:48.125+0530] {processor.py:157} INFO - Started process (PID=87597) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:29:48.132+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:29:48.134+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:29:48.133+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:29:48.162+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:29:48.174+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:29:48.173+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:29:48.188+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:29:48.188+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T11:59:00+00:00, run_after=2023-10-18T12:00:00+00:00
+[2023-10-18T17:29:48.201+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.078 seconds
+[2023-10-18T17:30:36.977+0530] {processor.py:157} INFO - Started process (PID=87668) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:30:36.984+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:30:36.985+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:30:36.984+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:30:36.998+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:30:37.015+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:30:37.015+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:30:37.033+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:30:37.033+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:00:00+00:00, run_after=2023-10-18T12:01:00+00:00
+[2023-10-18T17:30:37.046+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.071 seconds
+[2023-10-18T17:31:32.036+0530] {processor.py:157} INFO - Started process (PID=87732) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:31:32.043+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:31:32.043+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:31:32.043+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:31:32.056+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:31:32.072+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:31:32.072+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:31:32.089+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:31:32.089+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:01:00+00:00, run_after=2023-10-18T12:02:00+00:00
+[2023-10-18T17:31:32.101+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.068 seconds
+[2023-10-18T17:32:22.509+0530] {processor.py:157} INFO - Started process (PID=87801) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:32:22.517+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:32:22.519+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:32:22.519+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:32:22.545+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:32:22.560+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:32:22.560+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:32:22.576+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:32:22.576+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:02:00+00:00, run_after=2023-10-18T12:03:00+00:00
+[2023-10-18T17:32:22.589+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:33:13.931+0530] {processor.py:157} INFO - Started process (PID=87865) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:33:13.938+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:33:13.940+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:33:13.939+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:33:13.967+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:33:13.986+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:33:13.985+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:33:14.002+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:33:14.002+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:03:00+00:00, run_after=2023-10-18T12:04:00+00:00
+[2023-10-18T17:33:14.015+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:34:05.769+0530] {processor.py:157} INFO - Started process (PID=87926) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:34:05.776+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:34:05.778+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:34:05.778+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:34:05.804+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:34:05.820+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:34:05.820+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:34:05.835+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:34:05.835+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:04:00+00:00, run_after=2023-10-18T12:05:00+00:00
+[2023-10-18T17:34:05.849+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:34:58.022+0530] {processor.py:157} INFO - Started process (PID=87988) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:34:58.029+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:34:58.031+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:34:58.030+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:34:58.058+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:34:58.075+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:34:58.075+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:34:58.091+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:34:58.091+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:04:00+00:00, run_after=2023-10-18T12:05:00+00:00
+[2023-10-18T17:34:58.104+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T17:35:51.575+0530] {processor.py:157} INFO - Started process (PID=88056) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:35:51.582+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:35:51.582+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:35:51.582+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:35:51.592+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:35:51.604+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:35:51.604+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:35:51.619+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:35:51.619+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:05:00+00:00, run_after=2023-10-18T12:06:00+00:00
+[2023-10-18T17:35:51.633+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T17:36:42.251+0530] {processor.py:157} INFO - Started process (PID=88115) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:36:42.252+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:36:42.252+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:36:42.252+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:36:42.260+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:36:42.271+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:36:42.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:36:42.286+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:36:42.286+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:06:00+00:00, run_after=2023-10-18T12:07:00+00:00
+[2023-10-18T17:36:42.299+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.050 seconds
+[2023-10-18T17:37:34.075+0530] {processor.py:157} INFO - Started process (PID=88175) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:37:34.082+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:37:34.084+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:37:34.083+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:37:34.111+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:37:34.129+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:37:34.128+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:37:34.145+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:37:34.145+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:07:00+00:00, run_after=2023-10-18T12:08:00+00:00
+[2023-10-18T17:37:34.159+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:38:23.125+0530] {processor.py:157} INFO - Started process (PID=88233) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:38:23.126+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:38:23.127+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:38:23.127+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:38:23.137+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:38:23.148+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:38:23.148+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:38:23.163+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:38:23.163+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:08:00+00:00, run_after=2023-10-18T12:09:00+00:00
+[2023-10-18T17:38:23.176+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.053 seconds
+[2023-10-18T17:39:14.515+0530] {processor.py:157} INFO - Started process (PID=88294) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:39:14.522+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:39:14.524+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:39:14.524+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:39:14.552+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:39:14.570+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:39:14.570+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:39:14.587+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:39:14.587+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:09:00+00:00, run_after=2023-10-18T12:10:00+00:00
+[2023-10-18T17:39:14.599+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T17:40:07.077+0530] {processor.py:157} INFO - Started process (PID=88364) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:40:07.084+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:40:07.086+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:40:07.085+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:40:07.113+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:40:07.131+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:40:07.131+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:40:07.147+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:40:07.147+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:10:00+00:00, run_after=2023-10-18T12:11:00+00:00
+[2023-10-18T17:40:07.160+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.085 seconds
+[2023-10-18T17:40:58.262+0530] {processor.py:157} INFO - Started process (PID=88422) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:40:58.270+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:40:58.272+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:40:58.271+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:40:58.299+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:40:58.317+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:40:58.316+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:40:58.333+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:40:58.333+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:10:00+00:00, run_after=2023-10-18T12:11:00+00:00
+[2023-10-18T17:40:58.345+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.085 seconds
+[2023-10-18T17:41:50.773+0530] {processor.py:157} INFO - Started process (PID=88491) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:41:50.780+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:41:50.782+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:41:50.781+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:41:50.793+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:41:50.804+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:41:50.804+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:41:50.819+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:41:50.819+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:11:00+00:00, run_after=2023-10-18T12:12:00+00:00
+[2023-10-18T17:41:50.833+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.063 seconds
+[2023-10-18T17:42:46.010+0530] {processor.py:157} INFO - Started process (PID=88553) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:42:46.017+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:42:46.020+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:42:46.019+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:42:46.046+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:42:46.063+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:42:46.063+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:42:46.078+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:42:46.078+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:12:00+00:00, run_after=2023-10-18T12:13:00+00:00
+[2023-10-18T17:42:46.091+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T17:43:36.679+0530] {processor.py:157} INFO - Started process (PID=88615) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:43:36.687+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:43:36.689+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:43:36.688+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:43:36.715+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:43:36.732+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:43:36.732+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:43:36.748+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:43:36.748+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:13:00+00:00, run_after=2023-10-18T12:14:00+00:00
+[2023-10-18T17:43:36.760+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.086 seconds
+[2023-10-18T17:44:27.539+0530] {processor.py:157} INFO - Started process (PID=88676) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:44:27.545+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:44:27.546+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:44:27.546+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:44:27.556+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:44:27.567+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:44:27.567+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:44:27.583+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:44:27.583+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:14:00+00:00, run_after=2023-10-18T12:15:00+00:00
+[2023-10-18T17:44:27.597+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T17:45:18.267+0530] {processor.py:157} INFO - Started process (PID=88739) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:45:18.274+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:45:18.276+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:45:18.275+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:45:18.287+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:45:18.297+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:45:18.297+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:45:18.312+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:45:18.311+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:15:00+00:00, run_after=2023-10-18T12:16:00+00:00
+[2023-10-18T17:45:18.324+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T17:46:10.306+0530] {processor.py:157} INFO - Started process (PID=88799) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:46:10.307+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:46:10.309+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:46:10.308+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:46:10.327+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:46:10.341+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:46:10.341+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:46:10.356+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:46:10.356+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:16:00+00:00, run_after=2023-10-18T12:17:00+00:00
+[2023-10-18T17:46:10.369+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.068 seconds
+[2023-10-18T17:46:59.242+0530] {processor.py:157} INFO - Started process (PID=88856) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:46:59.243+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:46:59.244+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:46:59.243+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:46:59.256+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:46:59.272+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:46:59.271+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:46:59.289+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:46:59.289+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:16:00+00:00, run_after=2023-10-18T12:17:00+00:00
+[2023-10-18T17:46:59.302+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.062 seconds
+[2023-10-18T17:47:50.537+0530] {processor.py:157} INFO - Started process (PID=88917) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:47:50.544+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:47:50.546+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:47:50.545+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:47:50.572+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:47:50.589+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:47:50.589+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:47:50.605+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:47:50.605+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:17:00+00:00, run_after=2023-10-18T12:18:00+00:00
+[2023-10-18T17:47:50.618+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T17:48:42.965+0530] {processor.py:157} INFO - Started process (PID=88992) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:48:42.971+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:48:42.972+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:48:42.972+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:48:42.983+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:48:42.997+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:48:42.997+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:48:43.015+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:48:43.015+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:18:00+00:00, run_after=2023-10-18T12:19:00+00:00
+[2023-10-18T17:48:43.028+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.066 seconds
+[2023-10-18T17:49:31.916+0530] {processor.py:157} INFO - Started process (PID=89058) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:49:31.917+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:49:31.917+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:49:31.917+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:49:31.929+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:49:31.943+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:49:31.943+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:49:31.959+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:49:31.959+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:19:00+00:00, run_after=2023-10-18T12:20:00+00:00
+[2023-10-18T17:49:31.972+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.058 seconds
+[2023-10-18T17:50:19.965+0530] {processor.py:157} INFO - Started process (PID=89161) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:50:19.972+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:50:19.973+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:50:19.973+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:50:19.983+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:50:19.996+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:50:19.996+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:50:20.012+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:50:20.012+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:20:00+00:00, run_after=2023-10-18T12:21:00+00:00
+[2023-10-18T17:50:20.025+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.062 seconds
+[2023-10-18T17:51:12.770+0530] {processor.py:157} INFO - Started process (PID=89221) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:51:12.777+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:51:12.779+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:51:12.778+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:51:12.790+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:51:12.801+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:51:12.801+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:51:12.816+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:51:12.816+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:21:00+00:00, run_after=2023-10-18T12:22:00+00:00
+[2023-10-18T17:51:12.829+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:52:03.879+0530] {processor.py:157} INFO - Started process (PID=89286) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:52:03.885+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:52:03.886+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:52:03.886+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:52:03.899+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:52:03.915+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:52:03.914+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:52:03.932+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:52:03.931+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:22:00+00:00, run_after=2023-10-18T12:23:00+00:00
+[2023-10-18T17:52:03.944+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.068 seconds
+[2023-10-18T17:52:52.787+0530] {processor.py:157} INFO - Started process (PID=89344) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:52:52.794+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:52:52.796+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:52:52.796+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:52:52.824+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:52:52.841+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:52:52.841+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:52:52.857+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:52:52.857+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:22:00+00:00, run_after=2023-10-18T12:23:00+00:00
+[2023-10-18T17:52:52.878+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.093 seconds
+[2023-10-18T17:53:43.362+0530] {processor.py:157} INFO - Started process (PID=89404) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:53:43.369+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:53:43.371+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:53:43.370+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:53:43.397+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:53:43.413+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:53:43.413+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:53:43.428+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:53:43.428+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:23:00+00:00, run_after=2023-10-18T12:24:00+00:00
+[2023-10-18T17:53:43.442+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.082 seconds
+[2023-10-18T17:54:35.734+0530] {processor.py:157} INFO - Started process (PID=89468) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:54:35.741+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:54:35.743+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:54:35.742+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:54:35.754+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:54:35.766+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:54:35.766+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:54:35.781+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:54:35.781+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:24:00+00:00, run_after=2023-10-18T12:25:00+00:00
+[2023-10-18T17:54:35.793+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.061 seconds
+[2023-10-18T17:55:28.475+0530] {processor.py:157} INFO - Started process (PID=89526) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:55:28.482+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:55:28.484+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:55:28.483+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:55:28.511+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:55:28.528+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:55:28.527+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:55:28.544+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:55:28.544+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:25:00+00:00, run_after=2023-10-18T12:26:00+00:00
+[2023-10-18T17:55:28.564+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.092 seconds
+[2023-10-18T17:56:19.490+0530] {processor.py:157} INFO - Started process (PID=89585) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:56:19.497+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:56:19.499+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:56:19.498+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:56:19.526+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:56:19.542+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:56:19.542+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:56:19.558+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:56:19.558+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:26:00+00:00, run_after=2023-10-18T12:27:00+00:00
+[2023-10-18T17:56:19.571+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.083 seconds
+[2023-10-18T17:57:11.206+0530] {processor.py:157} INFO - Started process (PID=89646) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:57:11.213+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:57:11.215+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:57:11.214+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:57:11.241+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:57:11.258+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:57:11.258+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:57:11.274+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:57:11.274+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:27:00+00:00, run_after=2023-10-18T12:28:00+00:00
+[2023-10-18T17:57:11.287+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T17:58:02.495+0530] {processor.py:157} INFO - Started process (PID=89711) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:58:02.502+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:58:02.504+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:58:02.503+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:58:02.531+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:58:02.549+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:58:02.549+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:58:02.565+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:58:02.565+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:28:00+00:00, run_after=2023-10-18T12:29:00+00:00
+[2023-10-18T17:58:02.579+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.087 seconds
+[2023-10-18T17:58:52.636+0530] {processor.py:157} INFO - Started process (PID=89771) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:58:52.637+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:58:52.638+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:58:52.637+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:58:52.646+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:58:52.656+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:58:52.656+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:58:52.670+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:58:52.670+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:28:00+00:00, run_after=2023-10-18T12:29:00+00:00
+[2023-10-18T17:58:52.683+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.049 seconds
+[2023-10-18T17:59:43.188+0530] {processor.py:157} INFO - Started process (PID=89835) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:59:43.196+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T17:59:43.197+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:59:43.197+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:59:43.208+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T17:59:43.219+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:59:43.218+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T17:59:43.233+0530] {logging_mixin.py:151} INFO - [2023-10-18T17:59:43.233+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:29:00+00:00, run_after=2023-10-18T12:30:00+00:00
+[2023-10-18T17:59:43.246+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T18:00:36.184+0530] {processor.py:157} INFO - Started process (PID=89893) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:00:36.191+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:00:36.193+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:00:36.192+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:00:36.220+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:00:36.237+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:00:36.237+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:00:36.253+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:00:36.253+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:30:00+00:00, run_after=2023-10-18T12:31:00+00:00
+[2023-10-18T18:00:36.266+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T18:01:32.002+0530] {processor.py:157} INFO - Started process (PID=89956) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:01:32.010+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:01:32.012+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:01:32.011+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:01:32.039+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:01:32.057+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:01:32.057+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:01:32.074+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:01:32.073+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:31:00+00:00, run_after=2023-10-18T12:32:00+00:00
+[2023-10-18T18:01:32.094+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.094 seconds
+[2023-10-18T18:02:26.142+0530] {processor.py:157} INFO - Started process (PID=90017) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:02:26.148+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:02:26.149+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:02:26.149+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:02:26.158+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:02:26.168+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:02:26.168+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:02:26.182+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:02:26.182+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:32:00+00:00, run_after=2023-10-18T12:33:00+00:00
+[2023-10-18T18:02:26.196+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.057 seconds
+[2023-10-18T18:03:16.154+0530] {processor.py:157} INFO - Started process (PID=90078) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:03:16.161+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:03:16.162+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:03:16.162+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:03:16.174+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:03:16.185+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:03:16.184+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:03:16.199+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:03:16.199+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:33:00+00:00, run_after=2023-10-18T12:34:00+00:00
+[2023-10-18T18:03:16.212+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds
+[2023-10-18T18:04:06.240+0530] {processor.py:157} INFO - Started process (PID=90136) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:04:06.247+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:04:06.249+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:04:06.248+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:04:06.258+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:04:06.268+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:04:06.268+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:04:06.284+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:04:06.284+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:34:00+00:00, run_after=2023-10-18T12:35:00+00:00
+[2023-10-18T18:04:06.296+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.059 seconds
+[2023-10-18T18:04:57.489+0530] {processor.py:157} INFO - Started process (PID=90198) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:04:57.489+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:04:57.490+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:04:57.490+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:04:57.499+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:04:57.510+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:04:57.510+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:04:57.525+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:04:57.525+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:34:00+00:00, run_after=2023-10-18T12:35:00+00:00
+[2023-10-18T18:04:57.538+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.052 seconds
+[2023-10-18T18:05:46.567+0530] {processor.py:157} INFO - Started process (PID=90267) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:05:46.575+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:05:46.576+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:05:46.576+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:05:46.604+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:05:46.622+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:05:46.621+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:05:46.638+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:05:46.637+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:35:00+00:00, run_after=2023-10-18T12:36:00+00:00
+[2023-10-18T18:05:46.650+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.085 seconds
+[2023-10-18T18:06:38.538+0530] {processor.py:157} INFO - Started process (PID=90326) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:06:38.546+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:06:38.548+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:06:38.547+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:06:38.573+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:06:38.587+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:06:38.587+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:06:38.603+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:06:38.603+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:36:00+00:00, run_after=2023-10-18T12:37:00+00:00
+[2023-10-18T18:06:38.616+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.084 seconds
+[2023-10-18T18:07:27.531+0530] {processor.py:157} INFO - Started process (PID=90382) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:07:27.538+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:07:27.540+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:07:27.539+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:07:27.567+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:07:27.584+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:07:27.584+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:07:27.600+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:07:27.600+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:37:00+00:00, run_after=2023-10-18T12:38:00+00:00
+[2023-10-18T18:07:27.613+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.085 seconds
+[2023-10-18T18:08:19.054+0530] {processor.py:157} INFO - Started process (PID=90467) to work on /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:08:19.061+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/hello_emailOperator.py for tasks to queue
+[2023-10-18T18:08:19.062+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:08:19.062+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:08:19.074+0530] {processor.py:839} INFO - DAG(s) dict_keys(['hello_emailOperator']) retrieved from /home/harika/airflow/dags/hello_emailOperator.py
+[2023-10-18T18:08:19.084+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:08:19.084+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-18T18:08:19.099+0530] {logging_mixin.py:151} INFO - [2023-10-18T18:08:19.098+0530] {dag.py:3696} INFO - Setting next_dagrun for hello_emailOperator to 2023-10-18T12:38:00+00:00, run_after=2023-10-18T12:39:00+00:00
+[2023-10-18T18:08:19.111+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/hello_emailOperator.py took 0.060 seconds

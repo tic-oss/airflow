@@ -1,0 +1,250 @@
+[2023-10-31T11:30:54.549+0530] {processor.py:157} INFO - Started process (PID=694010) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:30:54.550+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:30:54.550+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:30:54.550+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:30:54.552+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:30:54.552+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 8
+    task_id = "data_transfer"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-10-31T11:30:54.553+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:30:54.570+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.023 seconds
+[2023-10-31T11:31:16.199+0530] {processor.py:157} INFO - Started process (PID=694413) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:31:16.200+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:31:16.201+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:31:16.200+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:31:16.202+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:31:16.202+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 8
+    task_id = "data_transfer"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-10-31T11:31:16.203+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:31:16.214+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.017 seconds
+[2023-10-31T11:32:15.945+0530] {processor.py:157} INFO - Started process (PID=695442) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:32:15.946+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:32:15.946+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:32:15.946+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:32:15.948+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:32:15.948+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 8
+    task_id = "data_transfer"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-10-31T11:32:15.948+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:32:15.960+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.016 seconds
+[2023-10-31T11:32:45.516+0530] {processor.py:157} INFO - Started process (PID=696031) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:32:45.523+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:32:45.523+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:32:45.523+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:32:45.525+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:32:45.525+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 8
+    task_id = "data_transfer"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-10-31T11:32:45.525+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:32:45.537+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.022 seconds
+[2023-10-31T11:33:15.209+0530] {processor.py:157} INFO - Started process (PID=696601) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:33:15.216+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:33:15.216+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:33:15.216+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:33:15.219+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:33:15.218+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:33:15.219+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:33:15.236+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.028 seconds
+[2023-10-31T11:34:15.730+0530] {processor.py:157} INFO - Started process (PID=697622) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:34:15.736+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:34:15.737+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:34:15.736+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:34:15.739+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:34:15.738+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.models.operators import DataTransformOperator
+ModuleNotFoundError: No module named 'airflow.models.operators'
+[2023-10-31T11:34:15.739+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:34:15.750+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.022 seconds
+[2023-10-31T11:34:46.363+0530] {processor.py:157} INFO - Started process (PID=698212) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:34:46.370+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:34:46.370+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:34:46.370+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:34:46.373+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:34:46.372+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from demo_plugins import DataTransformOperator
+ModuleNotFoundError: No module named 'demo_plugins'
+[2023-10-31T11:34:46.373+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:34:46.384+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.023 seconds
+[2023-10-31T11:35:16.290+0530] {processor.py:157} INFO - Started process (PID=698786) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:35:16.296+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:35:16.297+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:35:16.297+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:35:16.299+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:35:16.299+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from demo_plugin import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'demo_plugin' (/home/harika/airflow/plugins/demo_plugin.py)
+[2023-10-31T11:35:16.300+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:35:16.312+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.025 seconds
+[2023-10-31T11:35:47.701+0530] {processor.py:157} INFO - Started process (PID=699401) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:35:47.708+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:35:47.708+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:35:47.708+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:35:47.710+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:35:47.710+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from demo_plugin import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'demo_plugin' (/home/harika/airflow/plugins/demo_plugin.py)
+[2023-10-31T11:35:47.711+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:35:47.722+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.023 seconds
+[2023-10-31T11:36:18.864+0530] {processor.py:157} INFO - Started process (PID=699844) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:36:18.871+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:36:18.872+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:36:18.872+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:36:18.874+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:36:18.873+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from demo_plugin import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'demo_plugin' (/home/harika/airflow/plugins/demo_plugin.py)
+[2023-10-31T11:36:18.874+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:36:18.885+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.023 seconds
+[2023-10-31T11:36:50.261+0530] {processor.py:157} INFO - Started process (PID=700431) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:36:50.269+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:36:50.271+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:36:50.270+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:36:50.278+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:36:50.276+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from demo_plugin import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'demo_plugin' (/home/harika/airflow/plugins/demo_plugin.py)
+[2023-10-31T11:36:50.279+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:36:50.307+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.050 seconds
+[2023-10-31T11:37:23.071+0530] {processor.py:157} INFO - Started process (PID=701047) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:37:23.072+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:37:23.073+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:37:23.072+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:37:23.075+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:37:23.074+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:37:23.075+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:37:23.086+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.017 seconds
+[2023-10-31T11:38:23.003+0530] {processor.py:157} INFO - Started process (PID=702255) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:38:23.009+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:38:23.010+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:38:23.010+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:38:23.012+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:38:23.012+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:38:23.013+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:38:23.025+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.024 seconds
+[2023-10-31T11:38:53.760+0530] {processor.py:157} INFO - Started process (PID=702724) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:38:53.761+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:38:53.762+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:38:53.762+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:38:53.764+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:38:53.764+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:38:53.764+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:38:53.777+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.019 seconds
+[2023-10-31T11:39:24.789+0530] {processor.py:157} INFO - Started process (PID=703305) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:39:24.796+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:39:24.797+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:39:24.796+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:39:24.799+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:39:24.799+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:39:24.799+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:39:24.811+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.024 seconds
+[2023-10-31T11:39:51.152+0530] {processor.py:157} INFO - Started process (PID=703879) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:39:51.152+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:39:51.153+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:39:51.153+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:39:51.155+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:39:51.155+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:39:51.156+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:39:51.167+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.018 seconds
+[2023-10-31T11:40:50.926+0530] {processor.py:157} INFO - Started process (PID=704917) to work on /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:40:50.933+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/dag_sensor.py for tasks to queue
+[2023-10-31T11:40:50.933+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:40:50.933+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:40:50.935+0530] {logging_mixin.py:151} INFO - [2023-10-31T11:40:50.935+0530] {dagbag.py:347} ERROR - Failed to import: /home/harika/airflow/dags/dag_sensor.py
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harika/airflow/dags/dag_sensor.py", line 3, in <module>
+    from airflow.operators import DataTransformOperator
+ImportError: cannot import name 'DataTransformOperator' from 'airflow.operators' (/home/harika/.local/lib/python3.10/site-packages/airflow/operators/__init__.py)
+[2023-10-31T11:40:50.936+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/harika/airflow/dags/dag_sensor.py
+[2023-10-31T11:40:50.948+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/dag_sensor.py took 0.023 seconds

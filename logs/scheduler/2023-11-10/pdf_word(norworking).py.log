@@ -1,0 +1,784 @@
+[2023-11-10T10:41:11.222+0530] {processor.py:157} INFO - Started process (PID=188895) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:41:11.223+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:41:11.224+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:11.223+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:41:11.260+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:41:11.377+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:11.377+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:41:11.392+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:41:11.392+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:41:11.414+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.194 seconds
+[2023-11-10T10:42:21.884+0530] {processor.py:157} INFO - Started process (PID=189038) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:42:21.885+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:42:21.885+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:21.885+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:42:22.006+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:42:22.015+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:22.015+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:42:22.022+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:42:22.022+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:42:22.046+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.164 seconds
+[2023-11-10T10:43:31.516+0530] {processor.py:157} INFO - Started process (PID=189411) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:43:31.524+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:43:31.526+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:31.525+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:43:31.586+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:43:31.595+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:31.595+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:43:31.604+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:43:31.604+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:43:31.617+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T10:44:35.206+0530] {processor.py:157} INFO - Started process (PID=189503) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:44:35.213+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:44:35.214+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:35.214+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:44:35.253+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:44:35.262+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:35.262+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:44:35.271+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:44:35.271+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:44:35.284+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.080 seconds
+[2023-11-10T10:45:20.753+0530] {processor.py:157} INFO - Started process (PID=189568) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:45:20.760+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:45:20.762+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:20.762+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:45:20.822+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:45:20.830+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:20.830+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:45:20.838+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:45:20.838+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:45:20.851+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T10:46:25.722+0530] {processor.py:157} INFO - Started process (PID=189669) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:46:25.724+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:46:25.725+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:25.724+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:46:25.764+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:46:25.774+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:25.774+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:46:25.782+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:46:25.782+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:46:25.795+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.076 seconds
+[2023-11-10T10:47:29.992+0530] {processor.py:157} INFO - Started process (PID=189760) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:47:29.999+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:47:29.999+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:29.999+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:47:30.049+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:47:30.058+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:30.057+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:47:30.066+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:47:30.066+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:47:30.079+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.090 seconds
+[2023-11-10T10:48:39.382+0530] {processor.py:157} INFO - Started process (PID=189853) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:48:39.389+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:48:39.391+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:39.390+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:48:39.453+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:48:39.462+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:39.461+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:48:39.470+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:48:39.470+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:48:39.483+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T10:49:47.804+0530] {processor.py:157} INFO - Started process (PID=189944) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:49:47.811+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:49:47.813+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:47.812+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:49:47.875+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:49:47.884+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:47.883+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:49:47.891+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:49:47.891+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:49:47.906+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.105 seconds
+[2023-11-10T10:50:53.218+0530] {processor.py:157} INFO - Started process (PID=190042) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:50:53.224+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:50:53.225+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:53.225+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:50:53.261+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:50:53.270+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:53.270+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:50:53.277+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:50:53.277+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:50:53.290+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.075 seconds
+[2023-11-10T10:51:59.533+0530] {processor.py:157} INFO - Started process (PID=190134) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:51:59.540+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:51:59.542+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:59.541+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:51:59.596+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:51:59.605+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:59.605+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:51:59.612+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:51:59.612+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:51:59.625+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.095 seconds
+[2023-11-10T10:53:07.182+0530] {processor.py:157} INFO - Started process (PID=190224) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:53:07.189+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:53:07.191+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:07.191+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:53:07.252+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:53:07.261+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:07.261+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:53:07.269+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:53:07.268+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:53:07.281+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T10:54:13.297+0530] {processor.py:157} INFO - Started process (PID=190320) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:54:13.304+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:54:13.306+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:13.306+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:54:13.366+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:54:13.375+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:13.375+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:54:13.382+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:54:13.382+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:54:13.395+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T10:55:20.333+0530] {processor.py:157} INFO - Started process (PID=190415) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:55:20.340+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:55:20.341+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:20.341+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:55:20.389+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:55:20.398+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:20.398+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:55:20.406+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:55:20.406+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:55:20.421+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.090 seconds
+[2023-11-10T10:56:23.466+0530] {processor.py:157} INFO - Started process (PID=190504) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:56:23.473+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:56:23.475+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:23.474+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:56:23.535+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:56:23.543+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:23.543+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:56:23.550+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:56:23.550+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:56:23.572+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.108 seconds
+[2023-11-10T10:57:29.363+0530] {processor.py:157} INFO - Started process (PID=190596) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:57:29.370+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:57:29.373+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:29.372+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:57:29.432+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:57:29.440+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:29.440+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:57:29.448+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:57:29.448+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:57:29.460+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T10:58:33.642+0530] {processor.py:157} INFO - Started process (PID=190687) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:58:33.649+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:58:33.651+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:33.651+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:58:33.712+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:58:33.720+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:33.720+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:58:33.728+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:58:33.728+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:58:33.741+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T10:59:38.547+0530] {processor.py:157} INFO - Started process (PID=190780) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:59:38.548+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T10:59:38.549+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:38.549+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:59:38.582+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T10:59:38.592+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:38.591+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T10:59:38.599+0530] {logging_mixin.py:151} INFO - [2023-11-10T10:59:38.599+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T10:59:38.611+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.066 seconds
+[2023-11-10T11:00:45.364+0530] {processor.py:157} INFO - Started process (PID=190877) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:00:45.371+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:00:45.373+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:45.372+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:00:45.429+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:00:45.438+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:45.437+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:00:45.446+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:00:45.446+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:00:45.458+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.097 seconds
+[2023-11-10T11:01:54.658+0530] {processor.py:157} INFO - Started process (PID=190971) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:01:54.665+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:01:54.667+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:54.667+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:01:54.705+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:01:54.714+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:54.714+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:01:54.721+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:01:54.721+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:01:54.734+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.078 seconds
+[2023-11-10T11:03:05.638+0530] {processor.py:157} INFO - Started process (PID=191067) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:03:05.645+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:03:05.647+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:05.646+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:03:05.704+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:03:05.713+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:05.713+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:03:05.720+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:03:05.720+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:03:05.733+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.097 seconds
+[2023-11-10T11:04:07.073+0530] {processor.py:157} INFO - Started process (PID=191156) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:04:07.074+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:04:07.074+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:07.074+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:04:07.116+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:04:07.125+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:07.125+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:04:07.132+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:04:07.132+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:04:07.145+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.074 seconds
+[2023-11-10T11:05:17.058+0530] {processor.py:157} INFO - Started process (PID=191253) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:05:17.065+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:05:17.067+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:17.066+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:05:17.127+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:05:17.136+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:17.136+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:05:17.143+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:05:17.143+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:05:17.156+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:06:25.191+0530] {processor.py:157} INFO - Started process (PID=191344) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:06:25.198+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:06:25.200+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:25.199+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:06:25.259+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:06:25.268+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:25.268+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:06:25.276+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:06:25.276+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:06:25.288+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.099 seconds
+[2023-11-10T11:07:25.837+0530] {processor.py:157} INFO - Started process (PID=191429) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:07:25.844+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:07:25.847+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:25.846+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:07:25.906+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:07:25.914+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:25.914+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:07:25.921+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:07:25.921+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:07:25.935+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T11:08:32.297+0530] {processor.py:157} INFO - Started process (PID=191621) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:08:32.303+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:08:32.304+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:32.304+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:08:32.344+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:08:32.353+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:32.353+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:08:32.360+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:08:32.360+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:08:32.373+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.079 seconds
+[2023-11-10T11:09:38.494+0530] {processor.py:157} INFO - Started process (PID=191715) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:09:38.501+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:09:38.503+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:38.502+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:09:38.561+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:09:38.570+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:38.570+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:09:38.578+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:09:38.578+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:09:38.591+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.099 seconds
+[2023-11-10T11:10:45.264+0530] {processor.py:157} INFO - Started process (PID=191809) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:10:45.271+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:10:45.273+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:45.272+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:10:45.332+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:10:45.342+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:45.342+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:10:45.350+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:10:45.350+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:10:45.363+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:11:51.234+0530] {processor.py:157} INFO - Started process (PID=191900) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:11:51.241+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:11:51.241+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:51.241+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:11:51.281+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:11:51.290+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:51.290+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:11:51.299+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:11:51.299+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:11:51.319+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.088 seconds
+[2023-11-10T11:12:57.367+0530] {processor.py:157} INFO - Started process (PID=191994) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:12:57.376+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:12:57.378+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:57.377+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:12:57.434+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:12:57.443+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:57.442+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:12:57.450+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:12:57.450+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:12:57.464+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T11:14:06.265+0530] {processor.py:157} INFO - Started process (PID=192087) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:14:06.272+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:14:06.274+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:06.273+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:14:06.339+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:14:06.348+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:06.348+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:14:06.356+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:14:06.355+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:14:06.369+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.106 seconds
+[2023-11-10T11:15:11.916+0530] {processor.py:157} INFO - Started process (PID=192191) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:15:11.923+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:15:11.925+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:11.925+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:15:11.985+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:15:11.994+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:11.993+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:15:12.001+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:15:12.001+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:15:12.014+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T11:16:19.512+0530] {processor.py:157} INFO - Started process (PID=192286) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:16:19.519+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:16:19.520+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:19.520+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:16:19.567+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:16:19.576+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:19.576+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:16:19.584+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:16:19.584+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:16:19.597+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.087 seconds
+[2023-11-10T11:17:30.229+0530] {processor.py:157} INFO - Started process (PID=192382) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:17:30.236+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:17:30.237+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:30.237+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:17:30.288+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:17:30.298+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:30.298+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:17:30.306+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:17:30.306+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:17:30.319+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.092 seconds
+[2023-11-10T11:18:37.236+0530] {processor.py:157} INFO - Started process (PID=192482) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:18:37.243+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:18:37.245+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:37.244+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:18:37.307+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:18:37.315+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:37.315+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:18:37.323+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:18:37.323+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:18:37.336+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:19:43.805+0530] {processor.py:157} INFO - Started process (PID=192573) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:19:43.812+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:19:43.815+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:43.814+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:19:43.878+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:19:43.886+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:43.886+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:19:43.894+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:19:43.894+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:19:43.907+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T11:20:48.298+0530] {processor.py:157} INFO - Started process (PID=192669) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:20:48.299+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:20:48.299+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:48.299+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:20:48.336+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:20:48.345+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:48.345+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:20:48.352+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:20:48.352+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:20:48.364+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.069 seconds
+[2023-11-10T11:21:56.575+0530] {processor.py:157} INFO - Started process (PID=192771) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:21:56.582+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:21:56.584+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:56.583+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:21:56.641+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:21:56.650+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:56.650+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:21:56.657+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:21:56.657+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:21:56.669+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.097 seconds
+[2023-11-10T11:23:03.311+0530] {processor.py:157} INFO - Started process (PID=192862) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:23:03.318+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:23:03.320+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:03.319+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:23:03.382+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:23:03.390+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:03.390+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:23:03.398+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:23:03.398+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:23:03.410+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:24:08.968+0530] {processor.py:157} INFO - Started process (PID=192955) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:24:08.975+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:24:08.977+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:08.977+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:24:09.040+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:24:09.050+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:09.049+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:24:09.057+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:24:09.057+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:24:09.069+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T11:25:14.989+0530] {processor.py:157} INFO - Started process (PID=193047) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:25:14.995+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:25:14.996+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:14.996+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:25:15.029+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:25:15.037+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:15.037+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:25:15.045+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:25:15.045+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:25:15.058+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.071 seconds
+[2023-11-10T11:26:20.482+0530] {processor.py:157} INFO - Started process (PID=193137) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:26:20.489+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:26:20.490+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:20.490+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:26:20.541+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:26:20.550+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:20.550+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:26:20.557+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:26:20.557+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:26:20.570+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.090 seconds
+[2023-11-10T11:27:24.460+0530] {processor.py:157} INFO - Started process (PID=193228) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:27:24.467+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:27:24.469+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:24.469+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:27:24.531+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:27:24.540+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:24.539+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:27:24.547+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:27:24.547+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:27:24.559+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:28:29.975+0530] {processor.py:157} INFO - Started process (PID=193318) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:28:29.983+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:28:29.985+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:29.984+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:28:30.045+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:28:30.054+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:30.054+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:28:30.061+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:28:30.061+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:28:30.074+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:29:31.686+0530] {processor.py:157} INFO - Started process (PID=193407) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:29:31.687+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:29:31.687+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:31.687+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:29:31.724+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:29:31.732+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:31.732+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:29:31.739+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:29:31.739+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:29:31.753+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.069 seconds
+[2023-11-10T11:30:37.348+0530] {processor.py:157} INFO - Started process (PID=193503) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:30:37.355+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:30:37.357+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:37.357+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:30:37.405+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:30:37.414+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:37.414+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:30:37.422+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:30:37.422+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:30:37.435+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.094 seconds
+[2023-11-10T11:31:44.744+0530] {processor.py:157} INFO - Started process (PID=193593) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:31:44.751+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:31:44.753+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:44.752+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:31:44.813+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:31:44.821+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:44.821+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:31:44.830+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:31:44.829+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:31:44.842+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:32:46.453+0530] {processor.py:157} INFO - Started process (PID=193679) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:32:46.454+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:32:46.454+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:46.454+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:32:46.489+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:32:46.497+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:46.497+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:32:46.505+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:32:46.505+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:32:46.517+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.066 seconds
+[2023-11-10T11:33:50.251+0530] {processor.py:157} INFO - Started process (PID=193773) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:33:50.259+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:33:50.261+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:50.260+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:33:50.322+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:33:50.330+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:50.330+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:33:50.338+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:33:50.338+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:33:50.350+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:34:58.411+0530] {processor.py:157} INFO - Started process (PID=193866) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:34:58.418+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:34:58.420+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:58.419+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:34:58.483+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:34:58.491+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:58.491+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:34:58.499+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:34:58.499+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:34:58.511+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.103 seconds
+[2023-11-10T11:36:04.296+0530] {processor.py:157} INFO - Started process (PID=193959) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:36:04.297+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:36:04.298+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:04.298+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:36:04.340+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:36:04.349+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:04.349+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:36:04.357+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:36:04.356+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:36:04.369+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.075 seconds
+[2023-11-10T11:37:13.715+0530] {processor.py:157} INFO - Started process (PID=194052) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:37:13.722+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:37:13.724+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:13.724+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:37:13.784+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:37:13.792+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:13.792+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:37:13.800+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:37:13.800+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:37:13.813+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T11:38:19.627+0530] {processor.py:157} INFO - Started process (PID=194196) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:38:19.634+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:38:19.636+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:19.635+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:38:19.696+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:38:19.704+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:19.704+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:38:19.712+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:38:19.712+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:38:19.725+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:39:19.242+0530] {processor.py:157} INFO - Started process (PID=194284) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:39:19.249+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:39:19.251+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:19.251+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:39:19.313+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:39:19.322+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:19.321+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:39:19.329+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:39:19.329+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:39:19.342+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:40:28.187+0530] {processor.py:157} INFO - Started process (PID=194379) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:40:28.188+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:40:28.191+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:28.190+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:40:28.242+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:40:28.251+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:28.251+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:40:28.258+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:40:28.258+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:40:28.271+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.092 seconds
+[2023-11-10T11:41:35.179+0530] {processor.py:157} INFO - Started process (PID=194486) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:41:35.186+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:41:35.188+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:35.187+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:41:35.231+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:41:35.239+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:35.239+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:41:35.247+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:41:35.247+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:41:35.259+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.083 seconds
+[2023-11-10T11:42:44.678+0530] {processor.py:157} INFO - Started process (PID=194578) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:42:44.679+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:42:44.680+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:44.679+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:42:44.722+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:42:44.732+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:44.732+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:42:44.739+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:42:44.739+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:42:44.752+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.076 seconds
+[2023-11-10T11:43:50.108+0530] {processor.py:157} INFO - Started process (PID=194675) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:43:50.115+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:43:50.117+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:50.116+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:43:50.178+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:43:50.187+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:50.187+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:43:50.195+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:43:50.195+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:43:50.208+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:45:00.016+0530] {processor.py:157} INFO - Started process (PID=194767) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:45:00.024+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:45:00.026+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:00.025+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:45:00.087+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:45:00.096+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:00.096+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:45:00.103+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:45:00.103+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:45:00.116+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T11:46:08.256+0530] {processor.py:157} INFO - Started process (PID=194862) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:46:08.263+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:46:08.265+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:08.264+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:46:08.323+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:46:08.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:08.331+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:46:08.339+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:46:08.339+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:46:08.351+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.097 seconds
+[2023-11-10T11:47:16.228+0530] {processor.py:157} INFO - Started process (PID=194950) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:47:16.235+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:47:16.237+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:16.237+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:47:16.272+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:47:16.281+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:16.281+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:47:16.288+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:47:16.288+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:47:16.301+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.074 seconds
+[2023-11-10T11:48:22.811+0530] {processor.py:157} INFO - Started process (PID=195045) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:48:22.818+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:48:22.819+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:22.818+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:48:22.858+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:48:22.866+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:22.866+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:48:22.873+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:48:22.873+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:48:22.885+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.076 seconds
+[2023-11-10T11:49:27.999+0530] {processor.py:157} INFO - Started process (PID=195134) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:49:28.006+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:49:28.008+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:28.007+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:49:28.045+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:49:28.054+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:28.054+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:49:28.061+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:49:28.061+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:49:28.074+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.078 seconds
+[2023-11-10T11:50:33.471+0530] {processor.py:157} INFO - Started process (PID=195230) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:50:33.478+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:50:33.480+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:33.479+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:50:33.540+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:50:33.548+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:33.548+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:50:33.557+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:50:33.556+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:50:33.570+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:51:40.758+0530] {processor.py:157} INFO - Started process (PID=195422) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:51:40.759+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:51:40.761+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:40.761+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:51:40.816+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:51:40.825+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:40.825+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:51:40.832+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:51:40.832+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:51:40.846+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.095 seconds
+[2023-11-10T11:52:50.096+0530] {processor.py:157} INFO - Started process (PID=195516) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:52:50.103+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:52:50.105+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:50.104+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:52:50.165+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:52:50.174+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:50.173+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:52:50.181+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:52:50.181+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:52:50.194+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T11:53:54.946+0530] {processor.py:157} INFO - Started process (PID=195610) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:53:54.953+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:53:54.955+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:54.955+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:53:55.033+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:53:55.042+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:55.042+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:53:55.050+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:53:55.049+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:53:55.074+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.131 seconds
+[2023-11-10T11:55:00.577+0530] {processor.py:157} INFO - Started process (PID=195699) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:55:00.584+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:55:00.586+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:00.585+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:55:00.621+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:55:00.630+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:00.629+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:55:00.637+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:55:00.637+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:55:00.650+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.075 seconds
+[2023-11-10T11:56:06.127+0530] {processor.py:157} INFO - Started process (PID=195790) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:56:06.132+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:56:06.134+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:06.133+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:56:06.195+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:56:06.203+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:06.203+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:56:06.211+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:56:06.211+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:56:06.223+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.099 seconds
+[2023-11-10T11:57:14.447+0530] {processor.py:157} INFO - Started process (PID=195884) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:57:14.454+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:57:14.455+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:14.455+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:57:14.517+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:57:14.527+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:14.527+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:57:14.534+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:57:14.534+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:57:14.547+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.103 seconds
+[2023-11-10T11:58:21.303+0530] {processor.py:157} INFO - Started process (PID=195978) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:58:21.310+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:58:21.312+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:21.311+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:58:21.349+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:58:21.357+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:21.357+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:58:21.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:58:21.365+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:58:21.378+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.077 seconds
+[2023-11-10T11:59:29.721+0530] {processor.py:157} INFO - Started process (PID=196073) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:59:29.722+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T11:59:29.723+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:29.722+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:59:29.766+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T11:59:29.774+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:29.774+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T11:59:29.782+0530] {logging_mixin.py:151} INFO - [2023-11-10T11:59:29.782+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T11:59:29.795+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.077 seconds
+[2023-11-10T12:00:33.780+0530] {processor.py:157} INFO - Started process (PID=196165) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:00:33.787+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:00:33.790+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:33.789+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:00:33.854+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:00:33.862+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:33.862+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:00:33.870+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:00:33.869+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:00:33.882+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T12:01:39.598+0530] {processor.py:157} INFO - Started process (PID=196258) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:01:39.605+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:01:39.607+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:39.606+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:01:39.670+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:01:39.679+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:39.679+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:01:39.686+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:01:39.686+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:01:39.699+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T12:02:42.151+0530] {processor.py:157} INFO - Started process (PID=196345) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:02:42.157+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:02:42.158+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:42.158+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:02:42.209+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:02:42.219+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:42.218+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:02:42.226+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:02:42.226+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:02:42.239+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.090 seconds
+[2023-11-10T12:03:49.535+0530] {processor.py:157} INFO - Started process (PID=196437) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:03:49.541+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:03:49.542+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:49.542+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:03:49.594+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:03:49.603+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:49.603+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:03:49.612+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:03:49.611+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:03:49.624+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.092 seconds
+[2023-11-10T12:04:58.214+0530] {processor.py:157} INFO - Started process (PID=196528) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:04:58.220+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:04:58.221+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:58.220+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:04:58.252+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:04:58.260+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:58.260+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:04:58.267+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:04:58.267+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:04:58.280+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.068 seconds
+[2023-11-10T12:06:02.391+0530] {processor.py:157} INFO - Started process (PID=196621) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:06:02.398+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:06:02.401+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:02.400+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:06:02.465+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:06:02.474+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:02.474+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:06:02.482+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:06:02.482+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:06:02.495+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.106 seconds
+[2023-11-10T12:07:12.449+0530] {processor.py:157} INFO - Started process (PID=196715) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:07:12.456+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:07:12.458+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:12.457+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:07:12.518+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:07:12.527+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:12.527+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:07:12.534+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:07:12.534+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:07:12.547+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T12:08:16.463+0530] {processor.py:157} INFO - Started process (PID=196808) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:08:16.470+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:08:16.472+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:16.471+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:08:16.534+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:08:16.543+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:16.543+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:08:16.550+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:08:16.550+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:08:16.563+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T12:09:21.540+0530] {processor.py:157} INFO - Started process (PID=196894) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:09:21.540+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:09:21.541+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:21.541+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:09:21.577+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:09:21.585+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:21.585+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:09:21.594+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:09:21.593+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:09:21.606+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.069 seconds
+[2023-11-10T12:10:27.027+0530] {processor.py:157} INFO - Started process (PID=196985) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:10:27.034+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:10:27.036+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:27.036+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:10:27.071+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:10:27.079+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:27.079+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:10:27.087+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:10:27.086+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:10:27.171+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.146 seconds
+[2023-11-10T12:11:35.490+0530] {processor.py:157} INFO - Started process (PID=197082) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:11:35.497+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:11:35.499+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:35.498+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:11:35.562+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:11:35.571+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:35.571+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:11:35.579+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:11:35.578+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:11:35.591+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.104 seconds
+[2023-11-10T12:12:46.575+0530] {processor.py:157} INFO - Started process (PID=197276) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:12:46.583+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:12:46.585+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:46.584+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:12:46.646+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:12:46.655+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:46.655+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:12:46.662+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:12:46.662+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:12:46.675+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.103 seconds
+[2023-11-10T12:13:51.681+0530] {processor.py:157} INFO - Started process (PID=197366) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:13:51.682+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:13:51.683+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:51.683+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:13:51.723+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:13:51.732+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:51.732+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:13:51.740+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:13:51.740+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:13:51.753+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.074 seconds
+[2023-11-10T12:14:58.197+0530] {processor.py:157} INFO - Started process (PID=197462) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:14:58.197+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:14:58.198+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:58.198+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:14:58.232+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:14:58.321+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:58.321+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:14:58.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:14:58.332+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:14:58.357+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.163 seconds
+[2023-11-10T12:16:04.012+0530] {processor.py:157} INFO - Started process (PID=197554) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:16:04.019+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:16:04.021+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:04.020+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:16:04.093+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:16:04.103+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:04.103+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:16:04.189+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:16:04.189+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:16:04.211+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.201 seconds
+[2023-11-10T12:17:09.996+0530] {processor.py:157} INFO - Started process (PID=197651) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:17:10.003+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:17:10.005+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:10.005+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:17:10.067+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:17:10.075+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:10.075+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:17:10.084+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:17:10.084+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:17:10.184+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.190 seconds
+[2023-11-10T12:18:19.152+0530] {processor.py:157} INFO - Started process (PID=197746) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:18:19.159+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:18:19.161+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:19.160+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:18:19.222+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:18:19.231+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:19.230+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:18:19.238+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:18:19.238+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:18:19.252+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T12:19:27.371+0530] {processor.py:157} INFO - Started process (PID=197836) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:19:27.378+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:19:27.380+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:27.379+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:19:27.440+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:19:27.449+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:27.449+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:19:27.457+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:19:27.456+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:19:27.469+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T12:20:34.320+0530] {processor.py:157} INFO - Started process (PID=197933) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:20:34.321+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:20:34.322+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:34.321+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:20:34.438+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:20:34.448+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:34.447+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:20:34.457+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:20:34.457+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:20:34.478+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.160 seconds
+[2023-11-10T12:21:45.995+0530] {processor.py:157} INFO - Started process (PID=198027) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:21:46.002+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:21:46.002+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:46.002+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:21:46.055+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:21:46.141+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:46.141+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:21:46.151+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:21:46.151+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:21:46.173+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.180 seconds
+[2023-11-10T12:23:00.167+0530] {processor.py:157} INFO - Started process (PID=198129) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:23:00.174+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:23:00.174+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:00.174+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:23:00.211+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:23:00.221+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:00.221+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:23:00.311+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:23:00.311+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:23:00.334+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.172 seconds
+[2023-11-10T12:24:16.269+0530] {processor.py:157} INFO - Started process (PID=198228) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:24:16.270+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:24:16.271+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:16.270+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:24:16.400+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:24:16.408+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:16.408+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:24:16.418+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:24:16.418+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:24:16.437+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.170 seconds
+[2023-11-10T12:25:29.033+0530] {processor.py:157} INFO - Started process (PID=198334) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:25:29.038+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:25:29.039+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:29.039+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:25:29.166+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:25:29.175+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:29.175+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:25:29.185+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:25:29.184+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:25:29.210+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.180 seconds
+[2023-11-10T12:26:42.472+0530] {processor.py:157} INFO - Started process (PID=198428) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:26:42.479+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:26:42.481+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:42.480+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:26:42.545+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:26:42.553+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:42.553+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:26:42.561+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:26:42.561+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:26:42.575+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.105 seconds
+[2023-11-10T12:27:47.356+0530] {processor.py:157} INFO - Started process (PID=198527) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:27:47.363+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:27:47.365+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:47.365+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:27:47.426+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:27:47.435+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:47.434+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:27:47.442+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:27:47.442+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:27:47.464+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.111 seconds
+[2023-11-10T12:28:55.417+0530] {processor.py:157} INFO - Started process (PID=198690) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:28:55.424+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:28:55.426+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:55.425+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:28:55.487+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:28:55.496+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:55.496+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:28:55.503+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:28:55.503+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:28:55.516+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T12:30:01.725+0530] {processor.py:157} INFO - Started process (PID=198801) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:30:01.732+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:30:01.734+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:01.733+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:30:01.797+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:30:01.806+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:01.806+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:30:01.814+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:30:01.814+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:30:01.827+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.105 seconds
+[2023-11-10T12:31:08.654+0530] {processor.py:157} INFO - Started process (PID=198910) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:31:08.661+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:31:08.661+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:08.661+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:31:08.698+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:31:08.706+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:08.706+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:31:08.714+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:31:08.714+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:31:08.727+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.076 seconds
+[2023-11-10T12:32:19.624+0530] {processor.py:157} INFO - Started process (PID=199023) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:32:19.632+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:32:19.634+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:19.633+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:32:19.688+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:32:19.697+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:19.697+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:32:19.704+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:32:19.704+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:32:19.717+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T12:33:24.331+0530] {processor.py:157} INFO - Started process (PID=199137) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:33:24.331+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:33:24.332+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:24.332+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:33:24.366+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:33:24.378+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:24.378+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:33:24.386+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:33:24.385+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:33:24.399+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.070 seconds
+[2023-11-10T12:34:33.646+0530] {processor.py:157} INFO - Started process (PID=199259) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:34:33.654+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:34:33.655+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:33.655+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:34:33.716+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:34:33.726+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:33.726+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:34:33.733+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:34:33.733+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:34:33.746+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.102 seconds
+[2023-11-10T12:35:37.833+0530] {processor.py:157} INFO - Started process (PID=199371) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:35:37.840+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:35:37.841+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:37.841+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:35:37.888+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:35:37.897+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:37.897+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:35:37.906+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:35:37.906+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:35:37.932+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.101 seconds
+[2023-11-10T12:36:45.850+0530] {processor.py:157} INFO - Started process (PID=199482) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:36:45.857+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:36:45.860+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:45.859+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:36:45.920+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:36:45.929+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:45.929+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:36:45.937+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:36:45.937+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:36:45.950+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.103 seconds
+[2023-11-10T12:37:49.848+0530] {processor.py:157} INFO - Started process (PID=199584) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:37:49.855+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:37:49.856+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:49.855+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:37:49.904+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:37:49.913+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:49.913+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:37:49.921+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:37:49.921+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:37:49.933+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.088 seconds
+[2023-11-10T12:38:57.548+0530] {processor.py:157} INFO - Started process (PID=199685) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:38:57.556+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:38:57.558+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:57.557+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:38:57.614+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:38:57.624+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:57.624+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:38:57.632+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:38:57.632+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:38:57.646+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.106 seconds
+[2023-11-10T12:40:03.578+0530] {processor.py:157} INFO - Started process (PID=199795) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:40:03.586+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:40:03.588+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:03.587+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:40:03.642+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:40:03.651+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:03.651+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:40:03.659+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:40:03.659+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:40:03.672+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.100 seconds
+[2023-11-10T12:41:09.612+0530] {processor.py:157} INFO - Started process (PID=199924) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:41:09.619+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:41:09.621+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:09.620+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:41:09.684+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:41:09.694+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:09.694+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:41:09.702+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:41:09.702+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:41:09.715+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.105 seconds
+[2023-11-10T12:42:16.038+0530] {processor.py:157} INFO - Started process (PID=200027) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:42:16.045+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:42:16.047+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:16.046+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:42:16.110+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:42:16.119+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:16.119+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:42:16.127+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:42:16.127+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:42:16.140+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.105 seconds
+[2023-11-10T12:43:22.900+0530] {processor.py:157} INFO - Started process (PID=200142) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:43:22.907+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:43:22.907+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:22.907+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:43:22.947+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:43:22.956+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:22.956+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:43:22.965+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:43:22.964+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:43:22.978+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.080 seconds
+[2023-11-10T12:44:31.108+0530] {processor.py:157} INFO - Started process (PID=200251) to work on /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:44:31.114+0530] {processor.py:829} INFO - Processing file /home/harika/airflow/dags/pdf_word(norworking).py for tasks to queue
+[2023-11-10T12:44:31.115+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:31.115+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:44:31.151+0530] {processor.py:839} INFO - DAG(s) dict_keys(['pdf_word_count_dag']) retrieved from /home/harika/airflow/dags/pdf_word(norworking).py
+[2023-11-10T12:44:31.160+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:31.160+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-10T12:44:31.168+0530] {logging_mixin.py:151} INFO - [2023-11-10T12:44:31.168+0530] {dag.py:3696} INFO - Setting next_dagrun for pdf_word_count_dag to None, run_after=None
+[2023-11-10T12:44:31.181+0530] {processor.py:179} INFO - Processing /home/harika/airflow/dags/pdf_word(norworking).py took 0.075 seconds

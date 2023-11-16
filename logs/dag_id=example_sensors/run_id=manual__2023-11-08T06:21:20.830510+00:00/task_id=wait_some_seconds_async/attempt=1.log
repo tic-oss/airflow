@@ -1,0 +1,22 @@
+[2023-11-08T11:51:27.021+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.wait_some_seconds_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:51:27.026+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.wait_some_seconds_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:51:27.027+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-11-08T11:51:27.035+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeDeltaSensorAsync): wait_some_seconds_async> on 2023-11-08 06:21:20.830510+00:00
+[2023-11-08T11:51:27.038+0530] {standard_task_runner.py:57} INFO - Started process 119859 to run task
+[2023-11-08T11:51:27.040+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'wait_some_seconds_async', 'manual__2023-11-08T06:21:20.830510+00:00', '--job-id', '4436', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmp2n13j51a']
+[2023-11-08T11:51:27.041+0530] {standard_task_runner.py:85} INFO - Job 4436: Subtask wait_some_seconds_async
+[2023-11-08T11:51:27.062+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.wait_some_seconds_async manual__2023-11-08T06:21:20.830510+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T11:51:27.105+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_sensors' AIRFLOW_CTX_TASK_ID='wait_some_seconds_async' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T06:21:20.830510+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T06:21:20.830510+00:00'
+[2023-11-08T11:51:27.109+0530] {taskinstance.py:1524} INFO - Pausing task as DEFERRED. dag_id=example_sensors, task_id=wait_some_seconds_async, execution_date=20231108T062120, start_date=20231108T062127
+[2023-11-08T11:51:27.132+0530] {local_task_job_runner.py:225} INFO - Task exited with return code 100 (task deferral)
+[2023-11-08T11:55:53.014+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_sensors.wait_some_seconds_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:55:53.018+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_sensors.wait_some_seconds_async manual__2023-11-08T06:21:20.830510+00:00 [queued]>
+[2023-11-08T11:55:53.019+0530] {taskinstance.py:1357} INFO - Resuming after deferral
+[2023-11-08T11:55:53.027+0530] {taskinstance.py:1380} INFO - Executing <Task(TimeDeltaSensorAsync): wait_some_seconds_async> on 2023-11-08 06:21:20.830510+00:00
+[2023-11-08T11:55:53.031+0530] {standard_task_runner.py:57} INFO - Started process 120225 to run task
+[2023-11-08T11:55:53.033+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'example_sensors', 'wait_some_seconds_async', 'manual__2023-11-08T06:21:20.830510+00:00', '--job-id', '4447', '--raw', '--subdir', 'DAGS_FOLDER/example_sensors.py', '--cfg-path', '/tmp/tmpf1nzb1yz']
+[2023-11-08T11:55:53.034+0530] {standard_task_runner.py:85} INFO - Job 4447: Subtask wait_some_seconds_async
+[2023-11-08T11:55:53.057+0530] {task_command.py:415} INFO - Running <TaskInstance: example_sensors.wait_some_seconds_async manual__2023-11-08T06:21:20.830510+00:00 [running]> on host harika-Latitude-5511
+[2023-11-08T11:55:53.101+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=example_sensors, task_id=wait_some_seconds_async, execution_date=20231108T062120, start_date=20231108T062127, end_date=20231108T062553
+[2023-11-08T11:55:53.125+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T11:55:53.173+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

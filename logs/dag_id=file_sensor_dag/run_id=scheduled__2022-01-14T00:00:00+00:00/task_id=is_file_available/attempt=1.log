@@ -1,0 +1,28 @@
+[2023-10-30T16:48:31.661+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: file_sensor_dag.is_file_available scheduled__2022-01-14T00:00:00+00:00 [queued]>
+[2023-10-30T16:48:31.666+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: file_sensor_dag.is_file_available scheduled__2022-01-14T00:00:00+00:00 [queued]>
+[2023-10-30T16:48:31.666+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-30T16:48:31.677+0530] {taskinstance.py:1380} INFO - Executing <Task(FileSensor): is_file_available> on 2022-01-14 00:00:00+00:00
+[2023-10-30T16:48:31.680+0530] {standard_task_runner.py:57} INFO - Started process 448113 to run task
+[2023-10-30T16:48:31.682+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'file_sensor_dag', 'is_file_available', 'scheduled__2022-01-14T00:00:00+00:00', '--job-id', '1917', '--raw', '--subdir', 'DAGS_FOLDER/fileSensor.py', '--cfg-path', '/tmp/tmpede9i476']
+[2023-10-30T16:48:31.683+0530] {standard_task_runner.py:85} INFO - Job 1917: Subtask is_file_available
+[2023-10-30T16:48:31.707+0530] {task_command.py:415} INFO - Running <TaskInstance: file_sensor_dag.is_file_available scheduled__2022-01-14T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-30T16:48:31.750+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='file_sensor_dag' AIRFLOW_CTX_TASK_ID='is_file_available' AIRFLOW_CTX_EXECUTION_DATE='2022-01-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-01-14T00:00:00+00:00'
+[2023-10-30T16:48:31.756+0530] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/sensors/filesystem.py", line 61, in poke
+    hook = FSHook(self.fs_conn_id)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/hooks/filesystem.py", line 38, in __init__
+    conn = self.get_connection(conn_id)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/harika/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `my_file_system` isn't defined
+[2023-10-30T16:48:31.758+0530] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=file_sensor_dag, task_id=is_file_available, execution_date=20220114T000000, start_date=20231030T111831, end_date=20231030T111831
+[2023-10-30T16:48:31.766+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 1917 for task is_file_available (The conn_id `my_file_system` isn't defined; 448113)
+[2023-10-30T16:48:31.774+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-30T16:48:31.789+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

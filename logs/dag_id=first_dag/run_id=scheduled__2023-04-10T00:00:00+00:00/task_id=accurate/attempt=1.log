@@ -1,0 +1,17 @@
+[2023-10-25T11:30:58.966+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_dag.accurate scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-10-25T11:30:58.972+0530] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_dag.accurate scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-10-25T11:30:58.972+0530] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-25T11:30:58.981+0530] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): accurate> on 2023-04-10 00:00:00+00:00
+[2023-10-25T11:30:58.984+0530] {standard_task_runner.py:57} INFO - Started process 43275 to run task
+[2023-10-25T11:30:58.987+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'accurate', 'scheduled__2023-04-10T00:00:00+00:00', '--job-id', '745', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp_lrn2gea']
+[2023-10-25T11:30:58.988+0530] {standard_task_runner.py:85} INFO - Job 745: Subtask accurate
+[2023-10-25T11:30:59.012+0530] {task_command.py:415} INFO - Running <TaskInstance: first_dag.accurate scheduled__2023-04-10T00:00:00+00:00 [running]> on host harika-Latitude-5511
+[2023-10-25T11:30:59.056+0530] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='first_dag' AIRFLOW_CTX_TASK_ID='accurate' AIRFLOW_CTX_EXECUTION_DATE='2023-04-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-10T00:00:00+00:00'
+[2023-10-25T11:30:59.057+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-10-25T11:30:59.057+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'accurate'"]
+[2023-10-25T11:30:59.063+0530] {subprocess.py:86} INFO - Output:
+[2023-10-25T11:30:59.064+0530] {subprocess.py:93} INFO - accurate
+[2023-10-25T11:30:59.064+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-25T11:30:59.076+0530] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=accurate, execution_date=20230410T000000, start_date=20231025T060058, end_date=20231025T060059
+[2023-10-25T11:30:59.118+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T11:30:59.128+0530] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
