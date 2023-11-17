@@ -74,28 +74,21 @@ class MySQLToPostgresHook(BaseHook):
 
     def copy_table(self, mysql_conn, postgres_conn):
         print('fetching records from MYSQL table')
-        # mysqlserver = MySqlHook(mysql_conn)
         mysqlserver = MySqlHook(mysql_conn_id='mysql_conn', schema='airflow')
+        sql_query = "SELECT * from airflow.source; "
+        
         source_conn = mysqlserver.get_conn()
-
-        query =  "create table city_table(city_name varchar(50), city_code varchar(20));"
-        insert_query = "insert into city_table (city_name, city_code) values('New york', 'ny');"
-        sql_query = "SELECT * from city_table "
-
         source_cursor = source_conn.cursor()
-        source_cursor.execute(query)
-        source_cursor.execute(insert_query)
         source_cursor.execute(sql_query)
 
         data = mysqlserver.get_records(sql_query)
 
         print("inserting into POSTGRES table")
-        # postgresserver = PostgresHook(postgres_conn)
         postgresserver = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
         destination_conn =  postgresserver.get_conn()
 
         destination_cursor = destination_conn.cursor()
-        postgres_query = "INSERT INTO city_table VALUES(%s, %s);"
+        postgres_query = "INSERT INTO airflow.public.xyz VALUES(%s, %s);"
         for row in data:
             destination_cursor.execute(postgres_query, row)
 
@@ -103,22 +96,7 @@ class MySQLToPostgresHook(BaseHook):
         source_cursor.close()
         destination_cursor.close()
         source_conn.close()
-        destination_conn.close()  
-        
-        # query =  "create table city_table(city_name varchar(50), city_code varchar(20));"
-        # insert_query = "insert into city_table (city_name, city_code) values('New york', 'ny');"
-        # sql_query = "SELECT * from city_table "
-        # mysqlserver.run(query)
-        # insert_query.run(insert_query)
-        # data = mysqlserver.get_records(sql_query)
-
-        # print("inserting into POSTGRES table")
-        # postgresserver = PostgresHook(postgres_conn)
-        # postgres_query = "INSERT INTO city_table VALUES(%s, %s, %s);"
-        # postgresserver.insert_rows(table='city_table', rows=data)
-        # # postgresserver.run(postgres_query, parameters=data)
-
-        # return True        
+        destination_conn.close()        
 
 class DemoPlugin(AirflowPlugin):
     name ="demo_plugin"

@@ -9,30 +9,31 @@ default_args = {
     "owner": "Airflow",
     "retries": 1,
     "retry_delay": timedelta(minutes=5),
-    "start_date": datetime(2023,11,16)
+    "start_date": datetime(2023,11,17)
 }
 
 dag = DAG('hooks_demo', default_args=default_args, schedule_interval='@daily')
 
 def transfer_function(ds, **kwargs):
-    insert_query = "insert into source_city_table (city_name, city_code) values('New york', 'ny');"
-    query = "select * from source_city_table"
+    # insert_query = "insert into airflow.public.source_city_table (city_name, city_code) values('Hyderabad', 'hyd');"
+    query = "select * from airflow.public.source_city_table"
     source_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     source_conn = source_hook.get_conn()
     destination_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     destination_conn = destination_hook.get_conn()
     
     # cursor - allows py code to execute postgres sql command in databse session
-    # also helps in maintaining connection on database and will read results of query few rows at a time
+    # also helps in maintaining connection on database and will read results of query few rows at a time aaa
     source_cursor = source_conn.cursor()
     destination_cursor = destination_conn.cursor()
-    source_cursor.execute(insert_query)
+    # source_cursor.execute(insert_query)
     source_cursor.execute(query)
     records = source_cursor.fetchall()
 
     if records:
+        print(source_cursor)
         print("records",records)
-        execute_values(destination_cursor, "insert into target_city_table values %s", records)
+        execute_values(destination_cursor, "insert into airflow.public.target_city_table values %s", records)
         destination_conn.commit()
     
     source_cursor.close()
