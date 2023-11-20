@@ -88,7 +88,7 @@ class MySQLToPostgresHook(BaseHook):
         destination_conn =  postgresserver.get_conn()
 
         destination_cursor = destination_conn.cursor()
-        postgres_query = "INSERT INTO airflow.public.xyz VALUES(%s, %s);"
+        postgres_query = "INSERT INTO airflow.public.target VALUES(%s, %s);"
         for row in data:
             destination_cursor.execute(postgres_query, row)
 

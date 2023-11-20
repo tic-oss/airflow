@@ -15,7 +15,6 @@ default_args = {
 dag = DAG('hooks_demo', default_args=default_args, schedule_interval='@daily')
 
 def transfer_function(ds, **kwargs):
-    # insert_query = "insert into airflow.public.source_city_table (city_name, city_code) values('Hyderabad', 'hyd');"
     query = "select * from airflow.public.source_city_table"
     source_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     source_conn = source_hook.get_conn()
