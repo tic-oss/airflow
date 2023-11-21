@@ -25,3 +25,7 @@ task3 = BashOperator(
     dag=dag)
 
 task1 >> task2 >> task3
+
+# task1: Executes a Bash command to echo "data" into a file named dummy.txt.
+# task2: Executes a Bash command to read and display the content of the dummy.txt file.
+# task3: Executes a Bash command to echo "added in task2:" along with the output of task2 using XCom.
