@@ -7,8 +7,6 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator
 from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
-from airflow.utils.dates import days_ago
-from airflow.utils.edgemodifier import Label
 from datetime import datetime
 import openai
 import time
@@ -18,21 +16,6 @@ TOPIC_NAME = 'Hyderabad'
 EMAIL = 'harikasree2225@gmail.com'
 
 dag = DAG('classification_with_word_count', start_date=datetime(2023,11,27), description='A multi step DAG to download Wikipedia content and count words', schedule_interval=timedelta(days=1))
-
-def get_details_from_wikipedia_api(topic):
-    print(topic)
-    page = wikipedia.page(topic)
-    print(page.title)
-    content = page.content
-    download_folder = os.path.join(DOWNLOAD_LOCATION, topic)
-    if not os.path.exists(download_folder):
-        os.makedirs(download_folder)
-    file_location = os.path.join(download_folder, 'content.txt')
-    with open(file_location, 'w') as f:
-        f.write(content)
-
-    return file_location
-
 
 def get_details_from_wikipedia_api(topic):
     print(topic)
@@ -141,7 +124,6 @@ summarize_wiki_data_task = PythonOperator(
     task_id='summarize_wiki_data_task',
     python_callable=summarize_code,
      op_kwargs={'file_path': "{{ task_instance.xcom_pull(task_ids='get_details_from_wikipedia_task') }}"},
-    # op_kwargs={'file_path': '/home/harika/wikidata/content.txt'},
     provide_context=True,
     dag=dag
 )
