@@ -30,7 +30,7 @@ airflow standalone
 ```
 
 ## Access Airflow UI
-Visit localhost:8080
+```Visit localhost:8080```
 
 
 After running airflow you would be asked to enter the credentials which would be 
