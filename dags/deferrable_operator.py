@@ -1,5 +1,5 @@
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from deferrable_op import WaitOneHourSensor

@@ -5,7 +5,6 @@ import wikipedia
 from airflow import DAG
 import os
 
-from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator

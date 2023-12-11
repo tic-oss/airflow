@@ -2,7 +2,6 @@ from datetime import timedelta
 import wikipedia
 from airflow import DAG
 import os
-from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator
@@ -117,8 +116,6 @@ def send_email_with_topic(task_instance, topic_name, **kwargs):
         dag=dag
     )
     email_task.execute(context=kwargs)
-
-
 
 summarize_wiki_data_task = PythonOperator(
     task_id='summarize_wiki_data_task',

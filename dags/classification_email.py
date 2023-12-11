@@ -1,8 +1,6 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.email_operator import EmailOperator
-from datetime import timedelta
-from airflow.utils.dates import days_ago
 from airflow.operators.dummy_operator import DummyOperator
 import openai
 import time
@@ -47,8 +45,6 @@ def send_email_with_topic(task_instance, topic_name, **kwargs):
     # passing the entire dictionary of context variables to the execute method of the EmailOperator.
     #  This ensures that the downstream task (EmailOperator) has access to the same context as the task that is calling it, including things like the execution date, task instance, and XCom values.
     email_task.execute(context=kwargs)
-
-
 
 summarize_wiki_data_task = PythonOperator(
     task_id='summarize_wiki_data_task',
