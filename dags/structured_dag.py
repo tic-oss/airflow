@@ -11,22 +11,19 @@ def filtered_data(input_file_path, output_file, filter_column, filter_value, **k
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     df = pd.read_csv(input_file_path)
     is_numeric = pd.api.types.is_numeric_dtype(df[filter_column])
-    print('#############',is_numeric)
     if is_numeric:
-        comparison_operator = filter_value[0]  
+        comparison_operator = filter_value[0]
         threshold_value = float(filter_value[1:])
-        print(comparison_operator,'#######',threshold_value)
-
-        if comparison_operator == '<':
-            filtered_df = df[df[filter_column] < threshold_value]
-        elif comparison_operator == '>':
-            filtered_df = df[df[filter_column] > threshold_value]
-        elif comparison_operator == '<=':
-            filtered_df = df[df[filter_column] <= threshold_value]
-        elif comparison_operator == '>=':
-            filtered_df = df[df[filter_column] >= threshold_value]
-        elif comparison_operator in ['==','=','']:
-            filtered_df = df[df[filter_column] == threshold_value]
+        comparison_functions = {
+            '<': lambda x: x < threshold_value,
+            '>': lambda x: x > threshold_value,
+            '<=': lambda x: x <= threshold_value,
+            '>=': lambda x: x >= threshold_value,
+            '==': lambda x: x == threshold_value,
+            '=': lambda x: x == threshold_value,
+        }
+        if comparison_operator in comparison_functions:
+            filtered_df = df[comparison_functions[comparison_operator](df[filter_column])]
         else:
             raise ValueError(f"Unsupported numeric comparison operator: {comparison_operator}")
     else:
@@ -44,23 +41,24 @@ def sorted_data(input_file_path, output_file, sort_column, **kwargs):
 def aggregate_data(input_file_path, output_file, aggregation_column, aggregation_operation):
     df = pd.read_csv(input_file_path)
     is_numeric = pd.api.types.is_numeric_dtype(df[aggregation_column])
-    print('#############',is_numeric)
     if is_numeric:
-        if aggregation_operation == 'mean':
-            aggregation_result = df[aggregation_column].mean()
-        elif aggregation_operation == 'median':
-            aggregation_result = df[aggregation_column].median()
-        elif aggregation_operation == 'mode':
-            aggregation_result = df[aggregation_column].mode().iloc[0]  # Mode can have multiple values, so we take the first one
-        elif aggregation_operation == 'sum':
-            aggregation_result = df[aggregation_column].sum()
+        aggregation_functions = {
+            'mean': df[aggregation_column].mean(),
+            'median': df[aggregation_column].median(),
+            'mode': df[aggregation_column].mode().iloc[0],
+            'sum': df[aggregation_column].sum(),
+            'count': df[aggregation_column].count(),
+        }
+        if aggregation_operation in aggregation_functions:
+            aggregation_result = aggregation_functions[aggregation_operation]
         else:
-            raise ValueError(f"Unsupported numeric comparison operator: {aggregation_operation}")
+            raise ValueError(f"Unsupported numeric aggregation operation: {aggregation_operation}")
     else:
         if aggregation_operation == 'count':
             aggregation_result = df[aggregation_column].count()
         else:
             raise ValueError(f"Unsupported non-numeric aggregation operation: {aggregation_operation}")
+
     result_df = pd.DataFrame({aggregation_column: [aggregation_result]})
     result_df.to_csv(output_file, index=False)
 
@@ -69,8 +67,8 @@ output_folder = '/home/harika/wikidata/structured_dag'
 filter_column = 'price'  
 filter_value = '<500' 
 sort_column = 'book'
-aggregation_column='author'
-aggregation_operation='count'
+aggregation_column='price'
+aggregation_operation='mean'
 
 filtered_data_task = PythonOperator(
     task_id='filtered_data_task',
@@ -80,7 +78,6 @@ filtered_data_task = PythonOperator(
         'output_file': f'{output_folder}/filter.csv',
         'filter_column': filter_column,
         'filter_value': filter_value,
-        'aggregation_operation': aggregation_operation
     },
     dag=dag
 )

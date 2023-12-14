@@ -29,8 +29,8 @@ def openai_interaction(file_path, prompt, output_file):
                 output.write(str(response.choices[0].text.strip()))
             return response.choices[0].text.strip()
     except openai.RateLimitError as e:
-        print(f"Rate limit exceeded. Waiting for {e.retry_after} seconds.")
-        time.sleep(e.retry_after)
+        print(f"Rate limit exceeded. Waiting for 20 seconds.")
+        time.sleep(20)
         return openai_interaction(file_path, prompt, output_file)
     except Exception as ex:
         print(f"An error occurred: {ex}")
