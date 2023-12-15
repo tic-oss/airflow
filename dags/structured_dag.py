@@ -7,25 +7,24 @@ import os
 
 dag = DAG('structured_data', start_date=datetime(2023, 12, 12), description='Data Pipeline for structured data')
 
-def filtered_data(input_file_path, output_file, filter_column, filter_value, **kwargs):
+def filtered_data(input_file_path, output_file, filter_column, filter_operation, filter_value, **kwargs):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     df = pd.read_csv(input_file_path)
     is_numeric = pd.api.types.is_numeric_dtype(df[filter_column])
     if is_numeric:
-        comparison_operator = filter_value[0]
-        threshold_value = float(filter_value[1:])
-        comparison_functions = {
-            '<': lambda x: x < threshold_value,
-            '>': lambda x: x > threshold_value,
-            '<=': lambda x: x <= threshold_value,
-            '>=': lambda x: x >= threshold_value,
-            '==': lambda x: x == threshold_value,
-            '=': lambda x: x == threshold_value,
+        filter_value = float(filter_value)
+        filter_functions = {
+            '<': lambda x: x < filter_value,
+            '>': lambda x: x > filter_value,
+            '<=': lambda x: x <= filter_value,
+            '>=': lambda x: x >= filter_value,
+            '==': lambda x: x == filter_value,
+            '=': lambda x: x == filter_value,
         }
-        if comparison_operator in comparison_functions:
-            filtered_df = df[comparison_functions[comparison_operator](df[filter_column])]
+        if filter_operation in filter_functions:
+            filtered_df = df[filter_functions[filter_operation](df[filter_column])]
         else:
-            raise ValueError(f"Unsupported numeric comparison operator: {comparison_operator}")
+            raise ValueError(f"Unsupported numeric comparison operator: {filter_operation}")
     else:
         filtered_df = df[df[filter_column] == filter_value]
 
@@ -64,8 +63,9 @@ def aggregate_data(input_file_path, output_file, aggregation_column, aggregation
 
 input_file_path = '/home/harika/wikidata/data.csv'
 output_folder = '/home/harika/wikidata/structured_dag'
-filter_column = 'price'  
-filter_value = '<500' 
+filter_column = 'price' 
+filter_operation = '<' 
+filter_value = '500' 
 sort_column = 'book'
 aggregation_column='price'
 aggregation_operation='mean'
@@ -77,6 +77,7 @@ filtered_data_task = PythonOperator(
         'input_file_path': input_file_path,
         'output_file': f'{output_folder}/filter.csv',
         'filter_column': filter_column,
+        'filter_operation': filter_operation,
         'filter_value': filter_value,
     },
     dag=dag
