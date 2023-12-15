@@ -43,8 +43,8 @@ def aggregate_data(input_file_path, output_file, aggregation_column, aggregation
         else:
             raise ValueError(f"Unsupported non-numeric aggregation operation: {aggregation_operation}")
 
-    result_df = pd.DataFrame({aggregation_column: [aggregation_result]})
-    result_df.to_csv(output_file, index=False)
+    result_df = spark.createDataFrame([(aggregation_result,)], [aggregation_column])
+    result_df.coalesce(1).write.csv(output_file, header=True, mode='overwrite')
 
 input_file_path = '/home/harika/wikidata/data.csv'
 output_folder = '/home/harika/wikidata/structured_spark'
