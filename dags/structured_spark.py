@@ -21,16 +21,14 @@ def filtered_data(input_file_path, output_file, filter_column, filter_value, **k
     else:
         filtered_df = df.filter(f"{filter_column} == '{filter_value}'")
 
-    pandas_df = filtered_df.toPandas()
-    pandas_df.to_csv(output_file, index=False)
+    filtered_df.write.csv(output_file, header=True, mode='overwrite')
     kwargs['ti'].xcom_push(key='output_file', value=output_file)
 
 def sorted_data(input_file_path, output_file, sort_column, **kwargs):
     spark = SparkSession.builder.appName(input_file_path).getOrCreate()
     df = spark.read.csv(input_file_path, header=True, inferSchema=True)
     sorted_df = df.orderBy(sort_column, ascending=False)
-    pandas_df = sorted_df.toPandas()
-    pandas_df.to_csv(output_file, index=False)
+    sorted_df.write.csv(output_file, header=True, mode='overwrite')
     kwargs['ti'].xcom_push(key='output_file', value=output_file)
 
 def aggregate_data(input_file_path, output_file, aggregation_column, aggregation_operation):
@@ -45,9 +43,8 @@ def aggregate_data(input_file_path, output_file, aggregation_column, aggregation
         else:
             raise ValueError(f"Unsupported non-numeric aggregation operation: {aggregation_operation}")
 
-    result_df = spark.createDataFrame([(aggregation_result,)], [aggregation_column])
-    pandas_df = result_df.toPandas()
-    pandas_df.to_csv(output_file, index=False)
+    result_df = pd.DataFrame({aggregation_column: [aggregation_result]})
+    result_df.to_csv(output_file, index=False)
 
 input_file_path = '/home/harika/wikidata/data.csv'
 output_folder = '/home/harika/wikidata/structured_spark'
